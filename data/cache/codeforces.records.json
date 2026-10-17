@@ -11,7 +11,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-10-29T14:35:00Z",
     "end_date": "2026-10-29T16:50:00Z",
-    "days_remaining": 12,
+    "days_remaining": 11,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -40,7 +40,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   },
   {
     "id": "338aa97ff9a143",
@@ -54,7 +54,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-10-26T14:35:00Z",
     "end_date": "2026-10-26T16:50:00Z",
-    "days_remaining": 9,
+    "days_remaining": 8,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -83,7 +83,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   },
   {
     "id": "2378d9ffc859e6",
@@ -126,50 +126,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
-  },
-  {
-    "id": "295c24767afa46",
-    "title": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
-    "platform": "Codeforces",
-    "source": "codeforces",
-    "url": "https://codeforces.com/contests/2261",
-    "prize": "Rated Global Leaderboard",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Rated Global Leaderboard",
-    "start_date": "2026-10-17T14:35:00Z",
-    "end_date": "2026-10-17T17:35:00Z",
-    "days_remaining": 0,
-    "status": "ending_soon",
-    "challenge_type": "coding_contest",
-    "category": "Algorithms & Competitive Coding",
-    "ecosystem": "Cross-Stack / General",
-    "languages": [
-      "C / C++",
-      "Python",
-      "Java",
-      "Rust"
-    ],
-    "tags": [
-      "algorithms",
-      "cf",
-      "codeforces",
-      "competitive-programming"
-    ],
-    "description": "Codeforces rated CF algorithmic programming round (3.0h window).",
-    "organizer": "Codeforces",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   },
   {
     "id": "dd9c195bb59d78",
@@ -212,7 +169,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   },
   {
     "id": "3321d3f9ae5c3e",
@@ -255,7 +212,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   },
   {
     "id": "cdca3efcab125f",
@@ -298,6 +255,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-17T16:04:28Z"
+    "scraped_at": "2026-10-17T17:36:17Z"
   }
 ]
