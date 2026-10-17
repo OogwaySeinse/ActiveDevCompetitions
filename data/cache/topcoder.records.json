@@ -1,0 +1,49 @@
+[
+  {
+    "id": "b89f65e9521d25",
+    "title": "Enterprise AI Customer Experience Resolution System: Gemini CX & Telco",
+    "platform": "Topcoder",
+    "source": "topcoder",
+    "url": "https://www.topcoder.com/challenges/c074003a-b1d4-4bce-affe-2bce305da955",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-10-16T06:31:06Z",
+    "end_date": "2026-10-20T06:30:00Z",
+    "days_remaining": 2,
+    "status": "ending_soon",
+    "challenge_type": "dev_challenge",
+    "category": "AI Agents & LLM Apps",
+    "ecosystem": "AI / LLM Stack",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "agent architecture",
+      "agentic ai",
+      "ai",
+      "ai exponential league",
+      "api design",
+      "authorization (computing)",
+      "automated testing framework",
+      "challenge",
+      "conversational ai",
+      "data pipeline management"
+    ],
+    "description": "Topcoder is seeking production-grade solutions for an Enterprise AI Customer Experience Resolution System built on Google Cloud Platform (GCP) and Gemini Customer Experience (Gemini CX) architecture. In this challenge, you will act as a Lead Forward Deployed Engineer (FDE). You will design, build, and deploy an end-to-end, multi-agent AI customer support resolution engine for a major Telecommunications / Communicati…",
+    "organizer": "Topcoder",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": 50,
+    "submissions_count": 10,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-17T16:04:17Z"
+  }
+]
