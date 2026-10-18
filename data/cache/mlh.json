@@ -144,6 +144,15 @@
     "badges": ""
   },
   {
+    "title": "Since AI Hackathon",
+    "url": "https://sinceai.ai/",
+    "date_str": "NOV 06 - 08",
+    "season_year": "2027",
+    "location": "Turku, Varsinais-Suomi, FI",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
     "title": "HackTrent",
     "url": "https://hacktrent.ca/",
     "date_str": "NOV 06 - 08",
@@ -351,6 +360,24 @@
     "badges": "HARDWARE"
   },
   {
+    "title": "SanD Hacks",
+    "url": "https://csesucsd.com/",
+    "date_str": "NOV 14 - 15",
+    "season_year": "2027",
+    "location": "La Jolla, CA, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Hack The Nest",
+    "url": "https://hackthenest.tech/",
+    "date_str": "NOV 14 - 15",
+    "season_year": "2027",
+    "location": "Ypsilanti, Michigan, US",
+    "mode": "In-Person",
+    "badges": "HARDWARE"
+  },
+  {
     "title": "DurHack",
     "url": "https://durhack.com/",
     "date_str": "NOV 14 - 15",
@@ -360,11 +387,38 @@
     "badges": ""
   },
   {
+    "title": "sunhacks",
+    "url": "https://2026.sunhacks.io/",
+    "date_str": "NOV 14 - 15",
+    "season_year": "2027",
+    "location": "Tempe, Arizona, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Tech For Community 2026",
+    "url": "https://tecnurtur.org/hackathon",
+    "date_str": "NOV 21 - 22",
+    "season_year": "2027",
+    "location": "St. John's, Newfoundland and Labrador / Avalon Peninsula, CA",
+    "mode": "In-Person",
+    "badges": "HIGH SCHOOL, HARDWARE"
+  },
+  {
     "title": "WHACK (Wellesley Hackathon)",
     "url": "https://wellesleyhacks.org/",
     "date_str": "NOV 21 - 22",
     "season_year": "2027",
     "location": "Wellesley , Massachesetts, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "BostonHacks",
+    "url": "https://bostonhacks.org/",
+    "date_str": "NOV 21 - 22",
+    "season_year": "2027",
+    "location": "Boston, MA, US",
     "mode": "In-Person",
     "badges": ""
   },
