@@ -1,118 +1,5 @@
 [
   {
-    "uuid": "0c74c99ebe4d4bc8b1b9972451f350ca",
-    "slug": "hft2026",
-    "name": "Hack For Tomorrow 2026",
-    "type": "HACKATHON",
-    "starts_at": "2026-10-24T04:30:00+00:00",
-    "ends_at": "2026-10-25T04:30:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 136,
-    "participants_details": [
-      {
-        "uuid": "fd18b028cdec4b94864e2928836d0dac",
-        "username": "suryansu87",
-        "last_name": "Singh",
-        "first_name": "Suryansu",
-        "profile_image": "https://assets.devfolio.co/users/fd18b028cdec4b94864e2928836d0dac/avatar-b14edc00-4821-4e27-a766-e9de3ac238df.jpeg"
-      },
-      {
-        "uuid": "07ebdcd3533f4b8ebb0a683de4b28571",
-        "username": "aman882",
-        "last_name": "Vishwakarma",
-        "first_name": "Aman",
-        "profile_image": "https://assets.devfolio.co/users/07ebdcd3533f4b8ebb0a683de4b28571/avatar-951aa88c-b682-4a25-9f84-3ac10d4a487a.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-10-18T10:30:00+00:00",
-      "reg_starts_at": "2026-10-12T04:30:00+00:00",
-      "review": true,
-      "site": "https://hft.excelmec.org/",
-      "twitter": "https://x.com/excelmec",
-      "facebook": "https://www.facebook.com/excelmec/",
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": "https://www.instagram.com/excelmec/",
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
-    "uuid": "55466cd6b4be4f63936a9f55032825f2",
-    "slug": "arkiv",
-    "name": "Arkiv: Global Tour Stop 🌍",
-    "type": "HACKATHON",
-    "starts_at": "2026-10-09T11:00:00+00:00",
-    "ends_at": "2026-10-18T22:59:00+00:00",
-    "is_online": true,
-    "devfolio_official": false,
-    "rating": 0,
-    "timezone": "Europe/London",
-    "participants_count": 306,
-    "participants_details": [
-      {
-        "uuid": "1a421f4925e64ecda38854da6cc85072",
-        "username": "Avinash27",
-        "last_name": "Malothu",
-        "first_name": "Avinash",
-        "profile_image": "https://assets.devfolio.co/users/1a421f4925e64ecda38854da6cc85072/avatar-8a3bcd08-7209-488c-9fad-9fbed19dfec4.jpeg"
-      },
-      {
-        "uuid": "1a6a7cf309dd4071892598eb467aad36",
-        "username": "Cryptonord",
-        "last_name": "M R",
-        "first_name": "Vyshnav",
-        "profile_image": "https://assets.devfolio.co/users/1a6a7cf309dd4071892598eb467aad36/avatar-fd38a13b-3eb9-42a0-9d89-00385d0a9989.jpeg"
-      },
-      {
-        "uuid": "2b475a80162d413cabd8fbf6eee87392",
-        "username": "M1r14",
-        "last_name": "Baig",
-        "first_name": "Mirza Anwaarullah",
-        "profile_image": "https://assets.devfolio.co/users/2b475a80162d413cabd8fbf6eee87392/avatar-01988180-0b38-4922-a17a-9249146ce853.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "Blockchain"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-10-18T22:59:00+00:00",
-      "reg_starts_at": "2026-10-07T09:00:00+00:00",
-      "review": false,
-      "site": "https://arkiv.network",
-      "twitter": "https://x.com/arkivnetwork",
-      "facebook": null,
-      "telegram": null,
-      "discord": "https://discord.gg/arkiv",
-      "medium": null,
-      "instagram": null,
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": "https://assets.devfolio.co/hackathons/55466cd6b4be4f63936a9f55032825f2/assets/cover/666.png",
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "9355584ad9e543b5a90f602a27a596b4",
     "slug": "biosv2",
     "name": "BIOS V2",
@@ -123,7 +10,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 478,
+    "participants_count": 534,
     "participants_details": [
       {
         "uuid": "bf1d104ab40b497989979c15590b7deb",
@@ -183,7 +70,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 714,
+    "participants_count": 777,
     "participants_details": [
       {
         "uuid": "306e93dce36e4bb2891cfddcd1848203",
@@ -243,7 +130,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 55750,
+    "participants_count": 55833,
     "participants_details": [
       {
         "uuid": "eb172a4f24bc41b2868294fd844ac886",
@@ -308,7 +195,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 751,
+    "participants_count": 931,
     "participants_details": [
       {
         "uuid": "a815d03e8fd845589163d9f541a80d89",
@@ -368,7 +255,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 348,
+    "participants_count": 464,
     "participants_details": [
       {
         "uuid": "70156e6272b74abaa8af6b32d46bd2cd",
@@ -428,7 +315,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 296,
+    "participants_count": 303,
     "participants_details": [
       {
         "uuid": "01ac1aa8a36d44ddab4fa02723553786",
@@ -488,7 +375,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 82,
+    "participants_count": 120,
     "participants_details": [
       {
         "uuid": "fe1e73205e57437cba8324cb33b285fc",
@@ -496,6 +383,13 @@
         "last_name": "Vishwakarma",
         "first_name": "Aman",
         "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
+      },
+      {
+        "uuid": "2798c02ce99f4da7ab6f64e6538259cb",
+        "username": "Yashhhh29",
+        "last_name": "Maurya",
+        "first_name": "Yash",
+        "profile_image": "https://assets.devfolio.co/users/2798c02ce99f4da7ab6f64e6538259cb/avatar-0f9a361a-0f2f-48ff-b97f-606516fe118a.jpeg"
       }
     ],
     "themes": [
@@ -534,16 +428,8 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 21,
-    "participants_details": [
-      {
-        "uuid": "fe1e73205e57437cba8324cb33b285fc",
-        "username": "AMANV722",
-        "last_name": "Vishwakarma",
-        "first_name": "Aman",
-        "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
-      }
-    ],
+    "participants_count": 35,
+    "participants_details": [],
     "themes": [
       {
         "theme": {
@@ -590,8 +476,16 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Europe/London",
-    "participants_count": 11,
-    "participants_details": [],
+    "participants_count": 22,
+    "participants_details": [
+      {
+        "uuid": "25512fd4bd044efda7775238b5d1fb62",
+        "username": "manas2212",
+        "last_name": "Choksi",
+        "first_name": "Manas",
+        "profile_image": "https://assets.devfolio.co/users/25512fd4bd044efda7775238b5d1fb62/avatar-e53bb208-9baf-4f75-bf72-d494056e1a2a.jpeg"
+      }
+    ],
     "themes": [
       {
         "theme": {
@@ -628,7 +522,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Europe/Berlin",
-    "participants_count": 556,
+    "participants_count": 563,
     "participants_details": [
       {
         "uuid": "ebf55314158e46629126f73b54b5b0d4",
@@ -693,7 +587,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 752,
+    "participants_count": 764,
     "participants_details": [
       {
         "uuid": "93e6f749468b434daffa8984644e9a30",
@@ -753,7 +647,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 932,
+    "participants_count": 966,
     "participants_details": [
       {
         "uuid": "4fdafc49b0fd4f0495517d8c3a935fa0",
@@ -813,7 +707,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 222,
+    "participants_count": 237,
     "participants_details": [
       {
         "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
@@ -878,7 +772,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 580,
+    "participants_count": 585,
     "participants_details": [
       {
         "uuid": "5c715ac123c043caa0bcd900999201fc",
@@ -943,7 +837,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 732,
+    "participants_count": 738,
     "participants_details": [
       {
         "uuid": "9564a93d67d9428a82bfdba3adeb8232",
@@ -1003,7 +897,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 833,
+    "participants_count": 837,
     "participants_details": [
       {
         "uuid": "f490e62ce8f8466099135673c5f434ad",

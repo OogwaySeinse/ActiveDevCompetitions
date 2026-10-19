@@ -39,7 +39,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "155f6c1d1f8649",
@@ -81,7 +81,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "18e350685022e4",
@@ -119,14 +119,14 @@
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 35,
+    "submissions_count": 39,
     "repo_url": "https://github.com/oll4com/spaceapp",
     "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "02c6ca6ebac302",
@@ -164,148 +164,14 @@
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 30,
+    "submissions_count": 40,
     "repo_url": "https://github.com/oll4com/spaceapp",
     "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
-  },
-  {
-    "id": "470e5f414d02df",
-    "title": "[oll4com/spaceapp] Support rootless Podman as a container engine in the run-spaceapp launcher",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/oll4com/spaceapp/issues/63",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-10-16T05:30:31Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Cloud, DevOps & Infra",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "Go",
-      "SQL"
-    ],
-    "tags": [
-      "bounty",
-      "enhancement",
-      "github",
-      "help wanted",
-      "oll4com",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "Context The run-spaceapp launcher ( packages/run-spaceapp ) installs and runs SpaceApp as a Docker Compose stack ( templates/compose.yml : core, CLI, browser, PostgreSQL/pgvector, Temporal). Docker is the only supported engine. The launcher detects Docker and installs it if missing, and every lifecycle command ( install , up , down , status , logs , update , rollback , backup , restore , doctor , repa",
-    "organizer": "oll4com",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 23,
-    "repo_url": "https://github.com/oll4com/spaceapp",
-    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
-  },
-  {
-    "id": "014763c5746916",
-    "title": "[oll4com/spaceapp] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/oll4com/spaceapp/issues/62",
-    "prize": "$750",
-    "prize_usd": 750.0,
-    "prize_currency": "USD",
-    "prize_raw": "750.0",
-    "start_date": "2026-10-16T05:30:26Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "enhancement",
-      "github",
-      "help wanted",
-      "oll4com",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "Context The Memory workspace has a 3D view of the memory graph (files, memory records, topics and their relations). It is one of SpaceApp's most visible features. Today it does not scale: - Rendering ( apps/web/src/features/memory-workspace/MemoryGraph3D.tsx ) uses Canvas 2D. Every frame it projects every node on the CPU, sorts all nodes by depth, strokes every edge as its own path and draws every node with",
-    "organizer": "oll4com",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 34,
-    "repo_url": "https://github.com/oll4com/spaceapp",
-    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
-  },
-  {
-    "id": "0d85fc851e78ca",
-    "title": "[oll4com/spaceapp] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/oll4com/spaceapp/issues/61",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-10-16T05:30:25Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "enhancement",
-      "github",
-      "help wanted",
-      "oll4com",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "Context The API can already export its request spans over OTLP/HTTP JSON. The exporter has no dependencies, is off by default and is switched on with SPACE OTEL EXPORTER OTLP ENDPOINT ( apps/api/src/otlp-span-exporter.ts ). When the API starts a Temporal workflow it passes a W3C traceparent in the workflow input and in the Temporal memo ( apps/api/src/turns.ts , workflowCorrelationMemo in apps/api/src/trac",
-    "organizer": "oll4com",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 30,
-    "repo_url": "https://github.com/oll4com/spaceapp",
-    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "512f61bd9c7ed3",
@@ -343,14 +209,192 @@
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 32,
+    "submissions_count": 35,
     "repo_url": "https://github.com/oll4com/spaceapp",
     "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
+  },
+  {
+    "id": "0d85fc851e78ca",
+    "title": "[oll4com/spaceapp] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/oll4com/spaceapp/issues/61",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-10-16T05:30:25Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "enhancement",
+      "github",
+      "help wanted",
+      "oll4com",
+      "open-source",
+      "💎 bounty"
+    ],
+    "description": "Context The API can already export its request spans over OTLP/HTTP JSON. The exporter has no dependencies, is off by default and is switched on with SPACE OTEL EXPORTER OTLP ENDPOINT ( apps/api/src/otlp-span-exporter.ts ). When the API starts a Temporal workflow it passes a W3C traceparent in the workflow input and in the Temporal memo ( apps/api/src/turns.ts , workflowCorrelationMemo in apps/api/src/trac",
+    "organizer": "oll4com",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 33,
+    "repo_url": "https://github.com/oll4com/spaceapp",
+    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-19T06:37:49Z"
+  },
+  {
+    "id": "470e5f414d02df",
+    "title": "[oll4com/spaceapp] Support rootless Podman as a container engine in the run-spaceapp launcher",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/oll4com/spaceapp/issues/63",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-10-16T05:30:31Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Cloud, DevOps & Infra",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "Go",
+      "SQL"
+    ],
+    "tags": [
+      "bounty",
+      "enhancement",
+      "github",
+      "help wanted",
+      "oll4com",
+      "open-source",
+      "💎 bounty"
+    ],
+    "description": "Context The run-spaceapp launcher ( packages/run-spaceapp ) installs and runs SpaceApp as a Docker Compose stack ( templates/compose.yml : core, CLI, browser, PostgreSQL/pgvector, Temporal). Docker is the only supported engine. The launcher detects Docker and installs it if missing, and every lifecycle command ( install , up , down , status , logs , update , rollback , backup , restore , doctor , repa",
+    "organizer": "oll4com",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 31,
+    "repo_url": "https://github.com/oll4com/spaceapp",
+    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-19T06:37:49Z"
+  },
+  {
+    "id": "4b462b930fa891",
+    "title": "[BAWES-Universe/workadventure-universe] 📱 Epic: BAWES Universe Mobile App (Android + iOS)",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/BAWES-Universe/workadventure-universe/issues/1",
+    "prize": "$150",
+    "prize_usd": 150.0,
+    "prize_currency": "USD",
+    "prize_raw": "150.0",
+    "start_date": "2026-05-15T16:15:06Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Mobile (iOS / Android)",
+    "languages": [
+      "Swift / Kotlin"
+    ],
+    "tags": [
+      "$150",
+      "bawes-universe",
+      "bounty",
+      "epic",
+      "github",
+      "on-hold",
+      "open-source",
+      "💎 bounty"
+    ],
+    "description": "Goal Ship native Android + iOS apps for BAWES Universe that are fully functional including video calls, iframes, push notifications, and seamless updates. All work targets the universe branch. Current status ✅ In progress - x PR 9 — Capacitor scaffold (open, ready to review) 🔴 Ready to start now (no dependencies) - 3 — PWA manifest + Universe branding ( play/public/ ) - admin 6 (https:",
+    "organizer": "BAWES-Universe",
+    "difficulty": "Beginner",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 36,
+    "repo_url": "https://github.com/BAWES-Universe/workadventure-universe",
+    "logo_url": "https://avatars.githubusercontent.com/u/5470101?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-19T06:37:49Z"
+  },
+  {
+    "id": "014763c5746916",
+    "title": "[oll4com/spaceapp] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/oll4com/spaceapp/issues/62",
+    "prize": "$750",
+    "prize_usd": 750.0,
+    "prize_currency": "USD",
+    "prize_raw": "750.0",
+    "start_date": "2026-10-16T05:30:26Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "enhancement",
+      "github",
+      "help wanted",
+      "oll4com",
+      "open-source",
+      "💎 bounty"
+    ],
+    "description": "Context The Memory workspace has a 3D view of the memory graph (files, memory records, topics and their relations). It is one of SpaceApp's most visible features. Today it does not scale: - Rendering ( apps/web/src/features/memory-workspace/MemoryGraph3D.tsx ) uses Canvas 2D. Every frame it projects every node on the CPU, sorts all nodes by depth, strokes every edge as its own path and draws every node with",
+    "organizer": "oll4com",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 38,
+    "repo_url": "https://github.com/oll4com/spaceapp",
+    "logo_url": "https://avatars.githubusercontent.com/u/177405165?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "079f4207601d58",
@@ -395,7 +439,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "b52e9f7f07a734",
@@ -439,7 +483,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "718434fb70a93e",
@@ -484,7 +528,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "4406dcdd9c42ac",
@@ -530,7 +574,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "c187442b432499",
@@ -576,7 +620,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "548588c399614d",
@@ -622,7 +666,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "50a1b3d1eb716c",
@@ -668,7 +712,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "0fb6ad788c3ccd",
@@ -714,7 +758,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "6bb97e827cfaab",
@@ -760,7 +804,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   },
   {
     "id": "9963a68cb1b90b",
@@ -805,93 +849,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
-  },
-  {
-    "id": "81f9845b5dfc52",
-    "title": "[limitlessprojects/Go-Hybrid] Bounty track: hunt accepted-but-unsound programs at the task boundary",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
-    "prize": "$500",
-    "prize_usd": 500.0,
-    "prize_currency": "USD",
-    "prize_raw": "500.0",
-    "start_date": "2026-10-14T10:31:03Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "limitlessprojects",
-      "open-source",
-      "soundness",
-      "💎 bounty"
-    ],
-    "description": "This issue participates in the $500 Hybrid Bounty pool (https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md). Payouts ride the top-10 ladder there ($75 / $60 / $50 podium, $45 for places 4 to 10). Read BOUNTY.md (https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md) before submitting: pay only after reproduction. The target Hybrid's whole promise is GUARANTEES.md (https://gith",
-    "organizer": "limitlessprojects",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 33,
-    "repo_url": "https://github.com/limitlessprojects/Go-Hybrid",
-    "logo_url": "https://avatars.githubusercontent.com/u/341060791?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
-  },
-  {
-    "id": "1f8a86f56bf54a",
-    "title": "[arakoodev/EdgeChains] BOUNTY: integrate AWS Comprehend as a utility to redact data",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
-    "prize": "$50",
-    "prize_usd": 50.0,
-    "prize_currency": "USD",
-    "prize_raw": "50.0",
-    "start_date": "2023-12-03T09:33:28Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Cloud, DevOps & Infra",
-    "ecosystem": "Cloud & Kubernetes",
-    "languages": [
-      "TypeScript"
-    ],
-    "tags": [
-      "$50",
-      "arakoodev",
-      "bounty",
-      "github",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "this bounty is for the javascript sdk only - https://github.com/arakoodev/EdgeChains/tree/ts/JS/edgechains links: - https://aws.amazon.com/blogs/machine-learning/how-to-redact-pii-data-in-conversation-transcripts/ - https://aws.amazon.com/blogs/machine-learning/detecting-and-redacting-pii-using-amazon-comprehend/ this bounty will marked complete when: - add new classes that can be chained with existing E",
-    "organizer": "arakoodev",
-    "difficulty": "Beginner",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 91,
-    "repo_url": "https://github.com/arakoodev/EdgeChains",
-    "logo_url": "https://avatars.githubusercontent.com/u/76883?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-18T06:27:54Z"
+    "scraped_at": "2026-10-19T06:37:49Z"
   }
 ]

@@ -1,77 +1,5 @@
 [
   {
-    "title": "SwampHacks XII",
-    "url": "https://swamphacks.com/",
-    "date_str": "OCT 16 - 18",
-    "season_year": "2027",
-    "location": "Gainesville, Florida, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Hack the Valley",
-    "url": "https://hackthevalley.io/",
-    "date_str": "OCT 16 - 18",
-    "season_year": "2027",
-    "location": "Scarborough, Ontario, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackGB",
-    "url": "https://hackgb.com/",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "Green Bay, WI, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Girls Hoo Hack 2026",
-    "url": "https://girls-hoo-hack-uva.github.io/GHH-2026",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "Charlottesville, VA, US",
-    "mode": "In-Person",
-    "badges": "DIVERSITY, HARDWARE"
-  },
-  {
-    "title": "DubHacks",
-    "url": "https://dh26.dubhacks.co/",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "Seattle, Washington, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "IKU Womxn in STEM Hackathon",
-    "url": "https://ikuwomxninstemhackathon.co.uk/",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "London, London, GB",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
-    "title": "Technica Hacks",
-    "url": "https://gotechnica.org/",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "Hyattsville, Maryland, US",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
-    "title": "LA Hacks AI Hackathon 2026",
-    "url": "https://ai.lahacks.com/",
-    "date_str": "OCT 17 - 18",
-    "season_year": "2027",
-    "location": "Los Angeles, CA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "Cal Hacks 13.0",
     "url": "https://calhacks.io/",
     "date_str": "OCT 23 - 25",
@@ -684,6 +612,78 @@
     "badges": ""
   },
   {
+    "title": "LA Hacks AI Hackathon 2026",
+    "url": "https://ai.lahacks.com/",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "Los Angeles, CA, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Technica Hacks",
+    "url": "https://gotechnica.org/",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "Hyattsville, Maryland, US",
+    "mode": "In-Person",
+    "badges": "DIVERSITY"
+  },
+  {
+    "title": "IKU Womxn in STEM Hackathon",
+    "url": "https://ikuwomxninstemhackathon.co.uk/",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "London, London, GB",
+    "mode": "In-Person",
+    "badges": "DIVERSITY"
+  },
+  {
+    "title": "DubHacks",
+    "url": "https://dh26.dubhacks.co/",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "Seattle, Washington, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Girls Hoo Hack 2026",
+    "url": "https://girls-hoo-hack-uva.github.io/GHH-2026",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "Charlottesville, VA, US",
+    "mode": "In-Person",
+    "badges": "DIVERSITY, HARDWARE"
+  },
+  {
+    "title": "HackGB",
+    "url": "https://hackgb.com/",
+    "date_str": "OCT 17 - 18",
+    "season_year": "2027",
+    "location": "Green Bay, WI, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Hack the Valley",
+    "url": "https://hackthevalley.io/",
+    "date_str": "OCT 16 - 18",
+    "season_year": "2027",
+    "location": "Scarborough, Ontario, CA",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "SwampHacks XII",
+    "url": "https://swamphacks.com/",
+    "date_str": "OCT 16 - 18",
+    "season_year": "2027",
+    "location": "Gainesville, Florida, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
     "title": "Innohacks 4.0",
     "url": "https://innohacks.live/",
     "date_str": "OCT 10 - 11",
@@ -824,78 +824,6 @@
     "date_str": "OCT 03 - 04",
     "season_year": "2027",
     "location": "San Antonio, Texas, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "MHacks",
-    "url": "https://mhacks.org/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "Ann Arbor, MI, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Gator Quant Hacks",
-    "url": "https://gqhacks.com/",
-    "date_str": "OCT 02 - 04",
-    "season_year": "2027",
-    "location": "Gainesville, Florida, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "BigRed//Hacks 2026",
-    "url": "https://bigredhacks.com/",
-    "date_str": "OCT 02 - 04",
-    "season_year": "2027",
-    "location": "Ithaca, New York, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "OwlHacks",
-    "url": "https://owlhacks.com/",
-    "date_str": "SEP 26 - 27",
-    "season_year": "2027",
-    "location": "Philadelphia, Pennsylvania, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "DivHacks",
-    "url": "https://columbiadivhacks.org/",
-    "date_str": "SEP 26 - 27",
-    "season_year": "2027",
-    "location": "New York, NY, US",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
-    "title": "hackUMBC",
-    "url": "https://hackumbc.tech/",
-    "date_str": "SEP 26 - 27",
-    "season_year": "2027",
-    "location": "Baltimore, MD, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Hack the Hill",
-    "url": "https://hackthehill.com/",
-    "date_str": "SEP 25 - 27",
-    "season_year": "2027",
-    "location": "Ottawa, Ontario, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "TigerHacks",
-    "url": "https://tigerhacks.dev/",
-    "date_str": "SEP 25 - 27",
-    "season_year": "2027",
-    "location": "Columbia, Missouri, US",
     "mode": "In-Person",
     "badges": ""
   },
