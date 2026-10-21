@@ -39,7 +39,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "28fa8a822436d9",
@@ -81,48 +81,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
-  },
-  {
-    "id": "6d13b6daecc54c",
-    "title": "HostGator LATAM Bug Bounty",
-    "platform": "Bugcrowd",
-    "source": "bugcrowd",
-    "url": "https://bugcrowd.com/engagements/hostgator-latam-bb",
-    "prize": "$2.5K",
-    "prize_usd": 2500.0,
-    "prize_currency": "USD",
-    "prize_raw": "$2,500",
-    "start_date": null,
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Security & AppSec",
-    "ecosystem": "Web & Full-Stack",
-    "languages": [
-      "TypeScript",
-      "Python"
-    ],
-    "tags": [
-      "appsec",
-      "bug-bounty",
-      "bugcrowd",
-      "technology"
-    ],
-    "description": "HostGator LATAM is the division of the global web hosting provider HostGator that serves Latin American markets, offering localized web hosting solutions, including shared hosting, WordPress hosting, and VPS hosting, tailored to the needs of businesses and individuals in the region. · Reward range: Points - $2,500.",
-    "organizer": "HostGator LATAM",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "b7d9254c814218",
@@ -163,7 +122,48 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
+  },
+  {
+    "id": "6d13b6daecc54c",
+    "title": "HostGator LATAM Bug Bounty",
+    "platform": "Bugcrowd",
+    "source": "bugcrowd",
+    "url": "https://bugcrowd.com/engagements/hostgator-latam-bb",
+    "prize": "$2.5K",
+    "prize_usd": 2500.0,
+    "prize_currency": "USD",
+    "prize_raw": "$2,500",
+    "start_date": null,
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Security & AppSec",
+    "ecosystem": "Web & Full-Stack",
+    "languages": [
+      "TypeScript",
+      "Python"
+    ],
+    "tags": [
+      "appsec",
+      "bug-bounty",
+      "bugcrowd",
+      "technology"
+    ],
+    "description": "HostGator LATAM is the division of the global web hosting provider HostGator that serves Latin American markets, offering localized web hosting solutions, including shared hosting, WordPress hosting, and VPS hosting, tailored to the needs of businesses and individuals in the region. · Reward range: Points - $2,500.",
+    "organizer": "HostGator LATAM",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "235a4d15916aff",
@@ -205,7 +205,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "8c47e41140b0f4",
@@ -247,7 +247,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "1cb5e47647392f",
@@ -289,7 +289,49 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
+  },
+  {
+    "id": "57b1be618fba43",
+    "title": "Lightspeed Hospitality",
+    "platform": "Bugcrowd",
+    "source": "bugcrowd",
+    "url": "https://bugcrowd.com/engagements/lightspeed-hospitality",
+    "prize": "$7.5K",
+    "prize_usd": 7500.0,
+    "prize_currency": "USD",
+    "prize_raw": "$7,500",
+    "start_date": null,
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Security & AppSec",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "appsec",
+      "bug-bounty",
+      "bugcrowd",
+      "computer software"
+    ],
+    "description": "Partner with the Lightspeed Security Team to pressure-test and secure the next generation of global hospitality and point-of-sale technology. · Reward range: $250 - $7,500.",
+    "organizer": "Lightspeed Hospitality",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": "https://logos.bugcrowdusercontent.com/logos/2d27/d997/043b1d7f/c5b9a7ab8d615b2d06e99960ab9ab262_lightspeed.jpeg",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "11f9fcd0d1d281",
@@ -331,7 +373,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "88256be47b8407",
@@ -372,7 +414,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "5998edb18ad5bf",
@@ -414,7 +456,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "e46d902b133979",
@@ -455,7 +497,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "a42afd545819e2",
@@ -497,7 +539,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "76fa742ed7a386",
@@ -538,7 +580,49 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
+  },
+  {
+    "id": "fe4f0796a51b20",
+    "title": "Lightspeed Retail",
+    "platform": "Bugcrowd",
+    "source": "bugcrowd",
+    "url": "https://bugcrowd.com/engagements/lightspeed-retail",
+    "prize": "$7.5K",
+    "prize_usd": 7500.0,
+    "prize_currency": "USD",
+    "prize_raw": "$7,500",
+    "start_date": null,
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Security & AppSec",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "appsec",
+      "bug-bounty",
+      "bugcrowd",
+      "retail"
+    ],
+    "description": "Welcome to the Lightspeed Retail Bug Bounty. We are committed to fostering a collaborative relationship with the global research community by actively recognizing and rewarding those who help fortify our retail platform. · Reward range: $250 - $7,500.",
+    "organizer": "Lightspeed Retail",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": "https://logos.bugcrowdusercontent.com/logos/364d/8cfc/b539163b/4118517e824c9522776dceb0440c7d14_Lightspeed_Flame.png",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "0375795aa828b8",
@@ -580,7 +664,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "1f3bbea4dff2dd",
@@ -622,7 +706,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "cb755231a05277",
@@ -664,7 +748,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "6a5cb3171215c7",
@@ -706,7 +790,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "99f8950d0c2b83",
@@ -748,7 +832,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "36b5e2469975a2",
@@ -790,7 +874,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "fd55f9919a157f",
@@ -832,7 +916,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "b091816d08a326",
@@ -874,7 +958,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "47ea837fe2af03",
@@ -915,7 +999,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "f47e1483297c8e",
@@ -956,7 +1040,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "b238bc0f2abe7e",
@@ -998,7 +1082,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "0d5b31afe651df",
@@ -1040,7 +1124,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "479987fed16c53",
@@ -1082,7 +1166,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "8c8b6d744edd94",
@@ -1124,7 +1208,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "6599209be347b2",
@@ -1166,49 +1250,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
-  },
-  {
-    "id": "e2490b70c982c8",
-    "title": "Under Armour Corporate",
-    "platform": "Bugcrowd",
-    "source": "bugcrowd",
-    "url": "https://bugcrowd.com/engagements/underarmour-corp",
-    "prize": "$2.5K",
-    "prize_usd": 2500.0,
-    "prize_currency": "USD",
-    "prize_raw": "$2,500",
-    "start_date": null,
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Security & AppSec",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "appsec",
-      "bug-bounty",
-      "bugcrowd",
-      "retail"
-    ],
-    "description": "Submit your finding to Under Armour's program! · Reward range: $125 - $2,500.",
-    "organizer": "Under Armour Corporate",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": "https://logos.bugcrowdusercontent.com/logos/d1f1/c2de/a4cdcdff/2b82bb7653cca8da8e1870edf4af571f_under_armour.png",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "e6087d04d1e13a",
@@ -1250,7 +1292,49 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
+  },
+  {
+    "id": "e2490b70c982c8",
+    "title": "Under Armour Corporate",
+    "platform": "Bugcrowd",
+    "source": "bugcrowd",
+    "url": "https://bugcrowd.com/engagements/underarmour-corp",
+    "prize": "$2.5K",
+    "prize_usd": 2500.0,
+    "prize_currency": "USD",
+    "prize_raw": "$2,500",
+    "start_date": null,
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Security & AppSec",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "appsec",
+      "bug-bounty",
+      "bugcrowd",
+      "retail"
+    ],
+    "description": "Submit your finding to Under Armour's program! · Reward range: $125 - $2,500.",
+    "organizer": "Under Armour Corporate",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": "https://logos.bugcrowdusercontent.com/logos/d1f1/c2de/a4cdcdff/2b82bb7653cca8da8e1870edf4af571f_under_armour.png",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "d18a43b2c6ff9b",
@@ -1292,7 +1376,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "f55e86a0eaccc0",
@@ -1333,7 +1417,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "40d8966706808e",
@@ -1375,7 +1459,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "47b77aed27d190",
@@ -1417,7 +1501,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "b629bbcac97ef0",
@@ -1459,7 +1543,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "9388f87f9dbcd4",
@@ -1500,7 +1584,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "6fc68aec766318",
@@ -1542,7 +1626,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "aaf0ed05474d0c",
@@ -1584,7 +1668,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "769e064e9f975a",
@@ -1626,7 +1710,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "7ace6a967513ed",
@@ -1667,7 +1751,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "76e85934a5fc2c",
@@ -1709,7 +1793,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "9a0e30e08c7d3f",
@@ -1751,7 +1835,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "9d60de2f8726aa",
@@ -1793,7 +1877,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "2f420fa2ccf5a2",
@@ -1834,7 +1918,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "80f39616ed7531",
@@ -1876,7 +1960,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   },
   {
     "id": "76ad1ee9846dfc",
@@ -1918,90 +2002,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
-  },
-  {
-    "id": "6037d0fa89a0a3",
-    "title": "Bitpanda Ongoing Bug Bounty",
-    "platform": "Bugcrowd",
-    "source": "bugcrowd",
-    "url": "https://bugcrowd.com/engagements/bitpanda-og-bb",
-    "prize": "$15K",
-    "prize_usd": 15000.0,
-    "prize_currency": "USD",
-    "prize_raw": "$15,000",
-    "start_date": null,
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Security & AppSec",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "appsec",
-      "bug-bounty",
-      "bugcrowd",
-      "finance"
-    ],
-    "description": "Submit your findings to the program! · Reward range: $100 - $15,000.",
-    "organizer": "Bitpanda Ongoing",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
-  },
-  {
-    "id": "0a08e1fa0346b7",
-    "title": "PNI Media - Bug Bounty",
-    "platform": "Bugcrowd",
-    "source": "bugcrowd",
-    "url": "https://bugcrowd.com/engagements/pnimedia-bb",
-    "prize": "$4.5K",
-    "prize_usd": 4500.0,
-    "prize_currency": "USD",
-    "prize_raw": "$4,500",
-    "start_date": null,
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Security & AppSec",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "appsec",
-      "bug-bounty",
-      "bugcrowd",
-      "ecommerce"
-    ],
-    "description": "Print, shipping, and marketing services in-store and online. · Reward range: $150 - $4,500.",
-    "organizer": "PNI Media -",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": "https://logos.bugcrowdusercontent.com/logos/588b/7e2c/20df08ce/a62d726e2d7e39d140e096906c867d17_MicrosoftTeams-image.png",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-20T06:32:05Z"
+    "scraped_at": "2026-10-21T06:33:35Z"
   }
 ]
