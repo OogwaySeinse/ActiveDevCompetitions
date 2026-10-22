@@ -795,7 +795,7 @@
     "industryName": "Technology",
     "accessStatus": "open",
     "paymentAllocationUrl": null,
-    "badgeVariant": null,
+    "badgeVariant": "updated",
     "endsAt": null,
     "productEngagementType": {
       "label": "Bug Bounty",
@@ -1322,7 +1322,7 @@
     "industryName": "Computer Software",
     "accessStatus": "open",
     "paymentAllocationUrl": null,
-    "badgeVariant": "updated",
+    "badgeVariant": null,
     "endsAt": null,
     "productEngagementType": {
       "label": "Bug Bounty",
