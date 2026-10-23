@@ -12,7 +12,7 @@
     "numOfSubmissions": 34,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "Review"
+      "Appeals"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -93,12 +93,13 @@
         "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "name": "Review",
         "description": "Review Phase",
-        "isOpen": true,
+        "isOpen": false,
         "predecessor": "9f4e3b2a-7c1d-4e9f-b8a6-5d3c1a9f2b4e",
         "duration": 183293,
         "scheduledStartDate": "2026-10-20T08:35:06.874Z",
         "scheduledEndDate": "2026-10-22T11:30:00.000Z",
         "actualStartDate": "2026-10-20T08:35:06.874Z",
+        "actualEndDate": "2026-10-22T09:34:36.348Z",
         "constraints": []
       },
       {
@@ -106,11 +107,12 @@
         "phaseId": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
         "name": "Appeals",
         "description": "Appeals Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "duration": 86400,
-        "scheduledStartDate": "2026-10-22T11:30:00.000Z",
-        "scheduledEndDate": "2026-10-23T11:30:00.000Z",
+        "scheduledStartDate": "2026-10-22T09:34:50.536Z",
+        "scheduledEndDate": "2026-10-23T09:34:50.536Z",
+        "actualStartDate": "2026-10-22T09:34:50.536Z",
         "constraints": []
       },
       {
@@ -121,8 +123,8 @@
         "isOpen": false,
         "predecessor": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
         "duration": 388800,
-        "scheduledStartDate": "2026-10-23T11:30:00.000Z",
-        "scheduledEndDate": "2026-10-27T23:30:00.000Z",
+        "scheduledStartDate": "2026-10-23T09:34:50.536Z",
+        "scheduledEndDate": "2026-10-27T21:34:50.536Z",
         "constraints": []
       }
     ],
@@ -351,22 +353,22 @@
       "isAssigned": false
     },
     "created": "2026-10-13T08:57:23.685Z",
-    "updated": "2026-10-20T10:46:29.543Z",
+    "updated": "2026-10-22T09:34:50.545Z",
     "overview": {
       "totalPrizes": 600,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "54c42489-9678-4661-8cd8-f522aed122d4",
-      "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-      "name": "Review",
-      "description": "Review Phase",
+      "id": "594fdc1c-a4cb-4620-8bcf-c94534ed8116",
+      "phaseId": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
+      "name": "Appeals",
+      "description": "Appeals Phase",
       "isOpen": true,
-      "predecessor": "9f4e3b2a-7c1d-4e9f-b8a6-5d3c1a9f2b4e",
-      "duration": 183293,
-      "scheduledStartDate": "2026-10-20T08:35:06.874Z",
-      "scheduledEndDate": "2026-10-22T11:30:00.000Z",
-      "actualStartDate": "2026-10-20T08:35:06.874Z",
+      "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+      "duration": 86400,
+      "scheduledStartDate": "2026-10-22T09:34:50.536Z",
+      "scheduledEndDate": "2026-10-23T09:34:50.536Z",
+      "actualStartDate": "2026-10-22T09:34:50.536Z",
       "constraints": []
     },
     "stalled": false

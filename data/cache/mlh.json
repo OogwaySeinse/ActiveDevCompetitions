@@ -289,7 +289,7 @@
   },
   {
     "title": "SanD Hacks",
-    "url": "https://csesucsd.com/",
+    "url": "https://hackathon.csesatucsd.com/",
     "date_str": "NOV 14 - 15",
     "season_year": "2027",
     "location": "La Jolla, CA, US",
@@ -324,6 +324,15 @@
     "badges": ""
   },
   {
+    "title": "Hack Western 13",
+    "url": "https://hackwestern.com/",
+    "date_str": "NOV 20 - 22",
+    "season_year": "2027",
+    "location": "London, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "HARDWARE"
+  },
+  {
     "title": "Tech For Community 2026",
     "url": "https://tecnurtur.org/hackathon",
     "date_str": "NOV 21 - 22",
@@ -356,6 +365,15 @@
     "date_str": "NOV 28 - 29",
     "season_year": "2027",
     "location": "Lleida, Lleida, Spain, ES",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "HackSheffield11",
+    "url": "https://hacksheffield.uk/",
+    "date_str": "NOV 28 - 29",
+    "season_year": "2027",
+    "location": "Sheffield, South Yorkshire, GB",
     "mode": "In-Person",
     "badges": ""
   },
