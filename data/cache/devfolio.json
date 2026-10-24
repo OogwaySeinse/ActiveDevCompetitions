@@ -4,13 +4,13 @@
     "slug": "cognition-2026",
     "name": "Cognition 2026",
     "type": "HACKATHON",
-    "starts_at": "2026-10-24T02:30:00+00:00",
-    "ends_at": "2026-10-25T07:30:00+00:00",
+    "starts_at": "2026-10-24T03:30:00+00:00",
+    "ends_at": "2026-10-25T06:30:00+00:00",
     "is_online": false,
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 102,
+    "participants_count": 244,
     "participants_details": [],
     "themes": [
       {
@@ -58,7 +58,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 455,
+    "participants_count": 619,
     "participants_details": [
       {
         "uuid": "2798c02ce99f4da7ab6f64e6538259cb",
@@ -114,11 +114,11 @@
     "type": "HACKATHON",
     "starts_at": "2026-10-23T15:30:00+00:00",
     "ends_at": "2026-10-25T03:30:00+00:00",
-    "is_online": true,
+    "is_online": false,
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 1039,
+    "participants_count": 1282,
     "participants_details": [
       {
         "uuid": "70156e6272b74abaa8af6b32d46bd2cd",
@@ -152,7 +152,7 @@
     "settings": {
       "reg_ends_at": "2026-10-25T03:30:00+00:00",
       "reg_starts_at": "2026-10-15T04:00:00+00:00",
-      "review": false,
+      "review": true,
       "site": "https://hackathon.sdslabs.co/",
       "twitter": "https://x.com/sdslabs",
       "facebook": null,
@@ -178,7 +178,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Europe/London",
-    "participants_count": 64,
+    "participants_count": 77,
     "participants_details": [
       {
         "uuid": "25512fd4bd044efda7775238b5d1fb62",
@@ -238,7 +238,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Europe/Berlin",
-    "participants_count": 620,
+    "participants_count": 635,
     "participants_details": [
       {
         "uuid": "ebf55314158e46629126f73b54b5b0d4",
@@ -303,7 +303,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 69,
+    "participants_count": 90,
     "participants_details": [
       {
         "uuid": "2c4e166b528d4a2ea015d793d2838e97",
@@ -349,7 +349,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 875,
+    "participants_count": 909,
     "participants_details": [
       {
         "uuid": "93e6f749468b434daffa8984644e9a30",
@@ -409,7 +409,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 1082,
+    "participants_count": 1119,
     "participants_details": [
       {
         "uuid": "4fdafc49b0fd4f0495517d8c3a935fa0",
@@ -469,8 +469,15 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 9,
+    "participants_count": 17,
     "participants_details": [
+      {
+        "uuid": "d7faabec976c40e28270b3ded1380c26",
+        "username": "harshitshaw69",
+        "last_name": "Shaw",
+        "first_name": "Harshit",
+        "profile_image": "https://assets.devfolio.co/users/d7faabec976c40e28270b3ded1380c26/avatar-bad66ecf-f591-47da-b3fb-c7ac72b112d3.jpeg"
+      },
       {
         "uuid": "157f76806374488c9e0e4cea2a721b22",
         "username": "Joydeep_Saha",
@@ -479,11 +486,11 @@
         "profile_image": "https://assets.devfolio.co/users/157f76806374488c9e0e4cea2a721b22/avatar-64fada3a-40bb-4716-9e25-7987a06da0fc.jpeg"
       },
       {
-        "uuid": "d7faabec976c40e28270b3ded1380c26",
-        "username": "harshitshaw69",
-        "last_name": "Shaw",
-        "first_name": "Harshit",
-        "profile_image": "https://assets.devfolio.co/users/d7faabec976c40e28270b3ded1380c26/avatar-bad66ecf-f591-47da-b3fb-c7ac72b112d3.jpeg"
+        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
+        "username": "realksquare",
+        "last_name": "Kumar G",
+        "first_name": "Krishna",
+        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
       }
     ],
     "themes": [
@@ -522,8 +529,23 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 10,
-    "participants_details": [],
+    "participants_count": 28,
+    "participants_details": [
+      {
+        "uuid": "78ab0731e2b74ddc99c53fe883e4cf8b",
+        "username": "caine_benoy",
+        "last_name": "Benoy",
+        "first_name": "Caine",
+        "profile_image": "https://assets.devfolio.co/users/78ab0731e2b74ddc99c53fe883e4cf8b/avatar-da640c4c-c7a9-43d7-b258-c217bd93bfb6.jpeg"
+      },
+      {
+        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
+        "username": "realksquare",
+        "last_name": "Kumar G",
+        "first_name": "Krishna",
+        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
+      }
+    ],
     "themes": [
       {
         "theme": {
@@ -550,71 +572,6 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "50e23a48e3964f43878279a3bf81339d",
-    "slug": "haxfinity",
-    "name": "haxfinity",
-    "type": "HACKATHON",
-    "starts_at": "2026-12-12T05:00:00+00:00",
-    "ends_at": "2026-12-13T05:00:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 260,
-    "participants_details": [
-      {
-        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
-        "username": "realksquare",
-        "last_name": "Kumar G",
-        "first_name": "Krishna",
-        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
-      },
-      {
-        "uuid": "01ac1aa8a36d44ddab4fa02723553786",
-        "username": "Mayankyadav",
-        "last_name": "Yadav",
-        "first_name": "Mayank",
-        "profile_image": "https://assets.devfolio.co/users/01ac1aa8a36d44ddab4fa02723553786/avatar-8fbaec5a-b89a-4956-8372-bb6435fa0d5e.jpeg"
-      },
-      {
-        "uuid": "4be405b7882c451c9b5a21a56ec5e544",
-        "username": "Sujal_0510",
-        "last_name": "Patel",
-        "first_name": "Sujal",
-        "profile_image": "https://assets.devfolio.co/users/4be405b7882c451c9b5a21a56ec5e544/avatar-082ff923-72d6-49a7-88ee-062501da7891.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "AI"
-        }
-      },
-      {
-        "theme": {
-          "name": "HealthTech"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-11-10T18:29:00+00:00",
-      "reg_starts_at": "2026-08-14T18:29:00+00:00",
-      "review": false,
-      "site": null,
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": null,
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "40f5203a0b9842038b51dd3f73236690",
     "slug": "genarrative-clash",
     "name": "GeNarrative Clash",
@@ -625,7 +582,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 642,
+    "participants_count": 662,
     "participants_details": [
       {
         "uuid": "5c715ac123c043caa0bcd900999201fc",
@@ -680,6 +637,71 @@
     "_bucket": "open_hackathons"
   },
   {
+    "uuid": "50e23a48e3964f43878279a3bf81339d",
+    "slug": "haxfinity",
+    "name": "haxfinity",
+    "type": "HACKATHON",
+    "starts_at": "2026-12-12T05:00:00+00:00",
+    "ends_at": "2026-12-13T05:00:00+00:00",
+    "is_online": false,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 268,
+    "participants_details": [
+      {
+        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
+        "username": "realksquare",
+        "last_name": "Kumar G",
+        "first_name": "Krishna",
+        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
+      },
+      {
+        "uuid": "01ac1aa8a36d44ddab4fa02723553786",
+        "username": "Mayankyadav",
+        "last_name": "Yadav",
+        "first_name": "Mayank",
+        "profile_image": "https://assets.devfolio.co/users/01ac1aa8a36d44ddab4fa02723553786/avatar-8fbaec5a-b89a-4956-8372-bb6435fa0d5e.jpeg"
+      },
+      {
+        "uuid": "4be405b7882c451c9b5a21a56ec5e544",
+        "username": "Sujal_0510",
+        "last_name": "Patel",
+        "first_name": "Sujal",
+        "profile_image": "https://assets.devfolio.co/users/4be405b7882c451c9b5a21a56ec5e544/avatar-082ff923-72d6-49a7-88ee-062501da7891.jpeg"
+      }
+    ],
+    "themes": [
+      {
+        "theme": {
+          "name": "AI"
+        }
+      },
+      {
+        "theme": {
+          "name": "HealthTech"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-11-10T18:29:00+00:00",
+      "reg_starts_at": "2026-08-14T18:29:00+00:00",
+      "review": false,
+      "site": null,
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": null,
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
     "uuid": "d957bc2099f945e99edfae0c2972bed9",
     "slug": "devnexus2",
     "name": "DevNexus 2.0",
@@ -690,7 +712,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 783,
+    "participants_count": 804,
     "participants_details": [
       {
         "uuid": "9564a93d67d9428a82bfdba3adeb8232",
@@ -750,7 +772,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 857,
+    "participants_count": 865,
     "participants_details": [
       {
         "uuid": "f490e62ce8f8466099135673c5f434ad",
