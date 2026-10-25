@@ -11,7 +11,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-07T14:35:00Z",
     "end_date": "2026-11-07T17:05:00Z",
-    "days_remaining": 14,
+    "days_remaining": 13,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -40,7 +40,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "a2a681de52ee0b",
@@ -54,7 +54,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-07T14:35:00Z",
     "end_date": "2026-11-07T17:05:00Z",
-    "days_remaining": 14,
+    "days_remaining": 13,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -83,7 +83,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "a83098b6cd2784",
@@ -97,7 +97,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-05T11:00:00Z",
     "end_date": "2026-11-19T11:00:00Z",
-    "days_remaining": 26,
+    "days_remaining": 25,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -126,7 +126,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "ca079dd56fc043",
@@ -140,7 +140,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-10-31T14:35:00Z",
     "end_date": "2026-10-31T16:50:00Z",
-    "days_remaining": 7,
+    "days_remaining": 6,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -169,7 +169,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "66338731774ad1",
@@ -183,7 +183,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-10-26T14:35:00Z",
     "end_date": "2026-10-26T16:50:00Z",
-    "days_remaining": 2,
+    "days_remaining": 1,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -212,50 +212,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
-  },
-  {
-    "id": "0b4cf729bc563d",
-    "title": "Codeforces Round 1129 (Div. 2)",
-    "platform": "Codeforces",
-    "source": "codeforces",
-    "url": "https://codeforces.com/contests/2277",
-    "prize": "Rated Global Leaderboard",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Rated Global Leaderboard",
-    "start_date": "2026-10-24T11:05:00Z",
-    "end_date": "2026-10-24T13:20:00Z",
-    "days_remaining": 0,
-    "status": "upcoming",
-    "challenge_type": "coding_contest",
-    "category": "Algorithms & Competitive Coding",
-    "ecosystem": "Cross-Stack / General",
-    "languages": [
-      "C / C++",
-      "Python",
-      "Java",
-      "Rust"
-    ],
-    "tags": [
-      "algorithms",
-      "cf",
-      "codeforces",
-      "competitive-programming"
-    ],
-    "description": "Codeforces rated CF algorithmic programming round (2.2h window).",
-    "organizer": "Codeforces",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "ae0a7c844fb572",
@@ -269,7 +226,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-11-07T14:30:00Z",
     "end_date": "2026-11-07T16:00:00Z",
-    "days_remaining": 14,
+    "days_remaining": 13,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -298,7 +255,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   },
   {
     "id": "8100aec2ac4b7c",
@@ -312,7 +269,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-11-01T02:30:00Z",
     "end_date": "2026-11-01T04:00:00Z",
-    "days_remaining": 7,
+    "days_remaining": 6,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -341,92 +298,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
-  },
-  {
-    "id": "dd9c195bb59d78",
-    "title": "LeetCode Weekly Contest 525",
-    "platform": "LeetCode",
-    "source": "codeforces",
-    "url": "https://leetcode.com/contest/weekly-contest-525/",
-    "prize": "LeetCoins & Global Rating",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "LeetCoins & Global Rating",
-    "start_date": "2026-10-25T02:30:00Z",
-    "end_date": "2026-10-25T04:00:00Z",
-    "days_remaining": 0,
-    "status": "upcoming",
-    "challenge_type": "coding_contest",
-    "category": "Algorithms & Competitive Coding",
-    "ecosystem": "Cross-Stack / General",
-    "languages": [
-      "Python",
-      "C / C++",
-      "Java",
-      "TypeScript"
-    ],
-    "tags": [
-      "algorithms",
-      "competitive-programming",
-      "data-structures",
-      "leetcode"
-    ],
-    "description": "LeetCode Weekly Contest 525 timed algorithmic & data-structures engineering contest (90 mins).",
-    "organizer": "LeetCode",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
-  },
-  {
-    "id": "3321d3f9ae5c3e",
-    "title": "LeetCode Biweekly Contest 194",
-    "platform": "LeetCode",
-    "source": "codeforces",
-    "url": "https://leetcode.com/contest/biweekly-contest-194/",
-    "prize": "LeetCoins & Global Rating",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "LeetCoins & Global Rating",
-    "start_date": "2026-10-24T14:30:00Z",
-    "end_date": "2026-10-24T16:00:00Z",
-    "days_remaining": 0,
-    "status": "upcoming",
-    "challenge_type": "coding_contest",
-    "category": "Algorithms & Competitive Coding",
-    "ecosystem": "Cross-Stack / General",
-    "languages": [
-      "Python",
-      "C / C++",
-      "Java",
-      "TypeScript"
-    ],
-    "tags": [
-      "algorithms",
-      "competitive-programming",
-      "data-structures",
-      "leetcode"
-    ],
-    "description": "LeetCode Biweekly Contest 194 timed algorithmic & data-structures engineering contest (90 mins).",
-    "organizer": "LeetCode",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:09Z"
+    "scraped_at": "2026-10-25T06:29:54Z"
   }
 ]

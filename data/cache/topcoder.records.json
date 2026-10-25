@@ -11,7 +11,7 @@
     "prize_raw": "1350.0",
     "start_date": "2026-10-23T15:46:46Z",
     "end_date": "2026-10-25T15:45:00Z",
-    "days_remaining": 1,
+    "days_remaining": 0,
     "status": "ending_soon",
     "challenge_type": "dev_challenge",
     "category": "Full-Stack & Web Apps",
@@ -31,15 +31,15 @@
     "organizer": "Topcoder",
     "difficulty": "Intermediate",
     "mode": "Online",
-    "participants_count": 35,
-    "submissions_count": 8,
+    "participants_count": 53,
+    "submissions_count": 31,
     "repo_url": null,
     "logo_url": null,
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:08Z"
+    "scraped_at": "2026-10-25T06:29:53Z"
   },
   {
     "id": "7bd1b2028800d3",
@@ -53,7 +53,7 @@
     "prize_raw": "600.0",
     "start_date": "2026-10-23T08:30:00Z",
     "end_date": "2026-10-25T09:30:00Z",
-    "days_remaining": 1,
+    "days_remaining": 0,
     "status": "ending_soon",
     "challenge_type": "dev_challenge",
     "category": "Cloud, DevOps & Infra",
@@ -78,14 +78,14 @@
     "organizer": "Topcoder",
     "difficulty": "Intermediate",
     "mode": "Online",
-    "participants_count": 45,
-    "submissions_count": 11,
+    "participants_count": 67,
+    "submissions_count": 29,
     "repo_url": null,
     "logo_url": null,
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-10-24T06:28:08Z"
+    "scraped_at": "2026-10-25T06:29:53Z"
   }
 ]
