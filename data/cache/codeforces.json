@@ -1,6 +1,16 @@
 {
   "codeforces": [
     {
+      "id": 2282,
+      "name": "Kotlin Heroes: Episode 15",
+      "type": "ICPC",
+      "phase": "BEFORE",
+      "frozen": false,
+      "durationSeconds": 9000,
+      "startTimeSeconds": 1795790100,
+      "relativeTimeSeconds": -2793468
+    },
+    {
       "id": 2279,
       "name": "Codeforces Round (Div. 1)",
       "type": "CF",
@@ -8,7 +18,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1794062100,
-      "relativeTimeSeconds": -1152327
+      "relativeTimeSeconds": -1065468
     },
     {
       "id": 2280,
@@ -18,7 +28,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1794062100,
-      "relativeTimeSeconds": -1152327
+      "relativeTimeSeconds": -1065468
     },
     {
       "id": 2281,
@@ -28,7 +38,7 @@
       "frozen": false,
       "durationSeconds": 1209600,
       "startTimeSeconds": 1793876400,
-      "relativeTimeSeconds": -966627
+      "relativeTimeSeconds": -879768
     },
     {
       "id": 2278,
@@ -38,7 +48,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1793457300,
-      "relativeTimeSeconds": -547527
+      "relativeTimeSeconds": -460668
     },
     {
       "id": 2272,
@@ -48,7 +58,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1793025300,
-      "relativeTimeSeconds": -115529
+      "relativeTimeSeconds": -28669
     },
     {
       "id": 2277,
@@ -58,7 +68,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1792839900,
-      "relativeTimeSeconds": 69873
+      "relativeTimeSeconds": 156732
     },
     {
       "id": 2261,
@@ -68,7 +78,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1792247700,
-      "relativeTimeSeconds": 662073
+      "relativeTimeSeconds": 748932
     },
     {
       "id": 2276,
@@ -78,7 +88,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791988500,
-      "relativeTimeSeconds": 921273
+      "relativeTimeSeconds": 1008132
     },
     {
       "id": 2273,
@@ -88,7 +98,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791743700,
-      "relativeTimeSeconds": 1166073
+      "relativeTimeSeconds": 1252932
     },
     {
       "id": 2274,
@@ -98,7 +108,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791743700,
-      "relativeTimeSeconds": 1166073
+      "relativeTimeSeconds": 1252932
     },
     {
       "id": 2271,
@@ -108,7 +118,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1791644700,
-      "relativeTimeSeconds": 1265073
+      "relativeTimeSeconds": 1351932
     },
     {
       "id": 2275,
@@ -118,7 +128,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1791384300,
-      "relativeTimeSeconds": 1525473
+      "relativeTimeSeconds": 1612332
     },
     {
       "id": 2268,
@@ -128,7 +138,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790433300,
-      "relativeTimeSeconds": 2476473
+      "relativeTimeSeconds": 2563332
     },
     {
       "id": 2269,
@@ -138,7 +148,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790433300,
-      "relativeTimeSeconds": 2476473
+      "relativeTimeSeconds": 2563331
     },
     {
       "id": 2267,
@@ -148,7 +158,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1790346900,
-      "relativeTimeSeconds": 2562873
+      "relativeTimeSeconds": 2649732
     },
     {
       "id": 2266,
@@ -158,7 +168,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790001300,
-      "relativeTimeSeconds": 2908473
+      "relativeTimeSeconds": 2995332
     },
     {
       "id": 2264,
@@ -168,7 +178,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1789319100,
-      "relativeTimeSeconds": 3590673
+      "relativeTimeSeconds": 3677532
     },
     {
       "id": 2262,
@@ -178,7 +188,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1789223700,
-      "relativeTimeSeconds": 3686073
+      "relativeTimeSeconds": 3772932
     },
     {
       "id": 2263,
@@ -188,7 +198,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1789223700,
-      "relativeTimeSeconds": 3686073
+      "relativeTimeSeconds": 3772932
     },
     {
       "id": 2260,
@@ -198,7 +208,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1788878100,
-      "relativeTimeSeconds": 4031673
+      "relativeTimeSeconds": 4118531
     },
     {
       "id": 2259,
@@ -208,7 +218,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1788619500,
-      "relativeTimeSeconds": 4290273
+      "relativeTimeSeconds": 4377132
     },
     {
       "id": 2258,
@@ -218,7 +228,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1788014100,
-      "relativeTimeSeconds": 4895673
+      "relativeTimeSeconds": 4982532
     },
     {
       "id": 2257,
@@ -228,7 +238,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1786977300,
-      "relativeTimeSeconds": 5932473
+      "relativeTimeSeconds": 6019332
     },
     {
       "id": 2251,
@@ -238,7 +248,7 @@
       "frozen": false,
       "durationSeconds": 1209600,
       "startTimeSeconds": 1786705200,
-      "relativeTimeSeconds": 6204573
+      "relativeTimeSeconds": 6291432
     },
     {
       "id": 2255,
@@ -248,7 +258,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1786286100,
-      "relativeTimeSeconds": 6623673
+      "relativeTimeSeconds": 6710532
     },
     {
       "id": 2256,
@@ -258,7 +268,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1786286100,
-      "relativeTimeSeconds": 6623673
+      "relativeTimeSeconds": 6710532
     },
     {
       "id": 2253,
@@ -268,7 +278,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1786113300,
-      "relativeTimeSeconds": 6796473
+      "relativeTimeSeconds": 6883332
     },
     {
       "id": 2252,
@@ -278,7 +288,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1786026900,
-      "relativeTimeSeconds": 6882873
+      "relativeTimeSeconds": 6969732
     },
     {
       "id": 2254,
@@ -288,20 +298,16 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1785854100,
-      "relativeTimeSeconds": 7055673
-    },
-    {
-      "id": 2248,
-      "name": "Codeforces Round 1113 (Div. 2)",
-      "type": "CF",
-      "phase": "FINISHED",
-      "frozen": false,
-      "durationSeconds": 9000,
-      "startTimeSeconds": 1785594900,
-      "relativeTimeSeconds": 7314873
+      "relativeTimeSeconds": 7142532
     }
   ],
   "leetcode": [
+    {
+      "title": "Weekly Contest 527",
+      "titleSlug": "weekly-contest-527",
+      "startTime": 1794105000,
+      "duration": 5400
+    },
     {
       "title": "Biweekly Contest 195",
       "titleSlug": "biweekly-contest-195",
@@ -384,12 +390,6 @@
       "title": "Weekly Contest 518",
       "titleSlug": "weekly-contest-518",
       "startTime": 1788661800,
-      "duration": 5400
-    },
-    {
-      "title": "Weekly Contest 517",
-      "titleSlug": "weekly-contest-517",
-      "startTime": 1788057000,
       "duration": 5400
     }
   ]

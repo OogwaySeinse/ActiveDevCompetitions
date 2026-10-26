@@ -1,59 +1,5 @@
 [
   {
-    "title": "Cal Hacks 13.0",
-    "url": "https://calhacks.io/",
-    "date_str": "OCT 23 - 25",
-    "season_year": "2027",
-    "location": "San Francisco, California, US",
-    "mode": "In-Person",
-    "badges": "HARDWARE"
-  },
-  {
-    "title": "SBUHacks",
-    "url": "https://hack.sbcs.io/",
-    "date_str": "OCT 23 - 25",
-    "season_year": "2027",
-    "location": "Stony Brook, New York, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "OxHack '26",
-    "url": "https://26.oxhack.net/",
-    "date_str": "OCT 24 - 25",
-    "season_year": "2027",
-    "location": "Oxford, England, GB",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackTX 26",
-    "url": "https://hacktx.com/",
-    "date_str": "OCT 24 - 25",
-    "season_year": "2027",
-    "location": "Austin, TX, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "DuQuantum",
-    "url": "https://duquantum.org/",
-    "date_str": "OCT 24 - 25",
-    "season_year": "2027",
-    "location": "Durham, NC, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Hack at Penn State",
-    "url": "https://hackpsu.org/",
-    "date_str": "OCT 24 - 25",
-    "season_year": "2027",
-    "location": "University Park, PA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "hackCBS 9.O",
     "url": "https://hackcbs.tech/",
     "date_str": "OCT 31 - NOV 01",
@@ -630,6 +576,60 @@
     "badges": ""
   },
   {
+    "title": "Hack at Penn State",
+    "url": "https://hackpsu.org/",
+    "date_str": "OCT 24 - 25",
+    "season_year": "2027",
+    "location": "University Park, PA, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "DuQuantum",
+    "url": "https://duquantum.org/",
+    "date_str": "OCT 24 - 25",
+    "season_year": "2027",
+    "location": "Durham, NC, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "HackTX 26",
+    "url": "https://hacktx.com/",
+    "date_str": "OCT 24 - 25",
+    "season_year": "2027",
+    "location": "Austin, TX, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "OxHack '26",
+    "url": "https://26.oxhack.net/",
+    "date_str": "OCT 24 - 25",
+    "season_year": "2027",
+    "location": "Oxford, England, GB",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "SBUHacks",
+    "url": "https://hack.sbcs.io/",
+    "date_str": "OCT 23 - 25",
+    "season_year": "2027",
+    "location": "Stony Brook, New York, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Cal Hacks 13.0",
+    "url": "https://calhacks.io/",
+    "date_str": "OCT 23 - 25",
+    "season_year": "2027",
+    "location": "San Francisco, California, US",
+    "mode": "In-Person",
+    "badges": "HARDWARE"
+  },
+  {
     "title": "LA Hacks AI Hackathon 2026",
     "url": "https://ai.lahacks.com/",
     "date_str": "OCT 17 - 18",
@@ -788,60 +788,6 @@
     "date_str": "OCT 09 - 10",
     "season_year": "2027",
     "location": "Bhilai, Chhattisgarh, IN",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackNC",
-    "url": "https://hacknc.com/",
-    "date_str": "OCT 09 - 11",
-    "season_year": "2027",
-    "location": "Chapel Hill, North Carolina, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Hack Dearborn 5: Conjure Reality",
-    "url": "https://hackdearborn.org/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "Dearborn, Michigan, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "GirlHacks",
-    "url": "https://njitgirlhacks.com/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "Newark, NJ, US",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
-    "title": "StormHacks",
-    "url": "https://stormhacks.com/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "Burnaby, British Columbia, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "WolfHacks by ACM at NC State",
-    "url": "https://wolfhacks.org/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "Raleigh, NC, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Rowdy Hacks",
-    "url": "https://rowdyhacks.org/",
-    "date_str": "OCT 03 - 04",
-    "season_year": "2027",
-    "location": "San Antonio, Texas, US",
     "mode": "In-Person",
     "badges": ""
   },

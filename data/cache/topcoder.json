@@ -8,12 +8,11 @@
     "typeId": "927abff4-7af9-4145-8ba1-577c16e64e2e",
     "trackId": "5fa04185-041f-49a6-bfd1-fe82533cd6c8",
     "timelineTemplateId": "918f6a3e-1a63-4680-8b5e-deb95b1411e7",
-    "numOfRegistrants": 53,
-    "numOfSubmissions": 31,
+    "numOfRegistrants": 59,
+    "numOfSubmissions": 55,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "Registration",
-      "Submission"
+      "Screening"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -22,9 +21,9 @@
     ],
     "groups": [],
     "submissionStartDate": "2026-10-23T15:46:46.712Z",
-    "submissionEndDate": "2026-10-25T15:45:00.000Z",
+    "submissionEndDate": "2026-10-25T15:45:00.436Z",
     "registrationStartDate": "2026-10-23T15:46:46.712Z",
-    "registrationEndDate": "2026-10-25T15:45:00.000Z",
+    "registrationEndDate": "2026-10-25T15:45:13.459Z",
     "startDate": "2026-10-23T15:46:46.712Z",
     "endDate": "2026-11-01T19:45:00.000Z",
     "status": "ACTIVE",
@@ -64,11 +63,12 @@
         "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
         "name": "Registration",
         "description": "Registration Phase",
-        "isOpen": true,
+        "isOpen": false,
         "duration": 172693,
         "scheduledStartDate": "2026-10-23T15:46:46.712Z",
         "scheduledEndDate": "2026-10-25T15:45:00.000Z",
         "actualStartDate": "2026-10-23T15:46:46.712Z",
+        "actualEndDate": "2026-10-25T15:45:13.459Z",
         "constraints": []
       },
       {
@@ -76,11 +76,12 @@
         "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "name": "Submission",
         "description": "Submission Phase",
-        "isOpen": true,
+        "isOpen": false,
         "duration": 172693,
         "scheduledStartDate": "2026-10-23T15:46:46.712Z",
         "scheduledEndDate": "2026-10-25T15:45:00.000Z",
         "actualStartDate": "2026-10-23T15:46:46.712Z",
+        "actualEndDate": "2026-10-25T15:45:00.436Z",
         "constraints": []
       },
       {
@@ -88,11 +89,12 @@
         "phaseId": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
         "name": "Screening",
         "description": "Screening Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "duration": 14400,
-        "scheduledStartDate": "2026-10-25T15:45:00.000Z",
-        "scheduledEndDate": "2026-10-25T19:45:00.000Z",
+        "scheduledStartDate": "2026-10-25T15:45:13.391Z",
+        "scheduledEndDate": "2026-10-25T19:45:13.391Z",
+        "actualStartDate": "2026-10-25T15:45:13.391Z",
         "constraints": []
       },
       {
@@ -103,8 +105,8 @@
         "isOpen": false,
         "predecessor": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
         "duration": 432000,
-        "scheduledStartDate": "2026-10-25T19:45:00.000Z",
-        "scheduledEndDate": "2026-10-30T19:45:00.000Z",
+        "scheduledStartDate": "2026-10-25T19:45:13.391Z",
+        "scheduledEndDate": "2026-10-30T19:45:13.391Z",
         "constraints": []
       },
       {
@@ -115,8 +117,8 @@
         "isOpen": false,
         "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "duration": 172800,
-        "scheduledStartDate": "2026-10-30T19:45:00.000Z",
-        "scheduledEndDate": "2026-11-01T19:45:00.000Z",
+        "scheduledStartDate": "2026-10-30T19:45:13.391Z",
+        "scheduledEndDate": "2026-11-01T19:45:13.391Z",
         "constraints": []
       }
     ],
@@ -240,21 +242,22 @@
       "isAssigned": false
     },
     "created": "2026-10-23T13:26:00.212Z",
-    "updated": "2026-10-23T15:57:24.201Z",
+    "updated": "2026-10-25T15:45:13.465Z",
     "overview": {
       "totalPrizes": 1050,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "1e1f662a-9a28-40d5-9f30-019218551c8e",
-      "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
-      "name": "Registration",
-      "description": "Registration Phase",
+      "id": "54bcf990-8987-4f96-b402-75f35619ec7f",
+      "phaseId": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
+      "name": "Screening",
+      "description": "Screening Phase",
       "isOpen": true,
-      "duration": 172693,
-      "scheduledStartDate": "2026-10-23T15:46:46.712Z",
-      "scheduledEndDate": "2026-10-25T15:45:00.000Z",
-      "actualStartDate": "2026-10-23T15:46:46.712Z",
+      "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+      "duration": 14400,
+      "scheduledStartDate": "2026-10-25T15:45:13.391Z",
+      "scheduledEndDate": "2026-10-25T19:45:13.391Z",
+      "actualStartDate": "2026-10-25T15:45:13.391Z",
       "constraints": []
     },
     "stalled": false
@@ -268,12 +271,11 @@
     "typeId": "927abff4-7af9-4145-8ba1-577c16e64e2e",
     "trackId": "9b6fc876-f4d9-4ccb-9dfd-419247628825",
     "timelineTemplateId": "b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e",
-    "numOfRegistrants": 67,
-    "numOfSubmissions": 29,
+    "numOfRegistrants": 69,
+    "numOfSubmissions": 39,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "Submission",
-      "Registration"
+      "AI Review"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -284,16 +286,16 @@
     ],
     "groups": [],
     "submissionStartDate": "2026-10-23T08:30:00.842Z",
-    "submissionEndDate": "2026-10-25T09:30:00.000Z",
+    "submissionEndDate": "2026-10-25T09:30:00.436Z",
     "registrationStartDate": "2026-10-23T08:30:01.833Z",
-    "registrationEndDate": "2026-10-25T09:30:01.833Z",
+    "registrationEndDate": "2026-10-25T09:30:17.024Z",
     "startDate": "2026-10-23T08:30:00.000Z",
     "endDate": "2026-10-27T04:30:00.000Z",
     "status": "ACTIVE",
     "approvalStatus": "APPROVED",
     "approvalApprovedBy": "kiril.kartunov",
     "createdBy": "40165501",
-    "updatedBy": "40165501",
+    "updatedBy": "500013983",
     "metadata": [
       {
         "name": "allowAllRegistrantsToDownloadWinningSubmissions",
@@ -314,11 +316,12 @@
         "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "name": "Submission",
         "description": "Submission Phase",
-        "isOpen": true,
+        "isOpen": false,
         "duration": 176400,
         "scheduledStartDate": "2026-10-23T08:30:00.000Z",
         "scheduledEndDate": "2026-10-25T09:30:00.000Z",
         "actualStartDate": "2026-10-23T08:30:00.842Z",
+        "actualEndDate": "2026-10-25T09:30:00.436Z",
         "constraints": []
       },
       {
@@ -326,11 +329,12 @@
         "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
         "name": "Registration",
         "description": "Registration Phase",
-        "isOpen": true,
+        "isOpen": false,
         "duration": 176400,
         "scheduledStartDate": "2026-10-23T08:30:01.833Z",
         "scheduledEndDate": "2026-10-25T09:30:01.833Z",
         "actualStartDate": "2026-10-23T08:30:01.833Z",
+        "actualEndDate": "2026-10-25T09:30:17.024Z",
         "constraints": []
       },
       {
@@ -338,11 +342,12 @@
         "phaseId": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
         "name": "AI Review",
         "description": "AI Review Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-        "duration": 68400,
-        "scheduledStartDate": "2026-10-25T09:30:00.000Z",
-        "scheduledEndDate": "2026-10-26T04:30:00.000Z",
+        "duration": 79183,
+        "scheduledStartDate": "2026-10-25T09:30:16.705Z",
+        "scheduledEndDate": "2026-10-26T07:30:00.000Z",
+        "actualStartDate": "2026-10-25T09:30:16.705Z",
         "constraints": []
       },
       {
@@ -353,8 +358,8 @@
         "isOpen": false,
         "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
         "duration": 86400,
-        "scheduledStartDate": "2026-10-26T04:30:00.000Z",
-        "scheduledEndDate": "2026-10-27T04:30:00.000Z",
+        "scheduledStartDate": "2026-10-26T07:30:00.000Z",
+        "scheduledEndDate": "2026-10-27T07:30:00.000Z",
         "constraints": []
       }
     ],
@@ -641,21 +646,22 @@
       "isAssigned": false
     },
     "created": "2026-10-22T14:48:39.902Z",
-    "updated": "2026-10-23T08:30:01.839Z",
+    "updated": "2026-10-26T04:23:02.338Z",
     "overview": {
       "totalPrizes": 600,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "afa5d156-ade8-4b43-9cac-f40078b1e6f7",
-      "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
-      "name": "Registration",
-      "description": "Registration Phase",
+      "id": "278e1b2d-039e-4927-8ba3-6a221c6fb80e",
+      "phaseId": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
+      "name": "AI Review",
+      "description": "AI Review Phase",
       "isOpen": true,
-      "duration": 176400,
-      "scheduledStartDate": "2026-10-23T08:30:01.833Z",
-      "scheduledEndDate": "2026-10-25T09:30:01.833Z",
-      "actualStartDate": "2026-10-23T08:30:01.833Z",
+      "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+      "duration": 79183,
+      "scheduledStartDate": "2026-10-25T09:30:16.705Z",
+      "scheduledEndDate": "2026-10-26T07:30:00.000Z",
+      "actualStartDate": "2026-10-25T09:30:16.705Z",
       "constraints": []
     },
     "stalled": false
