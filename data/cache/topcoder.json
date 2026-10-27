@@ -12,7 +12,7 @@
     "numOfSubmissions": 55,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "Screening"
+      "Review"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -59,19 +59,6 @@
     ],
     "phases": [
       {
-        "id": "1e1f662a-9a28-40d5-9f30-019218551c8e",
-        "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
-        "name": "Registration",
-        "description": "Registration Phase",
-        "isOpen": false,
-        "duration": 172693,
-        "scheduledStartDate": "2026-10-23T15:46:46.712Z",
-        "scheduledEndDate": "2026-10-25T15:45:00.000Z",
-        "actualStartDate": "2026-10-23T15:46:46.712Z",
-        "actualEndDate": "2026-10-25T15:45:13.459Z",
-        "constraints": []
-      },
-      {
         "id": "5907cf63-b302-4afa-b61a-019cb8140a13",
         "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "name": "Submission",
@@ -85,16 +72,30 @@
         "constraints": []
       },
       {
+        "id": "1e1f662a-9a28-40d5-9f30-019218551c8e",
+        "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
+        "name": "Registration",
+        "description": "Registration Phase",
+        "isOpen": false,
+        "duration": 172693,
+        "scheduledStartDate": "2026-10-23T15:46:46.712Z",
+        "scheduledEndDate": "2026-10-25T15:45:00.000Z",
+        "actualStartDate": "2026-10-23T15:46:46.712Z",
+        "actualEndDate": "2026-10-25T15:45:13.459Z",
+        "constraints": []
+      },
+      {
         "id": "54bcf990-8987-4f96-b402-75f35619ec7f",
         "phaseId": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
         "name": "Screening",
         "description": "Screening Phase",
-        "isOpen": true,
+        "isOpen": false,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "duration": 14400,
         "scheduledStartDate": "2026-10-25T15:45:13.391Z",
         "scheduledEndDate": "2026-10-25T19:45:13.391Z",
         "actualStartDate": "2026-10-25T15:45:13.391Z",
+        "actualEndDate": "2026-10-26T16:45:46.969Z",
         "constraints": []
       },
       {
@@ -102,11 +103,12 @@
         "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "name": "Review",
         "description": "Review Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
         "duration": 432000,
-        "scheduledStartDate": "2026-10-25T19:45:13.391Z",
-        "scheduledEndDate": "2026-10-30T19:45:13.391Z",
+        "scheduledStartDate": "2026-10-26T16:45:57.834Z",
+        "scheduledEndDate": "2026-10-31T16:45:57.834Z",
+        "actualStartDate": "2026-10-26T16:45:57.834Z",
         "constraints": []
       },
       {
@@ -117,8 +119,8 @@
         "isOpen": false,
         "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "duration": 172800,
-        "scheduledStartDate": "2026-10-30T19:45:13.391Z",
-        "scheduledEndDate": "2026-11-01T19:45:13.391Z",
+        "scheduledStartDate": "2026-10-31T16:45:57.834Z",
+        "scheduledEndDate": "2026-11-02T16:45:57.834Z",
         "constraints": []
       }
     ],
@@ -242,22 +244,22 @@
       "isAssigned": false
     },
     "created": "2026-10-23T13:26:00.212Z",
-    "updated": "2026-10-25T15:45:13.465Z",
+    "updated": "2026-10-26T16:45:57.842Z",
     "overview": {
       "totalPrizes": 1050,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "54bcf990-8987-4f96-b402-75f35619ec7f",
-      "phaseId": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
-      "name": "Screening",
-      "description": "Screening Phase",
+      "id": "1bd5b812-fb70-4277-80ba-adfb5b755af6",
+      "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+      "name": "Review",
+      "description": "Review Phase",
       "isOpen": true,
-      "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-      "duration": 14400,
-      "scheduledStartDate": "2026-10-25T15:45:13.391Z",
-      "scheduledEndDate": "2026-10-25T19:45:13.391Z",
-      "actualStartDate": "2026-10-25T15:45:13.391Z",
+      "predecessor": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
+      "duration": 432000,
+      "scheduledStartDate": "2026-10-26T16:45:57.834Z",
+      "scheduledEndDate": "2026-10-31T16:45:57.834Z",
+      "actualStartDate": "2026-10-26T16:45:57.834Z",
       "constraints": []
     },
     "stalled": false
@@ -295,7 +297,7 @@
     "approvalStatus": "APPROVED",
     "approvalApprovedBy": "kiril.kartunov",
     "createdBy": "40165501",
-    "updatedBy": "500013983",
+    "updatedBy": "40165501",
     "metadata": [
       {
         "name": "allowAllRegistrantsToDownloadWinningSubmissions",
@@ -344,9 +346,9 @@
         "description": "AI Review Phase",
         "isOpen": true,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-        "duration": 79183,
+        "duration": 181783,
         "scheduledStartDate": "2026-10-25T09:30:16.705Z",
-        "scheduledEndDate": "2026-10-26T07:30:00.000Z",
+        "scheduledEndDate": "2026-10-27T12:00:00.000Z",
         "actualStartDate": "2026-10-25T09:30:16.705Z",
         "constraints": []
       },
@@ -358,8 +360,8 @@
         "isOpen": false,
         "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
         "duration": 86400,
-        "scheduledStartDate": "2026-10-26T07:30:00.000Z",
-        "scheduledEndDate": "2026-10-27T07:30:00.000Z",
+        "scheduledStartDate": "2026-10-27T12:00:00.000Z",
+        "scheduledEndDate": "2026-10-28T12:00:00.000Z",
         "constraints": []
       }
     ],
@@ -646,7 +648,7 @@
       "isAssigned": false
     },
     "created": "2026-10-22T14:48:39.902Z",
-    "updated": "2026-10-26T04:23:02.338Z",
+    "updated": "2026-10-26T08:25:12.067Z",
     "overview": {
       "totalPrizes": 600,
       "type": "USD"
@@ -658,9 +660,9 @@
       "description": "AI Review Phase",
       "isOpen": true,
       "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-      "duration": 79183,
+      "duration": 181783,
       "scheduledStartDate": "2026-10-25T09:30:16.705Z",
-      "scheduledEndDate": "2026-10-26T07:30:00.000Z",
+      "scheduledEndDate": "2026-10-27T12:00:00.000Z",
       "actualStartDate": "2026-10-25T09:30:16.705Z",
       "constraints": []
     },

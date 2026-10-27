@@ -108,15 +108,6 @@
     "badges": ""
   },
   {
-    "title": "HACK.COMS",
-    "url": "https://events.mlh.com/events/14418-hack-coms-2026",
-    "date_str": "NOV 07 - 08",
-    "season_year": "2027",
-    "location": "Rochester, New York, US",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
     "title": "HackTheBurgh",
     "url": "https://hacktheburgh.com/",
     "date_str": "NOV 07 - 08",
@@ -790,6 +781,15 @@
     "location": "Bhilai, Chhattisgarh, IN",
     "mode": "In-Person",
     "badges": ""
+  },
+  {
+    "title": "HACK.COMS 2026",
+    "url": "https://events.mlh.io/events/14418-hack-coms-2026",
+    "date_str": "NOV 07 - 08",
+    "season_year": "2026",
+    "location": "Rochester, New York, US",
+    "mode": "In-Person",
+    "badges": "DIVERSITY"
   },
   {
     "title": "HackPrix Season 3",
