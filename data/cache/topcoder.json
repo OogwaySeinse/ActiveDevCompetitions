@@ -277,7 +277,7 @@
     "numOfSubmissions": 39,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "AI Review"
+      "Approval"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -297,7 +297,7 @@
     "approvalStatus": "APPROVED",
     "approvalApprovedBy": "kiril.kartunov",
     "createdBy": "40165501",
-    "updatedBy": "40165501",
+    "updatedBy": "500013983",
     "metadata": [
       {
         "name": "allowAllRegistrantsToDownloadWinningSubmissions",
@@ -344,12 +344,13 @@
         "phaseId": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
         "name": "AI Review",
         "description": "AI Review Phase",
-        "isOpen": true,
+        "isOpen": false,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
         "duration": 181783,
         "scheduledStartDate": "2026-10-25T09:30:16.705Z",
         "scheduledEndDate": "2026-10-27T12:00:00.000Z",
         "actualStartDate": "2026-10-25T09:30:16.705Z",
+        "actualEndDate": "2026-10-27T12:00:00.572Z",
         "constraints": []
       },
       {
@@ -357,11 +358,12 @@
         "phaseId": "ad985cff-ad3e-44de-b54e-3992505ba0ae",
         "name": "Approval",
         "description": "Approval Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
-        "duration": 86400,
-        "scheduledStartDate": "2026-10-27T12:00:00.000Z",
-        "scheduledEndDate": "2026-10-28T12:00:00.000Z",
+        "duration": 257378,
+        "scheduledStartDate": "2026-10-27T12:00:21.319Z",
+        "scheduledEndDate": "2026-10-30T11:30:00.000Z",
+        "actualStartDate": "2026-10-27T12:00:21.319Z",
         "constraints": []
       }
     ],
@@ -648,398 +650,22 @@
       "isAssigned": false
     },
     "created": "2026-10-22T14:48:39.902Z",
-    "updated": "2026-10-26T08:25:12.067Z",
+    "updated": "2026-10-28T05:27:04.788Z",
     "overview": {
       "totalPrizes": 600,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "278e1b2d-039e-4927-8ba3-6a221c6fb80e",
-      "phaseId": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
-      "name": "AI Review",
-      "description": "AI Review Phase",
+      "id": "6c7845d7-ef29-4cfe-a746-f552497cd923",
+      "phaseId": "ad985cff-ad3e-44de-b54e-3992505ba0ae",
+      "name": "Approval",
+      "description": "Approval Phase",
       "isOpen": true,
-      "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-      "duration": 181783,
-      "scheduledStartDate": "2026-10-25T09:30:16.705Z",
-      "scheduledEndDate": "2026-10-27T12:00:00.000Z",
-      "actualStartDate": "2026-10-25T09:30:16.705Z",
-      "constraints": []
-    },
-    "stalled": false
-  },
-  {
-    "id": "c074003a-b1d4-4bce-affe-2bce305da955",
-    "name": "Enterprise AI Customer Experience Resolution System: Gemini CX & Telco",
-    "description": "Topcoder is seeking production-grade solutions for an **Enterprise AI Customer Experience Resolution System** built on Google Cloud Platform (GCP) and **Gemini Customer Experience (Gemini CX)** architecture.\n\nIn this challenge, you will act as a Lead Forward Deployed Engineer (FDE). You will design, build, and deploy an end-to-end, multi-agent AI customer support resolution engine for a major Telecommunications / Communications Service Provider (CSP). The system must securely integrate with legacy backend services (Billing, Network Diagnostics, Account Auth), feature robust multi-agent orchestration, implement enterprise-grade security protocols, and provide complete observability and telemetry.\n\n**Objective:** Build a proof-of-concept (PoC) enterprise agentic solution capable of autonomously handling complex customer scenarios—such as authenticating a subscriber, running broadband hardware diagnostics, resolving billing disputes, or performing automated escalation—using Gemini CX / Google Cloud AI frameworks.\n\n## Challenge Goal\n\nComplete and productionize the supplied AI customer-experience solution so that it can:\n\n* Understand customer requests using Gemini\n* Ask relevant clarification questions\n* Manage conversation and workflow context\n* Coordinate agents, workflows, and enterprise tools\n* Authenticate customers before accessing protected information\n* Enforce authorization outside the AI model\n* Integrate with modern and legacy enterprise systems\n* Produce responses grounded in verified enterprise data\n* Perform supported actions only after validation and confirmation\n* Handle AI and enterprise-service failures safely\n* Escalate unresolved requests with useful context\n* Generate structured logs, traces, events, and operational metrics\n* Support repeatable automated evaluation\n* Provide a credible Google Cloud deployment approach\n* Enable another engineering team to understand and extend the solution\n\nThe productionized solution is the practical evidence used to validate and rank competitors. Building the solution is not the final business outcome of the challenge.\n\n## Challenge Type\n\n**AI Exponential League Practical Qualification and Productionization Challenge**\n\nThis challenge combines:\n\n* Existing codebase analysis\n* Gemini integration\n* Conversational AI\n* Agentic architecture\n* Workflow and tool orchestration\n* Secure API implementation\n* Authentication and authorization\n* Enterprise integration\n* Legacy-system adaptation\n* Data pipelines\n* Telemetry and observability\n* Reliability engineering\n* Automated testing\n* Google Cloud deployment planning\n* Technical handover\n\n**Participants may use:**\n\n* A single controlled AI agent\n* Multiple specialized agents\n* Deterministic workflow orchestration\n* A hybrid AI and rules-based architecture\n* Google-supported agent frameworks\n* A custom implementation\n\nFramework choice alone will not determine the score.\n\nParticipants must improve the supplied starter solution rather than replace it with an unrelated implementation.\n\n## Business Scenario\n\nA telecommunications provider uses separate enterprise systems for:\n\n* Customer identity\n* Customer profiles\n* Accounts and subscriptions\n* Billing information\n* Product and service eligibility\n* Network and service status\n* Technical diagnostics\n* Support-case management\n\nThe provider has started developing an AI-powered customer-experience solution, but the current implementation is not ready for production.\n\nThe supplied solution contains gaps such as:\n\n* Incomplete Gemini integration\n* Weak or incomplete agent orchestration\n* Stubbed enterprise integrations\n* Missing authorization controls\n* Incomplete legacy-system handling\n* Unsafe enterprise-action execution\n* Limited failure handling\n* Missing telemetry and traces\n* Incomplete automated tests\n* Limited deployment documentation\n\nParticipants must transform the starter solution into a secure, reliable, observable, and deployment-ready proof of capability.\n\nThe system is a technical assessment environment. It must use only supplied or synthetic customer data and must not connect to real customer records.\n\n## Supplied Starter Package\n\nThe challenge repository will include:\n\n* Partially implemented source code\n* Basic customer interaction interface or conversation runner\n* Initial Gemini integration or provider adapter\n* Stubbed agent or workflow orchestration\n* Mock authentication service\n* Customer-profile service\n* Account and subscription service\n* Billing or service-information service\n* Network-status or diagnostics service\n* Case-management service\n* Legacy telecom service\n* Sample customer and account data\n* Test users and roles\n* Mandatory customer scenarios\n* Failure-simulation controls\n* API documentation and schemas\n* Initial architecture documentation\n* Known technical gaps\n* Sample environment configuration\n\nThe same starter package, scenarios, test data, and failure controls will be provided to all competitors.\n\nParticipants may refactor individual components where necessary, but the required workflows and supplied enterprise integrations must remain reviewable.\n\n## Target Users\n\n**1. Customer**\n\nThe customer uses the solution to:\n\n* Ask account or service questions\n* Report service issues\n* Request technical assistance\n* Review available service options\n* Perform supported account or service actions\n* Receive a verified resolution or escalation reference\n\n**2. Customer Support Representative**\n\nThe support representative receives escalated requests containing:\n\n* Request summary\n* Verified customer context\n* Completed workflow steps\n* Enterprise systems already accessed\n* Retrieved evidence\n* Failed tools or integrations\n* Pending actions\n* Recommended next step\n* Request or trace identifier\n\n**3. Operations and Engineering User**\n\nThe operations or engineering user reviews:\n\n* Workflow executions\n* Agent and tool activity\n* Integration performance\n* Authentication and authorization events\n* Failed requests\n* Escalations\n* Operational metrics\n* Application health\n\n## Core User Journey\n\n1. A customer submits a natural-language request.\n2. Gemini interprets the request and extracts relevant information.\n3. The system asks for clarification if required information is missing.\n4. The customer authenticates when protected information or actions are involved.\n5. Deterministic authorization logic validates access.\n6. The orchestrator selects the appropriate agent, workflow, or enterprise tool.\n7. Enterprise data is retrieved and normalized.\n8. The system validates the returned information.\n9. A grounded response or proposed action is presented.\n10. The customer confirms any consequential action.\n11. The enterprise action is executed and verified.\n12. The system returns a confirmed outcome or creates an escalation.\n13. The complete execution is recorded through structured events and traces.\n14. Operational metrics are updated from actual workflow activity.\n\n## Functional Requirements\n\n**1. Gemini and Conversational AI**\n\nThe solution must use Gemini meaningfully within the required customer workflows.\n\n**Gemini may be used for:**\n\n* Intent classification\n* Entity extraction\n* Request interpretation\n* Clarification-question generation\n* Workflow planning\n* Agent routing\n* Tool selection\n* Enterprise-information synthesis\n* Grounded response generation\n* Escalation summarization\n\n**Participants must document:**\n\n* Gemini model or service used\n* Where the model is invoked\n* Purpose of each model invocation\n* Context supplied to the model\n* Prompt or agent instructions\n* Structured output definitions\n* Output validation\n* Safety controls\n* Failure behavior\n* Decisions enforced outside the model\n\nAuthentication, authorization, record ownership, confirmation, and protected business actions must be enforced through deterministic application logic.\n\nA submission implemented entirely through fixed responses or hardcoded scenario branches will not qualify.\n\n**2. Agent Architecture and Orchestration**\n\nParticipants must complete or improve the supplied agentic or workflow architecture.\n\n**The solution may use:**\n\n* A primary orchestrator with specialized agents\n* A controlled tool-using agent\n* Multiple cooperating agents\n* A deterministic workflow with AI-assisted steps\n* A hybrid architecture\n\n**The implementation must demonstrate:**\n\n* Clear agent or component responsibilities\n* Controlled tool access\n* Conversation and workflow state management\n* Routing and delegation logic\n* Validation before tool execution\n* Loop prevention\n* Completion and termination conditions\n* Timeout and error handling\n* Human review and escalation points\n\n**If multiple agents are used, participants must explain:**\n\n* Why each agent is required\n* What information it can access\n* Which tools it may execute\n* How context is transferred\n* How conflicting results are handled\n* How unnecessary agent calls are avoided\n* How the workflow determines completion\n\nUsing more agents will not automatically receive a higher score. The architecture must be appropriate, controlled, reliable, and maintainable.\n\n**3. Customer Authentication and Authorization**\n\nThe solution must authenticate customers before accessing protected information or executing protected actions.\n\n**The implementation must:**\n\n* Use the supplied authentication service or an approved equivalent\n* Maintain authentication state appropriately\n* Handle invalid and expired authentication\n* Prevent one customer from accessing another customer’s records\n* Enforce record ownership or role permissions\n* Restrict tools according to the authenticated user and workflow state\n* Validate model-generated tool parameters\n* Record authentication and authorization events\n* Protect credentials and tokens from the AI model\n* Avoid exposing sensitive authentication information in logs or traces\n\nThe AI model must never be the sole authority for granting access.\n\nA simulated authentication flow is acceptable because the challenge uses synthetic data, but the flow and enforcement must be technically meaningful.\n\n**4. Enterprise and Legacy-System Integration**\n\nThe solution must integrate with the supplied enterprise services and the legacy telecom service.\n\n**The integration layer must handle:**\n\n* Request validation\n* Response validation\n* Data normalization\n* Enterprise authentication\n* Error-code mapping\n* Timeouts\n* Safe and limited retries\n* Missing or partial data\n* Malformed responses\n* Rate limits\n* Duplicate requests\n* Failed enterprise operations\n\nEnterprise systems must be accessed through controlled tools, services, or adapters. Gemini must not receive unrestricted access to raw enterprise endpoints.\n\n**Legacy Telecom Adapter**\n\n**The supplied legacy service may include:**\n\n* XML requests or responses\n* Inconsistent field names\n* Legacy status codes\n* Unusual error codes\n* Missing optional fields\n* Slow responses\n* Intermittent failures\n* Older authentication behavior\n\n**Participants must complete or implement an adapter that:**\n\n* Communicates with the legacy interface.\n* Validates the returned response.\n* Converts the response into a consistent internal model.\n* Maps legacy errors into application-level errors.\n* Prevents raw legacy-system behavior from leaking into the AI and customer layers.\n* Produces useful diagnostic events without exposing protected data.\n\nThe legacy service must not be bypassed or replaced with hardcoded results.\n\n**5. Grounded and Trustworthy Responses**\n\nCustomer-facing responses must be grounded in customer input and verified enterprise information.\n\n**The solution must distinguish between:**\n\n* Customer-provided information\n* Retrieved enterprise information\n* AI-generated interpretation\n* Assumptions\n* Recommendations\n* Confirmed actions\n* Unverified information\n\n**The solution must not:**\n\n* Invent customer or account records\n* Generate unsupported charges, plans, outages, cases, or reference numbers\n* Present assumptions as verified facts\n* Claim that a tool was called when it was not\n* Report a failed action as successful\n* Replace unavailable data with fabricated values\n* Hide materially conflicting enterprise information\n\nIf required information is unavailable or unclear, the system must ask for clarification, provide a qualified response, use an approved fallback, or escalate the request.\n\n**6. Clarification and Context Management**\n\nThe solution must identify incomplete or ambiguous customer requests.\n\n**It must:**\n\n* Determine what information is missing\n* Ask a relevant and specific clarification question\n* Preserve previously supplied information\n* Resume the existing workflow after clarification\n* Avoid asking for information already provided\n* Avoid unsupported assumptions\n* Avoid calling protected or consequential tools prematurely\n\nGeneric requests for “more information” will receive limited credit when the missing information can be identified precisely.\n\n**7. Controlled Enterprise Action**\n\nThe solution must support at least one consequential enterprise action.\n\n**Examples include:**\n\n* Creating a support case\n* Scheduling technical assistance\n* Submitting a service-change request\n* Updating an account preference\n* Requesting a supported plan change\n\n**Before completing the action, the solution must:**\n\n* Authenticate the customer.\n* Verify authorization.\n* Validate the requested action and parameters.\n* Present an understandable action summary.\n* Obtain explicit customer confirmation.\n* Execute the controlled enterprise tool.\n* Validate the backend response.\n* Report success only after confirmed execution.\n* Return a valid reference identifier where applicable.\n* Record the action and result.\n* Prevent accidental duplicate execution.\n\nA proposed or recommended action must not be shown as completed.\n\n**8. Failure Handling and Human Escalation**\n\n**The solution must safely handle:**\n\n* Gemini provider failure\n* Enterprise API failure\n* Network timeout\n* Rate limit\n* Invalid or expired authentication\n* Unauthorized requests\n* Missing or conflicting enterprise data\n* Malformed responses\n* Failed enterprise actions\n* Duplicate action requests\n* Internal processing failures\n\n**The implementation must:**\n\n* Detect and classify the failure\n* Preserve relevant workflow state\n* Avoid fabricating an outcome\n* Retry only when safe and appropriate\n* Limit retry attempts\n* Prevent duplicate consequential actions\n* Provide a clear customer-facing explanation\n* Use a documented fallback where available\n* Escalate when safe completion is not possible\n* Record the failure in logs, traces, and metrics\n\n**An escalation record must include:**\n\n* Customer request summary\n* Available verified context\n* Completed workflow steps\n* Enterprise systems accessed\n* Relevant evidence\n* Failed tools or integrations\n* Error summary\n* Pending action\n* Recommended next step\n* Request or trace identifier\n\nThe receiving representative should be able to continue the request without requiring the customer to repeat the entire interaction.\n\n**9. Data Pipeline, Telemetry, and Observability**\n\nThe solution must produce structured events for important workflow activity.\n\n**Events should include, where applicable:**\n\n* Session started\n* Request received\n* Intent classified\n* Clarification requested\n* Authentication attempted\n* Authentication succeeded or failed\n* Authorization allowed or denied\n* Agent invoked\n* Tool invoked\n* Tool completed or failed\n* Retry performed\n* Confirmation requested\n* Confirmation received\n* Enterprise action completed\n* Escalation created\n* Workflow resolved\n* Workflow failed\n\nEach event must contain a correlation or trace identifier.\n\n**Telemetry Pipeline**\n\n**The telemetry pipeline must:**\n\n* Accept structured application events\n* Validate event formats\n* Associate events with a request or session\n* Support request-level investigation\n* Support operational metrics\n* Handle invalid events safely\n* Avoid unnecessary sensitive-data storage\n* Workflow Trace\n\n**Reviewers must be able to inspect:**\n\n* Trace identifier\n* Workflow steps\n* Agents or components invoked\n* Enterprise tools called\n* Sanitized input and output summaries\n* Execution duration\n* Success or failure status\n* Retry and fallback events\n* Authorization decisions\n* Confirmation events\n* Final outcome\n* Escalation reason\n\nPasswords, tokens, secrets, unnecessary personal data, and protected model instructions must not appear in the trace.\n\n**Operational View**\n\nThe solution must show metrics generated from actual application events, such as:\n\nTotal sessions\nResolution rate\nEscalation rate\nFailure rate\nAverage workflow duration\nTool-call success rate\nFailures by integration\nAuthentication failures\nAuthorization denials\nAgent and tool usage\nRetry frequency\nGemini latency and failures\nHuman handoff rate\n\nStatic or manually entered monitoring data will not satisfy this requirement.\n\n## Mandatory Evaluation Scenarios\n\nEvery submission will be reviewed using the same scenarios, test users, data, and failure conditions.\n\n**1. Grounded Customer Inquiry**\n\n* A customer requests protected account, subscription, billing, or service information.\n* The solution must authenticate the customer, retrieve the correct authorized record, normalize the enterprise response, and return a grounded answer.\n\n**2. Ambiguous Request**\n\n* A customer provides insufficient information.\n* The solution must identify the missing information, ask a specific clarification question, preserve context, and continue after clarification.\n\n**3. Multi-System Issue Resolution**\n\n* A customer reports an issue requiring multiple enterprise systems.\n* The solution must coordinate the necessary agents or tools, preserve context, reconcile the returned information, and resolve or safely escalate the request.\n\n**4. Protected Enterprise Action**\n\n* An authenticated customer requests a supported action.\n* The solution must validate, authorize, summarize, confirm, execute, verify, and record the action while preventing duplicate execution.\n\n**5. Unauthorized Access Attempt**\n\n* An authenticated customer attempts to access another customer’s record.\n* The solution must deny access through deterministic authorization logic, avoid retrieving or exposing the protected record, and record the denial.\n\n**6. Legacy-System Request**\n\n* A customer request requires information from the supplied legacy telecom service.\n* The solution must call the service, process its legacy format, normalize the response, map errors, and use the result within the customer workflow.\n\n**7. Enterprise-Service Failure**\n\n* A required enterprise service fails, times out, or returns incomplete information.\n* The solution must avoid false success, apply safe retry behavior, preserve workflow state, and escalate where necessary.\n\n**8. Gemini Provider Failure**\n\n* Gemini becomes unavailable.\n* The solution must detect the failure, preserve the active request, continue deterministic security controls, enter a documented fallback or degraded mode, and record the failure.\n\n## Google Technology Expectations\n\nThe primary AI workflow must demonstrate practical use of Gemini or another Google AI capability identified in the challenge package.\n\n**Participants must document:**\n\n* Google services used\n* Gemini integration\n* Agent or orchestration approach\n* Identity and authentication design\n* Enterprise-integration approach\n* Logging and telemetry approach\n* Google Cloud deployment architecture\n* Security considerations\n* Changes required for production deployment\n\nIf direct access to a specific Gemini Customer Experience product is not provided, participants must explain how the implemented solution maps to the intended Google customer-experience environment.\n\nSimply mentioning Google products without working implementation or a credible technical mapping will receive limited credit.\n\n## Live AI and Reviewer Mode\n\n**Live AI Mode**\n\nThe submission must include a functional Gemini integration with:\n\n* Model integration code\n* Configuration instructions\n* Prompt or agent instructions\n* Structured output validation\n* Failure handling\n* Execution evidence\n* Recorded demonstration\n\nActive credentials must not be included.\n\n**Reviewer Mode**\n\nThe submission must provide a deterministic, cached, recorded, or mock reviewer mode for all mandatory scenarios.\n\n**Reviewer mode must continue to exercise the real:**\n\n* User workflow\n* Authentication and authorization\n* Application services\n* Integration adapters\n* Validation logic\n* Controlled-action logic\n* Failure handling\n* Telemetry pipeline\n* Trace generation\n\nReviewer mode must not be a disconnected set of static screens or predefined final responses.\n\n**The solution must clearly show whether it is using:**\n\n* Live AI mode\n* Reviewer mode\n* Degraded fallback mode\n\nReviewer mode does not replace the mandatory live AI implementation.\n\n## Solution Depth Requirement\n\nThe following are not sufficient:\n\n* A static chatbot demonstration\n* A set of hardcoded responses\n* A single model call without enterprise integration\n* Architecture documents without working implementation\n* A UI that does not exercise the supplied APIs\n* Static telemetry or manually entered metrics\n* A mock-only implementation without live Gemini integration\n* A replacement application that bypasses the starter solution\n* A recorded demonstration that reviewers cannot reproduce\n\nA valid submission must demonstrate:\n\n* Meaningful Gemini usage\n* Controlled agent or workflow orchestration\n* Authentication and deterministic authorization\n* Modern and legacy enterprise integration\n* Grounded responses\n* Protected enterprise-action handling\n* Failure recovery and escalation\n* Structured events and request-level traces\n* Event-derived operational metrics\n* Repeatable tests\n* Deployment preparation\n* Customer-team handover\n\n## Technology Expectations\n\nThe implementation stack may be extended or adjusted where justified.\n\n**The final solution must be:**\n\n* Runnable locally\n* Reviewable without private participant assistance\n* Maintainable and documented\n* Secure in handling synthetic customer data\n* Transparent about AI-generated and enterprise-sourced information\n* Configurable through environment variables\n* Free from hardcoded active credentials\n* Capable of running mandatory scenarios without paid reviewer access\n* Prepared for Google Cloud deployment\n\nA browser interface is recommended because the engagement concerns customer-experience solutions, but visual design is not the primary focus. A functional conversation runner with appropriate engineering and operational views may also be acceptable.\n\n## Deliverables\n\n**1. Productionized Starter Solution**\n\nThe completed solution must include:\n\n* Gemini integration\n* Agent or workflow orchestration\n* Authentication and authorization\n* Enterprise API integrations\n* Legacy telecom adapter\n* Grounded response handling\n* Controlled enterprise action\n* Failure and escalation handling\n* Telemetry pipeline\n* Workflow trace\n* Operational monitoring\n* Live AI and reviewer modes\n\n**2. Source Code**\n\nThe source code must be clean, modular, documented, and easy to run.\n\n**3. Automated Tests or Evaluation Runner**\n\nTests must cover:\n\n* Successful inquiry\n* Clarification\n* Authentication success and failure\n* Authorization enforcement\n* Cross-customer access denial\n* Controlled-action confirmation\n* Successful and failed enterprise actions\n* Duplicate-action protection\n* Legacy-response normalization\n* Enterprise timeout or malformed response\n* Gemini provider failure\n* Escalation creation\n* Telemetry-event generation\n\n**4. README**\n\nThe README must explain:\n\n* Local setup\n* Environment configuration\n* Live AI mode\n* Reviewer mode\n* Mandatory scenario execution\n* Test execution\n* Gemini integration\n* Agent orchestration\n* Enterprise integrations\n* Security controls\n* Telemetry and traces\n* Known limitations\n\n**5. Architecture Diagram**\n\nThe diagram should show:\n\n* Customer interaction layer\n* Gemini integration\n* Agents or orchestrator\n* Authentication and authorization\n* Enterprise tool layer\n* Legacy adapter\n* Data stores\n* Telemetry pipeline\n* Trace and monitoring views\n* Deployment boundaries\n\n**6. Deployment Documentation**\n\nThe deployment documentation must cover:\n\n* Local or containerized execution\n* Health checks\n* Environment configuration\n* Timeout and retry settings\n* Persistence approach\n* Google Cloud deployment mapping\n* Scaling and performance considerations\n* Security considerations\n* Cost considerations\n* Recovery or rollback approach\n\n**7. Customer-Team Handover Package**\n\nThe handover package must explain:\n\n* Business problem\n* Architecture\n* Agent and component responsibilities\n* Key design decisions\n* Security approach\n* How to add a new tool or integration\n* How to modify the orchestration\n* How to inspect traces\n* How to diagnose failures\n* Known limitations\n* Recommended production roadmap\n\n**8. Demo Video**\n\nRecommended duration: 3 to 5 minutes.\n\nThe demonstration should show:\n\n* A grounded customer inquiry\n* Clarification handling\n* A protected enterprise action\n* Authorization enforcement\n* Legacy-system processing\n* A simulated service failure and escalation\n* Workflow traces and operational metrics\n* Live AI or evidence of live Gemini integration\n* Reviewer mode\n* Key design decisions\n\n**9. Requirement-to-Evidence Matrix**\n\nThe repository must map each challenge requirement to its implementation and review evidence.\n\n```\nRequirement:\nImplemented Capability:\nCode or Component Location:\nSupporting Test:\nReviewer Scenario:\nExecution Evidence:\nCoverage Status:\nKnown Limitation:\n```\n\n**10. Summary of Changes**\n\nParticipants must identify:\n\n* Starter components retained\n* Components completed\n* Components refactored\n* Security issues fixed\n* Integrations implemented\n* Reliability improvements\n* Observability improvements\n* Remaining limitations\n\n## Evaluation Criteria\n\n**1. Gemini and Conversational AI: 15%**\n\n* Meaningful Gemini integration\n* Request understanding\n* Context management\n* Clarification behavior\n* Grounded responses\n* Structured output validation\n* Gemini failure handling\n\n**2. Agent Architecture and Orchestration: 15%**\n\n* Appropriate architecture\n* Clear agent and component responsibilities\n* Routing and delegation\n* Tool permissions\n* State management\n* Loop prevention\n* Termination behavior\n* Human escalation\n\n**3. Enterprise and Legacy Integration: 15%**\n\n* API implementation\n* Contract validation\n* Data normalization\n* Legacy adapter\n* Error mapping\n* Timeout and retry handling\n* Integration boundaries\n* Maintainability\n\n**4. Secure APIs, Authentication, and Authorization: 15%**\n\n* Authentication\n* Authorization\n* Customer isolation\n* Tool-level controls\n* Parameter validation\n* Confirmation handling\n* Duplicate-action protection\n* Secret handling\n* Auditability\n\n**5. Mandatory Customer Scenarios: 10%**\n\n* End-to-end completion\n* Business correctness\n* State preservation\n* Verified outcomes\n* Appropriate escalation\n\n**6. Data Pipelines, Telemetry, and Observability: 10%**\n\n* Structured events\n* Correlation identifiers\n* Request-level traces\n* Event-derived metrics\n* Diagnostic usefulness\n* Sensitive-data protection\n\n**7. Reliability and Troubleshooting: 10%**\n\n* Enterprise dependency failures\n* Gemini provider failures\n* Timeout and retry behavior\n* State preservation\n* Duplicate protection\n* Fallback behavior\n* Escalation quality\n\n**8. Testing and Software Quality: 5%**\n\n* Functional tests\n* Security tests\n* Integration tests\n* Failure tests\n* Code organization\n* Validation\n* Maintainability\n\n**9. Deployment and Customer-Team Enablement: 5%**\n\n* Reproducible setup\n* Google Cloud deployment mapping\n* Technical documentation\n* Customer handover\n* Production recommendations\n\n**Total: 100%**\n\n## Success Definition\n\nA successful submission allows an evaluator to:\n\n* Run the productionized starter solution.\n* Execute all mandatory scenarios.\n* Verify meaningful Gemini usage.\n* Inspect controlled agent or workflow orchestration.\n* Confirm authentication and customer isolation.\n* Verify protected enterprise-action controls.\n* Exercise the legacy telecom integration.\n* Confirm responses are grounded in enterprise data.\n* Simulate Gemini and enterprise-service failures.\n* Review escalation records.\n* Inspect request-level traces.\n* Review event-derived operational metrics.\n* Run the automated tests.\n* Review the Google Cloud deployment approach.\n* Understand how the solution can be maintained and extended.\n\n## Challenge Resources \n\nWill be provided in the challenge forums by the Copilot.",
-    "descriptionFormat": "markdown",
-    "projectId": 1000289,
-    "typeId": "927abff4-7af9-4145-8ba1-577c16e64e2e",
-    "trackId": "9b6fc876-f4d9-4ccb-9dfd-419247628825",
-    "timelineTemplateId": "7ebf1c69-f62f-4d3a-bdfb-fe9ddb56861c",
-    "numOfRegistrants": 67,
-    "numOfSubmissions": 34,
-    "numOfCheckpointSubmissions": 0,
-    "currentPhaseNames": [
-      "Appeals Response"
-    ],
-    "wiproAllowed": false,
-    "funChallenge": false,
-    "tags": [
-      "Rapid Development Match",
-      "AI Exponential League",
-      "AI"
-    ],
-    "groups": [],
-    "submissionStartDate": "2026-10-16T06:31:06.170Z",
-    "submissionEndDate": "2026-10-20T06:30:00.777Z",
-    "registrationStartDate": "2026-10-16T06:31:06.170Z",
-    "registrationEndDate": "2026-10-20T06:30:20.848Z",
-    "startDate": "2026-10-16T06:31:06.170Z",
-    "endDate": "2026-10-26T18:30:00.000Z",
-    "status": "ACTIVE",
-    "approvalStatus": "APPROVED",
-    "approvalApprovedBy": "kiril.kartunov",
-    "createdBy": "500013983",
-    "updatedBy": "500013983",
-    "metadata": [
-      {
-        "name": "allowAllRegistrantsToDownloadWinningSubmissions",
-        "value": "false"
-      },
-      {
-        "name": "is_test_challenge",
-        "value": "false"
-      },
-      {
-        "name": "challengeStartMode",
-        "value": "scheduled"
-      }
-    ],
-    "phases": [
-      {
-        "id": "e2901869-a369-4860-890b-cf32b392c988",
-        "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
-        "name": "Registration",
-        "description": "Registration Phase",
-        "isOpen": false,
-        "duration": 345533,
-        "scheduledStartDate": "2026-10-16T06:31:06.170Z",
-        "scheduledEndDate": "2026-10-20T06:30:00.000Z",
-        "actualStartDate": "2026-10-16T06:31:06.170Z",
-        "actualEndDate": "2026-10-20T06:30:20.848Z",
-        "constraints": []
-      },
-      {
-        "id": "addda46f-4a1a-4b39-98d3-203a10bbebd1",
-        "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-        "name": "Submission",
-        "description": "Submission Phase",
-        "isOpen": false,
-        "duration": 345533,
-        "scheduledStartDate": "2026-10-16T06:31:06.170Z",
-        "scheduledEndDate": "2026-10-20T06:30:00.000Z",
-        "actualStartDate": "2026-10-16T06:31:06.170Z",
-        "actualEndDate": "2026-10-20T06:30:00.777Z",
-        "constraints": []
-      },
-      {
-        "id": "649af0b3-39e4-4059-bdee-23360cfcad69",
-        "phaseId": "9f4e3b2a-7c1d-4e9f-b8a6-5d3c1a9f2b4e",
-        "name": "AI Screening",
-        "description": "AI Screening Phase",
-        "isOpen": false,
-        "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-        "duration": 17980,
-        "scheduledStartDate": "2026-10-20T06:30:20.791Z",
-        "scheduledEndDate": "2026-10-20T11:30:00.791Z",
-        "actualStartDate": "2026-10-20T06:30:20.791Z",
-        "actualEndDate": "2026-10-20T09:47:05.972Z",
-        "constraints": []
-      },
-      {
-        "id": "54c42489-9678-4661-8cd8-f522aed122d4",
-        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "name": "Review",
-        "description": "Review Phase",
-        "isOpen": false,
-        "predecessor": "9f4e3b2a-7c1d-4e9f-b8a6-5d3c1a9f2b4e",
-        "duration": 183293,
-        "scheduledStartDate": "2026-10-20T08:35:06.874Z",
-        "scheduledEndDate": "2026-10-22T11:30:00.000Z",
-        "actualStartDate": "2026-10-20T08:35:06.874Z",
-        "actualEndDate": "2026-10-22T09:34:36.348Z",
-        "constraints": []
-      },
-      {
-        "id": "594fdc1c-a4cb-4620-8bcf-c94534ed8116",
-        "phaseId": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
-        "name": "Appeals",
-        "description": "Appeals Phase",
-        "isOpen": false,
-        "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "duration": 86400,
-        "scheduledStartDate": "2026-10-22T09:34:50.536Z",
-        "scheduledEndDate": "2026-10-23T09:34:50.536Z",
-        "actualStartDate": "2026-10-22T09:34:50.536Z",
-        "actualEndDate": "2026-10-23T09:34:50.745Z",
-        "constraints": []
-      },
-      {
-        "id": "fd828bcb-3aa8-4e8f-9687-e81378621195",
-        "phaseId": "797a6af7-cd3f-4436-9fca-9679f773bee9",
-        "name": "Appeals Response",
-        "description": "Appeals Response Phase",
-        "isOpen": true,
-        "predecessor": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
-        "duration": 388800,
-        "scheduledStartDate": "2026-10-23T09:35:05.095Z",
-        "scheduledEndDate": "2026-10-27T21:35:05.095Z",
-        "actualStartDate": "2026-10-23T09:35:05.095Z",
-        "constraints": []
-      }
-    ],
-    "discussions": [
-      {
-        "name": "Enterprise AI Customer Experience Resolution System ",
-        "type": "CHALLENGE",
-        "provider": "topcoder",
-        "url": "https://www.topcoder.com/opportunities/challenge/c074003a-b1d4-4bce-affe-2bce305da955?tab=forum",
-        "id": "4fd6e564-3bf5-4a90-b8f9-9a48f2af02ce",
-        "options": []
-      }
-    ],
-    "events": [],
-    "prizeSets": [
-      {
-        "type": "PLACEMENT",
-        "prizes": [
-          {
-            "type": "USD",
-            "value": 300
-          },
-          {
-            "type": "USD",
-            "value": 200
-          },
-          {
-            "type": "USD",
-            "value": 100
-          }
-        ]
-      }
-    ],
-    "reviewers": [
-      {
-        "scorecardId": "98rxSgO9AfWp1C",
-        "isMemberReview": true,
-        "memberReviewerCount": 1,
-        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "baseCoefficient": 0.13,
-        "incrementalCoefficient": 0.05,
-        "type": "REGULAR_REVIEW",
-        "shouldOpenOpportunity": false
-      },
-      {
-        "scorecardId": "a8b69L06-5ODNI",
-        "isMemberReview": false,
-        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "aiWorkflowId": "awsOP_maxNUvnW",
-        "shouldOpenOpportunity": false
-      },
-      {
-        "scorecardId": "BsOxH1uewRPliT",
-        "isMemberReview": false,
-        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "aiWorkflowId": "awsH45_SAST_01",
-        "shouldOpenOpportunity": false
-      },
-      {
-        "scorecardId": "9yr660Thr9gbVG",
-        "isMemberReview": false,
-        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-        "aiWorkflowId": "awsH45_TRIVY01",
-        "shouldOpenOpportunity": false
-      }
-    ],
-    "terms": [
-      {
-        "id": "0a507fb7-3fe0-402b-b121-1a24af4a9cf1",
-        "roleId": "732339e7-8e30-49d7-9198-cccf9451e221"
-      }
-    ],
-    "skills": [
-      {
-        "id": "74990079-9e34-4237-bb89-45a9f4a2c41b",
-        "name": "Conversational AI",
-        "category": {
-          "id": "a1289278-a734-4523-918f-ea0f05667e24",
-          "name": "Machine Learning and AI"
-        }
-      },
-      {
-        "id": "7f8cfff7-ce07-4f6f-b40d-3b8b42465791",
-        "name": "API Design",
-        "category": {
-          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
-          "name": "Programming and Development"
-        }
-      },
-      {
-        "id": "90c33bc5-e4e6-4371-9b4f-07171d729c56",
-        "name": "Enterprise Integration",
-        "category": {
-          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
-          "name": "Software Development Lifecycle (SDLC)"
-        }
-      },
-      {
-        "id": "4a310e63-b538-498b-ba3b-69c92b123cd7",
-        "name": "Telemetry",
-        "category": {
-          "id": "e4a51b10-ecba-46eb-89e2-5908bb324a8c",
-          "name": "IoT (Internet of Things)"
-        }
-      },
-      {
-        "id": "bd7000b1-5f1e-4d6e-ab98-93c980613c45",
-        "name": "Agentic AI",
-        "category": {
-          "id": "a1289278-a734-4523-918f-ea0f05667e24",
-          "name": "Machine Learning and AI"
-        }
-      },
-      {
-        "id": "bf6b82de-4c61-4fa5-8676-25cda553feaa",
-        "name": "Systems Design",
-        "category": {
-          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
-          "name": "Software Development Lifecycle (SDLC)"
-        }
-      },
-      {
-        "id": "0436adbe-c072-4eba-b4a8-b9ea1a018aa5",
-        "name": "Google Cloud Platform (GCP)",
-        "category": {
-          "id": "cc346829-c9e4-44a9-996b-34054cf20fec",
-          "name": "Cloud Computing"
-        }
-      },
-      {
-        "id": "9557b18c-a5b7-474e-93aa-1eeb65cb63b6",
-        "name": "Data Pipeline Management",
-        "category": {
-          "id": "4064574c-befa-4fb3-a8e2-34038d7f845b",
-          "name": "Data Analysis and Big Data"
-        }
-      },
-      {
-        "id": "5e1fa006-3c62-4db5-813c-e903550a4928",
-        "name": "Test Automation",
-        "category": {
-          "id": "c5f83f60-4dcf-4305-b55e-b38fe5afec60",
-          "name": "Software Testing and Quality Assurance"
-        }
-      },
-      {
-        "id": "1467f074-075b-4c7f-a306-272c7d4a2834",
-        "name": "Observability",
-        "category": {
-          "id": "e2429c1b-7609-49e0-93cc-341a89e12269",
-          "name": "DevOps and Automation"
-        }
-      },
-      {
-        "id": "c74266f8-eaf6-402a-b7ae-a0ba11cdd52c",
-        "name": "Automated Testing Framework",
-        "category": {
-          "id": "c5f83f60-4dcf-4305-b55e-b38fe5afec60",
-          "name": "Software Testing and Quality Assurance"
-        }
-      },
-      {
-        "id": "213f992b-76d6-419c-a7c2-797b367017cc",
-        "name": "Authorization (Computing)",
-        "category": {
-          "id": "221f4e3f-1ac8-438b-9dc1-977e30656789",
-          "name": "Cybersecurity"
-        }
-      },
-      {
-        "id": "79308fb7-b1d2-45a1-a88d-9c47b9e23759",
-        "name": "Software Documentation",
-        "category": {
-          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
-          "name": "Software Development Lifecycle (SDLC)"
-        }
-      },
-      {
-        "id": "940b4b3a-931d-441d-8bbf-ff3cb6a7b647",
-        "name": "Gemini CX",
-        "category": {
-          "id": "a1289278-a734-4523-918f-ea0f05667e24",
-          "name": "Machine Learning and AI"
-        }
-      },
-      {
-        "id": "3d43fe21-3873-4a2e-85b1-75d8b7b37bfe",
-        "name": "Dialogflow CX",
-        "category": {
-          "id": "a1289278-a734-4523-918f-ea0f05667e24",
-          "name": "Machine Learning and AI"
-        }
-      },
-      {
-        "id": "114f4777-4354-4f23-809d-a1728638894f",
-        "name": "Agent Architecture",
-        "category": {
-          "id": "a1289278-a734-4523-918f-ea0f05667e24",
-          "name": "Machine Learning and AI"
-        }
-      }
-    ],
-    "attachments": [],
-    "track": {
-      "id": "9b6fc876-f4d9-4ccb-9dfd-419247628825",
-      "name": "Development",
-      "track": "DEVELOPMENT"
-    },
-    "type": {
-      "id": "927abff4-7af9-4145-8ba1-577c16e64e2e",
-      "name": "Challenge"
-    },
-    "numOfPosts": 0,
-    "legacy": {
-      "reviewType": "INTERNAL",
-      "confidentialityType": "public",
-      "directProjectId": 42734,
-      "isTask": false,
-      "useSchedulingAPI": true,
-      "pureV5Task": false,
-      "pureV5": false,
-      "selfService": false
-    },
-    "task": {
-      "isTask": false,
-      "isAssigned": false
-    },
-    "created": "2026-10-13T08:57:23.685Z",
-    "updated": "2026-10-23T09:35:05.102Z",
-    "overview": {
-      "totalPrizes": 600,
-      "type": "USD"
-    },
-    "currentPhase": {
-      "id": "fd828bcb-3aa8-4e8f-9687-e81378621195",
-      "phaseId": "797a6af7-cd3f-4436-9fca-9679f773bee9",
-      "name": "Appeals Response",
-      "description": "Appeals Response Phase",
-      "isOpen": true,
-      "predecessor": "1c24cfb3-5b0a-4dbd-b6bd-4b0dff5349c6",
-      "duration": 388800,
-      "scheduledStartDate": "2026-10-23T09:35:05.095Z",
-      "scheduledEndDate": "2026-10-27T21:35:05.095Z",
-      "actualStartDate": "2026-10-23T09:35:05.095Z",
+      "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
+      "duration": 257378,
+      "scheduledStartDate": "2026-10-27T12:00:21.319Z",
+      "scheduledEndDate": "2026-10-30T11:30:00.000Z",
+      "actualStartDate": "2026-10-27T12:00:21.319Z",
       "constraints": []
     },
     "stalled": false
