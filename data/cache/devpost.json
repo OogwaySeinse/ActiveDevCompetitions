@@ -1,47 +1,5 @@
 [
   {
-    "id": 30790,
-    "title": "Nebius x NVIDIA Global AI Hackathon",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/025/datas/medium_square.png",
-    "analytics_identifier": "Nebius x NVIDIA Global AI Hackathon (30790)",
-    "url": "https://nebiusglobalaihackathon.devpost.com/",
-    "time_left_to_submission": "about 10 hours left",
-    "submission_period_dates": "Aug 26 - Oct 30, 2026",
-    "themes": [
-      {
-        "id": 6,
-        "name": "Machine Learning/AI"
-      },
-      {
-        "id": 23,
-        "name": "Beginner Friendly"
-      },
-      {
-        "id": 27,
-        "name": "Robotic Process Automation"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>50,000</span>",
-    "prizes_counts": {
-      "cash": 1,
-      "other": 0
-    },
-    "registrations_count": 29467,
-    "featured": false,
-    "organization_name": "nebius",
-    "winners_announced": false,
-    "submission_gallery_url": "https://nebiusglobalaihackathon.devpost.com/project-gallery",
-    "start_a_submission_url": "https://nebiusglobalaihackathon.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": true
-  },
-  {
     "id": 31302,
     "title": "PayPal AI Hackathon",
     "displayed_location": {
@@ -52,7 +10,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/985/datas/medium_square.png",
     "analytics_identifier": "PayPal AI Hackathon (31302)",
     "url": "https://paypalaihackathon.devpost.com/",
-    "time_left_to_submission": "14 days left",
+    "time_left_to_submission": "13 days left",
     "submission_period_dates": "Oct 01 - Nov 12, 2026",
     "themes": [
       {
@@ -73,7 +31,7 @@
       "cash": 1,
       "other": 0
     },
-    "registrations_count": 24304,
+    "registrations_count": 25076,
     "featured": false,
     "organization_name": "PayPal",
     "winners_announced": false,
@@ -94,7 +52,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
     "analytics_identifier": "Meta VR Start Developer Competition 2026 (31024)",
     "url": "https://start-developer-competition-26.devpost.com/",
-    "time_left_to_submission": "20 days left",
+    "time_left_to_submission": "19 days left",
     "submission_period_dates": "Sep 24 - Nov 18, 2026",
     "themes": [
       {
@@ -115,7 +73,7 @@
       "cash": 19,
       "other": 0
     },
-    "registrations_count": 4538,
+    "registrations_count": 4644,
     "featured": true,
     "organization_name": "Meta",
     "winners_announced": false,
@@ -126,38 +84,46 @@
     "managed_by_devpost_badge": true
   },
   {
-    "id": 31054,
-    "title": "Qloo Agentic Hackathon",
+    "id": 31667,
+    "title": "Kiroween 2026",
     "displayed_location": {
       "icon": "globe",
       "location": "Online"
     },
     "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/782/datas/medium_square.png",
-    "analytics_identifier": "Qloo Agentic Hackathon (31054)",
-    "url": "https://qloo.devpost.com/",
-    "time_left_to_submission": "about 21 hours left",
-    "submission_period_dates": "Sep 30 - Oct 30, 2026",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/149/datas/medium_square.png",
+    "analytics_identifier": "Kiroween 2026 (31667)",
+    "url": "https://kiroween.devpost.com/",
+    "time_left_to_submission": "about 1 month left",
+    "submission_period_dates": "Oct 30 - Dec 04, 2026",
     "themes": [
+      {
+        "id": 23,
+        "name": "Beginner Friendly"
+      },
       {
         "id": 6,
         "name": "Machine Learning/AI"
+      },
+      {
+        "id": 22,
+        "name": "Open Ended"
       }
     ],
-    "prize_amount": "$<span data-currency-value>25,000</span>",
+    "prize_amount": "$<span data-currency-value>100,000</span>",
     "prizes_counts": {
-      "cash": 3,
-      "other": 0
+      "cash": 15,
+      "other": 2
     },
-    "registrations_count": 2873,
-    "featured": false,
-    "organization_name": "Qloo",
+    "registrations_count": 3322,
+    "featured": true,
+    "organization_name": "Kiro",
     "winners_announced": false,
-    "submission_gallery_url": "https://qloo.devpost.com/project-gallery",
-    "start_a_submission_url": "https://qloo.devpost.com/challenges/start_a_submission",
+    "submission_gallery_url": "https://kiroween.devpost.com/project-gallery",
+    "start_a_submission_url": "https://kiroween.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
+    "managed_by_devpost_badge": true
   },
   {
     "id": 31742,
@@ -170,7 +136,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/656/411/datas/medium_square.png",
     "analytics_identifier": "Codex x TwitchCon Hackathon (31742)",
     "url": "https://twitchcon-codex.devpost.com/",
-    "time_left_to_submission": "4 days left",
+    "time_left_to_submission": "3 days left",
     "submission_period_dates": "Oct 23 - Nov 02, 2026",
     "themes": [
       {
@@ -188,10 +154,10 @@
     ],
     "prize_amount": "$<span data-currency-value>25,000</span>",
     "prizes_counts": {
-      "cash": 4,
+      "cash": 1,
       "other": 0
     },
-    "registrations_count": 1678,
+    "registrations_count": 1814,
     "featured": true,
     "organization_name": "Twitch",
     "winners_announced": false,
@@ -212,7 +178,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/375/196/datas/medium_square.png",
     "analytics_identifier": "YouCam API Skin AI & eCommerce VTO Hackathon (31400)",
     "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
-    "time_left_to_submission": "3 days left",
+    "time_left_to_submission": "2 days left",
     "submission_period_dates": "Sep 29 - Nov 02, 2026",
     "themes": [
       {
@@ -230,10 +196,10 @@
     ],
     "prize_amount": "$<span data-currency-value>6,000</span>",
     "prizes_counts": {
-      "cash": 1,
+      "cash": 5,
       "other": 0
     },
-    "registrations_count": 1464,
+    "registrations_count": 1535,
     "featured": true,
     "organization_name": "Perfect Corp",
     "winners_announced": false,
@@ -254,7 +220,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/541/121/datas/medium_square.png",
     "analytics_identifier": "Learn AR with SPECS (31659)",
     "url": "https://learn-specs.devpost.com/",
-    "time_left_to_submission": "11 days left",
+    "time_left_to_submission": "10 days left",
     "submission_period_dates": "Oct 15 - Nov 09, 2026",
     "themes": [
       {
@@ -275,7 +241,7 @@
       "cash": 3,
       "other": 0
     },
-    "registrations_count": 961,
+    "registrations_count": 997,
     "featured": false,
     "organization_name": "Devpost",
     "winners_announced": false,
@@ -296,7 +262,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/690/datas/medium_square.png",
     "analytics_identifier": "UGREEN Hackathon 2026 on AI NAS (31552)",
     "url": "https://ugreenhackathon.devpost.com/",
-    "time_left_to_submission": "17 days left",
+    "time_left_to_submission": "16 days left",
     "submission_period_dates": "Oct 22 - Nov 16, 2026",
     "themes": [
       {
@@ -317,7 +283,7 @@
       "cash": 4,
       "other": 0
     },
-    "registrations_count": 809,
+    "registrations_count": 898,
     "featured": false,
     "organization_name": "UGREEN",
     "winners_announced": false,
@@ -359,7 +325,7 @@
       "cash": 7,
       "other": 1
     },
-    "registrations_count": 671,
+    "registrations_count": 887,
     "featured": false,
     "organization_name": "Atlassian",
     "winners_announced": false,
@@ -380,7 +346,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/677/datas/medium_square.png",
     "analytics_identifier": "DSH Hacks V2 ($100k+ in prizes!) (30500)",
     "url": "https://dsh-hacks-v2.devpost.com/",
-    "time_left_to_submission": "16 days left",
+    "time_left_to_submission": "15 days left",
     "submission_period_dates": "Jun 24 - Nov 15, 2026",
     "themes": [
       {
@@ -401,54 +367,12 @@
       "cash": 0,
       "other": 5
     },
-    "registrations_count": 822,
+    "registrations_count": 854,
     "featured": false,
     "organization_name": "STEMise",
     "winners_announced": false,
     "submission_gallery_url": "https://dsh-hacks-v2.devpost.com/project-gallery",
     "start_a_submission_url": "https://dsh-hacks-v2.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 30740,
-    "title": "Code for Humanity",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/909/585/datas/medium_square.png",
-    "analytics_identifier": "Code for Humanity (30740)",
-    "url": "https://code-for-humanity.devpost.com/",
-    "time_left_to_submission": "3 months left",
-    "submission_period_dates": "Jul 16, 2026 - Jan 15, 2027",
-    "themes": [
-      {
-        "id": 19,
-        "name": "Education"
-      },
-      {
-        "id": 6,
-        "name": "Machine Learning/AI"
-      },
-      {
-        "id": 25,
-        "name": "Web"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>0</span>",
-    "prizes_counts": {
-      "cash": 0,
-      "other": 5
-    },
-    "registrations_count": 722,
-    "featured": false,
-    "organization_name": "nill",
-    "winners_announced": false,
-    "submission_gallery_url": "https://code-for-humanity.devpost.com/project-gallery",
-    "start_a_submission_url": "https://code-for-humanity.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -485,12 +409,54 @@
       "cash": 5,
       "other": 0
     },
-    "registrations_count": 713,
+    "registrations_count": 734,
     "featured": false,
     "organization_name": "Arbiter ",
     "winners_announced": false,
     "submission_gallery_url": "https://arbiter-hacks-v1.devpost.com/project-gallery",
     "start_a_submission_url": "https://arbiter-hacks-v1.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 30740,
+    "title": "Code for Humanity",
+    "displayed_location": {
+      "icon": "globe",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/909/585/datas/medium_square.png",
+    "analytics_identifier": "Code for Humanity (30740)",
+    "url": "https://code-for-humanity.devpost.com/",
+    "time_left_to_submission": "3 months left",
+    "submission_period_dates": "Jul 16, 2026 - Jan 15, 2027",
+    "themes": [
+      {
+        "id": 19,
+        "name": "Education"
+      },
+      {
+        "id": 6,
+        "name": "Machine Learning/AI"
+      },
+      {
+        "id": 25,
+        "name": "Web"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>0</span>",
+    "prizes_counts": {
+      "cash": 0,
+      "other": 5
+    },
+    "registrations_count": 729,
+    "featured": false,
+    "organization_name": "nill",
+    "winners_announced": false,
+    "submission_gallery_url": "https://code-for-humanity.devpost.com/project-gallery",
+    "start_a_submission_url": "https://code-for-humanity.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -506,7 +472,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/562/datas/medium_square.png",
     "analytics_identifier": "MineArena 1.0 (31694)",
     "url": "https://minearena-1-0.devpost.com/",
-    "time_left_to_submission": "1 day left",
+    "time_left_to_submission": "about 12 hours left",
     "submission_period_dates": "Oct 15 - 31, 2026",
     "themes": [
       {
@@ -527,7 +493,7 @@
       "cash": 5,
       "other": 0
     },
-    "registrations_count": 566,
+    "registrations_count": 693,
     "featured": false,
     "organization_name": "Code commit",
     "winners_announced": false,
@@ -548,7 +514,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/524/008/datas/medium_square.jpg",
     "analytics_identifier": "Next Byte Hacks V5 (31627)",
     "url": "https://next-byte-hacks-v5.devpost.com/",
-    "time_left_to_submission": "1 day left",
+    "time_left_to_submission": "about 14 hours left",
     "submission_period_dates": "Oct 06 - 31, 2026",
     "themes": [
       {
@@ -569,54 +535,12 @@
       "cash": 3,
       "other": 0
     },
-    "registrations_count": 494,
+    "registrations_count": 527,
     "featured": false,
     "organization_name": "Next Byte Hacks",
     "winners_announced": false,
     "submission_gallery_url": "https://next-byte-hacks-v5.devpost.com/project-gallery",
     "start_a_submission_url": "https://next-byte-hacks-v5.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 31515,
-    "title": "CodeSprint by Elite Coders",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-    "analytics_identifier": "CodeSprint by Elite Coders (31515)",
-    "url": "https://codesprint-by-elitecoders.devpost.com/",
-    "time_left_to_submission": "about 5 hours left",
-    "submission_period_dates": "Sep 25 - Oct 30, 2026",
-    "themes": [
-      {
-        "id": 23,
-        "name": "Beginner Friendly"
-      },
-      {
-        "id": 22,
-        "name": "Open Ended"
-      },
-      {
-        "id": 25,
-        "name": "Web"
-      }
-    ],
-    "prize_amount": "₹ <span data-currency-value>30,000</span>",
-    "prizes_counts": {
-      "cash": 3,
-      "other": 2
-    },
-    "registrations_count": 388,
-    "featured": false,
-    "organization_name": "elite coders",
-    "winners_announced": false,
-    "submission_gallery_url": "https://codesprint-by-elitecoders.devpost.com/project-gallery",
-    "start_a_submission_url": "https://codesprint-by-elitecoders.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -653,7 +577,7 @@
       "cash": 0,
       "other": 6
     },
-    "registrations_count": 388,
+    "registrations_count": 394,
     "featured": false,
     "organization_name": "Student Organization",
     "winners_announced": false,
@@ -674,7 +598,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/592/065/datas/medium_square.png",
     "analytics_identifier": "LaunchPad Hacks (31773)",
     "url": "https://launchpad-hacks.devpost.com/",
-    "time_left_to_submission": "22 days left",
+    "time_left_to_submission": "21 days left",
     "submission_period_dates": "Oct 16 - Nov 20, 2026",
     "themes": [
       {
@@ -691,7 +615,7 @@
       "cash": 1,
       "other": 2
     },
-    "registrations_count": 282,
+    "registrations_count": 303,
     "featured": false,
     "organization_name": "Hack4TodayOrg",
     "winners_announced": false,
@@ -733,7 +657,7 @@
       "cash": 0,
       "other": 12
     },
-    "registrations_count": 270,
+    "registrations_count": 276,
     "featured": false,
     "organization_name": "Binnovative",
     "winners_announced": false,
@@ -754,7 +678,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/600/935/datas/medium_square.png",
     "analytics_identifier": "STEM2Connect AI Hackathon (31789)",
     "url": "https://stem2connect-online-hackathon.devpost.com/",
-    "time_left_to_submission": "23 days left",
+    "time_left_to_submission": "22 days left",
     "submission_period_dates": "Oct 17 - Nov 21, 2026",
     "themes": [
       {
@@ -775,7 +699,7 @@
       "cash": 0,
       "other": 4
     },
-    "registrations_count": 223,
+    "registrations_count": 251,
     "featured": false,
     "organization_name": "STEM2Connect",
     "winners_announced": false,
@@ -796,7 +720,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/787/datas/medium_square.png",
     "analytics_identifier": "SafeSpace Hacks (31796)",
     "url": "https://safespace-hacks.devpost.com/",
-    "time_left_to_submission": "24 days left",
+    "time_left_to_submission": "23 days left",
     "submission_period_dates": "Oct 17 - Nov 22, 2026",
     "themes": [
       {
@@ -817,7 +741,7 @@
       "cash": 1,
       "other": 3
     },
-    "registrations_count": 214,
+    "registrations_count": 233,
     "featured": false,
     "organization_name": "SafeSpace",
     "winners_announced": false,
@@ -828,43 +752,43 @@
     "managed_by_devpost_badge": false
   },
   {
-    "id": 30548,
-    "title": "HackFW: MADE Challenge",
+    "id": 31187,
+    "title": "STEMergent Hacks 2026",
     "displayed_location": {
-      "icon": "map-marker-alt",
-      "location": "Fort Worth"
+      "icon": "globe",
+      "location": "Online"
     },
     "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/018/511/datas/medium_square.png",
-    "analytics_identifier": "HackFW: MADE Challenge (30548)",
-    "url": "https://hackfw.devpost.com/",
-    "time_left_to_submission": "about 9 hours left",
-    "submission_period_dates": "Oct 01 - 30, 2026",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/593/datas/medium_square.png",
+    "analytics_identifier": "STEMergent Hacks 2026 (31187)",
+    "url": "https://stemergent-hacks.devpost.com/",
+    "time_left_to_submission": "16 days left",
+    "submission_period_dates": "Oct 31 - Nov 15, 2026",
     "themes": [
       {
-        "id": 7,
-        "name": "IoT"
+        "id": 17,
+        "name": "Low/No Code"
       },
       {
         "id": 6,
         "name": "Machine Learning/AI"
       },
       {
-        "id": 27,
-        "name": "Robotic Process Automation"
+        "id": 13,
+        "name": "Social Good"
       }
     ],
-    "prize_amount": "$<span data-currency-value>1,900</span>",
+    "prize_amount": "$<span data-currency-value>0</span>",
     "prizes_counts": {
-      "cash": 3,
-      "other": 0
+      "cash": 0,
+      "other": 4
     },
-    "registrations_count": 188,
+    "registrations_count": 193,
     "featured": false,
-    "organization_name": "Fort Worth DAO",
+    "organization_name": "STEMergent",
     "winners_announced": false,
-    "submission_gallery_url": "https://hackfw.devpost.com/project-gallery",
-    "start_a_submission_url": "https://hackfw.devpost.com/challenges/start_a_submission",
+    "submission_gallery_url": "https://stemergent-hacks.devpost.com/project-gallery",
+    "start_a_submission_url": "https://stemergent-hacks.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -880,7 +804,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/518/869/datas/medium_square.png",
     "analytics_identifier": "Pumpkin Playground (31619)",
     "url": "https://pumpkin-playground.devpost.com/",
-    "time_left_to_submission": "7 days left",
+    "time_left_to_submission": "6 days left",
     "submission_period_dates": "Oct 12 - Nov 06, 2026",
     "themes": [
       {
@@ -898,10 +822,10 @@
     ],
     "prize_amount": "$<span data-currency-value>50</span>",
     "prizes_counts": {
-      "cash": 1,
-      "other": 0
+      "cash": 2,
+      "other": 2
     },
-    "registrations_count": 185,
+    "registrations_count": 190,
     "featured": false,
     "organization_name": "ACM Long Beach",
     "winners_announced": false,
@@ -922,7 +846,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/547/datas/medium_square.png",
     "analytics_identifier": "AQX Sports Analytics Data Bowl 4.0 (31793)",
     "url": "https://aqxanalyticsfour.devpost.com/",
-    "time_left_to_submission": "2 days left",
+    "time_left_to_submission": "1 day left",
     "submission_period_dates": "Oct 18 - Nov 01, 2026",
     "themes": [
       {
@@ -943,7 +867,7 @@
       "cash": 1,
       "other": 3
     },
-    "registrations_count": 172,
+    "registrations_count": 185,
     "featured": false,
     "organization_name": "Devpost",
     "winners_announced": false,
@@ -964,7 +888,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/624/datas/medium_square.png",
     "analytics_identifier": "AccessED Hacks (31795)",
     "url": "https://accessed-hacks.devpost.com/",
-    "time_left_to_submission": "22 days left",
+    "time_left_to_submission": "21 days left",
     "submission_period_dates": "Oct 17 - Nov 20, 2026",
     "themes": [
       {
@@ -985,7 +909,7 @@
       "cash": 1,
       "other": 3
     },
-    "registrations_count": 118,
+    "registrations_count": 128,
     "featured": false,
     "organization_name": "AccessEDnpo",
     "winners_announced": false,
@@ -1006,7 +930,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/539/461/datas/medium_square.jpg",
     "analytics_identifier": "Mathematics for systems security (31666)",
     "url": "https://mathematics-systems-security.devpost.com/",
-    "time_left_to_submission": "16 days left",
+    "time_left_to_submission": "15 days left",
     "submission_period_dates": "Oct 16 - Nov 15, 2026",
     "themes": [
       {
@@ -1027,7 +951,7 @@
       "cash": 0,
       "other": 6
     },
-    "registrations_count": 117,
+    "registrations_count": 127,
     "featured": false,
     "organization_name": "Software Engineering Club (DEV)",
     "winners_announced": false,
@@ -1048,7 +972,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/553/888/datas/medium_square.png",
     "analytics_identifier": "Herhack (31664)",
     "url": "https://herhack.devpost.com/",
-    "time_left_to_submission": "12 days left",
+    "time_left_to_submission": "11 days left",
     "submission_period_dates": "Oct 17 - Nov 10, 2026",
     "themes": [
       {
@@ -1069,50 +993,12 @@
       "cash": 13,
       "other": 0
     },
-    "registrations_count": 109,
+    "registrations_count": 121,
     "featured": false,
     "organization_name": "Echelon institute of technology",
     "winners_announced": false,
     "submission_gallery_url": "https://herhack.devpost.com/project-gallery",
     "start_a_submission_url": "https://herhack.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 31797,
-    "title": "Green Shift Hacks",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
-    "analytics_identifier": "Green Shift Hacks (31797)",
-    "url": "https://green-shift-hacks.devpost.com/",
-    "time_left_to_submission": "19 days left",
-    "submission_period_dates": "Oct 18 - Nov 17, 2026",
-    "themes": [
-      {
-        "id": 23,
-        "name": "Beginner Friendly"
-      },
-      {
-        "id": 13,
-        "name": "Social Good"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>125</span>",
-    "prizes_counts": {
-      "cash": 1,
-      "other": 0
-    },
-    "registrations_count": 108,
-    "featured": false,
-    "organization_name": "HackathonForEveryone",
-    "winners_announced": false,
-    "submission_gallery_url": "https://green-shift-hacks.devpost.com/project-gallery",
-    "start_a_submission_url": "https://green-shift-hacks.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -1128,7 +1014,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/587/014/datas/medium_square.jpeg",
     "analytics_identifier": "HackWithAditya (31737)",
     "url": "https://hackwithaditya.devpost.com/",
-    "time_left_to_submission": "27 days left",
+    "time_left_to_submission": "26 days left",
     "submission_period_dates": "Oct 16 - Nov 25, 2026",
     "themes": [
       {
@@ -1149,12 +1035,134 @@
       "cash": 1,
       "other": 0
     },
-    "registrations_count": 105,
+    "registrations_count": 114,
     "featured": false,
     "organization_name": "Aditya University",
     "winners_announced": false,
     "submission_gallery_url": "https://hackwithaditya.devpost.com/project-gallery",
     "start_a_submission_url": "https://hackwithaditya.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 26475,
+    "title": "Dakar Bitcoin Hack by BTrust",
+    "displayed_location": {
+      "icon": "globe",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/640/846/datas/medium_square.jpg",
+    "analytics_identifier": "Dakar Bitcoin Hack by BTrust (26475)",
+    "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+    "time_left_to_submission": "21 days left",
+    "submission_period_dates": "Oct 26 - Nov 20, 2026",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Blockchain"
+      },
+      {
+        "id": 3,
+        "name": "Fintech"
+      },
+      {
+        "id": 6,
+        "name": "Machine Learning/AI"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>900</span>",
+    "prizes_counts": {
+      "cash": 3,
+      "other": 0
+    },
+    "registrations_count": 112,
+    "featured": false,
+    "organization_name": "Dakar Bitcoin Days",
+    "winners_announced": false,
+    "submission_gallery_url": "https://dakar-bitcoin-hack-2026.devpost.com/project-gallery",
+    "start_a_submission_url": "https://dakar-bitcoin-hack-2026.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31797,
+    "title": "Green Shift Hacks",
+    "displayed_location": {
+      "icon": "globe",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
+    "analytics_identifier": "Green Shift Hacks (31797)",
+    "url": "https://green-shift-hacks.devpost.com/",
+    "time_left_to_submission": "18 days left",
+    "submission_period_dates": "Oct 18 - Nov 17, 2026",
+    "themes": [
+      {
+        "id": 23,
+        "name": "Beginner Friendly"
+      },
+      {
+        "id": 13,
+        "name": "Social Good"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>125</span>",
+    "prizes_counts": {
+      "cash": 1,
+      "other": 0
+    },
+    "registrations_count": 111,
+    "featured": false,
+    "organization_name": "HackathonForEveryone",
+    "winners_announced": false,
+    "submission_gallery_url": "https://green-shift-hacks.devpost.com/project-gallery",
+    "start_a_submission_url": "https://green-shift-hacks.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31907,
+    "title": "Build Your First AI App",
+    "displayed_location": {
+      "icon": "globe",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
+    "analytics_identifier": "Build Your First AI App (31907)",
+    "url": "https://build-your-first-ai-app.devpost.com/",
+    "time_left_to_submission": "28 days left",
+    "submission_period_dates": "Oct 27 - Nov 27, 2026",
+    "themes": [
+      {
+        "id": 19,
+        "name": "Education"
+      },
+      {
+        "id": 6,
+        "name": "Machine Learning/AI"
+      },
+      {
+        "id": 25,
+        "name": "Web"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>0</span>",
+    "prizes_counts": {
+      "cash": 0,
+      "other": 1
+    },
+    "registrations_count": 106,
+    "featured": false,
+    "organization_name": "Yasir Insights",
+    "winners_announced": false,
+    "submission_gallery_url": "https://build-your-first-ai-app.devpost.com/project-gallery",
+    "start_a_submission_url": "https://build-your-first-ai-app.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -1191,96 +1199,12 @@
       "cash": 0,
       "other": 1
     },
-    "registrations_count": 104,
+    "registrations_count": 105,
     "featured": false,
     "organization_name": "university of pennsylvania",
     "winners_announced": false,
     "submission_gallery_url": "https://ese4500f26.devpost.com/project-gallery",
     "start_a_submission_url": "https://ese4500f26.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 26475,
-    "title": "Dakar Bitcoin Hack by BTrust",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/640/846/datas/medium_square.jpg",
-    "analytics_identifier": "Dakar Bitcoin Hack by BTrust (26475)",
-    "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
-    "time_left_to_submission": "22 days left",
-    "submission_period_dates": "Oct 26 - Nov 20, 2026",
-    "themes": [
-      {
-        "id": 1,
-        "name": "Blockchain"
-      },
-      {
-        "id": 3,
-        "name": "Fintech"
-      },
-      {
-        "id": 6,
-        "name": "Machine Learning/AI"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>900</span>",
-    "prizes_counts": {
-      "cash": 3,
-      "other": 0
-    },
-    "registrations_count": 98,
-    "featured": false,
-    "organization_name": "Dakar Bitcoin Days",
-    "winners_announced": false,
-    "submission_gallery_url": "https://dakar-bitcoin-hack-2026.devpost.com/project-gallery",
-    "start_a_submission_url": "https://dakar-bitcoin-hack-2026.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 31907,
-    "title": "Build Your First AI App",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
-    "analytics_identifier": "Build Your First AI App (31907)",
-    "url": "https://build-your-first-ai-app.devpost.com/",
-    "time_left_to_submission": "29 days left",
-    "submission_period_dates": "Oct 27 - Nov 27, 2026",
-    "themes": [
-      {
-        "id": 19,
-        "name": "Education"
-      },
-      {
-        "id": 6,
-        "name": "Machine Learning/AI"
-      },
-      {
-        "id": 25,
-        "name": "Web"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>0</span>",
-    "prizes_counts": {
-      "cash": 0,
-      "other": 1
-    },
-    "registrations_count": 85,
-    "featured": false,
-    "organization_name": "Yasir Insights",
-    "winners_announced": false,
-    "submission_gallery_url": "https://build-your-first-ai-app.devpost.com/project-gallery",
-    "start_a_submission_url": "https://build-your-first-ai-app.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -1296,7 +1220,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/579/349/datas/medium_square.png",
     "analytics_identifier": "CreateAThon (31736)",
     "url": "https://graph-hacks.devpost.com/",
-    "time_left_to_submission": "1 day left",
+    "time_left_to_submission": "about 22 hours left",
     "submission_period_dates": "Oct 14 - 31, 2026",
     "themes": [
       {
@@ -1309,7 +1233,7 @@
       "cash": 0,
       "other": 1
     },
-    "registrations_count": 82,
+    "registrations_count": 89,
     "featured": false,
     "organization_name": "Hacker's Unity",
     "winners_announced": false,
@@ -1320,43 +1244,43 @@
     "managed_by_devpost_badge": false
   },
   {
-    "id": 31748,
-    "title": "Girls Who Code HHS Hackathon 2026",
+    "id": 31942,
+    "title": "INCEPTION 2026",
     "displayed_location": {
       "icon": "globe",
       "location": "Online"
     },
     "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/864/datas/medium_square.jpg",
-    "analytics_identifier": "Girls Who Code HHS Hackathon 2026 (31748)",
-    "url": "https://gwchhs-hackathon-2026.devpost.com/",
-    "time_left_to_submission": "6 days left",
-    "submission_period_dates": "Oct 15 - Nov 05, 2026",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/761/994/datas/medium_square.png",
+    "analytics_identifier": "INCEPTION 2026 (31942)",
+    "url": "https://inception2026.devpost.com/",
+    "time_left_to_submission": "about 22 hours left",
+    "submission_period_dates": "Oct 31 - Nov 01, 2026",
     "themes": [
       {
-        "id": 23,
-        "name": "Beginner Friendly"
+        "id": 6,
+        "name": "Machine Learning/AI"
       },
       {
-        "id": 4,
-        "name": "Gaming"
+        "id": 26,
+        "name": "Mobile"
       },
       {
-        "id": 13,
-        "name": "Social Good"
+        "id": 25,
+        "name": "Web"
       }
     ],
-    "prize_amount": "$<span data-currency-value>50</span>",
+    "prize_amount": "$<span data-currency-value>0</span>",
     "prizes_counts": {
-      "cash": 1,
+      "cash": 3,
       "other": 0
     },
-    "registrations_count": 78,
+    "registrations_count": 87,
     "featured": false,
-    "organization_name": "Girls Who Code HHS",
+    "organization_name": "HIMATIFA UPN \"Veteran\" Jawa Timur",
     "winners_announced": false,
-    "submission_gallery_url": "https://gwchhs-hackathon-2026.devpost.com/project-gallery",
-    "start_a_submission_url": "https://gwchhs-hackathon-2026.devpost.com/challenges/start_a_submission",
+    "submission_gallery_url": "https://inception2026.devpost.com/project-gallery",
+    "start_a_submission_url": "https://inception2026.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -1372,7 +1296,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/415/datas/medium_square.png",
     "analytics_identifier": "RenderJuice Blender Animation & Programmatic Rendering Contest (31411)",
     "url": "https://programmatic-rendering-contest.devpost.com/",
-    "time_left_to_submission": "2 days left",
+    "time_left_to_submission": "about 24 hours left",
     "submission_period_dates": "Oct 14 - 31, 2026",
     "themes": [
       {
@@ -1393,7 +1317,7 @@
       "cash": 9,
       "other": 0
     },
-    "registrations_count": 76,
+    "registrations_count": 85,
     "featured": false,
     "organization_name": "RenderJuice",
     "winners_announced": false,
@@ -1404,35 +1328,43 @@
     "managed_by_devpost_badge": false
   },
   {
-    "id": 31555,
-    "title": "FUSE Society Blueprint 2026",
+    "id": 31748,
+    "title": "Girls Who Code HHS Hackathon 2026",
     "displayed_location": {
       "icon": "globe",
       "location": "Online"
     },
     "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/615/159/datas/medium_square.png",
-    "analytics_identifier": "FUSE Society Blueprint 2026 (31555)",
-    "url": "https://fuse-society-blueprint-2026.devpost.com/",
-    "time_left_to_submission": "about 22 hours left",
-    "submission_period_dates": "Oct 24 - 31, 2026",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/864/datas/medium_square.jpg",
+    "analytics_identifier": "Girls Who Code HHS Hackathon 2026 (31748)",
+    "url": "https://gwchhs-hackathon-2026.devpost.com/",
+    "time_left_to_submission": "5 days left",
+    "submission_period_dates": "Oct 15 - Nov 05, 2026",
     "themes": [
       {
         "id": 23,
         "name": "Beginner Friendly"
+      },
+      {
+        "id": 4,
+        "name": "Gaming"
+      },
+      {
+        "id": 13,
+        "name": "Social Good"
       }
     ],
-    "prize_amount": "$<span data-currency-value>250</span>",
+    "prize_amount": "$<span data-currency-value>50</span>",
     "prizes_counts": {
       "cash": 1,
       "other": 0
     },
-    "registrations_count": 63,
+    "registrations_count": 85,
     "featured": false,
-    "organization_name": "Fuse Society",
+    "organization_name": "Girls Who Code HHS",
     "winners_announced": false,
-    "submission_gallery_url": "https://fuse-society-blueprint-2026.devpost.com/project-gallery",
-    "start_a_submission_url": "https://fuse-society-blueprint-2026.devpost.com/challenges/start_a_submission",
+    "submission_gallery_url": "https://gwchhs-hackathon-2026.devpost.com/project-gallery",
+    "start_a_submission_url": "https://gwchhs-hackathon-2026.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
     "managed_by_devpost_badge": false
@@ -1469,7 +1401,7 @@
       "cash": 3,
       "other": 1
     },
-    "registrations_count": 63,
+    "registrations_count": 72,
     "featured": false,
     "organization_name": "The Webb Schools CSC",
     "winners_announced": false,
@@ -1490,7 +1422,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/093/datas/medium_square.png",
     "analytics_identifier": "305 EmpowHER Edition October 2026 — 305Hackathons.vercel.app (31731)",
     "url": "https://305empowheroct2026.devpost.com/",
-    "time_left_to_submission": "2 days left",
+    "time_left_to_submission": "about 21 hours left",
     "submission_period_dates": "Oct 14 - 31, 2026",
     "themes": [
       {
@@ -1511,7 +1443,7 @@
       "cash": 0,
       "other": 4
     },
-    "registrations_count": 46,
+    "registrations_count": 52,
     "featured": false,
     "organization_name": "CODE CRUNCH",
     "winners_announced": false,
@@ -1532,7 +1464,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/708/795/datas/medium_square.png",
     "analytics_identifier": "DATANOVA 2026 GLOBAL DATA-THON (31883)",
     "url": "https://datanova-2026-global-data-thon.devpost.com/",
-    "time_left_to_submission": "12 days left",
+    "time_left_to_submission": "11 days left",
     "submission_period_dates": "Oct 26 - Nov 10, 2026",
     "themes": [
       {
@@ -1553,7 +1485,7 @@
       "cash": 3,
       "other": 0
     },
-    "registrations_count": 38,
+    "registrations_count": 46,
     "featured": false,
     "organization_name": "DataNova",
     "winners_announced": false,
@@ -1574,7 +1506,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/266/825/datas/medium_square.png",
     "analytics_identifier": "Buksi SITE (STEM Innovation & Talent Expo) 2026 - ONLY FOR BUKIT SION STUDENTS (31257)",
     "url": "https://buksi-site-2026.devpost.com/",
-    "time_left_to_submission": "1 day left",
+    "time_left_to_submission": "about 3 hours left",
     "submission_period_dates": "Oct 24 - 31, 2026",
     "themes": [
       {
@@ -1595,7 +1527,7 @@
       "cash": 0,
       "other": 14
     },
-    "registrations_count": 37,
+    "registrations_count": 40,
     "featured": false,
     "organization_name": "Bukit Sion School",
     "winners_announced": false,
@@ -1603,48 +1535,6 @@
     "start_a_submission_url": "https://buksi-site-2026.devpost.com/challenges/start_a_submission",
     "invite_only": true,
     "eligibility_requirement_invite_only_description": "Bukit Sion School Students",
-    "managed_by_devpost_badge": false
-  },
-  {
-    "id": 31551,
-    "title": "Learn to Hack: MATLAB Edition 2026",
-    "displayed_location": {
-      "icon": "globe",
-      "location": "Online"
-    },
-    "open_state": "open",
-    "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-    "analytics_identifier": "Learn to Hack: MATLAB Edition 2026 (31551)",
-    "url": "https://ntu-matlab-2026.devpost.com/",
-    "time_left_to_submission": "20 minutes left",
-    "submission_period_dates": "Oct 30, 2026",
-    "themes": [
-      {
-        "id": 23,
-        "name": "Beginner Friendly"
-      },
-      {
-        "id": 19,
-        "name": "Education"
-      },
-      {
-        "id": 6,
-        "name": "Machine Learning/AI"
-      }
-    ],
-    "prize_amount": "$<span data-currency-value>0</span>",
-    "prizes_counts": {
-      "cash": 0,
-      "other": 2
-    },
-    "registrations_count": 33,
-    "featured": false,
-    "organization_name": "CCEB ANATA",
-    "winners_announced": false,
-    "submission_gallery_url": "https://ntu-matlab-2026.devpost.com/project-gallery",
-    "start_a_submission_url": "https://ntu-matlab-2026.devpost.com/challenges/start_a_submission",
-    "invite_only": true,
-    "eligibility_requirement_invite_only_description": "Nanyang Technological University students only",
     "managed_by_devpost_badge": false
   },
   {
@@ -1658,7 +1548,7 @@
     "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
     "analytics_identifier": "Hackathon Agéntico SoftwareChido 2026B (31626)",
     "url": "https://hackathon-agentico-2026b.devpost.com/",
-    "time_left_to_submission": "27 days left",
+    "time_left_to_submission": "25 days left",
     "submission_period_dates": "Oct 05 - Nov 25, 2026",
     "themes": [
       {
@@ -1686,40 +1576,6 @@
     "managed_by_devpost_badge": false
   },
   {
-    "id": 31866,
-    "title": "Health Hackathon 3.0",
-    "displayed_location": {
-      "icon": "map-marker-alt",
-      "location": "VIT Bhopal University"
-    },
-    "open_state": "open",
-    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/670/918/datas/medium_square.png",
-    "analytics_identifier": "Health Hackathon 3.0 (31866)",
-    "url": "https://health-hackathon-3-0.devpost.com/",
-    "time_left_to_submission": "about 21 hours left",
-    "submission_period_dates": "Oct 24 - 31, 2026",
-    "themes": [
-      {
-        "id": 16,
-        "name": "Health"
-      }
-    ],
-    "prize_amount": "₹ <span data-currency-value>200,000</span>",
-    "prizes_counts": {
-      "cash": 1,
-      "other": 0
-    },
-    "registrations_count": 30,
-    "featured": false,
-    "organization_name": "VIT Bhopal University",
-    "winners_announced": false,
-    "submission_gallery_url": "https://health-hackathon-3-0.devpost.com/project-gallery",
-    "start_a_submission_url": "https://health-hackathon-3-0.devpost.com/challenges/start_a_submission",
-    "invite_only": false,
-    "eligibility_requirement_invite_only_description": null,
-    "managed_by_devpost_badge": false
-  },
-  {
     "id": 28603,
     "title": "MCA 2026 projects",
     "displayed_location": {
@@ -1743,7 +1599,7 @@
       "cash": 0,
       "other": 1
     },
-    "registrations_count": 30,
+    "registrations_count": 31,
     "featured": false,
     "organization_name": "Mizzou Computing Association",
     "winners_announced": false,
@@ -1764,7 +1620,7 @@
     "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
     "analytics_identifier": "AI Build India (31735)",
     "url": "https://sphinx-26.devpost.com/",
-    "time_left_to_submission": "1 day left",
+    "time_left_to_submission": "about 5 hours left",
     "submission_period_dates": "Oct 14 - 31, 2026",
     "themes": [
       {
@@ -1781,7 +1637,7 @@
       "cash": 0,
       "other": 1
     },
-    "registrations_count": 26,
+    "registrations_count": 29,
     "featured": false,
     "organization_name": "Hacker's Unity",
     "winners_announced": false,
@@ -1802,7 +1658,7 @@
     "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/414/751/datas/medium_square.png",
     "analytics_identifier": "Code For DFW (31504)",
     "url": "https://code-for-dfw.devpost.com/",
-    "time_left_to_submission": "27 days left",
+    "time_left_to_submission": "26 days left",
     "submission_period_dates": "Oct 20 - Nov 25, 2026",
     "themes": [
       {
@@ -1823,7 +1679,7 @@
       "cash": 0,
       "other": 1
     },
-    "registrations_count": 18,
+    "registrations_count": 19,
     "featured": false,
     "organization_name": "n/a",
     "winners_announced": false,
@@ -1831,6 +1687,150 @@
     "start_a_submission_url": "https://code-for-dfw.devpost.com/challenges/start_a_submission",
     "invite_only": false,
     "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31616,
+    "title": "Zoftware Hackathon",
+    "displayed_location": {
+      "icon": "map-marker-alt",
+      "location": "Spring House Workspaces SHGU001"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/666/203/datas/medium_square.png",
+    "analytics_identifier": "Zoftware Hackathon (31616)",
+    "url": "https://zoftware-agenthack.devpost.com/",
+    "time_left_to_submission": "about 11 hours left",
+    "submission_period_dates": "Oct 31, 2026",
+    "themes": [
+      {
+        "id": 21,
+        "name": "Enterprise"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>500</span>",
+    "prizes_counts": {
+      "cash": 1,
+      "other": 1
+    },
+    "registrations_count": 9,
+    "featured": false,
+    "organization_name": "zoftwarehub",
+    "winners_announced": false,
+    "submission_gallery_url": "https://zoftware-agenthack.devpost.com/project-gallery",
+    "start_a_submission_url": "https://zoftware-agenthack.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31760,
+    "title": "Mergetober",
+    "displayed_location": {
+      "icon": "map-marker-alt",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "analytics_identifier": "Mergetober (31760)",
+    "url": "https://mergetober.devpost.com/",
+    "time_left_to_submission": "about 24 hours left",
+    "submission_period_dates": "Oct 31 - Nov 01, 2026",
+    "themes": [
+      {
+        "id": 22,
+        "name": "Open Ended"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>0</span>",
+    "prizes_counts": {
+      "cash": 0,
+      "other": 1
+    },
+    "registrations_count": 6,
+    "featured": false,
+    "organization_name": "Hacker's Unity",
+    "winners_announced": false,
+    "submission_gallery_url": "https://mergetober.devpost.com/project-gallery",
+    "start_a_submission_url": "https://mergetober.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31946,
+    "title": "Remote Control AI",
+    "displayed_location": {
+      "icon": "globe",
+      "location": "Online"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/757/452/datas/medium_square.png",
+    "analytics_identifier": "Remote Control AI (31946)",
+    "url": "https://remote-control-ai.devpost.com/",
+    "time_left_to_submission": "6 days left",
+    "submission_period_dates": "Oct 31 - Nov 05, 2026",
+    "themes": [
+      {
+        "id": 23,
+        "name": "Beginner Friendly"
+      }
+    ],
+    "prize_amount": "$<span data-currency-value>0</span>",
+    "prizes_counts": {
+      "cash": 0,
+      "other": 1
+    },
+    "registrations_count": 5,
+    "featured": false,
+    "organization_name": "avacado",
+    "winners_announced": false,
+    "submission_gallery_url": "https://remote-control-ai.devpost.com/project-gallery",
+    "start_a_submission_url": "https://remote-control-ai.devpost.com/challenges/start_a_submission",
+    "invite_only": false,
+    "eligibility_requirement_invite_only_description": null,
+    "managed_by_devpost_badge": false
+  },
+  {
+    "id": 31881,
+    "title": "Hack With Karthik",
+    "displayed_location": {
+      "icon": "map-marker-alt",
+      "location": "Al-Amen"
+    },
+    "open_state": "open",
+    "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/706/163/datas/medium_square.png",
+    "analytics_identifier": "Hack With Karthik (31881)",
+    "url": "https://hack-with-karthik.devpost.com/",
+    "time_left_to_submission": "1 day left",
+    "submission_period_dates": "Oct 30 - Nov 01, 2026",
+    "themes": [
+      {
+        "id": 18,
+        "name": "Design"
+      },
+      {
+        "id": 19,
+        "name": "Education"
+      },
+      {
+        "id": 15,
+        "name": "Music/Art"
+      }
+    ],
+    "prize_amount": "₹ <span data-currency-value>0</span>",
+    "prizes_counts": {
+      "cash": 1,
+      "other": 0
+    },
+    "registrations_count": 4,
+    "featured": false,
+    "organization_name": "None",
+    "winners_announced": false,
+    "submission_gallery_url": "https://hack-with-karthik.devpost.com/project-gallery",
+    "start_a_submission_url": "https://hack-with-karthik.devpost.com/challenges/start_a_submission",
+    "invite_only": true,
+    "eligibility_requirement_invite_only_description": "Al-Amen students only",
     "managed_by_devpost_badge": false
   }
 ]
