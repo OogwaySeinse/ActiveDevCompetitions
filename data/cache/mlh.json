@@ -1,14 +1,5 @@
 [
   {
-    "title": "hackCBS 9.O",
-    "url": "https://hackcbs.tech/",
-    "date_str": "OCT 31 - NOV 01",
-    "season_year": "2027",
-    "location": "New delhi, New delhi, IN",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "SharkByte",
     "url": "https://shark-byte.io/",
     "date_str": "NOV 06 - 08",
@@ -585,6 +576,15 @@
     "badges": ""
   },
   {
+    "title": "hackCBS 9.O",
+    "url": "https://hackcbs.tech/",
+    "date_str": "OCT 31 - NOV 01",
+    "season_year": "2027",
+    "location": "New delhi, New delhi, IN",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
     "title": "Hack at Penn State",
     "url": "https://hackpsu.org/",
     "date_str": "OCT 24 - 25",
@@ -788,15 +788,6 @@
     "date_str": "OCT 09 - 11",
     "season_year": "2027",
     "location": "Flushing, New York, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackBIOS",
-    "url": "https://hackbios.xyz/",
-    "date_str": "OCT 09 - 10",
-    "season_year": "2027",
-    "location": "Bhilai, Chhattisgarh, IN",
     "mode": "In-Person",
     "badges": ""
   },
