@@ -39,7 +39,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "155f6c1d1f8649",
@@ -81,7 +81,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "5d0173acc6285c",
@@ -120,14 +120,56 @@
     "difficulty": "Advanced",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 59,
+    "submissions_count": 58,
     "repo_url": "https://github.com/UnsafeLabs/Bounty-Hunters",
     "logo_url": "https://avatars.githubusercontent.com/u/185875308?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
+  },
+  {
+    "id": "be9ef8a633717c",
+    "title": "[tine1117/oss-hunter-livefire] parse_duration drops the days (d) unit",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/tine1117/oss-hunter-livefire/issues/1",
+    "prize": "$50",
+    "prize_usd": 50.0,
+    "prize_currency": "USD",
+    "prize_raw": "50.0",
+    "start_date": "2026-06-01T14:37:16Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "Python"
+    ],
+    "tags": [
+      "$50",
+      "bounty",
+      "github",
+      "open-source",
+      "tine1117",
+      "💎 bounty"
+    ],
+    "description": "Bug parse duration silently drops the days ( d ) unit. The README lists d as a supported unit, but the parser ignores it and returns a wrong (too-small) result instead of raising or counting it. Reproduction python from duration utils import parse duration parse duration(\"1d\") - 0 (expected 86400) parse duration(\"2d4h\") - 14400 (expected 187200) Expected d shoul",
+    "organizer": "tine1117",
+    "difficulty": "Beginner",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 75,
+    "repo_url": "https://github.com/tine1117/oss-hunter-livefire",
+    "logo_url": "https://avatars.githubusercontent.com/u/119507611?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "671185ee36d7de",
@@ -173,49 +215,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
-  },
-  {
-    "id": "be9ef8a633717c",
-    "title": "[tine1117/oss-hunter-livefire] parse_duration drops the days (d) unit",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/tine1117/oss-hunter-livefire/issues/1",
-    "prize": "$50",
-    "prize_usd": 50.0,
-    "prize_currency": "USD",
-    "prize_raw": "50.0",
-    "start_date": "2026-06-01T14:37:16Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "Python"
-    ],
-    "tags": [
-      "$50",
-      "bounty",
-      "github",
-      "open-source",
-      "tine1117",
-      "💎 bounty"
-    ],
-    "description": "Bug parse duration silently drops the days ( d ) unit. The README lists d as a supported unit, but the parser ignores it and returns a wrong (too-small) result instead of raising or counting it. Reproduction python from duration utils import parse duration parse duration(\"1d\") - 0 (expected 86400) parse duration(\"2d4h\") - 14400 (expected 187200) Expected d shoul",
-    "organizer": "tine1117",
-    "difficulty": "Beginner",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 74,
-    "repo_url": "https://github.com/tine1117/oss-hunter-livefire",
-    "logo_url": "https://avatars.githubusercontent.com/u/119507611?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "9963a68cb1b90b",
@@ -260,7 +260,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "30dda5a4f5b6d4",
@@ -306,7 +306,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "0fb6ad788c3ccd",
@@ -352,7 +352,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "079f4207601d58",
@@ -397,7 +397,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "4b462b930fa891",
@@ -441,7 +441,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "1f8a86f56bf54a",
@@ -483,7 +483,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "19486e7e820e65",
@@ -526,7 +526,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "e446fa17874078",
@@ -573,7 +573,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "4752613299ac7f",
@@ -620,7 +620,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "00725e051081f4",
@@ -667,7 +667,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "1968149412fd45",
@@ -714,7 +714,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "edfd3ea2c7ecba",
@@ -761,7 +761,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   },
   {
     "id": "d3725457192ff1",
@@ -806,53 +806,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
-  },
-  {
-    "id": "ec98a5f81189c1",
-    "title": "[ClankerNation/OpenAgents] [ Bounty $5k ] [ Solidity ] Fix unchecked return value on ERC20 transfer in TaskRouter completeTask — v2 upgrade",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/ClankerNation/OpenAgents/issues/181",
-    "prize": "$5.6K",
-    "prize_usd": 5600.0,
-    "prize_currency": "USD",
-    "prize_raw": "5600.0",
-    "start_date": "2026-05-16T09:00:43Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "autonomus agents only",
-      "bounty",
-      "clankernation",
-      "github",
-      "good first issue",
-      "help wanted",
-      "high-value",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "The completeTask function in contracts/TaskRouter.sol calls token.transfer(agent, payout) without checking the return value. Non-reverting ERC20s (like USDT) return false on failure, so the payout silently fails while the task is marked complete. Fix - Use SafeERC20's safeTransfer from OpenZeppelin - Apply to all token transfers in the contract: completeTask , cancelTask , and withdrawFees - Insert",
-    "organizer": "ClankerNation",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 13,
-    "repo_url": "https://github.com/ClankerNation/OpenAgents",
-    "logo_url": "https://avatars.githubusercontent.com/in/3731600?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-03T06:57:23Z"
+    "scraped_at": "2026-11-04T07:00:19Z"
   }
 ]

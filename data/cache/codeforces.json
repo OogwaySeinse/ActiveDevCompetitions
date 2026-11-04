@@ -8,7 +8,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1796740500,
-      "relativeTimeSeconds": -3051515
+      "relativeTimeSeconds": -2964931
     },
     {
       "id": 2286,
@@ -18,7 +18,27 @@
       "frozen": false,
       "durationSeconds": 604800,
       "startTimeSeconds": 1796135400,
-      "relativeTimeSeconds": -2446415
+      "relativeTimeSeconds": -2359831
+    },
+    {
+      "id": 2287,
+      "name": "Codeforces Round (Div. 1)",
+      "type": "CF",
+      "phase": "BEFORE",
+      "frozen": false,
+      "durationSeconds": 7200,
+      "startTimeSeconds": 1795271700,
+      "relativeTimeSeconds": -1496131
+    },
+    {
+      "id": 2288,
+      "name": "Codeforces Round (Div. 2)",
+      "type": "CF",
+      "phase": "BEFORE",
+      "frozen": false,
+      "durationSeconds": 7200,
+      "startTimeSeconds": 1795271700,
+      "relativeTimeSeconds": -1496131
     },
     {
       "id": 2285,
@@ -28,7 +48,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1794753300,
-      "relativeTimeSeconds": -1064315
+      "relativeTimeSeconds": -977731
     },
     {
       "id": 2279,
@@ -38,7 +58,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1794062100,
-      "relativeTimeSeconds": -373115
+      "relativeTimeSeconds": -286531
     },
     {
       "id": 2280,
@@ -48,7 +68,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1794062100,
-      "relativeTimeSeconds": -373115
+      "relativeTimeSeconds": -286531
     },
     {
       "id": 2284,
@@ -58,7 +78,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1793975700,
-      "relativeTimeSeconds": -286715
+      "relativeTimeSeconds": -200131
     },
     {
       "id": 2283,
@@ -68,7 +88,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1793802900,
-      "relativeTimeSeconds": -113916
+      "relativeTimeSeconds": -27331
     },
     {
       "id": 2278,
@@ -78,7 +98,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1793457300,
-      "relativeTimeSeconds": 231685
+      "relativeTimeSeconds": 318268
     },
     {
       "id": 2272,
@@ -88,7 +108,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1793025300,
-      "relativeTimeSeconds": 663685
+      "relativeTimeSeconds": 750269
     },
     {
       "id": 2277,
@@ -98,7 +118,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1792839900,
-      "relativeTimeSeconds": 849085
+      "relativeTimeSeconds": 935669
     },
     {
       "id": 2261,
@@ -108,7 +128,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1792247700,
-      "relativeTimeSeconds": 1441285
+      "relativeTimeSeconds": 1527869
     },
     {
       "id": 2276,
@@ -118,7 +138,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791988500,
-      "relativeTimeSeconds": 1700485
+      "relativeTimeSeconds": 1787069
     },
     {
       "id": 2273,
@@ -128,7 +148,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791743700,
-      "relativeTimeSeconds": 1945285
+      "relativeTimeSeconds": 2031869
     },
     {
       "id": 2274,
@@ -138,7 +158,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1791743700,
-      "relativeTimeSeconds": 1945285
+      "relativeTimeSeconds": 2031869
     },
     {
       "id": 2271,
@@ -148,7 +168,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1791644700,
-      "relativeTimeSeconds": 2044285
+      "relativeTimeSeconds": 2130869
     },
     {
       "id": 2275,
@@ -158,7 +178,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1791384300,
-      "relativeTimeSeconds": 2304685
+      "relativeTimeSeconds": 2391268
     },
     {
       "id": 2268,
@@ -168,7 +188,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790433300,
-      "relativeTimeSeconds": 3255685
+      "relativeTimeSeconds": 3342269
     },
     {
       "id": 2269,
@@ -178,7 +198,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790433300,
-      "relativeTimeSeconds": 3255685
+      "relativeTimeSeconds": 3342269
     },
     {
       "id": 2267,
@@ -188,7 +208,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1790346900,
-      "relativeTimeSeconds": 3342085
+      "relativeTimeSeconds": 3428669
     },
     {
       "id": 2266,
@@ -198,7 +218,7 @@
       "frozen": false,
       "durationSeconds": 9000,
       "startTimeSeconds": 1790001300,
-      "relativeTimeSeconds": 3687685
+      "relativeTimeSeconds": 3774269
     },
     {
       "id": 2264,
@@ -208,7 +228,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1789319100,
-      "relativeTimeSeconds": 4369885
+      "relativeTimeSeconds": 4456469
     },
     {
       "id": 2262,
@@ -218,7 +238,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1789223700,
-      "relativeTimeSeconds": 4465285
+      "relativeTimeSeconds": 4551869
     },
     {
       "id": 2263,
@@ -228,7 +248,7 @@
       "frozen": false,
       "durationSeconds": 10800,
       "startTimeSeconds": 1789223700,
-      "relativeTimeSeconds": 4465285
+      "relativeTimeSeconds": 4551869
     },
     {
       "id": 2260,
@@ -238,7 +258,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1788878100,
-      "relativeTimeSeconds": 4810885
+      "relativeTimeSeconds": 4897469
     },
     {
       "id": 2259,
@@ -248,7 +268,7 @@
       "frozen": false,
       "durationSeconds": 8100,
       "startTimeSeconds": 1788619500,
-      "relativeTimeSeconds": 5069485
+      "relativeTimeSeconds": 5156069
     },
     {
       "id": 2258,
@@ -258,7 +278,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1788014100,
-      "relativeTimeSeconds": 5674885
+      "relativeTimeSeconds": 5761469
     },
     {
       "id": 2257,
@@ -268,7 +288,7 @@
       "frozen": false,
       "durationSeconds": 7200,
       "startTimeSeconds": 1786977300,
-      "relativeTimeSeconds": 6711685
+      "relativeTimeSeconds": 6798269
     },
     {
       "id": 2251,
@@ -278,27 +298,7 @@
       "frozen": false,
       "durationSeconds": 1209600,
       "startTimeSeconds": 1786705200,
-      "relativeTimeSeconds": 6983785
-    },
-    {
-      "id": 2255,
-      "name": "Codeforces Round 1116 (Div. 1)",
-      "type": "CF",
-      "phase": "FINISHED",
-      "frozen": false,
-      "durationSeconds": 9000,
-      "startTimeSeconds": 1786286100,
-      "relativeTimeSeconds": 7402885
-    },
-    {
-      "id": 2256,
-      "name": "Codeforces Round 1116 (Div. 2)",
-      "type": "CF",
-      "phase": "FINISHED",
-      "frozen": false,
-      "durationSeconds": 9000,
-      "startTimeSeconds": 1786286100,
-      "relativeTimeSeconds": 7402884
+      "relativeTimeSeconds": 7070369
     }
   ],
   "leetcode": [

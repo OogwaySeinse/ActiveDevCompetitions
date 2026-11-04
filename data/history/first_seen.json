@@ -8,7 +8,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "UGAHacks"
   },
@@ -21,7 +21,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "sunhacks"
   },
@@ -34,7 +34,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-17T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "uOttaHack 9"
   },
@@ -73,7 +73,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-30T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app"
   },
@@ -86,7 +86,7 @@
     "initial_prize_usd": 225.0,
     "last_end_date": "2026-11-20T23:59:00Z",
     "last_prize_usd": 225.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "AccessED Hacks"
   },
@@ -99,7 +99,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Advent of Code",
     "title": "Advent of Code — Annual Systems & Algorithmic Puzzles"
   },
@@ -112,7 +112,7 @@
     "initial_prize_usd": 480.0,
     "last_end_date": "2026-11-10T23:59:00Z",
     "last_prize_usd": 480.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Agentic Hackathon"
   },
@@ -128,6 +128,19 @@
     "last_seen_at": "2026-10-28",
     "platform": "Devfolio",
     "title": "AgentVerse"
+  },
+  "https://ai-agents-founders-hetic-26.devpost.com/": {
+    "bootstrap": false,
+    "challenge_type": "hackathon",
+    "first_seen_at": "2026-11-04",
+    "id": "2645ba0f71a219",
+    "initial_end_date": "2026-12-18T23:59:00Z",
+    "initial_prize_usd": 1120.83,
+    "last_end_date": "2026-12-18T23:59:00Z",
+    "last_prize_usd": 1120.83,
+    "last_seen_at": "2026-11-04",
+    "platform": "Devpost",
+    "title": "AI Agents for Founders Challenge — HETIC 2026"
   },
   "https://ai.lahacks.com/": {
     "bootstrap": true,
@@ -177,7 +190,7 @@
     "initial_prize_usd": 7800.0,
     "last_end_date": "2026-12-21T23:59:00Z",
     "last_prize_usd": 7800.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Arbiter Hacks V1"
   },
@@ -216,7 +229,7 @@
     "initial_prize_usd": 64000.0,
     "last_end_date": "2026-12-11T23:59:00Z",
     "last_prize_usd": 64000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "AWS MSP AI Hackathon"
   },
@@ -255,7 +268,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "BioHacks"
   },
@@ -281,7 +294,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-22T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "BostonHacks"
   },
@@ -294,7 +307,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Aurory Managed Bug Bounty Engagement (Public)"
   },
@@ -307,7 +320,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "BitGo Mobile Apps Bug Bounty Engagement"
   },
@@ -320,7 +333,7 @@
     "initial_prize_usd": 15000.0,
     "last_end_date": null,
     "last_prize_usd": 15000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Bitpanda Ongoing Bug Bounty"
   },
@@ -333,7 +346,7 @@
     "initial_prize_usd": 15000.0,
     "last_end_date": null,
     "last_prize_usd": 15000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Bitso Managed Bug Bounty Engagement"
   },
@@ -346,7 +359,7 @@
     "initial_prize_usd": 10000.0,
     "last_end_date": null,
     "last_prize_usd": 10000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Blockchain.com Managed Bug Bounty Engagement"
   },
@@ -359,7 +372,7 @@
     "initial_prize_usd": 6500.0,
     "last_end_date": null,
     "last_prize_usd": 6500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Bolt Technology OÜ"
   },
@@ -372,7 +385,7 @@
     "initial_prize_usd": 20000.0,
     "last_end_date": null,
     "last_prize_usd": 20000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Chime Managed Bug Bounty Engagement"
   },
@@ -385,7 +398,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Chipotle Managed Bug Bounty Engagement"
   },
@@ -398,7 +411,7 @@
     "initial_prize_usd": 3500.0,
     "last_end_date": null,
     "last_prize_usd": 3500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "City of Vienna Managed Bug Bounty"
   },
@@ -411,7 +424,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "CodeAI"
   },
@@ -424,7 +437,7 @@
     "initial_prize_usd": 15000.0,
     "last_end_date": null,
     "last_prize_usd": 15000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "eToro Managed Bug Bounty Engagement"
   },
@@ -437,7 +450,7 @@
     "initial_prize_usd": 12000.0,
     "last_end_date": null,
     "last_prize_usd": 12000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Fireblocks Web Managed Bug Bounty Engagement"
   },
@@ -450,7 +463,7 @@
     "initial_prize_usd": 6000.0,
     "last_end_date": null,
     "last_prize_usd": 6000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Gearset: Managed Bug Bounty"
   },
@@ -463,7 +476,7 @@
     "initial_prize_usd": 2500.0,
     "last_end_date": null,
     "last_prize_usd": 2500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "HostGator LATAM Bug Bounty"
   },
@@ -476,7 +489,7 @@
     "initial_prize_usd": 3750.0,
     "last_end_date": null,
     "last_prize_usd": 3750.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "iFood: Bug Bounty Program"
   },
@@ -489,7 +502,7 @@
     "initial_prize_usd": 10000.0,
     "last_end_date": null,
     "last_prize_usd": 10000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Immutable Bug Bounty"
   },
@@ -502,7 +515,7 @@
     "initial_prize_usd": 2000.0,
     "last_end_date": null,
     "last_prize_usd": 2000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Internet Brands Public"
   },
@@ -515,7 +528,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Just Eat Takeaway.com"
   },
@@ -528,7 +541,7 @@
     "initial_prize_usd": 3500.0,
     "last_end_date": null,
     "last_prize_usd": 3500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Klaviyo Managed Bug Bounty"
   },
@@ -541,7 +554,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "LaunchDarkly Managed Bug Bounty Engagement"
   },
@@ -554,7 +567,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Lightspeed Hospitality"
   },
@@ -567,7 +580,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Lightspeed Retail"
   },
@@ -593,7 +606,7 @@
     "initial_prize_usd": 3000.0,
     "last_end_date": null,
     "last_prize_usd": 3000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Magic Labs Managed Bug Bounty Engagement"
   },
@@ -606,7 +619,7 @@
     "initial_prize_usd": 7000.0,
     "last_end_date": null,
     "last_prize_usd": 7000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "MATLAB Online - Ongoing Bug Bounty Engagement"
   },
@@ -619,7 +632,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "MGM China Holdings Limited Managed Bug Bounty Program"
   },
@@ -632,7 +645,7 @@
     "initial_prize_usd": 7000.0,
     "last_end_date": null,
     "last_prize_usd": 7000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Moovit Managed Bug Bounty Program"
   },
@@ -645,7 +658,7 @@
     "initial_prize_usd": 5000.0,
     "last_end_date": null,
     "last_prize_usd": 5000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Motorola Mobility Hardware Engagement"
   },
@@ -658,7 +671,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "MyFitnessPal Managed Bug Bounty"
   },
@@ -671,7 +684,7 @@
     "initial_prize_usd": 4000.0,
     "last_end_date": null,
     "last_prize_usd": 4000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Nubank Brasil Managed Bug Bounty Program"
   },
@@ -684,7 +697,7 @@
     "initial_prize_usd": 6000.0,
     "last_end_date": null,
     "last_prize_usd": 6000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Octopus Deploy"
   },
@@ -697,7 +710,7 @@
     "initial_prize_usd": 75000.0,
     "last_end_date": null,
     "last_prize_usd": 75000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Okta"
   },
@@ -710,7 +723,7 @@
     "initial_prize_usd": 6500.0,
     "last_end_date": null,
     "last_prize_usd": 6500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "OneTrust"
   },
@@ -723,7 +736,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Safety Bug Bounty"
   },
@@ -736,7 +749,7 @@
     "initial_prize_usd": 5000.0,
     "last_end_date": null,
     "last_prize_usd": 5000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Optus Managed Bug Bounty"
   },
@@ -762,7 +775,7 @@
     "initial_prize_usd": 7500.0,
     "last_end_date": null,
     "last_prize_usd": 7500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Rapyd"
   },
@@ -775,7 +788,7 @@
     "initial_prize_usd": 2000.0,
     "last_end_date": null,
     "last_prize_usd": 2000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "SnapNames Bug Bounty"
   },
@@ -788,7 +801,7 @@
     "initial_prize_usd": 5000.0,
     "last_end_date": null,
     "last_prize_usd": 5000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "The Trade Desk"
   },
@@ -801,7 +814,7 @@
     "initial_prize_usd": 5000.0,
     "last_end_date": null,
     "last_prize_usd": 5000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Tripadvisor"
   },
@@ -814,7 +827,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Ultra Mobile Public ECOMM 2025 Bug Bounty Engagement"
   },
@@ -827,7 +840,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Ultra Mobile Mobile Apps Bug Bounty Engagement"
   },
@@ -840,7 +853,7 @@
     "initial_prize_usd": 2500.0,
     "last_end_date": null,
     "last_prize_usd": 2500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Under Armour Product Security"
   },
@@ -853,7 +866,7 @@
     "initial_prize_usd": 2500.0,
     "last_end_date": null,
     "last_prize_usd": 2500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Under Armour Corporate"
   },
@@ -866,7 +879,7 @@
     "initial_prize_usd": 10000.0,
     "last_end_date": null,
     "last_prize_usd": 10000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Verisign Bug Bounty"
   },
@@ -879,7 +892,7 @@
     "initial_prize_usd": 4500.0,
     "last_end_date": null,
     "last_prize_usd": 4500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Viator"
   },
@@ -892,7 +905,7 @@
     "initial_prize_usd": 8000.0,
     "last_end_date": null,
     "last_prize_usd": 8000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Vinted Bug Bounty"
   },
@@ -905,7 +918,7 @@
     "initial_prize_usd": 3000.0,
     "last_end_date": null,
     "last_prize_usd": 3000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Web.com Bug Bounty"
   },
@@ -918,7 +931,7 @@
     "initial_prize_usd": 3000.0,
     "last_end_date": null,
     "last_prize_usd": 3000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "YNAB"
   },
@@ -931,7 +944,7 @@
     "initial_prize_usd": 50000.0,
     "last_end_date": null,
     "last_prize_usd": 50000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Bugcrowd",
     "title": "Zendesk Managed Bug Bounty Engagement"
   },
@@ -957,7 +970,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-27T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Build Your First AI App"
   },
@@ -996,7 +1009,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-25T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Code For DFW"
   },
@@ -1009,7 +1022,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Code for Humanity"
   },
@@ -1022,7 +1035,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "CodeCrafters",
     "title": "CodeCrafters — Build Your Own Redis, Git, Docker & SQLite"
   },
@@ -1111,9 +1124,9 @@
     "id": "a730afd95b9440",
     "initial_end_date": "2026-11-27T17:05:00Z",
     "initial_prize_usd": 0.0,
-    "last_end_date": "2026-11-27T17:05:00Z",
+    "last_end_date": "2026-12-08T17:05:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-04",
     "platform": "Codeforces",
     "title": "Kotlin Heroes: Episode 15"
   },
@@ -1126,7 +1139,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-04T16:35:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Codeforces",
     "title": "Educational Codeforces Round 196 (Rated for Div. 2)"
   },
@@ -1139,7 +1152,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T16:35:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Codeforces",
     "title": "Codeforces Round (Div. 2)"
   },
@@ -1152,9 +1165,22 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-08T14:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Codeforces",
     "title": "Kotlin Heroes: Practice 15"
+  },
+  "https://codeforces.com/contests/2287": {
+    "bootstrap": false,
+    "challenge_type": "coding_contest",
+    "first_seen_at": "2026-11-04",
+    "id": "915eba1b685d8e",
+    "initial_end_date": "2026-11-21T16:35:00Z",
+    "initial_prize_usd": 0.0,
+    "last_end_date": "2026-11-21T16:35:00Z",
+    "last_prize_usd": 0.0,
+    "last_seen_at": "2026-11-04",
+    "platform": "Codeforces",
+    "title": "Codeforces Round (Div. 1)"
   },
   "https://codegeist2026.devpost.com/": {
     "bootstrap": false,
@@ -1165,7 +1191,7 @@
     "initial_prize_usd": 120000.0,
     "last_end_date": "2026-12-22T23:59:00Z",
     "last_prize_usd": 120000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Codegeist 2026: Build with context. Ship with confidence."
   },
@@ -1178,7 +1204,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-14T11:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "CODERAVE 2.0"
   },
@@ -1230,7 +1256,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "CommuniHacks"
   },
@@ -1256,7 +1282,7 @@
     "initial_prize_usd": 100.0,
     "last_end_date": "2026-11-30T23:59:00Z",
     "last_prize_usd": 100.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "CSC Winter Sparkathon"
   },
@@ -1282,7 +1308,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-21T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "CUhackit"
   },
@@ -1295,7 +1321,7 @@
     "initial_prize_usd": 900.0,
     "last_end_date": "2026-11-20T23:59:00Z",
     "last_prize_usd": 900.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Dakar Bitcoin Hack by BTrust"
   },
@@ -1308,7 +1334,7 @@
     "initial_prize_usd": 1750.0,
     "last_end_date": "2026-11-10T23:59:00Z",
     "last_prize_usd": 1750.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "DATANOVA 2026 GLOBAL DATA-THON"
   },
@@ -1321,7 +1347,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-10T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "DeltaHacks"
   },
@@ -1334,7 +1360,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-28T18:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "DevNexus 2.0"
   },
@@ -1360,7 +1386,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-04-05T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Diamondhacks"
   },
@@ -1373,7 +1399,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-03-07T09:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "Diversion 2k27"
   },
@@ -1399,7 +1425,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "DSH Hacks V2 ($100k+ in prizes!)"
   },
@@ -1438,7 +1464,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "DurHack"
   },
@@ -1451,7 +1477,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-31T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "ElleHacks"
   },
@@ -1464,7 +1490,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Emory Hacks"
   },
@@ -1490,7 +1516,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "2026-2027 Fall ESE Senior Design"
   },
@@ -1516,7 +1542,7 @@
     "initial_prize_usd": 8993.65,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 8993.65,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "EthnoHack"
   },
@@ -1542,9 +1568,22 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HACK.COMS"
+  },
+  "https://events.mlh.com/events/15200-solana-hackathon": {
+    "bootstrap": false,
+    "challenge_type": "hackathon",
+    "first_seen_at": "2026-11-04",
+    "id": "010951a440a9bd",
+    "initial_end_date": "2026-11-08T23:59:00Z",
+    "initial_prize_usd": 0.0,
+    "last_end_date": "2026-11-08T23:59:00Z",
+    "last_prize_usd": 0.0,
+    "last_seen_at": "2026-11-04",
+    "platform": "MLH",
+    "title": "Solana Hackathon"
   },
   "https://events.mlh.com/events/15611-fph-example": {
     "bootstrap": false,
@@ -1568,7 +1607,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Exercism",
     "title": "Exercism — 70+ Language Engineering Tracks"
   },
@@ -1581,7 +1620,7 @@
     "initial_prize_usd": 5000.0,
     "last_end_date": null,
     "last_prize_usd": 5000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "MLH Fellowship (Software Engineering & Open Source)"
   },
@@ -1594,7 +1633,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Fly.io",
     "title": "Fly.io Distributed Systems Challenges (Gossip Glomers)"
   },
@@ -1659,7 +1698,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-21T12:15:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "GeNarrative Clash"
   },
@@ -1685,7 +1724,7 @@
     "initial_prize_usd": 742.19,
     "last_end_date": "2026-12-26T23:59:00Z",
     "last_prize_usd": 742.19,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "GenHacks"
   },
@@ -1724,7 +1763,7 @@
     "initial_prize_usd": 150.0,
     "last_end_date": null,
     "last_prize_usd": 150.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[BAWES-Universe/workadventure-universe] 📱 Epic: BAWES Universe Mobile App (Android + iOS)"
   },
@@ -1802,7 +1841,7 @@
     "initial_prize_usd": 4900.0,
     "last_end_date": null,
     "last_prize_usd": 4900.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[ClankerNation/OpenAgents] [ Bounty $4k ] [ Solidity ] Fix missing zero-amount check in PaymentEscrow createEscrow — testnet finding"
   },
@@ -1828,7 +1867,7 @@
     "initial_prize_usd": 9000.0,
     "last_end_date": null,
     "last_prize_usd": 9000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[ClankerNation/OpenAgents] [ Bounty $9k ] [ Solidity ] Add gas sponsorship relay for agent transactions — security critical"
   },
@@ -1867,7 +1906,7 @@
     "initial_prize_usd": 8600.0,
     "last_end_date": null,
     "last_prize_usd": 8600.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[ClankerNation/OpenAgents] [ Bounty $8k ] [ API ] Add structured error responses with error codes — security critical"
   },
@@ -1880,7 +1919,7 @@
     "initial_prize_usd": 7400.0,
     "last_end_date": null,
     "last_prize_usd": 7400.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[ClankerNation/OpenAgents] [ Bounty $7k ] [ API ] Add health check endpoint with component status"
   },
@@ -1932,7 +1971,7 @@
     "initial_prize_usd": 9400.0,
     "last_end_date": null,
     "last_prize_usd": 9400.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[ClankerNation/OpenAgents] [ Bounty $9k ] [ Solidity ] Fix zero-fee flash loans and add pool drainage protection — high priority"
   },
@@ -2114,7 +2153,7 @@
     "initial_prize_usd": 700.0,
     "last_end_date": null,
     "last_prize_usd": 700.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[SecureBananaLabs/bug-bounty] Low Handing Fruit Automation"
   },
@@ -2127,7 +2166,7 @@
     "initial_prize_usd": 430.0,
     "last_end_date": null,
     "last_prize_usd": 430.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[SecureBananaLabs/bug-bounty] Technical Poem Generation and Content Creation"
   },
@@ -2140,7 +2179,7 @@
     "initial_prize_usd": 780.0,
     "last_end_date": null,
     "last_prize_usd": 780.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[SecureBananaLabs/bug-bounty] Pixel Art Creation with high Creative Thinking"
   },
@@ -2231,7 +2270,7 @@
     "initial_prize_usd": 800.0,
     "last_end_date": null,
     "last_prize_usd": 800.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[UnsafeLabs/Bounty-Hunters] [ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback"
   },
@@ -2244,7 +2283,7 @@
     "initial_prize_usd": 250.0,
     "last_end_date": null,
     "last_prize_usd": 250.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[UnsafeLabs/Bounty-Hunters] [ Crypto ] Fix zero-fee flash loans and add pool drainage protection"
   },
@@ -2257,7 +2296,7 @@
     "initial_prize_usd": 900.0,
     "last_end_date": null,
     "last_prize_usd": 900.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[UnsafeLabs/Bounty-Hunters] [ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification"
   },
@@ -2270,7 +2309,7 @@
     "initial_prize_usd": 2500.0,
     "last_end_date": null,
     "last_prize_usd": 2500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Algora / GitHub",
     "title": "[algora-io/algora] [UI Bug] Unauthorized 'Edit' and 'Delete' buttons visible on /bounties page"
   },
@@ -2283,7 +2322,7 @@
     "initial_prize_usd": 50.0,
     "last_end_date": null,
     "last_prize_usd": 50.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[arakoodev/EdgeChains] BOUNTY: integrate AWS Comprehend as a utility to redact data"
   },
@@ -2296,7 +2335,7 @@
     "initial_prize_usd": 500.0,
     "last_end_date": null,
     "last_prize_usd": 500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Algora / GitHub",
     "title": "[bountysource/core] Alternatives to Bountysource"
   },
@@ -2309,7 +2348,7 @@
     "initial_prize_usd": 100.0,
     "last_end_date": null,
     "last_prize_usd": 100.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[javelin-anticheat/py-workedtask] [Feature] Add Integrity Verification (Hash of Executable/Script)"
   },
@@ -2413,7 +2452,7 @@
     "initial_prize_usd": 50.0,
     "last_end_date": null,
     "last_prize_usd": 50.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "GitHub Bounties",
     "title": "[tine1117/oss-hunter-livefire] parse_duration drops the days (d) unit"
   },
@@ -2478,7 +2517,7 @@
     "initial_prize_usd": 125.0,
     "last_end_date": "2026-11-17T23:59:00Z",
     "last_prize_usd": 125.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Green Shift Hacks"
   },
@@ -2491,7 +2530,7 @@
     "initial_prize_usd": 50.0,
     "last_end_date": "2026-11-05T23:59:00Z",
     "last_prize_usd": 50.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Girls Who Code HHS Hackathon 2026"
   },
@@ -2504,7 +2543,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-31T11:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "Hack Nexus 2027"
   },
@@ -2543,7 +2582,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-24T00:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "HACK WITH GDG S4"
   },
@@ -2556,7 +2595,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-24T06:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "HACK 6.0"
   },
@@ -2582,7 +2621,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack@Brown 2027"
   },
@@ -2595,7 +2634,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "SanD Hacks"
   },
@@ -2634,7 +2673,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-17T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackBI X"
   },
@@ -2647,7 +2686,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackCamp"
   },
@@ -2673,7 +2712,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-29T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackEPS"
   },
@@ -2699,7 +2738,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T18:29:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "HackerEarth",
     "title": "MKS AI & Data Hackathon"
   },
@@ -2738,7 +2777,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-18T18:29:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "HackerEarth",
     "title": "IBM Z Day"
   },
@@ -2803,7 +2842,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-28T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackIllinois"
   },
@@ -2816,7 +2855,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Junction"
   },
@@ -2829,7 +2868,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-06T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack Cats"
   },
@@ -2842,7 +2881,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-04-11T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackKU27"
   },
@@ -2855,7 +2894,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-28T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hacklytics 2027"
   },
@@ -2881,7 +2920,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack_NCState"
   },
@@ -2907,7 +2946,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-13T06:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "hackodisha-6.0"
   },
@@ -2920,7 +2959,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackPrinceton Fall 2026"
   },
@@ -2946,7 +2985,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackRPI 2026"
   },
@@ -2959,7 +2998,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-29T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackSheffield11"
   },
@@ -2972,7 +3011,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-30T14:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "Hacksprint 3.0"
   },
@@ -2985,7 +3024,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackTheBurgh"
   },
@@ -2998,7 +3037,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack the Change"
   },
@@ -3011,7 +3050,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack The Nest"
   },
@@ -3037,7 +3076,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackTrent"
   },
@@ -3067,6 +3106,19 @@
     "platform": "Devpost",
     "title": "HackTX 2026"
   },
+  "https://hackudc.com/": {
+    "bootstrap": false,
+    "challenge_type": "hackathon",
+    "first_seen_at": "2026-11-04",
+    "id": "ad86b837b90fd9",
+    "initial_end_date": "2027-02-28T23:59:00Z",
+    "initial_prize_usd": 0.0,
+    "last_end_date": "2027-02-28T23:59:00Z",
+    "last_prize_usd": 0.0,
+    "last_seen_at": "2026-11-04",
+    "platform": "MLH",
+    "title": "HackUDC"
+  },
   "https://hackumass.com/": {
     "bootstrap": true,
     "challenge_type": "hackathon",
@@ -3076,7 +3128,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackUMass"
   },
@@ -3089,7 +3141,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackUTA"
   },
@@ -3102,7 +3154,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-24T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hackville 2027"
   },
@@ -3115,7 +3167,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-22T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hack Western 13"
   },
@@ -3128,7 +3180,7 @@
     "initial_prize_usd": 5257.0,
     "last_end_date": "2026-11-25T23:59:00Z",
     "last_prize_usd": 5257.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "HackWithAditya"
   },
@@ -3141,7 +3193,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-13T05:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "haxfinity"
   },
@@ -3180,7 +3232,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-03-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HenHacks"
   },
@@ -3193,7 +3245,7 @@
     "initial_prize_usd": 2102.8,
     "last_end_date": "2026-11-10T23:59:00Z",
     "last_prize_usd": 2102.8,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Herhack"
   },
@@ -3232,7 +3284,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-24T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Hoya Hacks"
   },
@@ -3258,7 +3310,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "GullHacks"
   },
@@ -3388,7 +3440,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-30T04:30:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "Innerve 11.0"
   },
@@ -3414,7 +3466,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-02T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "InnovArt 2027: Art and Technology Hack Day"
   },
@@ -3427,7 +3479,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "InnovateHer"
   },
@@ -3466,7 +3518,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-03-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Kent Hack Enough"
   },
@@ -3479,7 +3531,7 @@
     "initial_prize_usd": 100000.0,
     "last_end_date": "2026-12-04T23:59:00Z",
     "last_prize_usd": 100000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Kiroween 2026"
   },
@@ -3492,7 +3544,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-04-18T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "LA Hacks 27"
   },
@@ -3518,7 +3570,7 @@
     "initial_prize_usd": 300.0,
     "last_end_date": "2026-11-20T23:59:00Z",
     "last_prize_usd": 300.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "LaunchPad Hacks"
   },
@@ -3531,7 +3583,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-22T17:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "Lean In Hacks 8.0"
   },
@@ -3557,7 +3609,7 @@
     "initial_prize_usd": 2500.0,
     "last_end_date": "2026-11-09T23:59:00Z",
     "last_prize_usd": 2500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Learn AR with SPECS"
   },
@@ -3583,7 +3635,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-07T16:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "LeetCode",
     "title": "LeetCode Biweekly Contest 195"
   },
@@ -3596,7 +3648,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-21T16:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "LeetCode",
     "title": "LeetCode Biweekly Contest 196"
   },
@@ -3648,7 +3700,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T04:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "LeetCode",
     "title": "LeetCode Weekly Contest 527"
   },
@@ -3661,7 +3713,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T04:00:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "LeetCode",
     "title": "LeetCode Weekly Contest 528"
   },
@@ -3687,7 +3739,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "MakeUC"
   },
@@ -3700,7 +3752,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-14T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "MakeUofT"
   },
@@ -3713,7 +3765,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-04-10T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "MariHacks"
   },
@@ -3726,7 +3778,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Mathematics for systems security"
   },
@@ -3739,7 +3791,7 @@
     "initial_prize_usd": 6600.0,
     "last_end_date": null,
     "last_prize_usd": 6600.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Linux Foundation",
     "title": "LFX Mentorship (Linux Foundation & CNCF)"
   },
@@ -3769,6 +3821,19 @@
     "platform": "Devpost",
     "title": "MineArena 1.0"
   },
+  "https://mini-vikinghacks.devpost.com/": {
+    "bootstrap": false,
+    "challenge_type": "hackathon",
+    "first_seen_at": "2026-11-04",
+    "id": "4d171a48a9f911",
+    "initial_end_date": "2026-11-05T23:59:00Z",
+    "initial_prize_usd": 0.0,
+    "last_end_date": "2026-11-05T23:59:00Z",
+    "last_prize_usd": 0.0,
+    "last_seen_at": "2026-11-04",
+    "platform": "Devpost",
+    "title": "Mini VikingHacks"
+  },
   "https://ml-build-challenge-4.devpost.com/": {
     "bootstrap": false,
     "challenge_type": "hackathon",
@@ -3778,7 +3843,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-12-02T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "ML Empowerment Build Challenge 4.0"
   },
@@ -3817,7 +3882,7 @@
     "initial_prize_usd": 210.28,
     "last_end_date": "2026-11-04T23:59:00Z",
     "last_prize_usd": 210.28,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Neural Storm"
   },
@@ -3830,7 +3895,7 @@
     "initial_prize_usd": 100.0,
     "last_end_date": "2026-11-07T23:59:00Z",
     "last_prize_usd": 100.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Next Byte Hacks V5"
   },
@@ -3869,7 +3934,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-17T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "nwHacks"
   },
@@ -3895,7 +3960,7 @@
     "initial_prize_usd": 7000.0,
     "last_end_date": null,
     "last_prize_usd": 7000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Outreachy",
     "title": "Outreachy Open-Source Internships"
   },
@@ -3921,7 +3986,7 @@
     "initial_prize_usd": 67500.0,
     "last_end_date": "2026-11-12T23:59:00Z",
     "last_prize_usd": 67500.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "PayPal AI Hackathon"
   },
@@ -3947,7 +4012,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": null,
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Protohackers",
     "title": "Protohackers — Network & Socket Programming Arena"
   },
@@ -3960,7 +4025,7 @@
     "initial_prize_usd": 30.0,
     "last_end_date": "2026-11-06T23:59:00Z",
     "last_prize_usd": 50.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Pumpkin Playground"
   },
@@ -3986,7 +4051,7 @@
     "initial_prize_usd": 50000.0,
     "last_end_date": "2026-12-15T23:59:00Z",
     "last_prize_usd": 50000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "QNX Global Hackathon"
   },
@@ -3999,7 +4064,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-17T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "QWER Hacks"
   },
@@ -4025,7 +4090,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-05T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Remote Control AI"
   },
@@ -4038,7 +4103,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-28T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "RevolutionUC"
   },
@@ -4051,7 +4116,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-28T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackHERS"
   },
@@ -4064,7 +4129,7 @@
     "initial_prize_usd": 280.0,
     "last_end_date": "2026-11-22T23:59:00Z",
     "last_prize_usd": 280.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "SafeSpace Hacks"
   },
@@ -4090,7 +4155,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-21T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "SF Hacks"
   },
@@ -4103,7 +4168,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "SharkByte"
   },
@@ -4116,7 +4181,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Sheridan Datathon 2026"
   },
@@ -4129,7 +4194,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Since AI Hackathon"
   },
@@ -4142,7 +4207,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "NASA's Space Apps Challenge NYC"
   },
@@ -4155,7 +4220,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-07T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "SpartaHack"
   },
@@ -4194,7 +4259,7 @@
     "initial_prize_usd": 1000000.0,
     "last_end_date": "2026-11-18T23:59:00Z",
     "last_prize_usd": 1000000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Meta VR Start Developer Competition 2026"
   },
@@ -4207,7 +4272,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-21T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "STEM2Connect AI Hackathon"
   },
@@ -4220,7 +4285,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "STEMergent Hacks 2026"
   },
@@ -4233,7 +4298,7 @@
     "initial_prize_usd": 6600.0,
     "last_end_date": null,
     "last_prize_usd": 6600.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Google Open Source",
     "title": "Google Summer of Code (GSoC)"
   },
@@ -4298,7 +4363,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-14T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Syntax Summit"
   },
@@ -4311,7 +4376,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "TAMU Datathon"
   },
@@ -4350,7 +4415,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-22T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "Tech For Community 2026"
   },
@@ -4376,7 +4441,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-20T19:15:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devfolio",
     "title": "THE BIG HACK 2.0"
   },
@@ -4454,7 +4519,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "UB Hacking"
   },
@@ -4467,7 +4532,7 @@
     "initial_prize_usd": 46000.0,
     "last_end_date": "2026-11-16T23:59:00Z",
     "last_prize_usd": 46000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "UGREEN Hackathon 2026 on AI NAS"
   },
@@ -4493,7 +4558,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-15T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "UniHack"
   },
@@ -4519,7 +4584,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-01-17T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "UofTHacks"
   },
@@ -4532,7 +4597,7 @@
     "initial_prize_usd": 1000.0,
     "last_end_date": "2026-11-07T23:59:00Z",
     "last_prize_usd": 1000.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "2026 UXC NYU Fall Design-a-thon"
   },
@@ -4545,7 +4610,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "MakeCU"
   },
@@ -4571,7 +4636,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-04-11T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "WEHack"
   },
@@ -4584,7 +4649,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-22T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "WHACK (Wellesley Hackathon)"
   },
@@ -4597,7 +4662,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2027-02-28T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "WiCHacks"
   },
@@ -4610,7 +4675,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "YCP Hacks"
   },
@@ -4636,7 +4701,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-05T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "Devpost",
     "title": "Ostad Presents YUNet AIgnite Buildathon 2026"
   },
@@ -4649,7 +4714,7 @@
     "initial_prize_usd": 0.0,
     "last_end_date": "2026-11-08T23:59:00Z",
     "last_prize_usd": 0.0,
-    "last_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-04",
     "platform": "MLH",
     "title": "HackUTD"
   },
