@@ -387,15 +387,6 @@
     "badges": "HIGH SCHOOL"
   },
   {
-    "title": "Hackville 2027",
-    "url": "https://hackville.io/",
-    "date_str": "JAN 22 - 24",
-    "season_year": "2027",
-    "location": "Missisauga, Ontario, CA",
-    "mode": "In-Person",
-    "badges": "DIVERSITY"
-  },
-  {
     "title": "Hoya Hacks",
     "url": "https://hoyahacks.com/",
     "date_str": "JAN 22 - 24",
@@ -403,6 +394,15 @@
     "location": "Washington, DC, US",
     "mode": "In-Person",
     "badges": ""
+  },
+  {
+    "title": "Hackville 2027",
+    "url": "https://hackville.io/",
+    "date_str": "JAN 23 - 24",
+    "season_year": "2027",
+    "location": "Missisauga, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "DIVERSITY"
   },
   {
     "title": "ElleHacks",
@@ -432,15 +432,6 @@
     "badges": ""
   },
   {
-    "title": "Hack_NCState",
-    "url": "https://hackncstate.org/",
-    "date_str": "FEB 06 - 07",
-    "season_year": "2027",
-    "location": "Raleigh, North Carolina, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "InnovateHer",
     "url": "https://innovateherhacks.org/",
     "date_str": "FEB 06 - 07",
@@ -457,6 +448,15 @@
     "location": "East Lansing, Michigan, US",
     "mode": "In-Person",
     "badges": ""
+  },
+  {
+    "title": "Hack_NCState",
+    "url": "https://hackncstate.org/",
+    "date_str": "FEB 06 - 07",
+    "season_year": "2027",
+    "location": "Raleigh, North Carolina, US",
+    "mode": "In-Person",
+    "badges": "HARDWARE"
   },
   {
     "title": "MakeUofT",
