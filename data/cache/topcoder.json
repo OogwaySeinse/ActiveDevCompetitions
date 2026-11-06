@@ -12,7 +12,7 @@
     "numOfSubmissions": 56,
     "numOfCheckpointSubmissions": 0,
     "currentPhaseNames": [
-      "Review"
+      "Approval"
     ],
     "wiproAllowed": false,
     "funChallenge": false,
@@ -103,12 +103,13 @@
         "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "name": "Review",
         "description": "Review Phase",
-        "isOpen": true,
+        "isOpen": false,
         "predecessor": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
         "duration": 432000,
         "scheduledStartDate": "2026-10-26T16:45:57.834Z",
         "scheduledEndDate": "2026-10-31T16:45:57.834Z",
         "actualStartDate": "2026-10-26T16:45:57.834Z",
+        "actualEndDate": "2026-11-05T09:09:37.928Z",
         "constraints": []
       },
       {
@@ -116,11 +117,12 @@
         "phaseId": "ad985cff-ad3e-44de-b54e-3992505ba0ae",
         "name": "Approval",
         "description": "Approval Phase",
-        "isOpen": false,
+        "isOpen": true,
         "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
         "duration": 172800,
-        "scheduledStartDate": "2026-10-31T16:45:57.834Z",
-        "scheduledEndDate": "2026-11-02T16:45:57.834Z",
+        "scheduledStartDate": "2026-11-05T09:09:49.663Z",
+        "scheduledEndDate": "2026-11-07T09:09:49.663Z",
+        "actualStartDate": "2026-11-05T09:09:49.663Z",
         "constraints": []
       }
     ],
@@ -244,22 +246,22 @@
       "isAssigned": false
     },
     "created": "2026-10-23T13:26:00.212Z",
-    "updated": "2026-10-26T16:45:57.842Z",
+    "updated": "2026-11-05T09:09:49.670Z",
     "overview": {
       "totalPrizes": 1050,
       "type": "USD"
     },
     "currentPhase": {
-      "id": "1bd5b812-fb70-4277-80ba-adfb5b755af6",
-      "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
-      "name": "Review",
-      "description": "Review Phase",
+      "id": "f0a50a22-b5b9-48aa-8c9b-748124f50483",
+      "phaseId": "ad985cff-ad3e-44de-b54e-3992505ba0ae",
+      "name": "Approval",
+      "description": "Approval Phase",
       "isOpen": true,
-      "predecessor": "2d7d3d85-0b29-4989-b3b4-be7f2b1d0aa6",
-      "duration": 432000,
-      "scheduledStartDate": "2026-10-26T16:45:57.834Z",
-      "scheduledEndDate": "2026-10-31T16:45:57.834Z",
-      "actualStartDate": "2026-10-26T16:45:57.834Z",
+      "predecessor": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+      "duration": 172800,
+      "scheduledStartDate": "2026-11-05T09:09:49.663Z",
+      "scheduledEndDate": "2026-11-07T09:09:49.663Z",
+      "actualStartDate": "2026-11-05T09:09:49.663Z",
       "constraints": []
     },
     "stalled": false
