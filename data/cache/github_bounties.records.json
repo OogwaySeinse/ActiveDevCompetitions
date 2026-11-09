@@ -1,5 +1,175 @@
 [
   {
+    "id": "2c6dd8233352af",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4277",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-08T16:47:45Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "AI Agents & LLM Apps",
+    "ecosystem": "AI / LLM Stack",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1 漏洞描述 / Description 💎 Escrowed $450 USDC 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirr",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-09T15:43:16Z"
+  },
+  {
+    "id": "4822b9c4dbac9e",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4276",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-08T16:47:45Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2 漏洞描述 / Description 💎 Escrowed $600 USDC 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mi",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Expert",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-09T15:43:16Z"
+  },
+  {
+    "id": "1aeacfea9cf900",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4275",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-08T16:47:44Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "AI Agents & LLM Apps",
+    "ecosystem": "AI / LLM Stack",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/mlir-tensor-tiling-pass/issues/1 漏洞描述 / Description 💎 Escrowed $450 USDC 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirro",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-09T15:43:16Z"
+  },
+  {
+    "id": "79aad78ded9107",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4274",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-08T16:47:44Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/mlir-tensor-tiling-pass/issues/2 漏洞描述 / Description 💎 Escrowed $600 USDC 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mir",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-09T15:43:16Z"
+  },
+  {
     "id": "3a04a45faf56f6",
     "title": "[IES-BoilerRoom/mlir-tensor-tiling-pass] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
     "platform": "Algora / GitHub",
@@ -41,7 +211,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:42Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "ea4c7d98e8f1a1",
@@ -84,7 +254,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:42Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "f5066dbfa73cd5",
@@ -127,7 +297,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:42Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "868190fbf7a993",
@@ -170,7 +340,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "fbcab4373bf3d2",
@@ -212,7 +382,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "c99f2cece2ffd6",
@@ -254,7 +424,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "99a48819a59605",
@@ -298,7 +468,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "36aa7610ed0051",
@@ -341,7 +511,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "f0867e47c9f39c",
@@ -384,7 +554,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "e6304838243fd4",
@@ -427,7 +597,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "830d89fa8d143c",
@@ -471,7 +641,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "5cf9156bfc4660",
@@ -514,7 +684,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "19674f7545bede",
@@ -556,7 +726,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "5e7009baad9cae",
@@ -597,7 +767,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "0fab1b9d964d36",
@@ -639,7 +809,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "13028aef40e83e",
@@ -680,7 +850,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "ef60d695184cd9",
@@ -722,7 +892,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "0c19f71f07ba6f",
@@ -763,7 +933,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "c0003e372932cd",
@@ -807,7 +977,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "c3e9122d68ad5d",
@@ -850,7 +1020,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "22ce6ce659b829",
@@ -893,7 +1063,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "e9f9bc52dcf4a3",
@@ -935,7 +1105,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "9ad78e61df7fcc",
@@ -977,7 +1147,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "a0f646658a6186",
@@ -1020,7 +1190,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "f5287bbccbcb09",
@@ -1062,7 +1232,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "9c020a64645229",
@@ -1105,7 +1275,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "407694850ff9d3",
@@ -1147,7 +1317,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "48475397478a6c",
@@ -1190,101 +1360,19 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
-    "id": "69492257f0a3bc",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-    "platform": "Algora / GitHub",
+    "id": "0fb6ad788c3ccd",
+    "title": "[SecureBananaLabs/bug-bounty] Low Handing Fruit Automation",
+    "platform": "GitHub Bounties",
     "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4218",
-    "prize": "$600",
-    "prize_usd": 600.0,
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+    "prize": "$700",
+    "prize_usd": 700.0,
     "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-06T03:42:43Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
-    ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2 漏洞描述 / Description 💎 Escrowed $600 USDC 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on t",
-    "organizer": "zhangjiayang6835-cyber",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
-  },
-  {
-    "id": "c27740c5cdf7a5",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4217",
-    "prize": "$450",
-    "prize_usd": 450.0,
-    "prize_currency": "USD",
-    "prize_raw": "450.0",
-    "start_date": "2026-11-06T03:42:43Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "AI Agents & LLM Apps",
-    "ecosystem": "AI / LLM Stack",
-    "languages": [
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
-    ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1 漏洞描述 / Description 💎 Escrowed $450 USDC 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on thi",
-    "organizer": "zhangjiayang6835-cyber",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
-  },
-  {
-    "id": "84f5593c8739a4",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4216",
-    "prize": "$450",
-    "prize_usd": 450.0,
-    "prize_currency": "USD",
-    "prize_raw": "450.0",
-    "start_date": "2026-11-06T03:42:42Z",
+    "prize_raw": "700.0",
+    "start_date": "2026-05-27T06:32:39Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
@@ -1297,67 +1385,116 @@
     ],
     "tags": [
       "bounty",
+      "bug",
+      "bug bounty",
+      "documentation",
       "github",
+      "good first issue",
+      "help wanted",
       "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
+      "securebananalabs"
     ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1 漏洞描述 / Description 💎 Escrowed $450 USDC 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror",
-    "organizer": "zhangjiayang6835-cyber",
+    "description": "Automate Low Hanging fruit bug detection and issue creation recursively. This issue is an issue focused on creating more issues: 1. Find a feature/bug to work on from this repository 2. Create a GitHub issue on the repository to start working on it -- Pull requests without issues will not be considered. 3. Use the following string in the issue that you created: \"This issue is limited only to the creator of this issu",
+    "organizer": "SecureBananaLabs",
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "submissions_count": 1455,
+    "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "logo_url": "https://avatars.githubusercontent.com/u/72201398?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
-    "id": "2e8fc324e2ee4f",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-    "platform": "Algora / GitHub",
+    "id": "1f8a86f56bf54a",
+    "title": "[arakoodev/EdgeChains] BOUNTY: integrate AWS Comprehend as a utility to redact data",
+    "platform": "GitHub Bounties",
     "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4215",
-    "prize": "$600",
-    "prize_usd": 600.0,
+    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+    "prize": "$50",
+    "prize_usd": 50.0,
     "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-06T03:42:42Z",
+    "prize_raw": "50.0",
+    "start_date": "2023-12-03T09:33:28Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
     "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
+    "category": "Cloud, DevOps & Infra",
+    "ecosystem": "Cloud & Kubernetes",
     "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
+      "TypeScript"
     ],
     "tags": [
+      "$50",
+      "arakoodev",
       "bounty",
       "github",
       "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
+      "💎 bounty"
     ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2 漏洞描述 / Description 💎 Escrowed $600 USDC 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirr",
-    "organizer": "zhangjiayang6835-cyber",
-    "difficulty": "Intermediate",
+    "description": "this bounty is for the javascript sdk only - https://github.com/arakoodev/EdgeChains/tree/ts/JS/edgechains links: - https://aws.amazon.com/blogs/machine-learning/how-to-redact-pii-data-in-conversation-transcripts/ - https://aws.amazon.com/blogs/machine-learning/detecting-and-redacting-pii-using-amazon-comprehend/ this bounty will marked complete when: - add new classes that can be chained with existing E",
+    "organizer": "arakoodev",
+    "difficulty": "Beginner",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "submissions_count": 125,
+    "repo_url": "https://github.com/arakoodev/EdgeChains",
+    "logo_url": "https://avatars.githubusercontent.com/u/76883?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
+  },
+  {
+    "id": "1e528f8455629c",
+    "title": "[SecureBananaLabs/bug-bounty] Automate Bug Detection and Reviews",
+    "platform": "GitHub Bounties",
+    "source": "github_bounties",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+    "prize": "$780",
+    "prize_usd": 780.0,
+    "prize_currency": "USD",
+    "prize_raw": "780.0",
+    "start_date": "2026-07-25T09:51:18Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "AI Agents & LLM Apps",
+    "ecosystem": "AI / LLM Stack",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "bounty",
+      "bug",
+      "documentation",
+      "enhancement",
+      "github",
+      "good first issue",
+      "help wanted",
+      "open-source",
+      "securebananalabs"
+    ],
+    "description": "Automate Low Hanging fruit bug detection and issue creation recursively. This issue is an issue focused on creating more issues: 1. Find a feature/bug to work on from this repository 2. Create a GitHub issue on the repository to start working on it -- Pull requests without issues will not be considered. 3. Use the following string in the issue that you created: \"This issue is limited only to the creator of this issu",
+    "organizer": "SecureBananaLabs",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 26,
+    "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "logo_url": "https://avatars.githubusercontent.com/u/72201398?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "be9ef8a633717c",
@@ -1399,7 +1536,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "a395f96704f654",
@@ -1444,7 +1581,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "c6a98e401016aa",
@@ -1489,7 +1626,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "b52664a7c31548",
@@ -1534,7 +1671,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "4b4fb327a927ab",
@@ -1579,49 +1716,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
-  },
-  {
-    "id": "1f8a86f56bf54a",
-    "title": "[arakoodev/EdgeChains] BOUNTY: integrate AWS Comprehend as a utility to redact data",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
-    "prize": "$50",
-    "prize_usd": 50.0,
-    "prize_currency": "USD",
-    "prize_raw": "50.0",
-    "start_date": "2023-12-03T09:33:28Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Cloud, DevOps & Infra",
-    "ecosystem": "Cloud & Kubernetes",
-    "languages": [
-      "TypeScript"
-    ],
-    "tags": [
-      "$50",
-      "arakoodev",
-      "bounty",
-      "github",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "this bounty is for the javascript sdk only - https://github.com/arakoodev/EdgeChains/tree/ts/JS/edgechains links: - https://aws.amazon.com/blogs/machine-learning/how-to-redact-pii-data-in-conversation-transcripts/ - https://aws.amazon.com/blogs/machine-learning/detecting-and-redacting-pii-using-amazon-comprehend/ this bounty will marked complete when: - add new classes that can be chained with existing E",
-    "organizer": "arakoodev",
-    "difficulty": "Beginner",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 124,
-    "repo_url": "https://github.com/arakoodev/EdgeChains",
-    "logo_url": "https://avatars.githubusercontent.com/u/76883?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   },
   {
     "id": "4b462b930fa891",
@@ -1665,50 +1760,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
-  },
-  {
-    "id": "99c71e2a7ae360",
-    "title": "[Bu1ldTh3Futur3/bounty-hunter-test] Fix formatCurrency and parseCurrency bugs",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-    "prize": "$50",
-    "prize_usd": 50.0,
-    "prize_currency": "USD",
-    "prize_raw": "50.0",
-    "start_date": "2026-03-30T00:40:03Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "$50",
-      "bounty",
-      "bu1ldth3futur3",
-      "github",
-      "open-source",
-      "💎 bounty"
-    ],
-    "description": "Bugs 1. formatCurrency doesn't handle negative numbers — formatCurrency(-50) should return \"$-50.00\" but currently doesn't format correctly 2. formatCurrency doesn't always show 2 decimal places — formatCurrency(100) returns \"$100\" instead of \"$100.00\" 3. parseCurrency only strips $ symbol — doesn't handle € or £ symbols Acceptance Criteria - formatCurrency(-50) returns a properly formatted negat",
-    "organizer": "Bu1ldTh3Futur3",
-    "difficulty": "Beginner",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 67,
-    "repo_url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test",
-    "logo_url": "https://avatars.githubusercontent.com/u/264022717?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-08T13:00:43Z"
+    "scraped_at": "2026-11-09T15:43:16Z"
   }
 ]
