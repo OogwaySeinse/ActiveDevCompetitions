@@ -22,7 +22,7 @@
   },
   {
     "title": "MKS AI/ML Hackathon",
-    "description": "The MKS AI &amp; Data Hackathon is an opportunity for student developers, early-career professionals..",
+    "description": "The MKS AI &amp; Data Hackathon is your opportunity to turn ideas into impact.\nDesigned for student ..",
     "url": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
     "subscribe": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
     "status": "ONGOING",
@@ -61,6 +61,27 @@
     "end_utc_tz": "2027-01-17 17:30:00+00:00",
     "cover_image": "https://media.hackerearth.com/media/hackathon/contextcon-remember-everything/images/0bb34f39d9-cover_2751768.png",
     "thumbnail": "https://media.hackerearth.com/media/hackathon/contextcon-remember-everything/images/9a387481da-contextcon_3_1.jpg",
+    "is_hackerearth": true,
+    "challenge_type": "Monthly Challenges"
+  },
+  {
+    "title": "Groww Next ‘26",
+    "description": "Hacking is building things that you always wanted to have but no one has built it yet. It's to come ..",
+    "url": "https://www.hackerearth.com/challenges/hackathon/groww-next-2026/",
+    "subscribe": "https://www.hackerearth.com/challenges/hackathon/groww-next-2026/",
+    "status": "ONGOING",
+    "college": false,
+    "date": "Friday, Nov 13, 2026",
+    "time": "06:00 PM IST (Asia/Kolkata)",
+    "end_date": "Nov 27, 2026",
+    "end_time": "11:59 AM IST (Asia/Kolkata)",
+    "start_timestamp": "Nov 13, 2026 06:00 PM IST (Asia/Kolkata)",
+    "end_timestamp": "Nov 27, 2026 11:59 AM IST (Asia/Kolkata)",
+    "start_tz": "2026-11-13 18:00:00+05:30",
+    "end_tz": "2026-11-27 11:59:00+05:30",
+    "start_utc_tz": "2026-11-13 12:30:00+00:00",
+    "end_utc_tz": "2026-11-27 06:29:00+00:00",
+    "thumbnail": "https://media.hackerearth.com/media/hackathon/groww-next-2026/images/5d6ad3cadf-Lisitng_image_-_Final_1.png",
     "is_hackerearth": true,
     "challenge_type": "Monthly Challenges"
   }
