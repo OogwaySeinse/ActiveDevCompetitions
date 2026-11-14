@@ -37,10 +37,10 @@
     "backgroundColor": "#fff",
     "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ce49/1668/78d6da33/7e0b508eecb365dabe2dd93e58906b2b_Avatar-Square-X.png",
     "rewardSummary": {
-      "summary": "$100 - $15,000",
+      "summary": "$50 - $7,500",
       "hint": null,
-      "minReward": "$100",
-      "maxReward": "$15,000",
+      "minReward": "$50",
+      "maxReward": "$7,500",
       "compensationSummary": null,
       "compensationHint": null
     },
@@ -51,7 +51,7 @@
     "industryName": "Finance",
     "accessStatus": "open",
     "paymentAllocationUrl": null,
-    "badgeVariant": null,
+    "badgeVariant": "updated",
     "endsAt": null,
     "productEngagementType": {
       "label": "Bug Bounty",
