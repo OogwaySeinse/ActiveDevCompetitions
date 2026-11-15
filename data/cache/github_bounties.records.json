@@ -1,5 +1,48 @@
 [
   {
+    "id": "9a7cfc8f07eede",
+    "title": "[IES-BoilerRoom/rfc9421-http-signature-gateway] [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`)",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-12T20:10:45Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated IETF RFC 9421 / RFC 8941 Structured Fields regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $450 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 3,
+    "repo_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
     "id": "c4a89e60a2f6e5",
     "title": "[IES-BoilerRoom/pcie-tlp-credit-flow-gate] [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`)",
     "platform": "Algora / GitHub",
@@ -33,6 +76,132 @@
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
+    "submissions_count": 2,
+    "repo_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "13028aef40e83e",
+    "title": "[WholeTroutMedia/agent-conformance-quarantine] [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-05T13:04:04Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "AI Agents & LLM Apps",
+    "ecosystem": "AI / LLM Stack",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "wholetroutmedia"
+    ],
+    "description": "Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $450 USDC (paid on merge) - External Edge Conformance Mirror : http://157.151.170.68:11449/v1/conformance/epoch - Specification Sh",
+    "organizer": "WholeTroutMedia",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 6,
+    "repo_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine",
+    "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "e96840ce6e59d6",
+    "title": "[IES-BoilerRoom/protocol-conformance-relay] [Escrowed $600 USDC] Tighten 32-bit subregister zero-extension parity across conditional joins (`refine_bpf_tnum_frames`)",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-06T02:59:48Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC - Primary Batch Suite : https://github.com/IES-BoilerRoom/Furnace/issues/2 - Domain Conformance Suite : https",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 4,
+    "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "14a47582255e11",
+    "title": "[IES-BoilerRoom/pcie-tlp-credit-flow-gate] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`)",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-14T09:10:54Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/mcp-sse-frame-conforma",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
     "submissions_count": 1,
     "repo_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate",
     "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
@@ -40,7 +209,179 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "fb4ab489fb52b4",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account b",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4341",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-14T15:06:03Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1 漏洞描述 / Description Escrowed $450 USDC Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation ( decode cpi instruction frames ) Automated CI Conformance Mirror Notice : Automated SVM Runtime ABI & Account Borrow Spec v2.1 regression runner issue; manual",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "38554aab46c72b",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4340",
+    "prize": "$450",
+    "prize_usd": 450.0,
+    "prize_currency": "USD",
+    "prize_raw": "450.0",
+    "start_date": "2026-11-14T15:06:03Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1 漏洞描述 / Description Escrowed $450 USDC Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity ( reassemble tlp flit frames ) Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 regression runner issue; manual pull requests",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "e8eacea72be4a7",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Escrowed $600 USDC] Prevent aliasing mutable ref-cell bitmask collision across",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4339",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-14T15:06:02Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/2 漏洞描述 / Description Escrowed $600 USDC Prevent aliasing mutable ref-cell bitmask collision across depth-4 CPI frames ( solana-svm-cpi-conformance ) Automated CI Conformance Mirror Notice : Automated SVM Runtime ABI & Account Borrow Spec v2.1 multi-shard quorum issue; manual pull reques",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
+  },
+  {
+    "id": "a462adecb24388",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4338",
+    "prize": "$600",
+    "prize_usd": 600.0,
+    "prize_currency": "USD",
+    "prize_raw": "600.0",
+    "start_date": "2026-11-14T15:06:02Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 漏洞描述 / Description Escrowed $600 USDC Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing ( pcie-tlp-credit-flow-gate ) Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 multi-shard quorum issue; manual pull requests from hu",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "36a2b148cab435",
@@ -83,135 +424,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "9a7cfc8f07eede",
-    "title": "[IES-BoilerRoom/rfc9421-http-signature-gateway] [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
-    "prize": "$450",
-    "prize_usd": 450.0,
-    "prize_currency": "USD",
-    "prize_raw": "450.0",
-    "start_date": "2026-11-12T20:10:45Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated IETF RFC 9421 / RFC 8941 Structured Fields regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $450 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "e96840ce6e59d6",
-    "title": "[IES-BoilerRoom/protocol-conformance-relay] [Escrowed $600 USDC] Tighten 32-bit subregister zero-extension parity across conditional joins (`refine_bpf_tnum_frames`)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-06T02:59:48Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC - Primary Batch Suite : https://github.com/IES-BoilerRoom/Furnace/issues/2 - Domain Conformance Suite : https",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "14a47582255e11",
-    "title": "[IES-BoilerRoom/pcie-tlp-credit-flow-gate] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-14T09:10:54Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/mcp-sse-frame-conforma",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "3db3e7cd94caab",
@@ -254,7 +467,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "2bd02fe7720d79",
@@ -297,7 +510,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "7f3fb17dceb6a4",
@@ -340,7 +553,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "6839b4e0d37ca7",
@@ -383,7 +596,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "e57c212c3e3529",
@@ -426,7 +639,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "3abf2fa19a8d76",
@@ -469,7 +682,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "1f3f096a77cef9",
@@ -512,7 +725,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "3fa3b21c4cf542",
@@ -555,7 +768,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "e9b66085f6832f",
@@ -596,7 +809,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "e6f72ac9df7bb4",
@@ -637,7 +850,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "28b66f73afa3dd",
@@ -678,7 +891,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "ec367fd73e6fc7",
@@ -719,7 +932,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "327bca8519cced",
@@ -762,7 +975,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "24e0e69b71d65a",
@@ -805,7 +1018,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "60e3891151f086",
@@ -848,7 +1061,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "43bfea1b26e206",
@@ -891,48 +1104,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "13028aef40e83e",
-    "title": "[WholeTroutMedia/agent-conformance-quarantine] [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
-    "prize": "$450",
-    "prize_usd": 450.0,
-    "prize_currency": "USD",
-    "prize_raw": "450.0",
-    "start_date": "2026-11-05T13:04:04Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "AI Agents & LLM Apps",
-    "ecosystem": "AI / LLM Stack",
-    "languages": [
-      "Python",
-      "TypeScript"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "open-source",
-      "wholetroutmedia"
-    ],
-    "description": "Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $450 USDC (paid on merge) - External Edge Conformance Mirror : http://157.151.170.68:11449/v1/conformance/epoch - Specification Sh",
-    "organizer": "WholeTroutMedia",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 3,
-    "repo_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine",
-    "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "1b6e794319d484",
@@ -975,7 +1147,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "de592c192fece5",
@@ -1018,7 +1190,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "64f0b4d5fcc63d",
@@ -1062,7 +1234,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "af9893286f0297",
@@ -1106,7 +1278,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "1aeacfea9cf900",
@@ -1148,7 +1320,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "2c6dd8233352af",
@@ -1190,7 +1362,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "8286899d0c7930",
@@ -1232,7 +1404,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "eb0b629a45f064",
@@ -1273,19 +1445,19 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
-    "id": "cbace8ecb48410",
-    "title": "[pedropzz103-tech/visione] VISIONE Bounties: discover and qualify paid Opire + Algora tasks for Codex Cloud",
-    "platform": "Algora / GitHub",
+    "id": "dae4af9ff8bbe0",
+    "title": "[ClankerNation/OpenAgents] [ Bounty $6k ] [ Solidity ] Fix RandomLottery refund mechanism missing when lottery cancelled — mainnet prep",
+    "platform": "GitHub Bounties",
     "source": "github_bounties",
-    "url": "https://github.com/pedropzz103-tech/visione/issues/25",
-    "prize": "$20",
-    "prize_usd": 20.0,
+    "url": "https://github.com/ClankerNation/OpenAgents/issues/176",
+    "prize": "$6.8K",
+    "prize_usd": 6800.0,
     "prize_currency": "USD",
-    "prize_raw": "20.0",
-    "start_date": "2026-11-04T23:03:30Z",
+    "prize_raw": "6800.0",
+    "start_date": "2026-05-16T09:00:30Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
@@ -1298,36 +1470,41 @@
       "Rust"
     ],
     "tags": [
+      "autonomus agents only",
       "bounty",
+      "clankernation",
       "github",
+      "good first issue",
+      "help wanted",
+      "high-value",
       "open-source",
-      "pedropzz103-tech"
+      "💎 bounty"
     ],
-    "description": "GOAL Launch VISIONE Bounties as a $0-upfront-cost workflow using Codex Cloud and our connected GitHub account. Focus on Opire (https://app.opire.dev/) and Algora (https://algora.io/) to find genuinely payable open-source development tasks, implement verified fixes, and pursue approved payouts. Phase 1: Discovery and verification (before touching external repositories) - Search Opire and Algora publ",
-    "organizer": "pedropzz103-tech",
-    "difficulty": "Beginner",
+    "description": "The RandomLottery at contracts/lottery/RandomLottery.sol has no mechanism to refund participants if the lottery is cancelled or doesn't reach minimum participants by deadline. Fix - Add lotteryDeadline parameter on creation - Add cancelLottery function if deadline passed without enough participants - Add refund function participants can call after cancellation - Insert the contributor traceability hea",
+    "organizer": "ClankerNation",
+    "difficulty": "Expert",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/pedropzz103-tech/visione",
-    "logo_url": "https://avatars.githubusercontent.com/u/287547508?v=4",
+    "submissions_count": 8,
+    "repo_url": "https://github.com/ClankerNation/OpenAgents",
+    "logo_url": "https://avatars.githubusercontent.com/in/3731600?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
-    "id": "4bf1318b8f59fd",
-    "title": "[IES-BoilerRoom/protocol-conformance-relay] [Escrowed $450 USDC] Fix incremental UTF-8 SSE chunk ceiling and align cross-shard frame digest witness (`frame_mcp_sse_chunks`)",
-    "platform": "Algora / GitHub",
+    "id": "68ea56e26f053d",
+    "title": "[SecureBananaLabs/bug-bounty] fix: prevent admin role self-assignment during registration",
+    "platform": "GitHub Bounties",
     "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
-    "prize": "$450",
-    "prize_usd": 450.0,
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1742",
+    "prize": "$430",
+    "prize_usd": 430.0,
     "prize_currency": "USD",
-    "prize_raw": "450.0",
-    "start_date": "2026-11-06T02:59:47Z",
+    "prize_raw": "430.0",
+    "start_date": "2026-05-30T01:24:51Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
@@ -1339,66 +1516,29 @@
       "TypeScript"
     ],
     "tags": [
+      "ai agent friendly",
       "bounty",
+      "bug",
+      "bug bounty",
       "github",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $450 USDC - Primary Batch Suite : https://github.com/IES-BoilerRoom/Furnace/issues/1 - Domain Conformance Suite : https",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 2,
-    "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "0fab1b9d964d36",
-    "title": "[WholeTroutMedia/agent-conformance-quarantine] [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-05T13:04:04Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
+      "good first issue",
+      "help wanted",
       "open-source",
-      "wholetroutmedia"
+      "securebananalabs"
     ],
-    "description": "Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC (paid on merge) - External Edge Conformance Mirror : http://157.151.170.68:11449/v1/conformance/epoch - Specification Sh",
-    "organizer": "WholeTroutMedia",
+    "description": "Same as 1426, registration role restriction. Public registration currently accepts role: \"admin\" , which lets a new user self-assign admin privileges and receive a token signed with the admin role. Registration should only allow public roles ( client and freelancer ) and should reject admin in the request body. --- This issue is limited only to the creator of this issue. This means that only the issue author",
+    "organizer": "SecureBananaLabs",
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": null,
-    "repo_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine",
-    "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
+    "submissions_count": 9,
+    "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "logo_url": "https://avatars.githubusercontent.com/u/122326246?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "ec98a5f81189c1",
@@ -1445,7 +1585,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "4406dcdd9c42ac",
@@ -1491,7 +1631,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "4b682084f12910",
@@ -1537,7 +1677,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "1f8a86f56bf54a",
@@ -1579,53 +1719,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
-  },
-  {
-    "id": "68ea56e26f053d",
-    "title": "[SecureBananaLabs/bug-bounty] fix: prevent admin role self-assignment during registration",
-    "platform": "GitHub Bounties",
-    "source": "github_bounties",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1742",
-    "prize": "$430",
-    "prize_usd": 430.0,
-    "prize_currency": "USD",
-    "prize_raw": "430.0",
-    "start_date": "2026-05-30T01:24:51Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "AI Agents & LLM Apps",
-    "ecosystem": "AI / LLM Stack",
-    "languages": [
-      "Python",
-      "TypeScript"
-    ],
-    "tags": [
-      "ai agent friendly",
-      "bounty",
-      "bug",
-      "bug bounty",
-      "github",
-      "good first issue",
-      "help wanted",
-      "open-source",
-      "securebananalabs"
-    ],
-    "description": "Same as 1426, registration role restriction. Public registration currently accepts role: \"admin\" , which lets a new user self-assign admin privileges and receive a token signed with the admin role. Registration should only allow public roles ( client and freelancer ) and should reject admin in the request body. --- This issue is limited only to the creator of this issue. This means that only the issue author",
-    "organizer": "SecureBananaLabs",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 8,
-    "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "logo_url": "https://avatars.githubusercontent.com/u/122326246?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "19486e7e820e65",
@@ -1668,7 +1762,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "6bb97e827cfaab",
@@ -1714,7 +1808,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "0fb6ad788c3ccd",
@@ -1760,7 +1854,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "ce464a76744d1e",
@@ -1806,7 +1900,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "bbdd12b3565a12",
@@ -1852,7 +1946,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   },
   {
     "id": "be9ef8a633717c",
@@ -1894,6 +1988,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-14T13:15:34Z"
+    "scraped_at": "2026-11-15T13:43:18Z"
   }
 ]
