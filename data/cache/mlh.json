@@ -1,104 +1,5 @@
 [
   {
-    "title": "Emory Hacks",
-    "url": "https://emoryhacks.com/",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Atlanta, GA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "UniHack",
-    "url": "https://unihack.eu/",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Timișoara, Timiș, RO",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Junction",
-    "url": "https://hackjunction.com/",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Espoo, Uusimaa, FI",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackPrinceton Fall 2026",
-    "url": "https://hackprinceton.com/",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Princeton, New Jersey, US",
-    "mode": "In-Person",
-    "badges": "Hardware"
-  },
-  {
-    "title": "NASA's Space Apps Challenge NYC",
-    "url": "https://spaceappschallenge.org/2026/local-events/new-york",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Brooklyn, New York, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackUMass",
-    "url": "https://hackumass.com/",
-    "date_str": "NOV 13 - 15",
-    "season_year": "2027",
-    "location": "Amherst, MA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "HackUTA",
-    "url": "https://hackuta.com/",
-    "date_str": "NOV 14 - 15",
-    "season_year": "2027",
-    "location": "Arlington, Texas, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "SanD Hacks",
-    "url": "https://hackathon.csesatucsd.com/",
-    "date_str": "NOV 14 - 15",
-    "season_year": "2027",
-    "location": "La Jolla, CA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "Hack The Nest",
-    "url": "https://hackthenest.tech/",
-    "date_str": "NOV 14 - 15",
-    "season_year": "2027",
-    "location": "Ypsilanti, Michigan, US",
-    "mode": "In-Person",
-    "badges": "Hardware"
-  },
-  {
-    "title": "DurHack",
-    "url": "https://durhack.com/",
-    "date_str": "NOV 14 - 15",
-    "season_year": "2027",
-    "location": "Durham, County Durham, GB",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "sunhacks",
-    "url": "https://2026.sunhacks.io/",
-    "date_str": "NOV 14 - 15",
-    "season_year": "2027",
-    "location": "Tempe, Arizona, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "Hack Western 13",
     "url": "https://hackwestern.com/",
     "date_str": "NOV 20 - 22",
@@ -214,6 +115,105 @@
     "location": "Alexandria, Virginia, US",
     "mode": "In-Person",
     "badges": "High school"
+  },
+  {
+    "title": "Hoya Hacks",
+    "url": "https://hoyahacks.com/",
+    "date_str": "JAN 22 - 24",
+    "season_year": "2027",
+    "location": "Washington, DC, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Hackville 2027",
+    "url": "https://hackville.io/",
+    "date_str": "JAN 23 - 24",
+    "season_year": "2027",
+    "location": "Missisauga, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "Diversity"
+  },
+  {
+    "title": "ElleHacks",
+    "url": "https://ellehacks.com/",
+    "date_str": "JAN 29 - 31",
+    "season_year": "2027",
+    "location": "Toronto, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "Diversity"
+  },
+  {
+    "title": "Hack@Brown 2027",
+    "url": "https://hackatbrown.org/",
+    "date_str": "FEB 05 - 07",
+    "season_year": "2027",
+    "location": "Providence, RI, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "BeachHack Season 8",
+    "url": "https://beachhack.in/",
+    "date_str": "FEB 05 - 07",
+    "season_year": "2027",
+    "location": "Thrissur, Kerala, IN",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "UGAHacks",
+    "url": "https://12.ugahacks.com/",
+    "date_str": "FEB 05 - 07",
+    "season_year": "2027",
+    "location": "Athens , Georgia, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "InnovateHer",
+    "url": "https://innovateherhacks.org/",
+    "date_str": "FEB 06 - 07",
+    "season_year": "2027",
+    "location": "West Lafayette, Indiana, US",
+    "mode": "In-Person",
+    "badges": "Diversity"
+  },
+  {
+    "title": "SpartaHack",
+    "url": "https://spartahack.com/",
+    "date_str": "FEB 06 - 07",
+    "season_year": "2027",
+    "location": "East Lansing, Michigan, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Hack_NCState",
+    "url": "https://hackncstate.org/",
+    "date_str": "FEB 06 - 07",
+    "season_year": "2027",
+    "location": "Raleigh, North Carolina, US",
+    "mode": "In-Person",
+    "badges": "Hardware"
+  },
+  {
+    "title": "MakeUofT",
+    "url": "https://makeuoft.ca/",
+    "date_str": "FEB 13 - 14",
+    "season_year": "2027",
+    "location": "Toronto, Ontario, CA",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "SF Hacks",
+    "url": "https://sfhacks.io/",
+    "date_str": "FEB 19 - 21",
+    "season_year": "2027",
+    "location": "San Francisco, CA, US",
+    "mode": "In-Person",
+    "badges": ""
   },
   {
     "title": "HackPrix Season 3",
