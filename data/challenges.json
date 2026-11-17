@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-16T15:19:18Z",
-    "total_active": 202,
+    "generated_at": "2026-11-17T15:44:10Z",
+    "total_active": 198,
     "contest_prize_usd": 1463003.4,
     "max_bounty_usd": 75000.0,
-    "bounty_pool_usd": 430930.0,
-    "ending_soon_count": 8,
+    "bounty_pool_usd": 427920.0,
+    "ending_soon_count": 10,
     "platforms_count": 17,
     "by_type": {
       "hackathon": 94,
-      "oss_bounty": 93,
+      "oss_bounty": 89,
       "fellowship": 9,
       "coding_contest": 6
     },
     "platforms": {
       "Bugcrowd": 48,
       "Devpost": 43,
-      "Algora / GitHub": 32,
+      "Algora / GitHub": 31,
       "MLH": 25,
       "Devfolio": 24,
-      "GitHub Bounties": 13,
+      "GitHub Bounties": 10,
       "Codeforces": 4,
       "HackerEarth": 3,
       "LeetCode": 2,
@@ -35,8 +35,8 @@
     "categories": {
       "Full-Stack & Web Apps": 52,
       "Security & AppSec": 50,
-      "Open Source & Core Systems": 39,
-      "AI Agents & LLM Apps": 37,
+      "Open Source & Core Systems": 37,
+      "AI Agents & LLM Apps": 35,
       "Fintech & Enterprise Systems": 10,
       "Algorithms & Competitive Coding": 7,
       "Cloud, DevOps & Infra": 3,
@@ -45,8 +45,8 @@
     },
     "ecosystems": {
       "Web & Full-Stack": 84,
-      "Open Source / GitHub": 71,
-      "AI / LLM Stack": 16,
+      "Open Source / GitHub": 69,
+      "AI / LLM Stack": 14,
       "Systems & Native": 10,
       "Cross-Stack / General": 8,
       "Mobile (iOS / Android)": 6,
@@ -54,10 +54,10 @@
       "Data & Streaming": 2
     },
     "history": {
-      "new_challenges": 39,
+      "new_challenges": 33,
       "prize_changes": 0,
-      "deadline_changes": 4,
-      "tracked_total": 522
+      "deadline_changes": 0,
+      "tracked_total": 523
     },
     "trend": [
       {
@@ -529,6 +529,21 @@
         "new_count": 39,
         "prize_changes": 0,
         "deadline_changes": 4
+      },
+      {
+        "date": "2026-11-17",
+        "total_active": 198,
+        "by_type": {
+          "hackathon": 94,
+          "oss_bounty": 89,
+          "coding_contest": 6,
+          "fellowship": 9
+        },
+        "contest_prize_usd": 1488203.4,
+        "bounty_pool_usd": 427920.0,
+        "new_count": 33,
+        "prize_changes": 0,
+        "deadline_changes": 0
       }
     ],
     "sources": [
@@ -536,73 +551,73 @@
         "name": "devpost",
         "status": "ok",
         "count": 43,
-        "duration_ms": 1839,
+        "duration_ms": 1758,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "topcoder",
         "status": "ok",
         "count": 0,
-        "duration_ms": 457,
+        "duration_ms": 514,
         "error": "No live challenges right now",
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "github_bounties",
         "status": "ok",
-        "count": 47,
-        "duration_ms": 3335,
+        "count": 43,
+        "duration_ms": 2986,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "devfolio",
         "status": "ok",
         "count": 24,
-        "duration_ms": 1431,
+        "duration_ms": 587,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "mlh",
         "status": "ok",
         "count": 24,
-        "duration_ms": 760,
+        "duration_ms": 1388,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "hackerearth",
         "status": "ok",
         "count": 3,
-        "duration_ms": 993,
+        "duration_ms": 998,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "codeforces",
         "status": "ok",
         "count": 7,
-        "duration_ms": 1052,
+        "duration_ms": 1141,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "bugcrowd",
         "status": "ok",
         "count": 48,
-        "duration_ms": 1782,
+        "duration_ms": 1712,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       },
       {
         "name": "curated",
         "status": "ok",
         "count": 9,
-        "duration_ms": 1,
+        "duration_ms": 0,
         "error": null,
-        "updated_at": "2026-11-16T15:19:18Z"
+        "updated_at": "2026-11-17T15:44:10Z"
       }
     ]
   },
@@ -619,7 +634,7 @@
       "prize_raw": "$<span data-currency-value>1,000,000</span>",
       "start_date": "2026-09-24T00:00:00Z",
       "end_date": "2026-11-18T23:59:00Z",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -640,7 +655,7 @@
       "organizer": "Meta",
       "difficulty": "Advanced",
       "mode": "Online",
-      "participants_count": 6459,
+      "participants_count": 6668,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
@@ -648,7 +663,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "cc73cf1b99e49d",
@@ -662,7 +677,7 @@
       "prize_raw": "Cash Prizes & Hiring Opportunities",
       "start_date": "2026-10-30T04:30:00Z",
       "end_date": "2026-11-18T18:29:00Z",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -688,7 +703,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "cd06e1b997d4ec",
@@ -702,7 +717,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-12T00:00:00Z",
       "end_date": "2026-11-19T23:59:00Z",
-      "days_remaining": 3,
+      "days_remaining": 2,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -721,7 +736,7 @@
       "organizer": "UPenn ESE",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 51,
+      "participants_count": 56,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -729,7 +744,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "6bd4f561fc00f7",
@@ -743,7 +758,7 @@
       "prize_raw": "$<span data-currency-value>900</span>",
       "start_date": "2026-10-26T00:00:00Z",
       "end_date": "2026-11-20T23:59:00Z",
-      "days_remaining": 4,
+      "days_remaining": 3,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -764,7 +779,7 @@
       "organizer": "Dakar Bitcoin Days",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 296,
+      "participants_count": 308,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/640/846/datas/medium_square.jpg",
@@ -772,7 +787,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "d0f8d1904b4824",
@@ -786,7 +801,7 @@
       "prize_raw": "$<span data-currency-value>300</span>",
       "start_date": "2026-11-14T00:00:00Z",
       "end_date": "2026-11-21T23:59:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -807,7 +822,7 @@
       "organizer": "HackClub  ✓⃝",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 119,
+      "participants_count": 155,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/082/370/datas/medium_square.jpg",
@@ -815,7 +830,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "39b2cb73f9ac9d",
@@ -829,7 +844,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-15T00:00:00Z",
       "end_date": "2026-11-21T23:59:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -850,7 +865,7 @@
       "organizer": "Bridge The Gap Hacks",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 92,
+      "participants_count": 99,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/826/556/datas/medium_square.png",
@@ -858,7 +873,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "3929bde3ce55c8",
@@ -872,7 +887,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-10-17T00:00:00Z",
       "end_date": "2026-11-21T23:59:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -893,7 +908,7 @@
       "organizer": "STEM2Connect",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 553,
+      "participants_count": 599,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/600/935/datas/medium_square.png",
@@ -901,7 +916,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "fb668d2e075348",
@@ -915,7 +930,7 @@
       "prize_raw": "$<span data-currency-value>800</span>",
       "start_date": "2026-11-15T00:00:00Z",
       "end_date": "2026-11-22T23:59:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -936,7 +951,7 @@
       "organizer": "Kelab UMNO Korea",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 43,
+      "participants_count": 49,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -944,7 +959,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "d6e499784d32a6",
@@ -958,8 +973,8 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-11-08T18:30:00Z",
       "end_date": "2026-11-24T18:30:00Z",
-      "days_remaining": 8,
-      "status": "active",
+      "days_remaining": 7,
+      "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
       "ecosystem": "Web & Full-Stack",
@@ -976,7 +991,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 210,
+      "participants_count": 228,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -984,7 +999,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "c6e10b8cddbaec",
@@ -998,8 +1013,8 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-10-17T00:00:00Z",
       "end_date": "2026-11-24T23:59:00Z",
-      "days_remaining": 8,
-      "status": "active",
+      "days_remaining": 7,
+      "status": "ending_soon",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
       "ecosystem": "Web & Full-Stack",
@@ -1018,7 +1033,7 @@
       "organizer": "HackathonForEveryone",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 234,
+      "participants_count": 238,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/083/datas/medium_square.png",
@@ -1026,7 +1041,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "014ded809d239b",
@@ -1040,7 +1055,7 @@
       "prize_raw": "₹ <span data-currency-value>500,000</span>",
       "start_date": "2026-10-16T00:00:00Z",
       "end_date": "2026-11-25T23:59:00Z",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1061,7 +1076,7 @@
       "organizer": "Aditya University",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 219,
+      "participants_count": 224,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/587/014/datas/medium_square.jpeg",
@@ -1069,7 +1084,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "faa3089c9dd05d",
@@ -1083,7 +1098,7 @@
       "prize_raw": "₹ <span data-currency-value>0</span>",
       "start_date": "2026-11-16T00:00:00Z",
       "end_date": "2026-11-25T23:59:00Z",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -1104,7 +1119,7 @@
       "organizer": "Roxten Studios",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 99,
+      "participants_count": 110,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/556/137/datas/medium_square.png",
@@ -1112,7 +1127,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "f72f28a8139cfa",
@@ -1126,7 +1141,7 @@
       "prize_raw": "Cash Prizes & Hiring Opportunities",
       "start_date": "2026-11-13T12:30:00Z",
       "end_date": "2026-11-27T06:29:00Z",
-      "days_remaining": 10,
+      "days_remaining": 9,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -1149,10 +1164,10 @@
       "repo_url": null,
       "logo_url": "https://media.hackerearth.com/media/hackathon/groww-next-2026/images/5d6ad3cadf-Lisitng_image_-_Final_1.png",
       "first_seen_at": "2026-11-13",
-      "is_new": true,
+      "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ee5bfc388e9d5f",
@@ -1166,7 +1181,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-10-27T00:00:00Z",
       "end_date": "2026-11-27T23:59:00Z",
-      "days_remaining": 11,
+      "days_remaining": 10,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1187,7 +1202,7 @@
       "organizer": "Yasir Insights",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 606,
+      "participants_count": 630,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
@@ -1195,7 +1210,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "0394d76bd5b6ad",
@@ -1209,7 +1224,7 @@
       "prize_raw": "$<span data-currency-value>30,000</span>",
       "start_date": "2026-11-11T00:00:00Z",
       "end_date": "2026-11-30T23:59:00Z",
-      "days_remaining": 14,
+      "days_remaining": 13,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1230,7 +1245,7 @@
       "organizer": "Google",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 2649,
+      "participants_count": 2936,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/784/130/datas/medium_square.png",
@@ -1238,7 +1253,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "807ef63e8e512a",
@@ -1252,7 +1267,7 @@
       "prize_raw": "$<span data-currency-value>300</span>",
       "start_date": "2026-10-29T00:00:00Z",
       "end_date": "2026-11-30T23:59:00Z",
-      "days_remaining": 14,
+      "days_remaining": 13,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -1273,7 +1288,7 @@
       "organizer": "The Webb Schools CSC",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 209,
+      "participants_count": 227,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/557/957/datas/medium_square.png",
@@ -1281,7 +1296,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "670603cca61af5",
@@ -1295,7 +1310,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-01T00:00:00Z",
       "end_date": "2026-11-30T23:59:00Z",
-      "days_remaining": 14,
+      "days_remaining": 13,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Security & AppSec",
@@ -1316,7 +1331,7 @@
       "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 52,
+      "participants_count": 53,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/105/datas/medium_square.png",
@@ -1324,7 +1339,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "469a04897ade99",
@@ -1338,7 +1353,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-04T00:00:00Z",
       "end_date": "2026-11-30T23:59:00Z",
-      "days_remaining": 14,
+      "days_remaining": 13,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -1359,7 +1374,7 @@
       "organizer": "IdeaLab",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 73,
+      "participants_count": 79,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/096/datas/medium_square.png",
@@ -1367,7 +1382,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "5cab54adba1104",
@@ -1381,7 +1396,7 @@
       "prize_raw": "$<span data-currency-value>200</span>",
       "start_date": "2026-11-05T00:00:00Z",
       "end_date": "2026-12-01T23:59:00Z",
-      "days_remaining": 15,
+      "days_remaining": 14,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -1402,7 +1417,7 @@
       "organizer": "HackathonForEveryone",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 134,
+      "participants_count": 153,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/822/datas/medium_square.png",
@@ -1410,7 +1425,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "717b3e49756cd6",
@@ -1424,7 +1439,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-01T00:00:00Z",
       "end_date": "2026-12-02T23:59:00Z",
-      "days_remaining": 16,
+      "days_remaining": 15,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1445,7 +1460,7 @@
       "organizer": "ML Empowerment Foundation",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 156,
+      "participants_count": 171,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/767/299/datas/medium_square.png",
@@ -1453,7 +1468,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "2a0c879513370e",
@@ -1467,7 +1482,7 @@
       "prize_raw": "$<span data-currency-value>100,000</span>",
       "start_date": "2026-10-30T00:00:00Z",
       "end_date": "2026-12-04T23:59:00Z",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1488,7 +1503,7 @@
       "organizer": "Kiro",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 14710,
+      "participants_count": 15535,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/149/datas/medium_square.png",
@@ -1496,7 +1511,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "1f5a375148d23f",
@@ -1510,7 +1525,7 @@
       "prize_raw": "$<span data-currency-value>300</span>",
       "start_date": "2026-10-16T00:00:00Z",
       "end_date": "2026-12-04T23:59:00Z",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -1530,7 +1545,7 @@
       "organizer": "Hack4TodayOrg",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 590,
+      "participants_count": 606,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/592/065/datas/medium_square.png",
@@ -1538,7 +1553,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "98db8617e0ea5f",
@@ -1552,7 +1567,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-04T00:00:00Z",
       "end_date": "2026-12-04T23:59:00Z",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1573,7 +1588,7 @@
       "organizer": "Open Health AI Collective",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 143,
+      "participants_count": 162,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/788/362/datas/medium_square.png",
@@ -1581,7 +1596,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "7c5d1499c06812",
@@ -1595,7 +1610,7 @@
       "prize_raw": "$<span data-currency-value>25,000</span>",
       "start_date": "2026-11-10T00:00:00Z",
       "end_date": "2026-12-07T23:59:00Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1616,7 +1631,7 @@
       "organizer": "Google",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 822,
+      "participants_count": 969,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/779/699/datas/medium_square.png",
@@ -1624,7 +1639,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a2dad39e7160d7",
@@ -1638,7 +1653,7 @@
       "prize_raw": "$<span data-currency-value>4,500</span>",
       "start_date": "2026-11-07T00:00:00Z",
       "end_date": "2026-12-07T23:59:00Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1659,7 +1674,7 @@
       "organizer": "cite & slayy",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 287,
+      "participants_count": 331,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/785/867/datas/medium_square.png",
@@ -1667,7 +1682,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ebf59466029a17",
@@ -1681,7 +1696,7 @@
       "prize_raw": "$<span data-currency-value>2,500</span>",
       "start_date": "2026-11-10T00:00:00Z",
       "end_date": "2026-12-07T23:59:00Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1702,7 +1717,7 @@
       "organizer": "Devpost",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 251,
+      "participants_count": 292,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/837/067/datas/medium_square.png",
@@ -1710,7 +1725,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "71ede98a846f94",
@@ -1724,7 +1739,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-09-22T00:00:00Z",
       "end_date": "2026-12-07T23:59:00Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Game Dev, XR & Creative Tech",
@@ -1753,7 +1768,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "4bc8a770f2ac79",
@@ -1767,7 +1782,7 @@
       "prize_raw": "$<span data-currency-value>35,000</span>",
       "start_date": "2026-11-11T00:00:00Z",
       "end_date": "2026-12-08T23:59:00Z",
-      "days_remaining": 22,
+      "days_remaining": 21,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Game Dev, XR & Creative Tech",
@@ -1787,7 +1802,7 @@
       "organizer": "reddit",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 1390,
+      "participants_count": 1565,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/533/494/datas/medium_square.png",
@@ -1795,7 +1810,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "5c075d931c5ec5",
@@ -1809,7 +1824,7 @@
       "prize_raw": "$<span data-currency-value>280</span>",
       "start_date": "2026-10-17T00:00:00Z",
       "end_date": "2026-12-09T23:59:00Z",
-      "days_remaining": 23,
+      "days_remaining": 22,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Security & AppSec",
@@ -1830,15 +1845,15 @@
       "organizer": "SafeSpace",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 480,
+      "participants_count": 485,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/787/datas/medium_square.png",
       "first_seen_at": "2026-10-20",
       "is_new": false,
       "prize_delta_usd": 0.0,
-      "days_shift": 17,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "96ec62848d7cfa",
@@ -1852,7 +1867,7 @@
       "prize_raw": "$<span data-currency-value>150</span>",
       "start_date": "2026-11-05T00:00:00Z",
       "end_date": "2026-12-10T23:59:00Z",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1873,7 +1888,7 @@
       "organizer": "AI OpenBuild",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 156,
+      "participants_count": 167,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/785/560/datas/medium_square.png",
@@ -1881,7 +1896,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "25dfa67771bf77",
@@ -1895,7 +1910,7 @@
       "prize_raw": "$<span data-currency-value>125</span>",
       "start_date": "2026-10-18T00:00:00Z",
       "end_date": "2026-12-10T23:59:00Z",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -1915,15 +1930,15 @@
       "organizer": "HackathonForEveryone",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 234,
+      "participants_count": 244,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
       "first_seen_at": "2026-10-24",
       "is_new": false,
       "prize_delta_usd": 0.0,
-      "days_shift": 23,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a25d77b7844c6c",
@@ -1937,7 +1952,7 @@
       "prize_raw": "$<span data-currency-value>64,000</span>",
       "start_date": "2026-11-02T00:00:00Z",
       "end_date": "2026-12-11T23:59:00Z",
-      "days_remaining": 25,
+      "days_remaining": 24,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -1958,7 +1973,7 @@
       "organizer": "AWS",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 405,
+      "participants_count": 423,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/715/013/datas/medium_square.png",
@@ -1966,7 +1981,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "108c516a80cf1c",
@@ -1980,7 +1995,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-11-11T00:00:00Z",
       "end_date": "2026-12-11T23:59:00Z",
-      "days_remaining": 25,
+      "days_remaining": 24,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2001,7 +2016,7 @@
       "organizer": "Neo4j",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 427,
+      "participants_count": 482,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/838/437/datas/medium_square.png",
@@ -2009,7 +2024,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ef80337b39fd9a",
@@ -2023,7 +2038,7 @@
       "prize_raw": "$<span data-currency-value>50,000</span>",
       "start_date": "2026-11-02T00:00:00Z",
       "end_date": "2026-12-15T23:59:00Z",
-      "days_remaining": 29,
+      "days_remaining": 28,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2044,7 +2059,7 @@
       "organizer": "QNX",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 1766,
+      "participants_count": 1856,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/522/477/datas/medium_square.jpg",
@@ -2052,7 +2067,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a4fe01003e3e69",
@@ -2066,7 +2081,7 @@
       "prize_raw": "$<span data-currency-value>500</span>",
       "start_date": "2026-11-08T00:00:00Z",
       "end_date": "2026-12-15T23:59:00Z",
-      "days_remaining": 29,
+      "days_remaining": 28,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2087,7 +2102,7 @@
       "organizer": "Silicon Hacks Team",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 144,
+      "participants_count": 162,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/168/datas/medium_square.png",
@@ -2095,7 +2110,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "2645ba0f71a219",
@@ -2109,7 +2124,7 @@
       "prize_raw": "€<span data-currency-value>1,000</span>",
       "start_date": "2026-11-04T00:00:00Z",
       "end_date": "2026-12-18T23:59:00Z",
-      "days_remaining": 32,
+      "days_remaining": 31,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2130,7 +2145,7 @@
       "organizer": "HETIC",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 437,
+      "participants_count": 459,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/043/datas/medium_square.png",
@@ -2138,7 +2153,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "415a9b2d517485",
@@ -2152,7 +2167,7 @@
       "prize_raw": "$<span data-currency-value>225</span>",
       "start_date": "2026-10-17T00:00:00Z",
       "end_date": "2026-12-20T23:59:00Z",
-      "days_remaining": 34,
+      "days_remaining": 33,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -2173,15 +2188,15 @@
       "organizer": "AccessEDnpo",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 281,
+      "participants_count": 286,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/268/datas/medium_square.png",
       "first_seen_at": "2026-10-23",
       "is_new": false,
       "prize_delta_usd": 0.0,
-      "days_shift": 30,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "bf276d12ea7b50",
@@ -2195,7 +2210,7 @@
       "prize_raw": "$<span data-currency-value>7,800</span>",
       "start_date": "2026-10-20T00:00:00Z",
       "end_date": "2026-12-21T23:59:00Z",
-      "days_remaining": 35,
+      "days_remaining": 34,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2216,7 +2231,7 @@
       "organizer": "Arbiter ",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 1182,
+      "participants_count": 1215,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
@@ -2224,7 +2239,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "2369ca383179c3",
@@ -2238,7 +2253,7 @@
       "prize_raw": "$<span data-currency-value>120,000</span>",
       "start_date": "2026-10-27T00:00:00Z",
       "end_date": "2026-12-22T23:59:00Z",
-      "days_remaining": 36,
+      "days_remaining": 35,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2259,7 +2274,7 @@
       "organizer": "Atlassian",
       "difficulty": "Advanced",
       "mode": "Online",
-      "participants_count": 3726,
+      "participants_count": 3979,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/479/datas/medium_square.png",
@@ -2267,7 +2282,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "f5f877cf4111ef",
@@ -2281,7 +2296,7 @@
       "prize_raw": "₹ <span data-currency-value>0</span>",
       "start_date": "2026-11-05T00:00:00Z",
       "end_date": "2026-12-24T23:59:00Z",
-      "days_remaining": 38,
+      "days_remaining": 37,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -2302,7 +2317,7 @@
       "organizer": "Tech Council - Jain Univeristy",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 56,
+      "participants_count": 60,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -2310,7 +2325,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "b90c4e36e0b1db",
@@ -2324,7 +2339,7 @@
       "prize_raw": "$CAD <span data-currency-value>1,050</span>",
       "start_date": "2026-11-01T00:00:00Z",
       "end_date": "2026-12-26T23:59:00Z",
-      "days_remaining": 40,
+      "days_remaining": 39,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2345,7 +2360,7 @@
       "organizer": "Shail & Sharaf",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 446,
+      "participants_count": 474,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/766/254/datas/medium_square.png",
@@ -2353,7 +2368,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "90c1611eb52a5b",
@@ -2367,7 +2382,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-08-23T00:00:00Z",
       "end_date": "2027-01-02T23:59:00Z",
-      "days_remaining": 47,
+      "days_remaining": 46,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2388,7 +2403,7 @@
       "organizer": "Binnovative",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 349,
+      "participants_count": 357,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/163/349/datas/medium_square.jpg",
@@ -2396,7 +2411,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "d8bad5850c5e50",
@@ -2410,7 +2425,7 @@
       "prize_raw": "$<span data-currency-value>10,000</span>",
       "start_date": "2026-11-11T00:00:00Z",
       "end_date": "2027-01-11T23:59:00Z",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2431,7 +2446,7 @@
       "organizer": "Cognizant",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 867,
+      "participants_count": 1064,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/839/029/datas/medium_square.png",
@@ -2439,7 +2454,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "94335e32730676",
@@ -2453,7 +2468,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-07-18T00:00:00Z",
       "end_date": "2027-01-14T23:59:00Z",
-      "days_remaining": 59,
+      "days_remaining": 58,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2474,7 +2489,7 @@
       "organizer": "Student Organization",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 442,
+      "participants_count": 445,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/929/208/datas/medium_square.png",
@@ -2482,7 +2497,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "c2dee8387dd33b",
@@ -2496,7 +2511,7 @@
       "prize_raw": "$<span data-currency-value>0</span>",
       "start_date": "2026-07-16T00:00:00Z",
       "end_date": "2027-01-15T23:59:00Z",
-      "days_remaining": 60,
+      "days_remaining": 59,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2517,7 +2532,7 @@
       "organizer": "nill",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 919,
+      "participants_count": 932,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/909/585/datas/medium_square.png",
@@ -2525,7 +2540,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "54c6fe1258adc3",
@@ -2539,7 +2554,7 @@
       "prize_raw": "Cash Prizes & Hiring Opportunities",
       "start_date": "2026-11-07T13:30:00Z",
       "end_date": "2027-01-17T17:30:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "AI Agents & LLM Apps",
@@ -2565,7 +2580,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ff24bb815c8f0e",
@@ -2579,7 +2594,7 @@
       "prize_raw": "$<span data-currency-value>3,000</span>",
       "start_date": "2026-11-03T00:00:00Z",
       "end_date": "2027-02-01T23:59:00Z",
-      "days_remaining": 77,
+      "days_remaining": 76,
       "status": "active",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -2600,7 +2615,7 @@
       "organizer": "BranchOut!",
       "difficulty": "Beginner",
       "mode": "Online",
-      "participants_count": 54,
+      "participants_count": 64,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/871/datas/medium_square.jpg",
@@ -2608,7 +2623,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:12Z"
     },
     {
       "id": "19f0c58cf015e7",
@@ -2622,7 +2637,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-21T00:00:00Z",
       "end_date": "2026-11-22T23:59:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2648,7 +2663,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "d4c0bc64f17207",
@@ -2662,7 +2677,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-11-23T02:45:00Z",
       "end_date": "2026-11-23T10:30:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2680,7 +2695,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 106,
+      "participants_count": 169,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -2688,7 +2703,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "95f41156f3b9d7",
@@ -2702,7 +2717,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-20T00:00:00Z",
       "end_date": "2026-11-22T23:59:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Open Source & Core Systems",
@@ -2729,7 +2744,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a1ebc2b1e6f7ee",
@@ -2743,7 +2758,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-11-19T18:30:00Z",
       "end_date": "2026-11-22T17:00:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2761,7 +2776,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 783,
+      "participants_count": 860,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -2769,7 +2784,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "161cc04215d4d7",
@@ -2783,7 +2798,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-21T00:00:00Z",
       "end_date": "2026-11-22T23:59:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Open Source & Core Systems",
@@ -2811,7 +2826,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "5245602c377649",
@@ -2825,7 +2840,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-21T00:00:00Z",
       "end_date": "2026-11-22T23:59:00Z",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2851,7 +2866,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "55e2bc84747f29",
@@ -2865,7 +2880,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-11-21T18:30:00Z",
       "end_date": "2026-11-24T18:29:00Z",
-      "days_remaining": 8,
+      "days_remaining": 7,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2883,7 +2898,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 43,
+      "participants_count": 69,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -2891,7 +2906,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "979fe29bc2906c",
@@ -2905,7 +2920,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-11-27T18:30:00Z",
       "end_date": "2026-11-28T18:30:00Z",
-      "days_remaining": 12,
+      "days_remaining": 11,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2923,7 +2938,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 2273,
+      "participants_count": 2307,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -2931,7 +2946,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "ce80a23809bd06",
@@ -2945,7 +2960,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-28T00:00:00Z",
       "end_date": "2026-11-29T23:59:00Z",
-      "days_remaining": 13,
+      "days_remaining": 12,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -2971,7 +2986,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "04db1c1cd1061e",
@@ -2985,7 +3000,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-11-28T00:00:00Z",
       "end_date": "2026-11-29T23:59:00Z",
-      "days_remaining": 13,
+      "days_remaining": 12,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3011,7 +3026,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "3bd46895457689",
@@ -3025,7 +3040,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-12-04T04:30:00Z",
       "end_date": "2026-12-05T12:30:00Z",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3043,7 +3058,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 270,
+      "participants_count": 330,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3051,7 +3066,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "650efe5f3e2cbd",
@@ -3065,7 +3080,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2026-12-04T00:00:00Z",
       "end_date": "2026-12-06T23:59:00Z",
-      "days_remaining": 20,
+      "days_remaining": 19,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3091,7 +3106,47 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
+    },
+    {
+      "id": "9d3544e0887df1",
+      "title": "MakerSpark",
+      "platform": "Devfolio",
+      "source": "devfolio",
+      "url": "https://makerspark.devfolio.co",
+      "prize": "Sponsor Bounties & Tracks",
+      "prize_usd": 0.0,
+      "prize_currency": "USD",
+      "prize_raw": "Sponsor Bounties & Tracks",
+      "start_date": "2026-12-09T03:30:00Z",
+      "end_date": "2026-12-09T11:30:00Z",
+      "days_remaining": 21,
+      "status": "upcoming",
+      "challenge_type": "hackathon",
+      "category": "Full-Stack & Web Apps",
+      "ecosystem": "Web & Full-Stack",
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "in-person"
+      ],
+      "description": "Devfolio builder hackathon (In-Person).",
+      "organizer": "Devfolio",
+      "difficulty": "Intermediate",
+      "mode": "In-Person",
+      "participants_count": 5,
+      "submissions_count": null,
+      "repo_url": null,
+      "logo_url": null,
+      "first_seen_at": "2026-11-17",
+      "is_new": true,
+      "prize_delta_usd": 0.0,
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "10345446f2fc4e",
@@ -3105,7 +3160,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-12-11T16:30:00Z",
       "end_date": "2026-12-13T06:30:00Z",
-      "days_remaining": 26,
+      "days_remaining": 25,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3123,7 +3178,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "Online",
-      "participants_count": 1912,
+      "participants_count": 1925,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3131,7 +3186,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "01c0b134d2db05",
@@ -3145,7 +3200,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2026-12-26T01:00:00Z",
       "end_date": "2026-12-27T01:00:00Z",
-      "days_remaining": 40,
+      "days_remaining": 39,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -3166,7 +3221,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 29,
+      "participants_count": 36,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3174,7 +3229,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "8fa203ce0e4f77",
@@ -3188,7 +3243,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-02T04:30:00Z",
       "end_date": "2027-01-03T04:30:00Z",
-      "days_remaining": 47,
+      "days_remaining": 46,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3206,7 +3261,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 310,
+      "participants_count": 366,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3214,7 +3269,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "50b1af07d3141f",
@@ -3228,7 +3283,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-03T05:00:00Z",
       "end_date": "2027-01-04T05:00:00Z",
-      "days_remaining": 48,
+      "days_remaining": 47,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Fintech & Enterprise Systems",
@@ -3249,7 +3304,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 599,
+      "participants_count": 602,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3257,7 +3312,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "54112d81024951",
@@ -3271,7 +3326,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-09T00:00:00Z",
       "end_date": "2027-01-10T23:59:00Z",
-      "days_remaining": 55,
+      "days_remaining": 54,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3297,7 +3352,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "42af95afcbd13b",
@@ -3311,7 +3366,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-15T03:30:00Z",
       "end_date": "2027-01-16T09:30:00Z",
-      "days_remaining": 60,
+      "days_remaining": 59,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Open Source & Core Systems",
@@ -3332,7 +3387,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 51,
+      "participants_count": 57,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3340,7 +3395,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "ecffec4d295ca5",
@@ -3354,7 +3409,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-16T03:30:00Z",
       "end_date": "2027-01-17T09:00:00Z",
-      "days_remaining": 61,
+      "days_remaining": 60,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3372,7 +3427,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 252,
+      "participants_count": 273,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3380,7 +3435,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "32c167bd96293f",
@@ -3394,7 +3449,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-16T00:00:00Z",
       "end_date": "2027-01-17T23:59:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3421,7 +3476,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "8793fb970902d5",
@@ -3435,7 +3490,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-16T00:00:00Z",
       "end_date": "2027-01-17T23:59:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3461,7 +3516,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a305668354335b",
@@ -3475,7 +3530,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-16T00:00:00Z",
       "end_date": "2027-01-17T23:59:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3502,7 +3557,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "64a5963451940a",
@@ -3516,7 +3571,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-15T00:00:00Z",
       "end_date": "2027-01-17T23:59:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3542,7 +3597,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "5a05f69e6f8d27",
@@ -3556,7 +3611,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-15T00:00:00Z",
       "end_date": "2027-01-17T23:59:00Z",
-      "days_remaining": 62,
+      "days_remaining": 61,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3582,7 +3637,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "cffa202db303a2",
@@ -3596,7 +3651,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-24T04:30:00Z",
       "end_date": "2027-01-24T11:30:00Z",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3622,7 +3677,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "cd3551609ff9c7",
@@ -3636,7 +3691,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-22T04:30:00Z",
       "end_date": "2027-01-24T06:30:00Z",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3654,7 +3709,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 238,
+      "participants_count": 246,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3662,7 +3717,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "36d53738691927",
@@ -3676,7 +3731,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-22T12:30:00Z",
       "end_date": "2027-01-24T00:30:00Z",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3694,7 +3749,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 987,
+      "participants_count": 990,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3702,7 +3757,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "2374caddb2ba04",
@@ -3716,7 +3771,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-23T00:00:00Z",
       "end_date": "2027-01-24T23:59:00Z",
-      "days_remaining": 69,
+      "days_remaining": 68,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3743,7 +3798,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "50575fa851aa65",
@@ -3757,7 +3812,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-22T00:00:00Z",
       "end_date": "2027-01-24T23:59:00Z",
-      "days_remaining": 69,
+      "days_remaining": 68,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3783,7 +3838,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "1ebaebfcbe40ee",
@@ -3797,7 +3852,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-09T18:30:00Z",
       "end_date": "2027-01-24T18:30:00Z",
-      "days_remaining": 69,
+      "days_remaining": 68,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3823,7 +3878,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "f40b315dfc438b",
@@ -3837,6 +3892,46 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-01-28T03:30:00Z",
       "end_date": "2027-01-29T10:30:00Z",
+      "days_remaining": 72,
+      "status": "upcoming",
+      "challenge_type": "hackathon",
+      "category": "Full-Stack & Web Apps",
+      "ecosystem": "Web & Full-Stack",
+      "languages": [
+        "TypeScript",
+        "Python"
+      ],
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "in-person"
+      ],
+      "description": "Devfolio builder hackathon (In-Person).",
+      "organizer": "Devfolio",
+      "difficulty": "Intermediate",
+      "mode": "In-Person",
+      "participants_count": 67,
+      "submissions_count": null,
+      "repo_url": null,
+      "logo_url": null,
+      "first_seen_at": "2026-11-09",
+      "is_new": false,
+      "prize_delta_usd": 0.0,
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:10Z"
+    },
+    {
+      "id": "3a7215fc886082",
+      "title": "Innerve 11.0",
+      "platform": "Devfolio",
+      "source": "devfolio",
+      "url": "https://www.innerve.tech/",
+      "prize": "Sponsor Bounties & Tracks",
+      "prize_usd": 0.0,
+      "prize_currency": "USD",
+      "prize_raw": "Sponsor Bounties & Tracks",
+      "start_date": "2027-01-29T04:30:00Z",
+      "end_date": "2027-01-30T04:30:00Z",
       "days_remaining": 73,
       "status": "upcoming",
       "challenge_type": "hackathon",
@@ -3855,28 +3950,28 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 60,
+      "participants_count": 135,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
-      "first_seen_at": "2026-11-09",
+      "first_seen_at": "2026-10-28",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
-      "id": "3a7215fc886082",
-      "title": "Innerve 11.0",
+      "id": "88e4c40c8ac9c5",
+      "title": "Hack Nexus 2027",
       "platform": "Devfolio",
       "source": "devfolio",
-      "url": "https://www.innerve.tech/",
+      "url": "https://hack-nexus.devfolio.co",
       "prize": "Sponsor Bounties & Tracks",
       "prize_usd": 0.0,
       "prize_currency": "USD",
       "prize_raw": "Sponsor Bounties & Tracks",
-      "start_date": "2027-01-29T04:30:00Z",
-      "end_date": "2027-01-30T04:30:00Z",
+      "start_date": "2027-01-30T04:30:00Z",
+      "end_date": "2027-01-31T11:30:00Z",
       "days_remaining": 74,
       "status": "upcoming",
       "challenge_type": "hackathon",
@@ -3895,47 +3990,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 123,
-      "submissions_count": null,
-      "repo_url": null,
-      "logo_url": null,
-      "first_seen_at": "2026-10-28",
-      "is_new": false,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
-    },
-    {
-      "id": "88e4c40c8ac9c5",
-      "title": "Hack Nexus 2027",
-      "platform": "Devfolio",
-      "source": "devfolio",
-      "url": "https://hack-nexus.devfolio.co",
-      "prize": "Sponsor Bounties & Tracks",
-      "prize_usd": 0.0,
-      "prize_currency": "USD",
-      "prize_raw": "Sponsor Bounties & Tracks",
-      "start_date": "2027-01-30T04:30:00Z",
-      "end_date": "2027-01-31T11:30:00Z",
-      "days_remaining": 75,
-      "status": "upcoming",
-      "challenge_type": "hackathon",
-      "category": "Full-Stack & Web Apps",
-      "ecosystem": "Web & Full-Stack",
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "tags": [
-        "devfolio",
-        "hackathon",
-        "in-person"
-      ],
-      "description": "Devfolio builder hackathon (In-Person).",
-      "organizer": "Devfolio",
-      "difficulty": "Intermediate",
-      "mode": "In-Person",
-      "participants_count": 121,
+      "participants_count": 127,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -3943,7 +3998,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "d498c861b9f0fb",
@@ -3957,7 +4012,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-01-29T00:00:00Z",
       "end_date": "2027-01-31T23:59:00Z",
-      "days_remaining": 76,
+      "days_remaining": 75,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -3984,7 +4039,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "bcb1e0e1e39b8f",
@@ -3998,7 +4053,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-02-05T02:30:00Z",
       "end_date": "2027-02-06T14:30:00Z",
-      "days_remaining": 81,
+      "days_remaining": 80,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4016,15 +4071,15 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 148,
+      "participants_count": 169,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
       "first_seen_at": "2026-10-28",
       "is_new": false,
       "prize_delta_usd": 0.0,
-      "days_shift": 7,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "ca7299bbcf19f6",
@@ -4038,7 +4093,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-05T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4064,7 +4119,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ee90a09026df34",
@@ -4078,7 +4133,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-05T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4104,7 +4159,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "fdd070656f3907",
@@ -4118,7 +4173,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-06T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Open Source & Core Systems",
@@ -4145,7 +4200,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "bcc687252d14eb",
@@ -4159,7 +4214,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-06T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4186,7 +4241,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "87884c56fd8c4f",
@@ -4200,7 +4255,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-06T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4226,7 +4281,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "423c3eadd6efdf",
@@ -4240,7 +4295,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-05T00:00:00Z",
       "end_date": "2027-02-07T23:59:00Z",
-      "days_remaining": 83,
+      "days_remaining": 82,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4266,7 +4321,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "c645228d21f585",
@@ -4280,7 +4335,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-02-13T11:30:00Z",
       "end_date": "2027-02-14T11:30:00Z",
-      "days_remaining": 89,
+      "days_remaining": 88,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4306,7 +4361,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "5008d5438de3fb",
@@ -4320,7 +4375,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-13T00:00:00Z",
       "end_date": "2027-02-14T23:59:00Z",
-      "days_remaining": 90,
+      "days_remaining": 89,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4346,7 +4401,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "3b4b924d01a4fc",
@@ -4360,7 +4415,7 @@
       "prize_raw": "MLH & Sponsor Prizes",
       "start_date": "2027-02-19T00:00:00Z",
       "end_date": "2027-02-21T23:59:00Z",
-      "days_remaining": 97,
+      "days_remaining": 96,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4386,7 +4441,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "1203375c0b66a3",
@@ -4400,7 +4455,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-02-27T04:30:00Z",
       "end_date": "2027-02-28T04:30:00Z",
-      "days_remaining": 103,
+      "days_remaining": 102,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4418,7 +4473,7 @@
       "organizer": "Devfolio",
       "difficulty": "Intermediate",
       "mode": "In-Person",
-      "participants_count": 19,
+      "participants_count": 29,
       "submissions_count": null,
       "repo_url": null,
       "logo_url": null,
@@ -4426,47 +4481,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
-    },
-    {
-      "id": "4551d217722a09",
-      "title": "Diversion 2k27",
-      "platform": "Devfolio",
-      "source": "devfolio",
-      "url": "https://diversion2k27.devfolio.co",
-      "prize": "Sponsor Bounties & Tracks",
-      "prize_usd": 0.0,
-      "prize_currency": "USD",
-      "prize_raw": "Sponsor Bounties & Tracks",
-      "start_date": "2027-03-06T02:30:00Z",
-      "end_date": "2027-03-07T09:30:00Z",
-      "days_remaining": 110,
-      "status": "upcoming",
-      "challenge_type": "hackathon",
-      "category": "Full-Stack & Web Apps",
-      "ecosystem": "Web & Full-Stack",
-      "languages": [
-        "TypeScript",
-        "Python"
-      ],
-      "tags": [
-        "devfolio",
-        "hackathon",
-        "in-person"
-      ],
-      "description": "Devfolio builder hackathon (In-Person).",
-      "organizer": "Devfolio",
-      "difficulty": "Intermediate",
-      "mode": "In-Person",
-      "participants_count": 181,
-      "submissions_count": null,
-      "repo_url": null,
-      "logo_url": null,
-      "first_seen_at": "2026-10-28",
-      "is_new": false,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "bb7bc7a7aeed11",
@@ -4480,7 +4495,7 @@
       "prize_raw": "Sponsor Bounties & Tracks",
       "start_date": "2027-04-02T18:30:00Z",
       "end_date": "2027-04-04T18:29:00Z",
-      "days_remaining": 139,
+      "days_remaining": 138,
       "status": "upcoming",
       "challenge_type": "hackathon",
       "category": "Full-Stack & Web Apps",
@@ -4506,7 +4521,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "915eba1b685d8e",
@@ -4520,7 +4535,7 @@
       "prize_raw": "Rated Global Leaderboard",
       "start_date": "2026-11-21T14:35:00Z",
       "end_date": "2026-11-21T16:35:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4549,7 +4564,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "b7d165a61cf18b",
@@ -4563,7 +4578,7 @@
       "prize_raw": "Rated Global Leaderboard",
       "start_date": "2026-11-22T09:05:00Z",
       "end_date": "2026-11-22T11:05:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4592,7 +4607,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "230f56a8091c13",
@@ -4606,7 +4621,7 @@
       "prize_raw": "LeetCoins & Global Rating",
       "start_date": "2026-11-21T14:30:00Z",
       "end_date": "2026-11-21T16:00:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4635,7 +4650,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "38332781f7c93f",
@@ -4649,7 +4664,7 @@
       "prize_raw": "LeetCoins & Global Rating",
       "start_date": "2026-11-22T02:30:00Z",
       "end_date": "2026-11-22T04:00:00Z",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4678,7 +4693,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "41de2a05ec2019",
@@ -4692,7 +4707,7 @@
       "prize_raw": "Rated Global Leaderboard",
       "start_date": "2026-12-01T14:30:00Z",
       "end_date": "2026-12-08T14:30:00Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4721,7 +4736,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a730afd95b9440",
@@ -4735,7 +4750,7 @@
       "prize_raw": "Rated Global Leaderboard",
       "start_date": "2026-12-08T14:35:00Z",
       "end_date": "2026-12-08T17:05:00Z",
-      "days_remaining": 22,
+      "days_remaining": 21,
       "status": "upcoming",
       "challenge_type": "coding_contest",
       "category": "Algorithms & Competitive Coding",
@@ -4764,7 +4779,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "fd55f9919a157f",
@@ -4806,7 +4821,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "99f8950d0c2b83",
@@ -4848,7 +4863,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "6a5cb3171215c7",
@@ -4890,7 +4905,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "5998edb18ad5bf",
@@ -4932,7 +4947,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "76fa742ed7a386",
@@ -4973,7 +4988,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "1f3bbea4dff2dd",
@@ -5015,7 +5030,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "76e85934a5fc2c",
@@ -5057,7 +5072,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "8c8b6d744edd94",
@@ -5099,7 +5114,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "28fa8a822436d9",
@@ -5141,7 +5156,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "faef9e58017ca4",
@@ -5183,7 +5198,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "8c47e41140b0f4",
@@ -5225,7 +5240,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "57b1be618fba43",
@@ -5267,7 +5282,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "fe4f0796a51b20",
@@ -5309,7 +5324,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "80f39616ed7531",
@@ -5351,7 +5366,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "11f9fcd0d1d281",
@@ -5393,7 +5408,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "88256be47b8407",
@@ -5434,7 +5449,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "1cb5e47647392f",
@@ -5476,7 +5491,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "a42afd545819e2",
@@ -5518,7 +5533,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "dae4af9ff8bbe0",
@@ -5565,7 +5580,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "9a0e30e08c7d3f",
@@ -5607,7 +5622,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "b091816d08a326",
@@ -5649,7 +5664,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "f55e86a0eaccc0",
@@ -5690,7 +5705,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "d18a43b2c6ff9b",
@@ -5732,7 +5747,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "ec98a5f81189c1",
@@ -5779,7 +5794,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "2f420fa2ccf5a2",
@@ -5820,7 +5835,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "e46d902b133979",
@@ -5861,7 +5876,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "9d60de2f8726aa",
@@ -5903,7 +5918,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "47b77aed27d190",
@@ -5945,7 +5960,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "aaf0ed05474d0c",
@@ -5987,7 +6002,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "f47e1483297c8e",
@@ -6028,7 +6043,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "b629bbcac97ef0",
@@ -6070,7 +6085,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "6599209be347b2",
@@ -6112,7 +6127,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "6fc68aec766318",
@@ -6154,7 +6169,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "9388f87f9dbcd4",
@@ -6195,7 +6210,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "7ace6a967513ed",
@@ -6236,7 +6251,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "40d8966706808e",
@@ -6278,7 +6293,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "235a4d15916aff",
@@ -6320,7 +6335,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "769e064e9f975a",
@@ -6362,7 +6377,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "479987fed16c53",
@@ -6404,7 +6419,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "36b5e2469975a2",
@@ -6446,7 +6461,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "cb755231a05277",
@@ -6488,7 +6503,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "787f26523c39b1",
@@ -6526,10 +6541,10 @@
       "repo_url": null,
       "logo_url": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
       "first_seen_at": "2026-11-13",
-      "is_new": true,
+      "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "b7d9254c814218",
@@ -6570,7 +6585,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "0d5b31afe651df",
@@ -6612,7 +6627,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "6d13b6daecc54c",
@@ -6653,7 +6668,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "e2490b70c982c8",
@@ -6695,7 +6710,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "e6087d04d1e13a",
@@ -6737,7 +6752,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "b238bc0f2abe7e",
@@ -6779,7 +6794,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "47ea837fe2af03",
@@ -6820,7 +6835,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:19Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "5d0173acc6285c",
@@ -6866,99 +6881,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "ce464a76744d1e",
-      "title": "[SecureBananaLabs/bug-bounty] auth refresh endpoint issues tokens without verifying the requester",
-      "platform": "GitHub Bounties",
-      "source": "github_bounties",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2847",
-      "prize": "$780",
-      "prize_usd": 780.0,
-      "prize_currency": "USD",
-      "prize_raw": "780.0",
-      "start_date": "2026-05-31T12:35:50Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "AI Agents & LLM Apps",
-      "ecosystem": "AI / LLM Stack",
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "tags": [
-        "bounty",
-        "bug",
-        "bug bounty",
-        "enhancement",
-        "github",
-        "good first issue",
-        "help wanted",
-        "open-source",
-        "securebananalabs"
-      ],
-      "description": "Bug POST /api/auth/refresh currently issues a fresh access token without checking the requester at all. The service also signs that token for the hard-coded subject usr existing with role client , so even an authenticated caller does not get a token for their own subject and role. Expected fix Protect the refresh route with the existing bearer-token auth middleware, pass the verified user payload into t",
-      "organizer": "SecureBananaLabs",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 16,
-      "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
-      "logo_url": "https://avatars.githubusercontent.com/u/287063854?v=4",
-      "first_seen_at": "2026-10-24",
-      "is_new": false,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "bbdd12b3565a12",
-      "title": "[SecureBananaLabs/bug-bounty] POST /api/users endpoint missing authentication middleware (reissue via #743)",
-      "platform": "GitHub Bounties",
-      "source": "github_bounties",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2779",
-      "prize": "$780",
-      "prize_usd": 780.0,
-      "prize_currency": "USD",
-      "prize_raw": "780.0",
-      "start_date": "2026-05-31T09:50:31Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "AI Agents & LLM Apps",
-      "ecosystem": "AI / LLM Stack",
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "tags": [
-        "bounty",
-        "bug",
-        "bug bounty",
-        "enhancement",
-        "github",
-        "good first issue",
-        "help wanted",
-        "open-source",
-        "securebananalabs"
-      ],
-      "description": "Security: Unauthenticated user creation endpoint Description: The API exposes POST /api/users without auth middleware, allowing unauthenticated user creation. File: apps/api/src/routes/userRoutes.js Current code: js userRoutes.post(\"/\", postUser); Expected behavior: Require authMiddleware before postUser . Impact: Medium ? unauthorized user creation and abuse of account lifec",
-      "organizer": "SecureBananaLabs",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 9,
-      "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
-      "logo_url": "https://avatars.githubusercontent.com/u/289090895?v=4",
-      "first_seen_at": "2026-11-13",
-      "is_new": true,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "4b682084f12910",
@@ -7004,7 +6927,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "6bb97e827cfaab",
@@ -7050,53 +6973,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "0fb6ad788c3ccd",
-      "title": "[SecureBananaLabs/bug-bounty] Low Handing Fruit Automation",
-      "platform": "GitHub Bounties",
-      "source": "github_bounties",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-      "prize": "$700",
-      "prize_usd": 700.0,
-      "prize_currency": "USD",
-      "prize_raw": "700.0",
-      "start_date": "2026-05-27T06:32:39Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "AI Agents & LLM Apps",
-      "ecosystem": "AI / LLM Stack",
-      "languages": [
-        "Python",
-        "TypeScript"
-      ],
-      "tags": [
-        "bounty",
-        "bug",
-        "bug bounty",
-        "documentation",
-        "github",
-        "good first issue",
-        "help wanted",
-        "open-source",
-        "securebananalabs"
-      ],
-      "description": "Automate Low Hanging fruit bug detection and issue creation recursively. This issue is an issue focused on creating more issues: 1. Find a feature/bug to work on from this repository 2. Create a GitHub issue on the repository to start working on it -- Pull requests without issues will not be considered. 3. Use the following string in the issue that you created: \"This issue is limited only to the creator of this issu",
-      "organizer": "SecureBananaLabs",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 1456,
-      "repo_url": "https://github.com/SecureBananaLabs/bug-bounty",
-      "logo_url": "https://avatars.githubusercontent.com/u/72201398?v=4",
-      "first_seen_at": "2026-10-18",
-      "is_new": false,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "af9893286f0297",
@@ -7133,14 +7010,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 2,
+      "submissions_count": 4,
       "repo_url": "https://github.com/IES-BoilerRoom/Furnace",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-11",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "4ebafc83820e6a",
@@ -7183,7 +7060,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "14a47582255e11",
@@ -7226,7 +7103,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "d263b5ae1061b0",
@@ -7261,57 +7138,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 6,
+      "submissions_count": 7,
       "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-06",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "2bd02fe7720d79",
-      "title": "[IES-BoilerRoom/rfc9421-http-signature-gateway] [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`)",
-      "platform": "Algora / GitHub",
-      "source": "github_bounties",
-      "url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2",
-      "prize": "$600",
-      "prize_usd": 600.0,
-      "prize_currency": "USD",
-      "prize_raw": "600.0",
-      "start_date": "2026-11-12T20:10:46Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "Open Source & Core Systems",
-      "ecosystem": "Open Source / GitHub",
-      "languages": [
-        "TypeScript",
-        "Python",
-        "Rust"
-      ],
-      "tags": [
-        "bounty",
-        "github",
-        "help wanted",
-        "ies-boilerroom",
-        "open-source"
-      ],
-      "description": "Automated CI Conformance Mirror Notice : Automated IETF RFC 9421 / RFC 8941 Structured Fields multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow Rail : https://algora.io / https://polar.sh / https://opire.dev - Funding Status : Held in escrow — Reward: $600 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/solana-svm-cpi-confo",
-      "organizer": "IES-BoilerRoom",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 2,
-      "repo_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway",
-      "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-      "first_seen_at": "2026-11-13",
-      "is_new": true,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "3db3e7cd94caab",
@@ -7354,7 +7188,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "4e6e5725586436",
@@ -7390,14 +7224,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 2,
+      "submissions_count": 1,
       "repo_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-16",
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "0fab1b9d964d36",
@@ -7432,14 +7266,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 1,
+      "submissions_count": 4,
       "repo_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine",
       "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
       "first_seen_at": "2026-11-06",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "8286899d0c7930",
@@ -7474,57 +7308,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 2,
+      "submissions_count": 3,
       "repo_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay",
       "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
       "first_seen_at": "2026-11-10",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "b11361b57e879f",
-      "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked",
-      "platform": "Algora / GitHub",
-      "source": "github_bounties",
-      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4207",
-      "prize": "$600",
-      "prize_usd": 600.0,
-      "prize_currency": "USD",
-      "prize_raw": "600.0",
-      "start_date": "2026-11-05T18:17:54Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "Open Source & Core Systems",
-      "ecosystem": "Open Source / GitHub",
-      "languages": [
-        "TypeScript",
-        "Python",
-        "Rust"
-      ],
-      "tags": [
-        "bounty",
-        "github",
-        "open-source",
-        "real",
-        "zhangjiayang6835-cyber"
-      ],
-      "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2 漏洞描述 / Description Bounty $600 USDC PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (drain horizon table f52) Automated CI Regression Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on",
-      "organizer": "zhangjiayang6835-cyber",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 4,
-      "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-      "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-      "first_seen_at": "2026-11-16",
-      "is_new": true,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "7bfbc7845dc125",
@@ -7567,7 +7358,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "a462adecb24388",
@@ -7610,7 +7401,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "0b698b6dd26784",
@@ -7653,7 +7444,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "e8eacea72be4a7",
@@ -7696,50 +7487,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
-    },
-    {
-      "id": "3fa3b21c4cf542",
-      "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
-      "platform": "Algora / GitHub",
-      "source": "github_bounties",
-      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
-      "prize": "$600",
-      "prize_usd": 600.0,
-      "prize_currency": "USD",
-      "prize_raw": "600.0",
-      "start_date": "2026-11-11T01:28:10Z",
-      "end_date": null,
-      "days_remaining": null,
-      "status": "ongoing",
-      "challenge_type": "oss_bounty",
-      "category": "Open Source & Core Systems",
-      "ecosystem": "Open Source / GitHub",
-      "languages": [
-        "TypeScript",
-        "Python",
-        "Rust"
-      ],
-      "tags": [
-        "bounty",
-        "github",
-        "open-source",
-        "real",
-        "zhangjiayang6835-cyber"
-      ],
-      "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 漏洞描述 / Description Escrowed $600 USDC Reject non-canonical S = L scalar encodings without variable-time branches ( ed25519-ct-limb-verifier ) Automated CI Conformance Mirror Notice : Automated IETF RFC 8032 / Wycheproof Constant-Time Suite multi-shard quorum issue; manual pull requests",
-      "organizer": "zhangjiayang6835-cyber",
-      "difficulty": "Intermediate",
-      "mode": "Online",
-      "participants_count": null,
-      "submissions_count": 2,
-      "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-      "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-      "first_seen_at": "2026-11-11",
-      "is_new": false,
-      "prize_delta_usd": 0.0,
-      "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "37689b53fbb685",
@@ -7782,7 +7530,50 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
+    },
+    {
+      "id": "a0f646658a6186",
+      "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunke",
+      "platform": "Algora / GitHub",
+      "source": "github_bounties",
+      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4223",
+      "prize": "$600",
+      "prize_usd": 600.0,
+      "prize_currency": "USD",
+      "prize_raw": "600.0",
+      "start_date": "2026-11-06T03:42:46Z",
+      "end_date": null,
+      "days_remaining": null,
+      "status": "ongoing",
+      "challenge_type": "oss_bounty",
+      "category": "Open Source & Core Systems",
+      "ecosystem": "Open Source / GitHub",
+      "languages": [
+        "TypeScript",
+        "Python",
+        "Rust"
+      ],
+      "tags": [
+        "bounty",
+        "github",
+        "open-source",
+        "real",
+        "zhangjiayang6835-cyber"
+      ],
+      "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2 漏洞描述 / Description 💎 Bounty $600 USDC PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (reconcile stride dbdc) Automated CI Regression Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on t",
+      "organizer": "zhangjiayang6835-cyber",
+      "difficulty": "Intermediate",
+      "mode": "Online",
+      "participants_count": null,
+      "submissions_count": 3,
+      "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+      "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+      "first_seen_at": "2026-11-06",
+      "is_new": false,
+      "prize_delta_usd": 0.0,
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "64f0b4d5fcc63d",
@@ -7819,14 +7610,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 3,
+      "submissions_count": 5,
       "repo_url": "https://github.com/IES-BoilerRoom/Furnace",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-11",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "f3a7f29188d6f8",
@@ -7869,7 +7660,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "c4a89e60a2f6e5",
@@ -7912,7 +7703,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "9a285bb614a6de",
@@ -7947,14 +7738,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 2,
+      "submissions_count": 3,
       "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-06",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "9a7cfc8f07eede",
@@ -7994,10 +7785,10 @@
       "repo_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway",
       "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
       "first_seen_at": "2026-11-13",
-      "is_new": true,
+      "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "7f3fb17dceb6a4",
@@ -8040,7 +7831,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "7751ab4a26c160",
@@ -8083,7 +7874,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "13028aef40e83e",
@@ -8117,14 +7908,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 6,
+      "submissions_count": 7,
       "repo_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine",
       "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
       "first_seen_at": "2026-11-06",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "eb0b629a45f064",
@@ -8158,14 +7949,14 @@
       "difficulty": "Intermediate",
       "mode": "Online",
       "participants_count": null,
-      "submissions_count": 3,
+      "submissions_count": 4,
       "repo_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay",
       "logo_url": "https://avatars.githubusercontent.com/u/115413758?v=4",
       "first_seen_at": "2026-11-10",
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "b7b48df577a16f",
@@ -8186,8 +7977,7 @@
       "ecosystem": "AI / LLM Stack",
       "languages": [
         "Python",
-        "TypeScript",
-        "C / C++"
+        "TypeScript"
       ],
       "tags": [
         "bounty",
@@ -8208,7 +7998,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "46172a23021d73",
@@ -8251,7 +8041,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "de592c192fece5",
@@ -8291,10 +8081,10 @@
       "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
       "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
       "first_seen_at": "2026-11-13",
-      "is_new": true,
+      "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "fb4ab489fb52b4",
@@ -8337,7 +8127,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "b61918dade6989",
@@ -8380,7 +8170,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "36a2b148cab435",
@@ -8423,7 +8213,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "38554aab46c72b",
@@ -8466,7 +8256,49 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
+    },
+    {
+      "id": "9ad78e61df7fcc",
+      "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressu",
+      "platform": "Algora / GitHub",
+      "source": "github_bounties",
+      "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4224",
+      "prize": "$450",
+      "prize_usd": 450.0,
+      "prize_currency": "USD",
+      "prize_raw": "450.0",
+      "start_date": "2026-11-06T03:42:46Z",
+      "end_date": null,
+      "days_remaining": null,
+      "status": "ongoing",
+      "challenge_type": "oss_bounty",
+      "category": "AI Agents & LLM Apps",
+      "ecosystem": "AI / LLM Stack",
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "tags": [
+        "bounty",
+        "github",
+        "open-source",
+        "real",
+        "zhangjiayang6835-cyber"
+      ],
+      "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1 漏洞描述 / Description 💎 Bounty $450 USDC Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff ( fence cursor state v4) Automated CI Regression Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on th",
+      "organizer": "zhangjiayang6835-cyber",
+      "difficulty": "Intermediate",
+      "mode": "Online",
+      "participants_count": null,
+      "submissions_count": 4,
+      "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+      "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+      "first_seen_at": "2026-11-06",
+      "is_new": false,
+      "prize_delta_usd": 0.0,
+      "days_shift": 0,
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "4406dcdd9c42ac",
@@ -8512,7 +8344,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "68ea56e26f053d",
@@ -8558,7 +8390,7 @@
       "is_new": true,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "30dda5a4f5b6d4",
@@ -8604,7 +8436,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "19486e7e820e65",
@@ -8647,7 +8479,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "1f8a86f56bf54a",
@@ -8689,7 +8521,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:21Z"
+      "scraped_at": "2026-11-17T15:44:13Z"
     },
     {
       "id": "76ad1ee9846dfc",
@@ -8731,7 +8563,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:20Z"
+      "scraped_at": "2026-11-17T15:44:11Z"
     },
     {
       "id": "cbc6750177ccc8",
@@ -8775,7 +8607,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "e9f86919f580bf",
@@ -8819,7 +8651,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "bce254a15ac08e",
@@ -8864,7 +8696,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "e6b6c1754c9589",
@@ -8908,7 +8740,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "299a8839833040",
@@ -8951,7 +8783,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "04f6549af7ee66",
@@ -8997,7 +8829,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "98247dbb97c549",
@@ -9040,7 +8872,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "ed2953414c2052",
@@ -9085,7 +8917,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     },
     {
       "id": "7ab4ba017f7c5a",
@@ -9130,7 +8962,7 @@
       "is_new": false,
       "prize_delta_usd": 0.0,
       "days_shift": 0,
-      "scraped_at": "2026-11-16T15:19:18Z"
+      "scraped_at": "2026-11-17T15:44:10Z"
     }
   ]
 }
