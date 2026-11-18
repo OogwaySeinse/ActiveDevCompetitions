@@ -11,7 +11,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-11-19T18:30:00Z",
     "end_date": "2026-11-22T17:00:00Z",
-    "days_remaining": 5,
+    "days_remaining": 4,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -29,7 +29,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 860,
+    "participants_count": 966,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -37,7 +37,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "979fe29bc2906c",
@@ -51,7 +51,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-11-27T18:30:00Z",
     "end_date": "2026-11-28T18:30:00Z",
-    "days_remaining": 11,
+    "days_remaining": 10,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -69,7 +69,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 2307,
+    "participants_count": 2358,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -77,7 +77,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "55e2bc84747f29",
@@ -91,7 +91,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-11-21T18:30:00Z",
     "end_date": "2026-11-24T18:29:00Z",
-    "days_remaining": 7,
+    "days_remaining": 6,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -109,7 +109,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "Online",
-    "participants_count": 69,
+    "participants_count": 116,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -117,7 +117,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "d4c0bc64f17207",
@@ -131,7 +131,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-11-23T02:45:00Z",
     "end_date": "2026-11-23T10:30:00Z",
-    "days_remaining": 5,
+    "days_remaining": 4,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -149,7 +149,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 169,
+    "participants_count": 258,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -157,7 +157,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "9d3544e0887df1",
@@ -171,25 +171,26 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-12-09T03:30:00Z",
     "end_date": "2026-12-09T11:30:00Z",
-    "days_remaining": 21,
+    "days_remaining": 20,
     "status": "upcoming",
     "challenge_type": "hackathon",
-    "category": "Full-Stack & Web Apps",
-    "ecosystem": "Web & Full-Stack",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Systems & Native",
     "languages": [
-      "TypeScript",
-      "Python"
+      "Rust",
+      "C / C++"
     ],
     "tags": [
       "devfolio",
       "hackathon",
+      "hardware",
       "in-person"
     ],
-    "description": "Devfolio builder hackathon (In-Person).",
+    "description": "Devfolio builder hackathon (In-Person) · tracks: Hardware.",
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 5,
+    "participants_count": 14,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -197,7 +198,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "d6e499784d32a6",
@@ -211,7 +212,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-11-08T18:30:00Z",
     "end_date": "2026-11-24T18:30:00Z",
-    "days_remaining": 7,
+    "days_remaining": 6,
     "status": "ending_soon",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -229,7 +230,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 228,
+    "participants_count": 247,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -237,7 +238,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "3bd46895457689",
@@ -251,7 +252,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-12-04T04:30:00Z",
     "end_date": "2026-12-05T12:30:00Z",
-    "days_remaining": 17,
+    "days_remaining": 16,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -269,7 +270,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 330,
+    "participants_count": 373,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -277,7 +278,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "f40b315dfc438b",
@@ -291,7 +292,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-28T03:30:00Z",
     "end_date": "2027-01-29T10:30:00Z",
-    "days_remaining": 72,
+    "days_remaining": 71,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -309,7 +310,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 67,
+    "participants_count": 77,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -317,7 +318,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "8fa203ce0e4f77",
@@ -331,7 +332,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-02T04:30:00Z",
     "end_date": "2027-01-03T04:30:00Z",
-    "days_remaining": 46,
+    "days_remaining": 45,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -349,7 +350,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 366,
+    "participants_count": 389,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -357,7 +358,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "01c0b134d2db05",
@@ -371,7 +372,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-12-26T01:00:00Z",
     "end_date": "2026-12-27T01:00:00Z",
-    "days_remaining": 39,
+    "days_remaining": 38,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Fintech & Enterprise Systems",
@@ -392,7 +393,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 36,
+    "participants_count": 39,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -400,7 +401,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "10345446f2fc4e",
@@ -414,7 +415,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2026-12-11T16:30:00Z",
     "end_date": "2026-12-13T06:30:00Z",
-    "days_remaining": 25,
+    "days_remaining": 24,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -432,7 +433,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "Online",
-    "participants_count": 1925,
+    "participants_count": 1945,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -440,7 +441,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "50b1af07d3141f",
@@ -454,7 +455,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-03T05:00:00Z",
     "end_date": "2027-01-04T05:00:00Z",
-    "days_remaining": 47,
+    "days_remaining": 46,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Fintech & Enterprise Systems",
@@ -475,7 +476,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 602,
+    "participants_count": 603,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -483,7 +484,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "88e4c40c8ac9c5",
@@ -497,86 +498,6 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-30T04:30:00Z",
     "end_date": "2027-01-31T11:30:00Z",
-    "days_remaining": 74,
-    "status": "upcoming",
-    "challenge_type": "hackathon",
-    "category": "Full-Stack & Web Apps",
-    "ecosystem": "Web & Full-Stack",
-    "languages": [
-      "TypeScript",
-      "Python"
-    ],
-    "tags": [
-      "devfolio",
-      "hackathon",
-      "in-person"
-    ],
-    "description": "Devfolio builder hackathon (In-Person).",
-    "organizer": "Devfolio",
-    "difficulty": "Intermediate",
-    "mode": "In-Person",
-    "participants_count": 127,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
-  },
-  {
-    "id": "bcb1e0e1e39b8f",
-    "title": "Hacksprint 3.0",
-    "platform": "Devfolio",
-    "source": "devfolio",
-    "url": "https://www.hacksprint.tech/apply.html",
-    "prize": "Sponsor Bounties & Tracks",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Sponsor Bounties & Tracks",
-    "start_date": "2027-02-05T02:30:00Z",
-    "end_date": "2027-02-06T14:30:00Z",
-    "days_remaining": 80,
-    "status": "upcoming",
-    "challenge_type": "hackathon",
-    "category": "Full-Stack & Web Apps",
-    "ecosystem": "Web & Full-Stack",
-    "languages": [
-      "TypeScript",
-      "Python"
-    ],
-    "tags": [
-      "devfolio",
-      "hackathon",
-      "in-person"
-    ],
-    "description": "Devfolio builder hackathon (In-Person).",
-    "organizer": "Devfolio",
-    "difficulty": "Intermediate",
-    "mode": "In-Person",
-    "participants_count": 169,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
-  },
-  {
-    "id": "3a7215fc886082",
-    "title": "Innerve 11.0",
-    "platform": "Devfolio",
-    "source": "devfolio",
-    "url": "https://www.innerve.tech/",
-    "prize": "Sponsor Bounties & Tracks",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Sponsor Bounties & Tracks",
-    "start_date": "2027-01-29T04:30:00Z",
-    "end_date": "2027-01-30T04:30:00Z",
     "days_remaining": 73,
     "status": "upcoming",
     "challenge_type": "hackathon",
@@ -595,7 +516,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 135,
+    "participants_count": 130,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -603,21 +524,21 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
-    "id": "36d53738691927",
-    "title": "HACK WITH GDG S4",
+    "id": "bcb1e0e1e39b8f",
+    "title": "Hacksprint 3.0",
     "platform": "Devfolio",
     "source": "devfolio",
-    "url": "https://hack-with-gdg-s4.vercel.app/",
+    "url": "https://www.hacksprint.tech/apply.html",
     "prize": "Sponsor Bounties & Tracks",
     "prize_usd": 0.0,
     "prize_currency": "USD",
     "prize_raw": "Sponsor Bounties & Tracks",
-    "start_date": "2027-01-22T12:30:00Z",
-    "end_date": "2027-01-24T00:30:00Z",
-    "days_remaining": 67,
+    "start_date": "2027-02-05T02:30:00Z",
+    "end_date": "2027-02-06T14:30:00Z",
+    "days_remaining": 79,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -635,7 +556,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 990,
+    "participants_count": 180,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -643,7 +564,87 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
+  },
+  {
+    "id": "3a7215fc886082",
+    "title": "Innerve 11.0",
+    "platform": "Devfolio",
+    "source": "devfolio",
+    "url": "https://www.innerve.tech/",
+    "prize": "Sponsor Bounties & Tracks",
+    "prize_usd": 0.0,
+    "prize_currency": "USD",
+    "prize_raw": "Sponsor Bounties & Tracks",
+    "start_date": "2027-01-29T04:30:00Z",
+    "end_date": "2027-01-30T04:30:00Z",
+    "days_remaining": 72,
+    "status": "upcoming",
+    "challenge_type": "hackathon",
+    "category": "Full-Stack & Web Apps",
+    "ecosystem": "Web & Full-Stack",
+    "languages": [
+      "TypeScript",
+      "Python"
+    ],
+    "tags": [
+      "devfolio",
+      "hackathon",
+      "in-person"
+    ],
+    "description": "Devfolio builder hackathon (In-Person).",
+    "organizer": "Devfolio",
+    "difficulty": "Intermediate",
+    "mode": "In-Person",
+    "participants_count": 148,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-18T15:24:11Z"
+  },
+  {
+    "id": "36d53738691927",
+    "title": "HACK WITH GDG S4",
+    "platform": "Devfolio",
+    "source": "devfolio",
+    "url": "https://hack-with-gdg-s4.vercel.app/",
+    "prize": "Sponsor Bounties & Tracks",
+    "prize_usd": 0.0,
+    "prize_currency": "USD",
+    "prize_raw": "Sponsor Bounties & Tracks",
+    "start_date": "2027-01-22T12:30:00Z",
+    "end_date": "2027-01-24T00:30:00Z",
+    "days_remaining": 66,
+    "status": "upcoming",
+    "challenge_type": "hackathon",
+    "category": "Full-Stack & Web Apps",
+    "ecosystem": "Web & Full-Stack",
+    "languages": [
+      "TypeScript",
+      "Python"
+    ],
+    "tags": [
+      "devfolio",
+      "hackathon",
+      "in-person"
+    ],
+    "description": "Devfolio builder hackathon (In-Person).",
+    "organizer": "Devfolio",
+    "difficulty": "Intermediate",
+    "mode": "In-Person",
+    "participants_count": 995,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "42af95afcbd13b",
@@ -657,7 +658,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-15T03:30:00Z",
     "end_date": "2027-01-16T09:30:00Z",
-    "days_remaining": 59,
+    "days_remaining": 58,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Open Source & Core Systems",
@@ -678,7 +679,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 57,
+    "participants_count": 62,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -686,7 +687,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:11Z"
   },
   {
     "id": "ecffec4d295ca5",
@@ -700,7 +701,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-16T03:30:00Z",
     "end_date": "2027-01-17T09:00:00Z",
-    "days_remaining": 60,
+    "days_remaining": 59,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -718,7 +719,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 273,
+    "participants_count": 299,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -726,7 +727,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   },
   {
     "id": "cd3551609ff9c7",
@@ -740,7 +741,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-22T04:30:00Z",
     "end_date": "2027-01-24T06:30:00Z",
-    "days_remaining": 67,
+    "days_remaining": 66,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -758,7 +759,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 246,
+    "participants_count": 252,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -766,7 +767,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   },
   {
     "id": "1203375c0b66a3",
@@ -780,7 +781,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-02-27T04:30:00Z",
     "end_date": "2027-02-28T04:30:00Z",
-    "days_remaining": 102,
+    "days_remaining": 101,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -798,7 +799,7 @@
     "organizer": "Devfolio",
     "difficulty": "Intermediate",
     "mode": "In-Person",
-    "participants_count": 29,
+    "participants_count": 32,
     "submissions_count": null,
     "repo_url": null,
     "logo_url": null,
@@ -806,7 +807,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   },
   {
     "id": "cffa202db303a2",
@@ -820,6 +821,46 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-01-24T04:30:00Z",
     "end_date": "2027-01-24T11:30:00Z",
+    "days_remaining": 66,
+    "status": "upcoming",
+    "challenge_type": "hackathon",
+    "category": "Full-Stack & Web Apps",
+    "ecosystem": "Web & Full-Stack",
+    "languages": [
+      "TypeScript",
+      "Python"
+    ],
+    "tags": [
+      "devfolio",
+      "hackathon",
+      "in-person"
+    ],
+    "description": "Devfolio builder hackathon (In-Person).",
+    "organizer": "Devfolio",
+    "difficulty": "Intermediate",
+    "mode": "In-Person",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-18T15:24:12Z"
+  },
+  {
+    "id": "1ebaebfcbe40ee",
+    "title": "Winter of Code 6.0",
+    "platform": "Devfolio",
+    "source": "devfolio",
+    "url": "https://woc6.devfolio.co",
+    "prize": "Sponsor Bounties & Tracks",
+    "prize_usd": 0.0,
+    "prize_currency": "USD",
+    "prize_raw": "Sponsor Bounties & Tracks",
+    "start_date": "2027-01-09T18:30:00Z",
+    "end_date": "2027-01-24T18:30:00Z",
     "days_remaining": 67,
     "status": "upcoming",
     "challenge_type": "hackathon",
@@ -846,47 +887,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
-  },
-  {
-    "id": "1ebaebfcbe40ee",
-    "title": "Winter of Code 6.0",
-    "platform": "Devfolio",
-    "source": "devfolio",
-    "url": "https://woc6.devfolio.co",
-    "prize": "Sponsor Bounties & Tracks",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Sponsor Bounties & Tracks",
-    "start_date": "2027-01-09T18:30:00Z",
-    "end_date": "2027-01-24T18:30:00Z",
-    "days_remaining": 68,
-    "status": "upcoming",
-    "challenge_type": "hackathon",
-    "category": "Full-Stack & Web Apps",
-    "ecosystem": "Web & Full-Stack",
-    "languages": [
-      "TypeScript",
-      "Python"
-    ],
-    "tags": [
-      "devfolio",
-      "hackathon",
-      "in-person"
-    ],
-    "description": "Devfolio builder hackathon (In-Person).",
-    "organizer": "Devfolio",
-    "difficulty": "Intermediate",
-    "mode": "In-Person",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   },
   {
     "id": "c645228d21f585",
@@ -900,7 +901,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-02-13T11:30:00Z",
     "end_date": "2027-02-14T11:30:00Z",
-    "days_remaining": 88,
+    "days_remaining": 87,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -926,7 +927,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   },
   {
     "id": "bb7bc7a7aeed11",
@@ -940,7 +941,7 @@
     "prize_raw": "Sponsor Bounties & Tracks",
     "start_date": "2027-04-02T18:30:00Z",
     "end_date": "2027-04-04T18:29:00Z",
-    "days_remaining": 138,
+    "days_remaining": 137,
     "status": "upcoming",
     "challenge_type": "hackathon",
     "category": "Full-Stack & Web Apps",
@@ -966,6 +967,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-17T15:44:10Z"
+    "scraped_at": "2026-11-18T15:24:12Z"
   }
 ]
