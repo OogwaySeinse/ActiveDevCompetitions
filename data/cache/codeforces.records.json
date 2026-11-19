@@ -11,7 +11,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-08T14:35:00Z",
     "end_date": "2026-12-08T17:05:00Z",
-    "days_remaining": 20,
+    "days_remaining": 19,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -40,7 +40,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "41de2a05ec2019",
@@ -54,7 +54,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-01T14:30:00Z",
     "end_date": "2026-12-08T14:30:00Z",
-    "days_remaining": 19,
+    "days_remaining": 18,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -83,7 +83,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "eec2ca134ccf45",
@@ -97,7 +97,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-22T09:05:00Z",
     "end_date": "2026-11-22T11:05:00Z",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -126,7 +126,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "41428edb229522",
@@ -140,7 +140,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-21T14:35:00Z",
     "end_date": "2026-11-21T16:35:00Z",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -169,7 +169,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "93d1cde91bd8a2",
@@ -183,7 +183,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-11-21T14:35:00Z",
     "end_date": "2026-11-21T16:35:00Z",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -212,7 +212,93 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
+  },
+  {
+    "id": "d3b7954c4c73e0",
+    "title": "LeetCode Biweekly Contest 197",
+    "platform": "LeetCode",
+    "source": "codeforces",
+    "url": "https://leetcode.com/contest/biweekly-contest-197/",
+    "prize": "LeetCoins & Global Rating",
+    "prize_usd": 0.0,
+    "prize_currency": "USD",
+    "prize_raw": "LeetCoins & Global Rating",
+    "start_date": "2026-12-05T14:30:00Z",
+    "end_date": "2026-12-05T16:00:00Z",
+    "days_remaining": 16,
+    "status": "upcoming",
+    "challenge_type": "coding_contest",
+    "category": "Algorithms & Competitive Coding",
+    "ecosystem": "Cross-Stack / General",
+    "languages": [
+      "Python",
+      "C / C++",
+      "Java",
+      "TypeScript"
+    ],
+    "tags": [
+      "algorithms",
+      "competitive-programming",
+      "data-structures",
+      "leetcode"
+    ],
+    "description": "LeetCode Biweekly Contest 197 timed algorithmic & data-structures engineering contest (90 mins).",
+    "organizer": "LeetCode",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-19T15:29:52Z"
+  },
+  {
+    "id": "46ea063e84925a",
+    "title": "LeetCode Weekly Contest 530",
+    "platform": "LeetCode",
+    "source": "codeforces",
+    "url": "https://leetcode.com/contest/weekly-contest-530/",
+    "prize": "LeetCoins & Global Rating",
+    "prize_usd": 0.0,
+    "prize_currency": "USD",
+    "prize_raw": "LeetCoins & Global Rating",
+    "start_date": "2026-11-29T02:30:00Z",
+    "end_date": "2026-11-29T04:00:00Z",
+    "days_remaining": 9,
+    "status": "upcoming",
+    "challenge_type": "coding_contest",
+    "category": "Algorithms & Competitive Coding",
+    "ecosystem": "Cross-Stack / General",
+    "languages": [
+      "Python",
+      "C / C++",
+      "Java",
+      "TypeScript"
+    ],
+    "tags": [
+      "algorithms",
+      "competitive-programming",
+      "data-structures",
+      "leetcode"
+    ],
+    "description": "LeetCode Weekly Contest 530 timed algorithmic & data-structures engineering contest (90 mins).",
+    "organizer": "LeetCode",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": null,
+    "logo_url": null,
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "38332781f7c93f",
@@ -226,7 +312,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-11-22T02:30:00Z",
     "end_date": "2026-11-22T04:00:00Z",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -255,7 +341,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   },
   {
     "id": "230f56a8091c13",
@@ -269,7 +355,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-11-21T14:30:00Z",
     "end_date": "2026-11-21T16:00:00Z",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -298,6 +384,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-18T15:24:12Z"
+    "scraped_at": "2026-11-19T15:29:52Z"
   }
 ]

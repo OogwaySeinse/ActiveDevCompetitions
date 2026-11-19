@@ -63,6 +63,15 @@
     "badges": ""
   },
   {
+    "title": "Hack Canada 2027",
+    "url": "https://hackcanada.org/",
+    "date_str": "JAN 08 - 10",
+    "season_year": "2027",
+    "location": "Toronto, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "Hardware"
+  },
+  {
     "title": "DeltaHacks",
     "url": "https://deltahacks.com/",
     "date_str": "JAN 09 - 10",
@@ -72,20 +81,20 @@
     "badges": ""
   },
   {
-    "title": "UofTHacks",
-    "url": "https://uofthacks.com/",
-    "date_str": "JAN 15 - 17",
-    "season_year": "2027",
-    "location": "Toronto, Ontario, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "uOttaHack 9",
     "url": "https://2027.uottahack.ca/",
     "date_str": "JAN 15 - 17",
     "season_year": "2027",
     "location": "Ottawa, Ontario , CA",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "UofTHacks",
+    "url": "https://uofthacks.com/",
+    "date_str": "JAN 15 - 17",
+    "season_year": "2027",
+    "location": "Toronto, Ontario, CA",
     "mode": "In-Person",
     "badges": ""
   },
@@ -132,7 +141,7 @@
     "season_year": "2027",
     "location": "Missisauga, Ontario, CA",
     "mode": "In-Person",
-    "badges": "Diversity"
+    "badges": "Diversity, Hardware"
   },
   {
     "title": "ElleHacks",
@@ -203,15 +212,6 @@
     "date_str": "FEB 13 - 14",
     "season_year": "2027",
     "location": "Toronto, Ontario, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "SF Hacks",
-    "url": "https://sfhacks.io/",
-    "date_str": "FEB 19 - 21",
-    "season_year": "2027",
-    "location": "San Francisco, CA, US",
     "mode": "In-Person",
     "badges": ""
   },
