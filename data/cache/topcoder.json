@@ -1,1 +1,403 @@
-[]
+[
+  {
+    "id": "fed5be1e-1dbd-43b9-b74d-df1d936b1e1a",
+    "name": "Combinator: Build the Best-of-All Submission Agent",
+    "description": "# Challenge Overview \nTopcoder competitions produce multiple valuable submissions, but usually only one is used. Strong features, tests, architectures, workflows, ideas, feasibility arguments, and user experiences in other placements may be lost. Topcoder Combinator recovers that value. \n\nParticipants will build an AI-assisted Combinator that compares selected submissions from one completed challenge, recommends the strongest source for each requirement or concept component, lets a Copilot decide what to retain, and generates a derived candidate with complete evidence, provenance, and verification. \n\nCode mode produces a runnable combined solution using a base-plus-transplants strategy. \nIdeation mode produces one coherent synthesized concept from approved idea components. \nThe agent analyzes and proposes. The Copilot accepts, rejects, replaces, or blocks decisions. \nOriginal submissions are immutable inputs and must never be modified. \n\n# Challenge Goal \n1. Discover challenges from the supplied starter-pack manifest. \n2. Load review context when supplied, or derive it from the specification when absent. \n3. Profile every submission or distinct idea against active requirement IDs. \n4. Fuse source evidence, scorecards, review reports, final corrections, builds, and tests. \n5. Recommend a base and components without assuming placement equals technical superiority. \n6. Provide a review UI and machine-readable decision workspace. \n7. Generate a code or ideation candidate from approved decisions. \n8. Verify the candidate, preserve provenance, and regenerate after decision changes. \n\n# Organizer-Provided Starter Pack \n\n| Fixture  | Mode | Input | Review Content |\n|-------- | -------- | -------- | -------- |\n| AI Deal Scoping Assistant      | Code      | Top 2 submissions      | Provided     |\n| AI Learning Adventure      | Code      | Top 2 submissions      | Provided     |\n| AI Workflow Puzzle Builder      | Code      | Top 2 submissions      | Provided     |\n| Agentic AI and Community Enablement in SDLC  | Ideation       | Top 3 submissions      | Absent; derive from spec      |\n\n\nThe starter pack contains four challenge fixtures and nine submissions. The Combinator processes one challenge at a time and must never combine code, ideas, reviews, or requirements across challenges. \n\nstarter-pack/ \n├── manifest.json \n├── schemas/ \n└── challenges/ \n    ├── AI_DEAL_SCOPING_ASSISTANT/ \n    ├── AI_LEARNING_ADVENTURE/ \n    ├── AI_WORKFLOW_PUZZLE_BUILDER/ \n    └── AGENTIC_AI_COMMUNITY_ENABLEMENT_SDLC/ \n\n### Per-challenge package \nCHALLENGE_ID/ \n├── challenge-context.json \n├── challenge-package.json \n├── review-context/ \n├── scorecards/ \n├── reviews/ \n├── submissions/ \n├── verification/ \n├── integrity/ \n└── README.md \n\n# Review Context: Supplied and Missing Cases \nReview context is optional per challenge, but support for both paths is mandatory. \n\n### When review context is supplied \n* Use it as the primary normalized requirements map. \n* Preserve challenge, requirement, constraint, priority, runtime, stack, and submission-rule IDs. \n* Reconcile it with the final challenge specification. \n* Report missing, stale, or conflicting content instead of silently selecting one source. \n* Use active IDs throughout profiles, matrices, decisions, provenance, and verification. \n\n### When review context is absent \n* Continue without an error or reduced-function mode. \n* Derive equivalent context from the final specification. \n* Generate deterministic stable IDs and retain specification source locations. \n* Label derived fields as specification_derived. \n* Do not invent scorecard weights, reviewer comments, platform IDs, runtime versions, or unsupported constraints. \n\nRequired workspace artifacts: review-context-status.json, active-review-context.json, review-context-reconciliation.json, and source-location-map.json. \n\n# Input Ingestion and Source Protection \n\n* Validate the manifest, package paths, schemas, submissions, reviews, scorecards, and verification configuration. \n* Record SHA-256 hashes for every source artifact before and after processing. \n* Mount source submissions read-only where possible. \n* Perform builds and dependency installation only in disposable analysis copies or isolated containers. \n* Restrict all code writes to workspace/combined-solution/. \n* Reject path traversal, symlink escapes, and writes to source submissions, reviews, scorecards, schemas, and verification fixtures. \n* Audit every file-modifying operation. Any source hash mismatch is a critical failure. \n\n# Submission and Idea Profiling \nFor code submissions, produce architecture, build, test, requirement coverage, strengths, weaknesses, review evidence, compatibility risk, and base suitability. For ideation submissions, identify up to three ideas per document and profile each idea separately. \n\n* Every material claim must reference a file, function, test, README section, page, slide, table, figure, speaker note, or reviewer comment. \n* Supported assessment states: complete, partial, missing, not_verifiable, and manual_review_required. \n* Accepted appeal or correction evidence supersedes earlier false findings while preserving history. \n* The agent must inspect complete repository trees, including nested monorepo applications. \n\n# Evidence Fusion and Requirement Matrix \n* Combine code/document evidence, build and test results, human and AI reviews, scorecards, appeals, and final outcomes. \n* Flag human-versus-AI disagreement, review-versus-source conflict, and uncertain evidence. \n* Do not treat reviewer comments as automatically correct. \n* Provide human-readable Markdown and machine-readable JSON matrices. \n\nEach requirement or evaluation area must show status by submission or idea, evidence, recommended source, reasoning, confidence, compatibility risk, and unresolved conflicts. \n\n# Copilot Decision Workflow \nEach proposed selection becomes a decision with options, recommendation, evidence, reasoning, risk, state, selected source, and Copilot comment. \n\n| State | Meaning | \n|-------- | -------- | \n| pending     | Awaiting Copilot review       |\n| accepted     | Recommended option approved       |\n| rejected     | Recommendation declined      |\n| alternative_selected      | Different source selected       |\n| blocked     | Cannot proceed safely       |\n| manual_review      | Human evidence review required       |\n| unresolved     | Conflict intentionally remains open       |\n\n\nThe review UI must let the Copilot inspect evidence, accept, reject, select an alternative, combine compatible ideation elements, add a comment, trigger regeneration, and view updated verification. \n\n# Code Mode \n### Base plus transplants \n\n* Recommend a runnable base using coverage, stability, architecture, tests, maintainability, compatibility, and integration risk. \n* Copy the approved base into combined-solution/. \n* Apply one approved transplant at a time. \n* Build and test after each transplant. \n* Keep successful changes and record provenance. \n* Roll back failures to the last verified candidate. \n* Continue with independent decisions where safe. \n\nFree-form merging, cross-challenge merging, and cross-language porting are not required. The agent must not claim success merely because files were copied or generated. \n\n### Code verification \n\n* Dependency installation \n* Build \n* Application startup \n* Organizer smoke tests \n* Applicable unit and integration tests \n* Regression comparison against the base \n* Verification of approved capabilities \n* Original scorecard re-evaluation \n* Source-integrity verification \n\nA failed code candidate must never be presented as successful. Preserve the last verified candidate, mark the decision blocked, capture the error, and explain a manual resolution path. \n\n# Ideation Mode \nThe Agentic AI and Community Enablement in SDLC fixture contains three document submissions. The Combinator must support DOCX, PDF, and PPTX and must provide more than document summarization. \n\n### Document ingestion \n\n* Extract headings, paragraphs, tables, slide content, speaker notes, captions, diagram labels, links, and available OCR text. \n* Preserve page, slide, section, table, figure, and content-block locations. \n* Mark unreliable extraction as not_verifiable or manual_review_required. \n* Never invent missing document content. \n\n### Idea-level analysis \n\n* Identify up to three ideas per submission and assign stable idea IDs. \n* Profile problem, proposed agents, SDLC phases, users, beneficiaries, workflow, data, integrations, human oversight, security, feasibility, scalability, impact, risks, assumptions, and differentiators. \n* Compare each idea against Originality, Feasibility, Scalability, Impact Potential, and Alignment with Scope. \n\n### Contradictions and synthesis \n\n* Expose incompatible positions instead of silently merging them. \n* Show conflicting sources, trade-offs, recommendation, and required Copilot decision. \n* Do not add unsupported statistics, costs, productivity gains, timelines, customer claims, or technical capabilities. \n* Label assumptions and agent-generated bridging content. \n* Generate one coherent concept document, not pasted submission summaries. \n\n### Ideation verification \n\n* Mandatory evaluation areas are covered. \n* Accepted ideas are present and rejected ideas are not represented as accepted. \n* Contradictions have recorded decisions. \n* Claims trace to source locations. \n* Assumptions and generated synthesis are labeled. \n* The concept is internally consistent and provenance is complete. \n* Changing a decision updates affected sections, provenance, and the estimated scorecard result. \n* Original documents remain unchanged. \n \n# Required Workspace Output \n\nworkspace/CHALLENGE_ID/ \n├── workspace-manifest.json \n├── review-context-status.json \n├── active-review-context.json \n├── review-context-reconciliation.json \n├── source-location-map.json \n├── overview.md \n├── submissions/ \n├── requirement-matrix.json \n├── decisions.json \n├── provenance.json \n├── contradictions.json \n├── verification.json \n├── combined-solution/       # code mode \n├── synthesized-concept/     # ideation mode \n└── review-ui/ \n\nFiles are the source of truth. The local UI reads and updates them. Outputs must be human-readable, machine-readable, reproducible, and usable by another AI assistant. \n\n# Technical Requirements \n\n* Mastra is not mandatory and is not preferred. Any maintainable framework or custom orchestration is allowed. \n* The solution must run locally and provide a reproducible container or equivalent setup. \n* At least one documented LLM provider is supported. \n* Provider-specific logic is isolated behind a documented adapter. \n* Amazon Bedrock must be usable through configuration or only a small isolated adapter change. \n* Credentials, model IDs, AWS region, endpoints, timeouts, and inference settings come from environment or configuration. \n* The solution reports provider, model, calls, tokens, approximate cost, retries, failures, and processing time. \n* A deterministic or mock mode supports organizer review without paid AI access. \n\n# Generality and Security \n* Do not hard-code supplied challenge IDs, submission IDs, requirement IDs, paths, scores, winners, or expected combinations. \n* Support different submission counts, stacks, scorecards, repository layouts, document formats, and verification commands. \n* Treat source code and documents as untrusted inputs. \n* Restrict command working directories, network access, credentials, and filesystem permissions. \n* Do not execute macros or embedded active content from document submissions. \n* Do not expose API keys in client-side storage or browser bundles. \n \n# Submission Deliverables \n* Complete source code \n* Generated workspaces for all four visible fixtures \n* Combined code candidates for the three code fixtures \n* Synthesized concept for the ideation fixture \n* Review-context reconciliation outputs \n* Provenance, contradiction, integrity, usage/cost, and verification reports \n* Automated tests \n* Architecture diagram \n* README with setup, provider adapter, Bedrock configuration, mock mode, security model, schemas, commands, limitations, and cost \n* Maximum five-minute demo video \n* The demo must show both supplied and missing review-context paths, evidence review, a Copilot decision change, candidate generation, verification, provenance, and regeneration.",
+    "descriptionFormat": "markdown",
+    "projectId": 1000289,
+    "typeId": "927abff4-7af9-4145-8ba1-577c16e64e2e",
+    "trackId": "9b6fc876-f4d9-4ccb-9dfd-419247628825",
+    "timelineTemplateId": "b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e",
+    "numOfRegistrants": 23,
+    "numOfSubmissions": 2,
+    "numOfCheckpointSubmissions": 0,
+    "currentPhaseNames": [
+      "Registration",
+      "Submission"
+    ],
+    "wiproAllowed": false,
+    "funChallenge": false,
+    "tags": [
+      "Rapid Development Match",
+      "AI Exponential League",
+      "AI"
+    ],
+    "groups": [],
+    "submissionStartDate": "2026-11-20T07:35:19.601Z",
+    "submissionEndDate": "2026-11-23T08:00:00.000Z",
+    "registrationStartDate": "2026-11-20T07:35:19.602Z",
+    "registrationEndDate": "2026-11-23T07:00:00.000Z",
+    "startDate": "2026-11-20T07:35:19.601Z",
+    "endDate": "2026-11-26T20:00:00.000Z",
+    "status": "ACTIVE",
+    "approvalStatus": "APPROVED",
+    "approvalApprovedBy": "kiril.kartunov",
+    "createdBy": "500013983",
+    "updatedBy": "40165501",
+    "metadata": [
+      {
+        "name": "allowAllRegistrantsToDownloadWinningSubmissions",
+        "value": "false"
+      },
+      {
+        "name": "is_test_challenge",
+        "value": "false"
+      },
+      {
+        "name": "challengeStartMode",
+        "value": "scheduled"
+      }
+    ],
+    "phases": [
+      {
+        "id": "0400a8d0-ef7d-4a0e-ac56-553ef617f8b0",
+        "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
+        "name": "Registration",
+        "description": "Registration Phase",
+        "isOpen": true,
+        "duration": 257080,
+        "scheduledStartDate": "2026-11-20T07:35:19.602Z",
+        "scheduledEndDate": "2026-11-23T07:00:00.000Z",
+        "actualStartDate": "2026-11-20T07:35:19.602Z",
+        "constraints": []
+      },
+      {
+        "id": "8edaa030-ff1a-4c8b-bc00-21e41da72572",
+        "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+        "name": "Submission",
+        "description": "Submission Phase",
+        "isOpen": true,
+        "duration": 260680,
+        "scheduledStartDate": "2026-11-20T07:35:19.601Z",
+        "scheduledEndDate": "2026-11-23T08:00:00.000Z",
+        "actualStartDate": "2026-11-20T07:35:19.601Z",
+        "constraints": []
+      },
+      {
+        "id": "04e54668-f99c-45b8-ac8e-47150b76bf2f",
+        "phaseId": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
+        "name": "AI Review",
+        "description": "AI Review Phase",
+        "isOpen": false,
+        "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+        "duration": 86400,
+        "scheduledStartDate": "2026-11-23T08:00:00.000Z",
+        "scheduledEndDate": "2026-11-24T08:00:00.000Z",
+        "constraints": []
+      },
+      {
+        "id": "03208685-0e49-4697-9f79-681d3aad16fa",
+        "phaseId": "ad985cff-ad3e-44de-b54e-3992505ba0ae",
+        "name": "Approval",
+        "description": "Approval Phase",
+        "isOpen": false,
+        "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
+        "duration": 216000,
+        "scheduledStartDate": "2026-11-24T08:00:00.000Z",
+        "scheduledEndDate": "2026-11-26T20:00:00.000Z",
+        "constraints": []
+      }
+    ],
+    "discussions": [
+      {
+        "name": "Combinator",
+        "type": "CHALLENGE",
+        "provider": "topcoder",
+        "url": "https://www.topcoder.com/opportunities/challenge/fed5be1e-1dbd-43b9-b74d-df1d936b1e1a?tab=forum",
+        "id": "1d2d4532-ca5e-4ea9-9500-1fd3f3905a07",
+        "options": []
+      }
+    ],
+    "events": [],
+    "prizeSets": [
+      {
+        "type": "PLACEMENT",
+        "prizes": [
+          {
+            "type": "USD",
+            "value": 300
+          },
+          {
+            "type": "USD",
+            "value": 200
+          },
+          {
+            "type": "USD",
+            "value": 100
+          }
+        ]
+      }
+    ],
+    "reviewers": [
+      {
+        "scorecardId": "a8b69L06-5ODNI",
+        "isMemberReview": false,
+        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+        "aiWorkflowId": "awsO55_MAX_LV",
+        "shouldOpenOpportunity": false
+      },
+      {
+        "scorecardId": "9yr660Thr9gbVG",
+        "isMemberReview": false,
+        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+        "aiWorkflowId": "awsH55_TRIVY1",
+        "shouldOpenOpportunity": false
+      },
+      {
+        "scorecardId": "BsOxH1uewRPliT",
+        "isMemberReview": false,
+        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+        "aiWorkflowId": "awsH55_SAST_1",
+        "shouldOpenOpportunity": false
+      }
+    ],
+    "terms": [
+      {
+        "id": "0a507fb7-3fe0-402b-b121-1a24af4a9cf1",
+        "roleId": "732339e7-8e30-49d7-9198-cccf9451e221"
+      },
+      {
+        "id": "4bc0e7fc-8413-4de6-a231-9f9c6bcc65d9",
+        "roleId": "732339e7-8e30-49d7-9198-cccf9451e221"
+      }
+    ],
+    "skills": [
+      {
+        "id": "5e1fa006-3c62-4db5-813c-e903550a4928",
+        "name": "Test Automation",
+        "category": {
+          "id": "c5f83f60-4dcf-4305-b55e-b38fe5afec60",
+          "name": "Software Testing and Quality Assurance"
+        }
+      },
+      {
+        "id": "c74266f8-eaf6-402a-b7ae-a0ba11cdd52c",
+        "name": "Automated Testing Framework",
+        "category": {
+          "id": "c5f83f60-4dcf-4305-b55e-b38fe5afec60",
+          "name": "Software Testing and Quality Assurance"
+        }
+      },
+      {
+        "id": "79308fb7-b1d2-45a1-a88d-9c47b9e23759",
+        "name": "Software Documentation",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "f230107c-a96f-4fa2-8468-674efe597a86",
+        "name": "User Experience (UX) Design",
+        "category": {
+          "id": "3eb5163c-cd3f-4c7d-b059-95c901bc2066",
+          "name": "User Experience Design and Multimedia"
+        }
+      },
+      {
+        "id": "de572977-0058-4d0e-9f2a-00f4dac38dd3",
+        "name": "User Interface Architecture",
+        "category": {
+          "id": "3eb5163c-cd3f-4c7d-b059-95c901bc2066",
+          "name": "User Experience Design and Multimedia"
+        }
+      },
+      {
+        "id": "b035db78-ab50-42d1-83d3-53bfa2f9fd2a",
+        "name": "User Interface (UI)",
+        "category": {
+          "id": "3eb5163c-cd3f-4c7d-b059-95c901bc2066",
+          "name": "User Experience Design and Multimedia"
+        }
+      },
+      {
+        "id": "bd7000b1-5f1e-4d6e-ab98-93c980613c45",
+        "name": "Agentic AI",
+        "category": {
+          "id": "a1289278-a734-4523-918f-ea0f05667e24",
+          "name": "Machine Learning and AI"
+        }
+      },
+      {
+        "id": "d8405133-13ab-4058-9432-74449d5db606",
+        "name": "Artificial Intelligence",
+        "category": {
+          "id": "a1289278-a734-4523-918f-ea0f05667e24",
+          "name": "Machine Learning and AI"
+        }
+      },
+      {
+        "id": "7bcd7c2f-5c3e-470e-95de-d04f301fdf43",
+        "name": "Code Review",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "8810423c-5c35-4ad1-9c48-92127867b887",
+        "name": "Code Analysis",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "e12e1307-5247-4c1b-b236-39aa623dc6bf",
+        "name": "Requirements Traceability",
+        "category": {
+          "id": "07a0abe3-2791-4068-b5b5-be48fefa3551",
+          "name": "Project Management"
+        }
+      },
+      {
+        "id": "2473b0fd-836f-4b22-901a-578cf59c6151",
+        "name": "Requirements Analysis",
+        "category": {
+          "id": "07a0abe3-2791-4068-b5b5-be48fefa3551",
+          "name": "Project Management"
+        }
+      },
+      {
+        "id": "8bf05f37-20b8-4115-abb9-526f6f354a78",
+        "name": "Traceability Matrix",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "bce9b892-173f-421c-acf4-143cd74c24e0",
+        "name": "Build Automation",
+        "category": {
+          "id": "e2429c1b-7609-49e0-93cc-341a89e12269",
+          "name": "DevOps and Automation"
+        }
+      },
+      {
+        "id": "eed5a5fd-b26a-464e-af04-d89ddd7f2a3a",
+        "name": "Dependency Management",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "dd531479-57ec-49ec-be6c-ca8e2b421311",
+        "name": "Software Architecture",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "fb126741-9c2d-440b-9e21-6dafa9c8cd38",
+        "name": "Decision Support Systems",
+        "category": {
+          "id": "4064574c-befa-4fb3-a8e2-34038d7f845b",
+          "name": "Data Analysis and Big Data"
+        }
+      },
+      {
+        "id": "81295b29-f346-4e1f-948b-3f472f8c5ec4",
+        "name": "Containerization",
+        "category": {
+          "id": "e2429c1b-7609-49e0-93cc-341a89e12269",
+          "name": "DevOps and Automation"
+        }
+      },
+      {
+        "id": "2f6df29a-95c5-4ff7-8c06-253dcbdfcd69",
+        "name": "Data Integrity",
+        "category": {
+          "id": "38fadd80-8721-4ce0-9387-cb6ad3ce48da",
+          "name": "Database Management"
+        }
+      },
+      {
+        "id": "be85b096-b841-45b4-a5cb-1d3ee7ce1126",
+        "name": "Docker",
+        "category": {
+          "id": "e2429c1b-7609-49e0-93cc-341a89e12269",
+          "name": "DevOps and Automation"
+        }
+      },
+      {
+        "id": "84d13e08-e2a4-4370-b473-13dc628f8c12",
+        "name": "JSON",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "12fe611e-0d78-4c2f-857e-7d83f3355e78",
+        "name": "Software Testing",
+        "category": {
+          "id": "c5f83f60-4dcf-4305-b55e-b38fe5afec60",
+          "name": "Software Testing and Quality Assurance"
+        }
+      },
+      {
+        "id": "674033df-de23-48ea-8e5e-231b9a826525",
+        "name": "Code Generation",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "2055da83-6d93-45a2-90c9-b63f619166a5",
+        "name": "Software Validation",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      }
+    ],
+    "attachments": [],
+    "track": {
+      "id": "9b6fc876-f4d9-4ccb-9dfd-419247628825",
+      "name": "Development",
+      "track": "DEVELOPMENT"
+    },
+    "type": {
+      "id": "927abff4-7af9-4145-8ba1-577c16e64e2e",
+      "name": "Challenge"
+    },
+    "numOfPosts": 0,
+    "legacy": {
+      "reviewType": "INTERNAL",
+      "confidentialityType": "public",
+      "directProjectId": 42734,
+      "isTask": false,
+      "useSchedulingAPI": true,
+      "pureV5Task": false,
+      "pureV5": false,
+      "selfService": false
+    },
+    "task": {
+      "isTask": false,
+      "isAssigned": false
+    },
+    "created": "2026-11-19T08:20:12.016Z",
+    "updated": "2026-11-20T13:32:48.548Z",
+    "overview": {
+      "totalPrizes": 600,
+      "type": "USD"
+    },
+    "currentPhase": {
+      "id": "0400a8d0-ef7d-4a0e-ac56-553ef617f8b0",
+      "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
+      "name": "Registration",
+      "description": "Registration Phase",
+      "isOpen": true,
+      "duration": 257080,
+      "scheduledStartDate": "2026-11-20T07:35:19.602Z",
+      "scheduledEndDate": "2026-11-23T07:00:00.000Z",
+      "actualStartDate": "2026-11-20T07:35:19.602Z",
+      "constraints": []
+    },
+    "stalled": false
+  }
+]
