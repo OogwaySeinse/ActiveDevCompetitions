@@ -11,7 +11,7 @@
     "prize_raw": "600.0",
     "start_date": "2026-11-20T07:35:19Z",
     "end_date": "2026-11-23T08:00:00Z",
-    "days_remaining": 1,
+    "days_remaining": 0,
     "status": "ending_soon",
     "challenge_type": "dev_challenge",
     "category": "AI Agents & LLM Apps",
@@ -35,14 +35,14 @@
     "organizer": "Topcoder",
     "difficulty": "Intermediate",
     "mode": "Online",
-    "participants_count": 46,
-    "submissions_count": 7,
+    "participants_count": 57,
+    "submissions_count": 14,
     "repo_url": null,
     "logo_url": null,
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-21T14:26:38Z"
+    "scraped_at": "2026-11-22T14:21:29Z"
   }
 ]
