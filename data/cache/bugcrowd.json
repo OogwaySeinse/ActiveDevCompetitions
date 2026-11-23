@@ -248,37 +248,6 @@
     "serviceLevel": "Platform"
   },
   {
-    "name": "Lightspeed Hospitality",
-    "tagline": "Partner with the Lightspeed Security Team to pressure-test and secure the next generation of global hospitality and point-of-sale technology.",
-    "briefUrl": "/engagements/lightspeed-hospitality",
-    "backgroundColor": "#ffffff",
-    "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d27/d997/043b1d7f/c5b9a7ab8d615b2d06e99960ab9ab262_lightspeed.jpeg",
-    "rewardSummary": {
-      "summary": "$250 - $7,500",
-      "hint": null,
-      "minReward": "$250",
-      "maxReward": "$7,500",
-      "compensationSummary": null,
-      "compensationHint": null
-    },
-    "isDemo": false,
-    "scopeRank": 1,
-    "isBanned": false,
-    "isFollowing": false,
-    "industryName": "Computer Software",
-    "accessStatus": "open",
-    "paymentAllocationUrl": null,
-    "badgeVariant": null,
-    "endsAt": null,
-    "productEngagementType": {
-      "label": "Bug Bounty",
-      "iconVariant": "bug-bounty"
-    },
-    "subscriptionUrl": "/lightspeed-hospitality/engagement_subscribers",
-    "isPrivate": false,
-    "serviceLevel": "Platform"
-  },
-  {
     "name": "Rapyd",
     "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
     "briefUrl": "/engagements/rapyd",
@@ -355,13 +324,13 @@
       "compensationHint": null
     },
     "isDemo": false,
-    "scopeRank": 3,
+    "scopeRank": 1,
     "isBanned": false,
     "isFollowing": false,
     "industryName": "Finance",
     "accessStatus": "open",
     "paymentAllocationUrl": null,
-    "badgeVariant": null,
+    "badgeVariant": "updated",
     "endsAt": null,
     "productEngagementType": {
       "label": "Bug Bounty",
@@ -461,37 +430,6 @@
       "iconVariant": "bug-bounty"
     },
     "subscriptionUrl": "/fireblocks-mbb-og/engagement_subscribers",
-    "isPrivate": false,
-    "serviceLevel": "Platform"
-  },
-  {
-    "name": "Lightspeed Retail",
-    "tagline": "Welcome to the Lightspeed Retail Bug Bounty. We are committed to fostering a collaborative relationship with the global research community by actively recognizing and rewarding those who help fortify our retail platform.",
-    "briefUrl": "/engagements/lightspeed-retail",
-    "backgroundColor": "#000000",
-    "logoUrl": "https://logos.bugcrowdusercontent.com/logos/364d/8cfc/b539163b/4118517e824c9522776dceb0440c7d14_Lightspeed_Flame.png",
-    "rewardSummary": {
-      "summary": "$250 - $7,500",
-      "hint": null,
-      "minReward": "$250",
-      "maxReward": "$7,500",
-      "compensationSummary": null,
-      "compensationHint": null
-    },
-    "isDemo": false,
-    "scopeRank": 3,
-    "isBanned": false,
-    "isFollowing": false,
-    "industryName": "Retail",
-    "accessStatus": "open",
-    "paymentAllocationUrl": null,
-    "badgeVariant": null,
-    "endsAt": null,
-    "productEngagementType": {
-      "label": "Bug Bounty",
-      "iconVariant": "bug-bounty"
-    },
-    "subscriptionUrl": "/lightspeed-retail/engagement_subscribers",
     "isPrivate": false,
     "serviceLevel": "Platform"
   },
@@ -609,7 +547,7 @@
     "industryName": "Computer Software",
     "accessStatus": "open",
     "paymentAllocationUrl": null,
-    "badgeVariant": "updated",
+    "badgeVariant": null,
     "endsAt": null,
     "productEngagementType": {
       "label": "Bug Bounty",
@@ -1477,6 +1415,68 @@
       "iconVariant": "bug-bounty"
     },
     "subscriptionUrl": "/codeorg/engagement_subscribers",
+    "isPrivate": false,
+    "serviceLevel": "Platform"
+  },
+  {
+    "name": "Bitpanda Ongoing Bug Bounty",
+    "tagline": "Submit your findings to the program!",
+    "briefUrl": "/engagements/bitpanda-og-bb",
+    "backgroundColor": "#ffffff",
+    "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
+    "rewardSummary": {
+      "summary": "$100 - $15,000",
+      "hint": null,
+      "minReward": "$100",
+      "maxReward": "$15,000",
+      "compensationSummary": null,
+      "compensationHint": null
+    },
+    "isDemo": false,
+    "scopeRank": 4,
+    "isBanned": false,
+    "isFollowing": false,
+    "industryName": "Finance",
+    "accessStatus": "open",
+    "paymentAllocationUrl": null,
+    "badgeVariant": null,
+    "endsAt": null,
+    "productEngagementType": {
+      "label": "Bug Bounty",
+      "iconVariant": "bug-bounty"
+    },
+    "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+    "isPrivate": false,
+    "serviceLevel": "Platform"
+  },
+  {
+    "name": "PNI Media - Bug Bounty",
+    "tagline": "Print, shipping, and marketing services in-store and online.",
+    "briefUrl": "/engagements/pnimedia-bb",
+    "backgroundColor": "#ffffff",
+    "logoUrl": "https://logos.bugcrowdusercontent.com/logos/588b/7e2c/20df08ce/a62d726e2d7e39d140e096906c867d17_MicrosoftTeams-image.png",
+    "rewardSummary": {
+      "summary": "$150 - $4,500",
+      "hint": null,
+      "minReward": "$150",
+      "maxReward": "$4,500",
+      "compensationSummary": null,
+      "compensationHint": null
+    },
+    "isDemo": false,
+    "scopeRank": 3,
+    "isBanned": false,
+    "isFollowing": false,
+    "industryName": "eCommerce",
+    "accessStatus": "open",
+    "paymentAllocationUrl": null,
+    "badgeVariant": null,
+    "endsAt": null,
+    "productEngagementType": {
+      "label": "Bug Bounty",
+      "iconVariant": "bug-bounty"
+    },
+    "subscriptionUrl": "/pnimedia-bb/engagement_subscribers",
     "isPrivate": false,
     "serviceLevel": "Platform"
   }

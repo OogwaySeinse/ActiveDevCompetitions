@@ -1,41 +1,5 @@
 [
   {
-    "title": "Hack Western 13",
-    "url": "https://hackwestern.com/",
-    "date_str": "NOV 20 - 22",
-    "season_year": "2027",
-    "location": "London, Ontario, CA",
-    "mode": "In-Person",
-    "badges": "Hardware"
-  },
-  {
-    "title": "Tech For Community 2026",
-    "url": "https://tecnurtur.org/hackathon",
-    "date_str": "NOV 21 - 22",
-    "season_year": "2027",
-    "location": "St. John's, Newfoundland and Labrador / Avalon Peninsula, CA",
-    "mode": "In-Person",
-    "badges": "High school, Hardware"
-  },
-  {
-    "title": "WHACK (Wellesley Hackathon)",
-    "url": "https://wellesleyhacks.org/",
-    "date_str": "NOV 21 - 22",
-    "season_year": "2027",
-    "location": "Wellesley , Massachesetts, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "BostonHacks",
-    "url": "https://bostonhacks.org/",
-    "date_str": "NOV 21 - 22",
-    "season_year": "2027",
-    "location": "Boston, MA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
     "title": "HackEPS",
     "url": "https://hackeps.dev/",
     "date_str": "NOV 28 - 29",
@@ -88,6 +52,15 @@
     "location": "Ottawa, Ontario , CA",
     "mode": "In-Person",
     "badges": ""
+  },
+  {
+    "title": "Techacks 5.0",
+    "url": "https://techacks.tech/",
+    "date_str": "JAN 15 - 16",
+    "season_year": "2027",
+    "location": "Rajpura, Punjab, IN",
+    "mode": "In-Person",
+    "badges": "Hardware"
   },
   {
     "title": "UofTHacks",
@@ -212,6 +185,33 @@
     "date_str": "FEB 13 - 14",
     "season_year": "2027",
     "location": "Toronto, Ontario, CA",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "SF Hacks",
+    "url": "https://sfhacks.io/",
+    "date_str": "FEB 19 - 21",
+    "season_year": "2027",
+    "location": "San Francisco, CA, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "CUhackit",
+    "url": "https://cuhack.it/",
+    "date_str": "FEB 20 - 21",
+    "season_year": "2027",
+    "location": "Clemson, SC, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
+    "title": "Hacklytics 2027",
+    "url": "https://hacklytics2027.web.app/",
+    "date_str": "FEB 26 - 28",
+    "season_year": "2027",
+    "location": "Atlanta, GA, US",
     "mode": "In-Person",
     "badges": ""
   },
