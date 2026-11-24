@@ -1,125 +1,5 @@
 [
   {
-    "uuid": "d957bc2099f945e99edfae0c2972bed9",
-    "slug": "devnexus2",
-    "name": "DevNexus 2.0",
-    "type": "HACKATHON",
-    "starts_at": "2026-11-27T18:30:00+00:00",
-    "ends_at": "2026-11-28T18:30:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 2555,
-    "participants_details": [
-      {
-        "uuid": "9564a93d67d9428a82bfdba3adeb8232",
-        "username": "White_Devil_09",
-        "last_name": "Raut",
-        "first_name": "Sahil",
-        "profile_image": "https://assets.devfolio.co/users/9564a93d67d9428a82bfdba3adeb8232/avatar-889c06df-8204-43f6-8c9e-fc99e4e73df4.jpeg"
-      },
-      {
-        "uuid": "70613feb68a542c9abf389eaa39fdbe2",
-        "username": "Tuhin_Mandal",
-        "last_name": "Mandal",
-        "first_name": "Tuhin",
-        "profile_image": "https://assets.devfolio.co/users/70613feb68a542c9abf389eaa39fdbe2/avatar-d815ec06-e429-43bd-be02-791c6d244366.jpeg"
-      },
-      {
-        "uuid": "87ee21a7833242fb965475904e68373a",
-        "username": "Tannu_24",
-        "last_name": "Sarkar",
-        "first_name": "Tannistha",
-        "profile_image": "https://assets.devfolio.co/users/87ee21a7833242fb965475904e68373a/avatar-284ba5fa-bc5d-4d54-9c9e-2a56caceec79.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-11-24T17:30:00+00:00",
-      "reg_starts_at": "2026-09-18T18:30:00+00:00",
-      "review": false,
-      "site": "https://devnexushackathon.in/",
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": "https://discord.gg/fnHfMbFqy",
-      "medium": null,
-      "instagram": null,
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
-    "uuid": "cdf2af90c090403a9db2f0162a99b687",
-    "slug": "founders-house-kolkata",
-    "name": "Founders' House Kolkata",
-    "type": "HACKATHON",
-    "starts_at": "2026-11-08T18:30:00+00:00",
-    "ends_at": "2026-11-24T18:30:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 381,
-    "participants_details": [
-      {
-        "uuid": "a0a34c624b244cf49a69b26da038a159",
-        "username": "devprakashsahu3",
-        "last_name": "Sahu",
-        "first_name": "Devprakash",
-        "profile_image": "https://assets.devfolio.co/users/a0a34c624b244cf49a69b26da038a159/avatar-b42365c1-5572-40c4-975c-584cb4e7e8a0.jpeg"
-      },
-      {
-        "uuid": "df7914e3afcf45049879000d0110cf79",
-        "username": "arnav3287",
-        "last_name": "Kumar",
-        "first_name": "Arnav",
-        "profile_image": "https://assets.devfolio.co/users/df7914e3afcf45049879000d0110cf79/avatar-93929bc9-6b92-43f4-8e26-92d9ed058cd6.jpeg"
-      },
-      {
-        "uuid": "d78b14930a6b49a680b2b33b2e779cfb",
-        "username": "Megh_Deb",
-        "last_name": "Deb",
-        "first_name": "Megh",
-        "profile_image": "https://assets.devfolio.co/users/d78b14930a6b49a680b2b33b2e779cfb/avatar-2edd9afd-121d-4547-b46f-afe9a2ca8811.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-11-24T18:30:00+00:00",
-      "reg_starts_at": "2026-11-08T18:30:00+00:00",
-      "review": true,
-      "site": "https://founders-house-neon.vercel.app",
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": "https://www.instagram.com/hustlers_tiu/",
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "931ca9149c46417bb0526ce1eb44b920",
     "slug": "makerspark",
     "name": "MakerSpark",
@@ -130,8 +10,22 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 155,
+    "participants_count": 205,
     "participants_details": [
+      {
+        "uuid": "fe1e73205e57437cba8324cb33b285fc",
+        "username": "AMANV722",
+        "last_name": "Vishwakarma",
+        "first_name": "Aman",
+        "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
+      },
+      {
+        "uuid": "a815d03e8fd845589163d9f541a80d89",
+        "username": "mishra008",
+        "last_name": "Mishra",
+        "first_name": "Shyam",
+        "profile_image": "https://assets.devfolio.co/users/a815d03e8fd845589163d9f541a80d89/avatar-f5cc621f-c0c9-4e45-911f-b91e319a6835.jpeg"
+      },
       {
         "uuid": "b62c8a91bbe940329f447d5f55945efc",
         "username": "Silverwing",
@@ -166,6 +60,104 @@
     "_bucket": "open_hackathons"
   },
   {
+    "uuid": "cdf2af90c090403a9db2f0162a99b687",
+    "slug": "founders-house-kolkata",
+    "name": "Founders' House Kolkata",
+    "type": "HACKATHON",
+    "starts_at": "2026-11-08T18:30:00+00:00",
+    "ends_at": "2026-11-29T18:30:00+00:00",
+    "is_online": false,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 418,
+    "participants_details": [
+      {
+        "uuid": "a0a34c624b244cf49a69b26da038a159",
+        "username": "devprakashsahu3",
+        "last_name": "Sahu",
+        "first_name": "Devprakash",
+        "profile_image": "https://assets.devfolio.co/users/a0a34c624b244cf49a69b26da038a159/avatar-b42365c1-5572-40c4-975c-584cb4e7e8a0.jpeg"
+      },
+      {
+        "uuid": "df7914e3afcf45049879000d0110cf79",
+        "username": "arnav3287",
+        "last_name": "Kumar",
+        "first_name": "Arnav",
+        "profile_image": "https://assets.devfolio.co/users/df7914e3afcf45049879000d0110cf79/avatar-93929bc9-6b92-43f4-8e26-92d9ed058cd6.jpeg"
+      },
+      {
+        "uuid": "d78b14930a6b49a680b2b33b2e779cfb",
+        "username": "Megh_Deb",
+        "last_name": "Deb",
+        "first_name": "Megh",
+        "profile_image": "https://assets.devfolio.co/users/d78b14930a6b49a680b2b33b2e779cfb/avatar-2edd9afd-121d-4547-b46f-afe9a2ca8811.jpeg"
+      }
+    ],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-11-29T18:30:00+00:00",
+      "reg_starts_at": "2026-11-08T18:30:00+00:00",
+      "review": true,
+      "site": "https://founders-house-neon.vercel.app",
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": "https://www.instagram.com/hustlers_tiu/",
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
+    "uuid": "92cc2d2e2fb34353962958ed0258c2ab",
+    "slug": "abhyudaya",
+    "name": "ABHYUDAYA 2026",
+    "type": "HACKATHON",
+    "starts_at": "2026-12-05T03:30:00+00:00",
+    "ends_at": "2026-12-05T10:30:00+00:00",
+    "is_online": false,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 15,
+    "participants_details": [],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-11-30T10:30:00+00:00",
+      "reg_starts_at": "2026-11-24T03:30:00+00:00",
+      "review": false,
+      "site": null,
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": null,
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
     "uuid": "e800e7f7535945b59b3516a08424db39",
     "slug": "health-hackathon",
     "name": "Health Hackathon 3.0",
@@ -176,7 +168,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 134,
+    "participants_count": 147,
     "participants_details": [
       {
         "uuid": "fe1e73205e57437cba8324cb33b285fc",
@@ -236,7 +228,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 954,
+    "participants_count": 1025,
     "participants_details": [
       {
         "uuid": "aa932a990b524a4ca85f9946d3d048c2",
@@ -296,7 +288,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 557,
+    "participants_count": 588,
     "participants_details": [
       {
         "uuid": "07ebdcd3533f4b8ebb0a683de4b28571",
@@ -356,7 +348,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 85,
+    "participants_count": 116,
     "participants_details": [
       {
         "uuid": "40fede6d7d3e4dfcbb218e0dc502aa3f",
@@ -416,7 +408,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Bangkok",
-    "participants_count": 75,
+    "participants_count": 83,
     "participants_details": [
       {
         "uuid": "8603d974d392448fae36aa05e2299266",
@@ -486,7 +478,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 624,
+    "participants_count": 625,
     "participants_details": [
       {
         "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
@@ -556,7 +548,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 2042,
+    "participants_count": 2055,
     "participants_details": [
       {
         "uuid": "4fdafc49b0fd4f0495517d8c3a935fa0",
@@ -616,7 +608,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 156,
+    "participants_count": 164,
     "participants_details": [
       {
         "uuid": "4be405b7882c451c9b5a21a56ec5e544",
@@ -676,7 +668,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Kolkata",
-    "participants_count": 267,
+    "participants_count": 289,
     "participants_details": [
       {
         "uuid": "79eae31a99134bbbb6a48281ec75c957",
@@ -736,7 +728,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 222,
+    "participants_count": 233,
     "participants_details": [
       {
         "uuid": "4be405b7882c451c9b5a21a56ec5e544",
@@ -796,7 +788,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 55,
+    "participants_count": 83,
     "participants_details": [
       {
         "uuid": "86e42fc3f6044dcb9dce5797bd3ce750",
@@ -846,6 +838,66 @@
     "_bucket": "open_hackathons"
   },
   {
+    "uuid": "1c7af64a076f43d5a088b7b65ae793a3",
+    "slug": "goa-buildathon",
+    "name": "GOA BUILDATHON 27",
+    "type": "HACKATHON",
+    "starts_at": "2027-01-16T03:30:00+00:00",
+    "ends_at": "2027-01-17T09:00:00+00:00",
+    "is_online": false,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 440,
+    "participants_details": [
+      {
+        "uuid": "45ae1758ae1f42368289970a43784770",
+        "username": "v0idsai",
+        "last_name": "Sai",
+        "first_name": "Likhith",
+        "profile_image": "https://assets.devfolio.co/users/45ae1758ae1f42368289970a43784770/avatar-15410c3b-440e-4c9f-bb7c-ac9334682e4c.jpeg"
+      },
+      {
+        "uuid": "e8d731277e224867adc406a7a46359d7",
+        "username": "soorajdmg",
+        "last_name": "Murugaraj",
+        "first_name": "Sooraj",
+        "profile_image": "https://assets.devfolio.co/users/e8d731277e224867adc406a7a46359d7/avatar-18cb779a-92d4-457d-b4e3-4757d780e6d3.jpeg"
+      },
+      {
+        "uuid": "1fcde0da2f64498f814ad7c31a4aec9d",
+        "username": "chinu70",
+        "last_name": "Sawant",
+        "first_name": "Deven",
+        "profile_image": "https://assets.devfolio.co/users/1fcde0da2f64498f814ad7c31a4aec9d/avatar-01dfa584-d154-4ee0-a7ce-2e94dcd6f6c9.jpeg"
+      }
+    ],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-12-31T18:29:00+00:00",
+      "reg_starts_at": "2026-10-29T14:00:00+00:00",
+      "review": false,
+      "site": "https://www.goabuilds.com",
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": "https://www.instagram.com/goabuildathon27/?hl=en",
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
     "uuid": "c163f2c5e7bb4c7bb7acbdb3c572bfa3",
     "slug": "hack-with-gdg-s4",
     "name": "HACK WITH GDG S4",
@@ -856,7 +908,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 1005,
+    "participants_count": 1011,
     "participants_details": [
       {
         "uuid": "f490e62ce8f8466099135673c5f434ad",
@@ -916,7 +968,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 104,
+    "participants_count": 113,
     "participants_details": [
       {
         "uuid": "551755523b92470c847a06eba6ee3e29",
@@ -976,66 +1028,6 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "1c7af64a076f43d5a088b7b65ae793a3",
-    "slug": "goa-buildathon",
-    "name": "GOA BUILDATHON 27",
-    "type": "HACKATHON",
-    "starts_at": "2027-01-16T03:30:00+00:00",
-    "ends_at": "2027-01-17T09:00:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 385,
-    "participants_details": [
-      {
-        "uuid": "45ae1758ae1f42368289970a43784770",
-        "username": "v0idsai",
-        "last_name": "Sai",
-        "first_name": "Likhith",
-        "profile_image": "https://assets.devfolio.co/users/45ae1758ae1f42368289970a43784770/avatar-15410c3b-440e-4c9f-bb7c-ac9334682e4c.jpeg"
-      },
-      {
-        "uuid": "e8d731277e224867adc406a7a46359d7",
-        "username": "soorajdmg",
-        "last_name": "Murugaraj",
-        "first_name": "Sooraj",
-        "profile_image": "https://assets.devfolio.co/users/e8d731277e224867adc406a7a46359d7/avatar-18cb779a-92d4-457d-b4e3-4757d780e6d3.jpeg"
-      },
-      {
-        "uuid": "1fcde0da2f64498f814ad7c31a4aec9d",
-        "username": "chinu70",
-        "last_name": "Sawant",
-        "first_name": "Deven",
-        "profile_image": "https://assets.devfolio.co/users/1fcde0da2f64498f814ad7c31a4aec9d/avatar-01dfa584-d154-4ee0-a7ce-2e94dcd6f6c9.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-12-31T18:29:00+00:00",
-      "reg_starts_at": "2026-10-29T14:00:00+00:00",
-      "review": false,
-      "site": "https://www.goabuilds.com",
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": "https://www.instagram.com/goabuildathon27/?hl=en",
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "cd4f5f7185d34287a43a12910978e19d",
     "slug": "hack2027",
     "name": "HACK2027",
@@ -1046,8 +1038,15 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 42,
+    "participants_count": 65,
     "participants_details": [
+      {
+        "uuid": "0be03ea1ae84448ba0c52995e41e9ceb",
+        "username": "raj_2006",
+        "last_name": "PATRA",
+        "first_name": "RAJ",
+        "profile_image": "https://assets.devfolio.co/users/0be03ea1ae84448ba0c52995e41e9ceb/avatar-7e71a229-6e2e-4948-b4ac-34b1098f8328.jpeg"
+      },
       {
         "uuid": "5c715ac123c043caa0bcd900999201fc",
         "username": "animesh207",
@@ -1056,11 +1055,11 @@
         "profile_image": "https://assets.devfolio.co/users/5c715ac123c043caa0bcd900999201fc/avatar-0f55c200-70fc-4eef-b392-3b65780dfc10.jpeg"
       },
       {
-        "uuid": "0be03ea1ae84448ba0c52995e41e9ceb",
-        "username": "raj_2006",
-        "last_name": "PATRA",
-        "first_name": "RAJ",
-        "profile_image": "https://assets.devfolio.co/users/0be03ea1ae84448ba0c52995e41e9ceb/avatar-7e71a229-6e2e-4948-b4ac-34b1098f8328.jpeg"
+        "uuid": "97a9cf2d071b4f0493d97800cb694057",
+        "username": "Abhinav_kp",
+        "last_name": "kp",
+        "first_name": "Abhinav",
+        "profile_image": "https://assets.devfolio.co/users/97a9cf2d071b4f0493d97800cb694057/avatar-9ac6f264-5c6b-46c9-b9d6-e9bb16b603fb.jpeg"
       }
     ],
     "themes": [
@@ -1099,7 +1098,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 292,
+    "participants_count": 296,
     "participants_details": [
       {
         "uuid": "7997a3992c034498861f8f12a8d75dc5",
@@ -1159,7 +1158,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 68,
+    "participants_count": 77,
     "participants_details": [
       {
         "uuid": "87ee21a7833242fb965475904e68373a",
