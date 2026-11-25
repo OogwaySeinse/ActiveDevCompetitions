@@ -1,5 +1,295 @@
 [
   {
+    "id": "fdf4e58a-d97f-4936-8e67-5746e24db6b3",
+    "name": "Marathon Match 168",
+    "description": "[![Banner Marathon Match Tournament 2026](https://cdn.filestackcontent.com/FYx0xY14TICfdETt7F5S)](https://www.topcoder.com/marathon-match-tournament)\n\nThis match belongs to the [Marathon Match Tournament 2026](https://www.topcoder.com/marathon-match-tournament).\n\n## Important Links\n\n-   Submission-Review has been phased out. You can now find your submission artifacts under the \"My Submissions\" tab of the challenge.\n-   [Other Details](https://www.topcoder.com/thrive/articles/marathon-processor-specification-and-scoring-terminology) For other details like Processing Server Specifications, Submission Queue, Example Test Cases Execution.\n\n## Overview\n\nCritters are little creatures who live underground. They are on their way home to their families, and they like to help each other get there safely. They are not very clever, though, so they need your guidance.\n\nCritters enter the level through one or two entrance hatches and wander through a side-view world of dirt, steel and water. Left alone, they walk straight ahead, turn around at walls, and walk off ledges into deadly falls or into the water. Guide as many as possible into the exits by giving individual critters **skills**:\n\n- a *blocker* stands still, and critters that walk into it turn around;\n- a *builder* builds a staircase;\n- a *digger* digs down;\n- a *basher* tunnels sideways;\n- a *floater* survives any fall;\n- a *climber* climbs walls;\n- a *bomber* explodes after **3** ticks, blasting away nearby dirt.\n\nEach skill can be used a limited number of times. Exits have different values and limited capacities, and a full exit closes. Faster saves are worth more, and a completely filled exit pays double. Levels come in three biomes with different looks and parameter ranges, but the rules are the same everywhere. The game is deterministic and is played one tick at a time.\n\nYour goal is to maximize the total points of the critters you save.\n\nHere is an animation of seed 1.\n\n![seed1.gif](https://api.topcoder-dev.com/v6/uploads/files/pvEx4aMIEZsM75MxVRpxD1O_EHK_KicS)\n\n## Level\n\nThe level is a grid with **H** rows and **W** columns. Cell (r, c) is in row r (row 0 is the top) and column c (column 0 is the left). The cells are:\n\n- '.' is air.\n- '#' is dirt. It is solid, and diggers, bashers and bombers can destroy it.\n- '@' is steel. It is solid and indestructible: no digger, basher or bomber can remove it.\n- '~' is water. It is not solid, and a critter that enters it dies.\n- 'E' is an entrance. It is an air cell. There are **N** = **1** or **2** entrances, numbered 0 to **N**-1 in row-major order.\n- '1' to '9' is an exit, an air cell with a *capacity* given in the input. A critter that enters it is saved. When *capacity* critters have been saved there, the exit closes and its cell becomes air ('.').\n\nCells outside the grid to the left, to the right and above it are solid. Cells below the bottom row are not solid. A *wall* is a column of solid cells (dirt or steel) at least two cells high.\n\nA **blocker cell** is a cell that holds a living critter in state BLOCKER. It is not solid and does not stop falling critters, but some moves into it are not allowed, as stated below.\n\n## Critters\n\nThere are **L** critters, with ids 0 to **L**-1. Each one has:\n\n- a position;\n- a direction *d*, which is 1 (right) or -1 (left);\n- a state: WALK, FALL, BLOCKER, BUILDER, DIGGER, BASHER, BOMBER or CLIMBER;\n- a fall distance;\n- bricks (used by builders);\n- a fuse length (used by bombers);\n- a floater flag and a climber flag.\n\nCritter i spawns at entrance i mod **N** at the end of tick i\\***R**. It starts in state FALL, with fall distance 0, *d* = 1, and neither flag set. Critters can share cells, and they only interact through blocker cells. Saved and dead critters leave the level.\n\n**Entering a cell.** Whenever a critter moves into a cell, these checks apply in order:\n\n1. If the cell is below the bottom row, the critter dies.\n2. If the cell is water, the critter dies.\n3. If the cell is an open exit, the critter is saved and scores (see Scoring). The exit's *capacity* decreases by 1, and the exit closes at 0.\n\nA critter that dies or is saved ends its action at once.\n\n## Skills\n\nThere are seven skills: BLOCKER, BUILDER, DIGGER, BASHER, FLOATER, BOMBER and CLIMBER. The input gives, for each skill, how many times it can be used in total. Using a skill costs nothing. An assignment is valid if the critter is living, the skill has a use left, the critter receives no other assignment in this tick, and the skill's own condition holds:\n\n- BLOCKER, BUILDER, DIGGER, BASHER: the critter must be in state WALK, BUILDER, DIGGER or BASHER. Its state becomes the skill's state, keeping its position and direction, and a builder gets **S** bricks. A new job replaces the current one, so you can, for example, turn a digger that has reached a steel floor into a basher that still faces the original direction.\n- FLOATER: the critter must not be a floater yet. Landing never kills a floater, but water and leaving the grid still do.\n- CLIMBER: the critter must not be a climber yet. Its effect is described under WALK and CLIMBER in Actions.\n- BOMBER: the critter must not be in state FALL or BOMBER. Its state becomes BOMBER with fuse length  **3**. A bomber assigned in tick *t* explodes during its action in tick *t*+3. A blocker that becomes a bomber stops blocking immediately.\n\nThe floater and climber flags are kept until the critter leaves the game.\n\n## Actions\n\nEvery tick, every living critter performs one action, depending on its state. For a critter at (r, c) with direction *d*:\n\n- *below* is (r+1, c);\n- *front* is (r, c+d);\n- *up-front* is (r-1, c+d);\n- *above* is (r-1, c).\n\n![cells.png](https://api.topcoder-dev.com/v6/uploads/files/Q6jWES_SijRrkDcEEaZu1VO1GODMRU2A)\n\nThe actions use two shorthands:\n\n- \"Switch to X\": the state becomes X and X's action is performed in the same tick. This still counts as one action.\n- \"Start a fall\": the state becomes FALL, the fall distance becomes 0, and the FALL action is performed.\n\n**[FALL](https://api.topcoder-dev.com/v6/uploads/files/SVAOME2s_b_7-syRKNq1n-wa6n0q7YBJ)**: the steps, in order.\n\n1. If *below* is solid, the critter *lands*.\n2. Otherwise it moves to *below*, its fall distance increases by 1, and it enters that cell.\n3. If it is still living and its new *below* is solid, it *lands*.\n\n*Landing*: if the fall distance is greater than **F** and the critter is not a floater, it dies. Otherwise its state becomes WALK and its fall distance becomes 0.\n\n**[WALK](https://api.topcoder-dev.com/v6/uploads/files/7-Hak-P3r5K8QsBg-hDEm-EF2GyLWph_)**: the first rule that applies.\n\n1. If *below* is not solid, start a fall.\n2. If *front* is neither solid nor a blocker cell, move to *front*.\n3. If *front* is solid, *up-front* is neither solid nor a blocker cell, and *above* is not solid, step up to *up-front*.\n4. If the critter is a climber, *front* and *up-front* are both solid, and *above* is not solid, its state becomes CLIMBER. It does not move in this tick.\n5. Otherwise turn around (*d* = -*d*).\n\n**[CLIMBER](https://api.topcoder-dev.com/v6/uploads/files/-JEwPPKlv_Mml8qtA7_x3HTGcsSoFLpK)**: the first rule that applies.\n\n1. If *front* is not solid, start a fall.\n2. If *above* is solid, turn around (*d* = -*d*), then start a fall.\n3. If *up-front* is neither solid nor a blocker cell, the state becomes WALK and the critter moves to *up-front*.\n4. Otherwise move to *above*.\n\nClimbing does not count as falling, so a climber that lets go starts falling with fall distance 0. The cells beyond the left and right edges of the grid are solid, so a climber that walks into either edge climbs it up to row 0, where *above* is solid, and then lets go.\n\n**[BLOCKER](https://api.topcoder-dev.com/v6/uploads/files/Q-gNrNiaremjF7X0aahZzaGlqipUl_aK)**: if *below* is not solid, the critter stops blocking and starts a fall. Otherwise nothing happens.\n\n**[BUILDER](https://api.topcoder-dev.com/v6/uploads/files/TTLE28jMQLvl-d65jqtlHo1ipFwKzwlO)** (with *b* bricks left)\n\n1. If *below* is not solid, start a fall.\n2. A brick is placed if all of these hold:\n   - *front* is inside the grid and is exactly '.';\n   - *front* is not a blocker cell;\n   - *up-front* is neither solid nor a blocker cell;\n   - *above* is not solid.\n\n   Then *front* becomes dirt, the critter moves to *up-front*, and *b* decreases by 1. If the critter is still living and *b* = 0, its state becomes WALK.\n3. Otherwise switch to WALK.\n\n**[DIGGER](https://api.topcoder-dev.com/v6/uploads/files/4nsE97od7ZVZ1dDx5yYbYz5ta9Btgtj7)**\n\n1. If *below* is not solid, start a fall.\n2. If *below* is steel, switch to WALK.\n3. Otherwise *below* becomes air and the critter moves into it. This is not a fall.\n\n**[BASHER](https://api.topcoder-dev.com/v6/uploads/files/4nsE97od7ZVZ1dDx5yYbYz5ta9Btgtj7)**\n\n1. If *below* is not solid, start a fall.\n2. If *front* is inside the grid and is dirt, *front* becomes air and the critter moves into it.\n3. Otherwise switch to WALK.\n\n**[BOMBER](https://api.topcoder-dev.com/v6/uploads/files/yc1HLSnetM67VHKwlJu1I683Q1W7H4o9)** (with fuse length *f*)\n\n1. If *f* = 0, every dirt cell in the 3x3 block around the critter becomes air, and the critter dies.\n2. Otherwise *f* decreases by 1. If *below* is not solid, the critter moves to *below* and enters it.\n\nA bomber never walks, turns or takes fall damage, and it is not a blocker cell. Only the bomber dies in its explosion: other critters nearby survive, although they may fall if the blast removes the ground under them.\n\n## Tick order\n\nTick *t*, starting from 0, runs in three steps:\n\n1. Your assignments for this tick are applied, in the given order.\n2. The living critters act, in increasing *id* order. Changes to the grid and to blocker cells are visible to the critters that act later.\n3. If fewer than **L** critters have spawned and *t* is a multiple of **R**, the next critter spawns.\n\nThe game ends after **T** ticks, or when all **L** critters have spawned and each one is saved, dead or a BLOCKER, or when you output \"-1\". The [flow diagram](https://api.topcoder-dev.com/v6/uploads/files/fI0WVu24etSE2q9hbo00AmyZ2RhUg67B) shows the whole game, turn by turn.\n\n## Input and Output\n\nAt the start, you receive these values, each on its own line:\n\n- **H**, **W**, **L** (the number of critters), **R** (the spawn interval), **F** (the maximum safe fall), **S** (bricks per builder) and **T** (the tick limit);\n- **7** skill counts, in the order BLOCKER, BUILDER, DIGGER, BASHER, FLOATER, BOMBER, CLIMBER;\n- the **H** grid rows;\n- **E**, the number of exits;\n- **E** lines \"r c capacity\", one per exit in row-major order.\n\nThen, until the game ends, you output one command per line:\n\n- \"k id1 SKILL1 id2 SKILL2 ... idk SKILLk\", where k >= 0 is the number of assignments in the command: critter id1 gets skill SKILL1, critter id2 gets skill SKILL2, and so on. Then one tick is simulated. For example, \"0\" assigns nothing, and \"2 3 BLOCKER 7 FLOATER\" has two assignments: critter 3 becomes a blocker and critter 7 becomes a floater.\n- \"WAIT t\", with t >= 1: simulate t ticks without assignments.\n- \"-1\": end the game, keeping your score.\n\nIf the game continues, the tester outputs, each on its own line:\n\n- the elapsed time in milliseconds;\n- the number *n* of living critters;\n- *n* lines \"id r c d state floater climber extra\", in id order. Here floater and climber are 0 or 1, and extra is the fall distance for FALL, the bricks left for BUILDER, the fuse length for BOMBER, and 0 otherwise;\n- the **H** rows of the current grid.\n\nThe grid rows have the same format as the input grid. They show every change so far: bricks placed by builders ('#'), dirt removed by diggers, bashers and bombers ('.'), and closed exits ('.'). Critters are not shown in the grid. You can compare the critter lines and the grid with your own simulation to check it.\n\nWhen the game ends, your input is closed, and your program should exit at end-of-file.\n\n## Scoring\n\nA critter that spawned at the end of tick *s* and is saved in tick *t* has travel time *d* = *t* - *s*. It earns\n\n**100 \\* digit \\* (1 - 0.5 \\* min(d, D) / D)** points, where digit is the exit's digit and **D** = **H** + **W**. The points are fractional and not rounded.\n\nThe points of an exit that is full at the end of the game are doubled. Your raw score is the sum over all exits.\n\nFor example, with **H** = **16** and **W** = **30**, **D** = **46**. Saves at a digit-9 exit after 23 and 60 ticks earn 675 and 450 points. If that exit's capacity is **2**, it is full and contributes 2 \\* 1125 = 2250 points.\n\nYour raw score is -1 in any of these cases:\n\n- a malformed command;\n- an invalid assignment (see Skills), including an unknown, unborn, saved or dead critter, or an unknown skill name;\n- \"WAIT t\" with t < 1;\n- exceeding the time limit.\n\nA negative raw score gives a normalized score of 0 for that test case. Otherwise the normalized score is YOUR/MAX, where MAX is the largest positive raw score currently obtained on the test case (counting only each competitor's last submission). The sum of all your test scores is normalized to 100.\n\n## Test Case Generation\n\nSee the generate() method in the visualizer source for the details. In short:\n\n- The parameters are in these ranges(all inclusive):\n  - **16** <= **H** <= **30**\n  - **30** <= **W** <= **60**\n  - **10** <= **L** <= **50**\n  - **2** <= **R** <= **6**\n  - **3** <= **F** <= **6**\n  - **4** <= **S** <= **8**\n  - **1** <= **N** <= **2**\n  - **1** <= **E** <= **4**\n  - every skill count is between **0** and **50**\n  - **T** <= **1000**\n- Each test case belongs to one of three biomes: Night Meadow, Lava Caverns or Ice Caves, each chosen with probability 1/3. A biome changes the look, the parameter ranges and some terrain properties. **The biome is not part of the input.**\n- Within its biome's ranges, each parameter is drawn independently and uniformly at random, except **T** = (**L**-1)* **R** + 4 * (**W**+**H**) + 200 and the skill counts of skill-rich levels.\n- On some *skill-rich* levels, every skill can be used **L** times.\n- The terrain is random: water in the bottom rows, ground islands, floating platforms, walls and pillars, and a starting ledge for each entrance.\n- The generator checks in the real simulation that the whole crowd can reach every exit with the level's skills (except in rare cases where no such level is found).\n- An exit's value grows with the number of skills its route needs. The capacities add up to **L**.\n- A level is rejected if doing nothing, a simple greedy player, or replaying the generator's own routes already scores well.\n\n## Notes\n\n- The tester's class Sim is the reference implementation of the rules.\n- Falling into an open exit saves the critter, whatever the fall distance.\n- A crowd heading for an exit that has just filled up keeps going, often to its doom, unless you redirect it.\n- Bricks placed by builders are ordinary dirt: they can be dug, bashed and bombed.\n- Water ('~') looks different in each biome: it is drawn as lava in the Lava Caverns and as icy water in the Ice Caves. It works the same everywhere.\n- The visualizer shows each exit's value and its \"saved/capacity\" count, and full exits are boarded up. It also shows a bomber's countdown above its head, a pick on a climber's back, and a folded umbrella on a floater's back.\n- The time limit is **10** seconds per test case, counting only the time spent in your code. The memory limit is **1024** MB, and the compilation time limit is **30** seconds.\n- There are **10** example test cases, **100** provisional test cases and **5000** final test cases. The match is rated.\n\n## Languages Supported\n\nC#, Java, C++, Python, Rust and Kotlin.\n\n## Submission Format\n\nYour submission must be a single ZIP file, not larger than 500 MB, with your source code only. Zip the file directly, not inside a folder. Name your source file CritterRescue.&lt;appropriate extension&gt;.\n\n### Sample Submissions\n\nThese example solutions work with the visualizer, and you may modify and submit them:\n\n-   Java Source Code - [CritterRescue.java.zip](https://api.topcoder-dev.com/v6/uploads/files/hY3kgsSbZZhTN2KDIL6DRxG6ha4nF95G)\n-   C++ Source Code - [CritterRescue.cpp.zip](https://api.topcoder-dev.com/v6/uploads/files/60qUVUgCiZtRIawbq-bIhNlIL5_e1mfI)\n-   Python Source Code - [CritterRescue.py.zip](https://api.topcoder-dev.com/v6/uploads/files/k2ZRjpJeDlQLcyOIHmDdvAdY4eHmC9yC)\n-   C# Source Code - [CritterRescue.cs.zip](https://api.topcoder-dev.com/v6/uploads/files/qESABRrmW7lFkDRkpdqGKEmT4HKXcBn4)\n-   Rust Source Code - [CritterRescue.rs.zip](https://api.topcoder-dev.com/v6/uploads/files/N7SUMyugOm0yi9hqrSn8S-ONda8bQZWd)\n-   Kotlin Source Code - [CritterRescue.kt.zip](https://api.topcoder-dev.com/v6/uploads/files/jpZBnq8XIsU83HziZg340BlKJOGdDB1T)\n\n## Tools\n\nThe offline tester runs your solution locally and visualizes the game. Its source contains the exact test case generation and scoring.\n\n#### Downloads\n\n- Visualizer Source - [CritterRescueTester.zip](https://api.topcoder-dev.com/v6/uploads/files/RA7k9RxIKSdjmEZaAYUJIZsejMBfdtDm)\n- Visualizer Binary - [tester.jar.zip](https://api.topcoder-dev.com/v6/uploads/files/HULh-u2HEIDxIib98050fRv52q0sa5eU)\n\n#### Offline Tester / Visualizer\n\nYour solution reads from standard input and writes to standard output. Run it with:\n\n**java -jar tester.jar -exec \"&lt;command&gt;\" -seed &lt;seed&gt;**\n\nHere &lt;command&gt; runs your program, for example \"C:\\\\TopCoder\\\\CritterRescue.exe\" or \"java -cp C:\\\\TopCoder CritterRescue\".\n\nOptions:\n\n- **\\-seed** &lt;seed&gt;: the seed for test case generation (default 1).\n- **\\-debug**: print the parameters and the generated level.\n- **\\-novis**: no visualization.\n- **\\-noanimate**: show only the final state.\n- **\\-delay** &lt;ms&gt;: the delay between steps (default 60).\n- **\\-pause**: start paused. Any key steps, and Space toggles pause.\n- **\\-ids**: show critter ids.\n- **\\-nosound**: no sound effects.\n- **\\-manual**: play by hand.\n  - Click a skill button, then click a critter to assign that skill at the start of the next tick. A box marks the critter that a click would select.\n  - The info panel's \"Tick\" is the tick that was just simulated, numbered from 0 as in this statement. While it shows tick t, your assignments apply to tick t+1.\n  - \"Step\" runs one tick, \"Play\"/\"Pause\" runs ticks at the **\\-delay** speed (at most one tick per second), and \"Finish\" runs to the end.\n  - Keys: 1 to 7 select or deselect a skill, Esc deselects, S or Right is Step, Space is Play/Pause, and F is Finish.\n  - Invalid assignments are ignored, and the reason is shown in the info panel.\n- **\\-H**, **\\-W**, **\\-L**, **\\-R**, **\\-F**, **\\-S**, **\\-N**, **\\-E**, **\\-T** &lt;value&gt;: override a parameter.\n- **\\-B** &lt;0|1|2&gt;: the biome (Night Meadow, Lava Caverns, Ice Caves). The other parameters are drawn for that biome.\n- **\\-K** &lt;value&gt;: the number of uses of every skill. It is drawn separately for each skill when a range is given, and it also replaces the counts of a skill-rich level.\n- **\\-rich**: make the level skill-rich.\n\nEvery override accepts a single value or a range \"a,b\", drawn uniformly. For the general tester options (seed ranges, threads, saving output, and so on), see [here](https://www.topcoder.com/thrive/articles/marathon-match-local-tester-parameters).",
+    "descriptionFormat": "markdown",
+    "projectId": 1001311,
+    "typeId": "929bc408-9cf2-4b3e-ba71-adfbf693046c",
+    "trackId": "c0f5d461-8219-4c14-878a-c3a3f356466d",
+    "timelineTemplateId": "6969125a-a12f-4b89-8de6-e66b0056f36b",
+    "numOfRegistrants": 25,
+    "numOfSubmissions": 12,
+    "numOfCheckpointSubmissions": 0,
+    "currentPhaseNames": [
+      "Registration",
+      "Submission"
+    ],
+    "wiproAllowed": false,
+    "funChallenge": true,
+    "tags": [],
+    "groups": [],
+    "submissionStartDate": "2026-11-25T06:00:03.235Z",
+    "submissionEndDate": "2026-12-02T06:00:03.235Z",
+    "registrationStartDate": "2026-11-25T06:00:02.136Z",
+    "registrationEndDate": "2026-12-02T06:00:02.136Z",
+    "startDate": "2026-11-25T06:00:00.000Z",
+    "endDate": "2026-12-03T06:00:00.000Z",
+    "status": "ACTIVE",
+    "approvalStatus": "APPROVED",
+    "createdBy": "22778049",
+    "updatedBy": "22778049",
+    "metadata": [
+      {
+        "name": "allowAllRegistrantsToDownloadWinningSubmissions",
+        "value": "true"
+      },
+      {
+        "name": "is_test_challenge",
+        "value": "false"
+      },
+      {
+        "name": "show_data_dashboard",
+        "value": "false"
+      },
+      {
+        "name": "challengeStartMode",
+        "value": "scheduled"
+      }
+    ],
+    "phases": [
+      {
+        "id": "ef31c47f-589c-48f1-ba53-74df7243f817",
+        "phaseId": "a93544bc-c165-4af4-b55e-18f3593b457a",
+        "name": "Registration",
+        "description": "Registration Phase",
+        "isOpen": true,
+        "duration": 604800,
+        "scheduledStartDate": "2026-11-25T06:00:02.136Z",
+        "scheduledEndDate": "2026-12-02T06:00:02.136Z",
+        "actualStartDate": "2026-11-25T06:00:02.136Z",
+        "constraints": []
+      },
+      {
+        "id": "e2337021-a594-4e25-9ae0-5cf1c8a5da6a",
+        "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+        "name": "Submission",
+        "description": "Submission Phase",
+        "isOpen": true,
+        "duration": 604800,
+        "scheduledStartDate": "2026-11-25T06:00:03.235Z",
+        "scheduledEndDate": "2026-12-02T06:00:03.235Z",
+        "actualStartDate": "2026-11-25T06:00:03.235Z",
+        "constraints": []
+      },
+      {
+        "id": "b3188208-8871-439b-a85d-bcb1cd143e0a",
+        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+        "name": "Review",
+        "description": "Review Phase",
+        "isOpen": false,
+        "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+        "duration": 86400,
+        "scheduledStartDate": "2026-12-02T06:00:03.235Z",
+        "scheduledEndDate": "2026-12-03T06:00:03.235Z",
+        "constraints": []
+      }
+    ],
+    "discussions": [
+      {
+        "name": "Marathon Match 168",
+        "type": "CHALLENGE",
+        "provider": "topcoder",
+        "url": "https://www.topcoder.com/opportunities/challenge/fdf4e58a-d97f-4936-8e67-5746e24db6b3?tab=forum",
+        "id": "f387595a-cc47-42e3-862b-6b0a72936066",
+        "options": []
+      }
+    ],
+    "events": [],
+    "prizeSets": [],
+    "reviewers": [
+      {
+        "scorecardId": "CJTkQXGNEJgwyP",
+        "isMemberReview": true,
+        "memberReviewerCount": 1,
+        "phaseId": "aa5a3f78-79e0-4bf7-93ff-b11e8f5b398b",
+        "fixedAmount": 0,
+        "baseCoefficient": 0,
+        "incrementalCoefficient": 0,
+        "type": "REGULAR_REVIEW",
+        "shouldOpenOpportunity": false
+      }
+    ],
+    "terms": [
+      {
+        "id": "0a507fb7-3fe0-402b-b121-1a24af4a9cf1",
+        "roleId": "732339e7-8e30-49d7-9198-cccf9451e221"
+      }
+    ],
+    "skills": [
+      {
+        "id": "948e5879-e8b7-47cc-bdcf-8d3df639e957",
+        "name": "Algorithm Design",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "57d75dc3-65e2-4037-bfdc-5ad02881c367",
+        "name": "Discrete Event Simulation",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "428c31e4-ae5f-4007-958a-d8dcb713ec5c",
+        "name": "Combinatorial Optimization",
+        "category": {
+          "id": "4064574c-befa-4fb3-a8e2-34038d7f845b",
+          "name": "Data Analysis and Big Data"
+        }
+      },
+      {
+        "id": "10a4ead6-8744-434f-b10c-38b58ca0a762",
+        "name": "Search Algorithms",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "874dfff4-7bf4-47f5-a6d7-295b965cbf19",
+        "name": "Data Structures",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "735c6e0c-f93a-465b-8a22-0d97bcf700b7",
+        "name": "Rule-Based Systems",
+        "category": {
+          "id": "a1289278-a734-4523-918f-ea0f05667e24",
+          "name": "Machine Learning and AI"
+        }
+      },
+      {
+        "id": "17058521-cc71-4bf5-885d-fd92dff91dcd",
+        "name": "Path Finding",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "6afcd6cb-8f15-4c24-8014-f60fbc02a04c",
+        "name": "Video Game Development",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "41090a75-cdb9-4630-be5c-2c891a0aa007",
+        "name": "Pathfinder",
+        "category": {
+          "id": "aa495f25-2f2d-4334-9b6f-2ffe11d835d2",
+          "name": "Software Development Lifecycle (SDLC)"
+        }
+      },
+      {
+        "id": "6ba3f06b-0bb5-4885-a715-69daf189a2ca",
+        "name": "Computer Simulation",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "73d39950-380a-48eb-8a9f-80d08103cc39",
+        "name": "Heuristic Analysis",
+        "category": {
+          "id": "221f4e3f-1ac8-438b-9dc1-977e30656789",
+          "name": "Cybersecurity"
+        }
+      },
+      {
+        "id": "1d17c009-312f-479f-9834-94c93837b3f7",
+        "name": "Game Design",
+        "category": {
+          "id": "3eb5163c-cd3f-4c7d-b059-95c901bc2066",
+          "name": "User Experience Design and Multimedia"
+        }
+      },
+      {
+        "id": "6dcf7d9e-0bc1-44e4-be86-313f1264fe52",
+        "name": "Game Mechanics",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "596f563d-c54e-4a46-9a45-3b212e930e20",
+        "name": "Program Optimization",
+        "category": {
+          "id": "481b5ebc-2fe6-45ed-a90c-736936d458d7",
+          "name": "Programming and Development"
+        }
+      },
+      {
+        "id": "b4a223c4-6a4a-4d2a-8526-488a2ddae0d7",
+        "name": "Heuristic Evaluation",
+        "category": {
+          "id": "3eb5163c-cd3f-4c7d-b059-95c901bc2066",
+          "name": "User Experience Design and Multimedia"
+        }
+      },
+      {
+        "id": "713a95e1-9b5e-4506-847c-e28cdd61f319",
+        "name": "Business Simulation",
+        "category": {
+          "id": "4064574c-befa-4fb3-a8e2-34038d7f845b",
+          "name": "Data Analysis and Big Data"
+        }
+      }
+    ],
+    "attachments": [],
+    "track": {
+      "id": "c0f5d461-8219-4c14-878a-c3a3f356466d",
+      "name": "Data Science",
+      "track": "DATA_SCIENCE"
+    },
+    "type": {
+      "id": "929bc408-9cf2-4b3e-ba71-adfbf693046c",
+      "name": "Marathon Match"
+    },
+    "numOfPosts": 0,
+    "legacy": {
+      "reviewType": "INTERNAL",
+      "confidentialityType": "public",
+      "isTask": false,
+      "useSchedulingAPI": true,
+      "pureV5Task": false,
+      "pureV5": false,
+      "selfService": false
+    },
+    "task": {
+      "isTask": false,
+      "isAssigned": false
+    },
+    "created": "2026-11-23T09:59:51.709Z",
+    "updated": "2026-11-25T06:00:03.252Z",
+    "overview": {
+      "totalPrizes": 0
+    },
+    "currentPhase": {
+      "id": "e2337021-a594-4e25-9ae0-5cf1c8a5da6a",
+      "phaseId": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
+      "name": "Submission",
+      "description": "Submission Phase",
+      "isOpen": true,
+      "duration": 604800,
+      "scheduledStartDate": "2026-11-25T06:00:03.235Z",
+      "scheduledEndDate": "2026-12-02T06:00:03.235Z",
+      "actualStartDate": "2026-11-25T06:00:03.235Z",
+      "constraints": []
+    },
+    "stalled": false
+  },
+  {
     "id": "fed5be1e-1dbd-43b9-b74d-df1d936b1e1a",
     "name": "Combinator: Build the Best-of-All Submission Agent",
     "description": "# Challenge Overview \nTopcoder competitions produce multiple valuable submissions, but usually only one is used. Strong features, tests, architectures, workflows, ideas, feasibility arguments, and user experiences in other placements may be lost. Topcoder Combinator recovers that value. \n\nParticipants will build an AI-assisted Combinator that compares selected submissions from one completed challenge, recommends the strongest source for each requirement or concept component, lets a Copilot decide what to retain, and generates a derived candidate with complete evidence, provenance, and verification. \n\nCode mode produces a runnable combined solution using a base-plus-transplants strategy. \nIdeation mode produces one coherent synthesized concept from approved idea components. \nThe agent analyzes and proposes. The Copilot accepts, rejects, replaces, or blocks decisions. \nOriginal submissions are immutable inputs and must never be modified. \n\n# Challenge Goal \n1. Discover challenges from the supplied starter-pack manifest. \n2. Load review context when supplied, or derive it from the specification when absent. \n3. Profile every submission or distinct idea against active requirement IDs. \n4. Fuse source evidence, scorecards, review reports, final corrections, builds, and tests. \n5. Recommend a base and components without assuming placement equals technical superiority. \n6. Provide a review UI and machine-readable decision workspace. \n7. Generate a code or ideation candidate from approved decisions. \n8. Verify the candidate, preserve provenance, and regenerate after decision changes. \n\n# Organizer-Provided Starter Pack \n\n| Fixture  | Mode | Input | Review Content |\n|-------- | -------- | -------- | -------- |\n| AI Deal Scoping Assistant      | Code      | Top 2 submissions      | Provided     |\n| AI Learning Adventure      | Code      | Top 2 submissions      | Provided     |\n| AI Workflow Puzzle Builder      | Code      | Top 2 submissions      | Provided     |\n| Agentic AI and Community Enablement in SDLC  | Ideation       | Top 3 submissions      | Absent; derive from spec      |\n\n\nThe starter pack contains four challenge fixtures and nine submissions. The Combinator processes one challenge at a time and must never combine code, ideas, reviews, or requirements across challenges. \n\nstarter-pack/ \n├── manifest.json \n├── schemas/ \n└── challenges/ \n    ├── AI_DEAL_SCOPING_ASSISTANT/ \n    ├── AI_LEARNING_ADVENTURE/ \n    ├── AI_WORKFLOW_PUZZLE_BUILDER/ \n    └── AGENTIC_AI_COMMUNITY_ENABLEMENT_SDLC/ \n\n### Per-challenge package \nCHALLENGE_ID/ \n├── challenge-context.json \n├── challenge-package.json \n├── review-context/ \n├── scorecards/ \n├── reviews/ \n├── submissions/ \n├── verification/ \n├── integrity/ \n└── README.md \n\n# Review Context: Supplied and Missing Cases \nReview context is optional per challenge, but support for both paths is mandatory. \n\n### When review context is supplied \n* Use it as the primary normalized requirements map. \n* Preserve challenge, requirement, constraint, priority, runtime, stack, and submission-rule IDs. \n* Reconcile it with the final challenge specification. \n* Report missing, stale, or conflicting content instead of silently selecting one source. \n* Use active IDs throughout profiles, matrices, decisions, provenance, and verification. \n\n### When review context is absent \n* Continue without an error or reduced-function mode. \n* Derive equivalent context from the final specification. \n* Generate deterministic stable IDs and retain specification source locations. \n* Label derived fields as specification_derived. \n* Do not invent scorecard weights, reviewer comments, platform IDs, runtime versions, or unsupported constraints. \n\nRequired workspace artifacts: review-context-status.json, active-review-context.json, review-context-reconciliation.json, and source-location-map.json. \n\n# Input Ingestion and Source Protection \n\n* Validate the manifest, package paths, schemas, submissions, reviews, scorecards, and verification configuration. \n* Record SHA-256 hashes for every source artifact before and after processing. \n* Mount source submissions read-only where possible. \n* Perform builds and dependency installation only in disposable analysis copies or isolated containers. \n* Restrict all code writes to workspace/combined-solution/. \n* Reject path traversal, symlink escapes, and writes to source submissions, reviews, scorecards, schemas, and verification fixtures. \n* Audit every file-modifying operation. Any source hash mismatch is a critical failure. \n\n# Submission and Idea Profiling \nFor code submissions, produce architecture, build, test, requirement coverage, strengths, weaknesses, review evidence, compatibility risk, and base suitability. For ideation submissions, identify up to three ideas per document and profile each idea separately. \n\n* Every material claim must reference a file, function, test, README section, page, slide, table, figure, speaker note, or reviewer comment. \n* Supported assessment states: complete, partial, missing, not_verifiable, and manual_review_required. \n* Accepted appeal or correction evidence supersedes earlier false findings while preserving history. \n* The agent must inspect complete repository trees, including nested monorepo applications. \n\n# Evidence Fusion and Requirement Matrix \n* Combine code/document evidence, build and test results, human and AI reviews, scorecards, appeals, and final outcomes. \n* Flag human-versus-AI disagreement, review-versus-source conflict, and uncertain evidence. \n* Do not treat reviewer comments as automatically correct. \n* Provide human-readable Markdown and machine-readable JSON matrices. \n\nEach requirement or evaluation area must show status by submission or idea, evidence, recommended source, reasoning, confidence, compatibility risk, and unresolved conflicts. \n\n# Copilot Decision Workflow \nEach proposed selection becomes a decision with options, recommendation, evidence, reasoning, risk, state, selected source, and Copilot comment. \n\n| State | Meaning | \n|-------- | -------- | \n| pending     | Awaiting Copilot review       |\n| accepted     | Recommended option approved       |\n| rejected     | Recommendation declined      |\n| alternative_selected      | Different source selected       |\n| blocked     | Cannot proceed safely       |\n| manual_review      | Human evidence review required       |\n| unresolved     | Conflict intentionally remains open       |\n\n\nThe review UI must let the Copilot inspect evidence, accept, reject, select an alternative, combine compatible ideation elements, add a comment, trigger regeneration, and view updated verification. \n\n# Code Mode \n### Base plus transplants \n\n* Recommend a runnable base using coverage, stability, architecture, tests, maintainability, compatibility, and integration risk. \n* Copy the approved base into combined-solution/. \n* Apply one approved transplant at a time. \n* Build and test after each transplant. \n* Keep successful changes and record provenance. \n* Roll back failures to the last verified candidate. \n* Continue with independent decisions where safe. \n\nFree-form merging, cross-challenge merging, and cross-language porting are not required. The agent must not claim success merely because files were copied or generated. \n\n### Code verification \n\n* Dependency installation \n* Build \n* Application startup \n* Organizer smoke tests \n* Applicable unit and integration tests \n* Regression comparison against the base \n* Verification of approved capabilities \n* Original scorecard re-evaluation \n* Source-integrity verification \n\nA failed code candidate must never be presented as successful. Preserve the last verified candidate, mark the decision blocked, capture the error, and explain a manual resolution path. \n\n# Ideation Mode \nThe Agentic AI and Community Enablement in SDLC fixture contains three document submissions. The Combinator must support DOCX, PDF, and PPTX and must provide more than document summarization. \n\n### Document ingestion \n\n* Extract headings, paragraphs, tables, slide content, speaker notes, captions, diagram labels, links, and available OCR text. \n* Preserve page, slide, section, table, figure, and content-block locations. \n* Mark unreliable extraction as not_verifiable or manual_review_required. \n* Never invent missing document content. \n\n### Idea-level analysis \n\n* Identify up to three ideas per submission and assign stable idea IDs. \n* Profile problem, proposed agents, SDLC phases, users, beneficiaries, workflow, data, integrations, human oversight, security, feasibility, scalability, impact, risks, assumptions, and differentiators. \n* Compare each idea against Originality, Feasibility, Scalability, Impact Potential, and Alignment with Scope. \n\n### Contradictions and synthesis \n\n* Expose incompatible positions instead of silently merging them. \n* Show conflicting sources, trade-offs, recommendation, and required Copilot decision. \n* Do not add unsupported statistics, costs, productivity gains, timelines, customer claims, or technical capabilities. \n* Label assumptions and agent-generated bridging content. \n* Generate one coherent concept document, not pasted submission summaries. \n\n### Ideation verification \n\n* Mandatory evaluation areas are covered. \n* Accepted ideas are present and rejected ideas are not represented as accepted. \n* Contradictions have recorded decisions. \n* Claims trace to source locations. \n* Assumptions and generated synthesis are labeled. \n* The concept is internally consistent and provenance is complete. \n* Changing a decision updates affected sections, provenance, and the estimated scorecard result. \n* Original documents remain unchanged. \n \n# Required Workspace Output \n\nworkspace/CHALLENGE_ID/ \n├── workspace-manifest.json \n├── review-context-status.json \n├── active-review-context.json \n├── review-context-reconciliation.json \n├── source-location-map.json \n├── overview.md \n├── submissions/ \n├── requirement-matrix.json \n├── decisions.json \n├── provenance.json \n├── contradictions.json \n├── verification.json \n├── combined-solution/       # code mode \n├── synthesized-concept/     # ideation mode \n└── review-ui/ \n\nFiles are the source of truth. The local UI reads and updates them. Outputs must be human-readable, machine-readable, reproducible, and usable by another AI assistant. \n\n# Technical Requirements \n\n* Mastra is not mandatory and is not preferred. Any maintainable framework or custom orchestration is allowed. \n* The solution must run locally and provide a reproducible container or equivalent setup. \n* At least one documented LLM provider is supported. \n* Provider-specific logic is isolated behind a documented adapter. \n* Amazon Bedrock must be usable through configuration or only a small isolated adapter change. \n* Credentials, model IDs, AWS region, endpoints, timeouts, and inference settings come from environment or configuration. \n* The solution reports provider, model, calls, tokens, approximate cost, retries, failures, and processing time. \n* A deterministic or mock mode supports organizer review without paid AI access. \n\n# Generality and Security \n* Do not hard-code supplied challenge IDs, submission IDs, requirement IDs, paths, scores, winners, or expected combinations. \n* Support different submission counts, stacks, scorecards, repository layouts, document formats, and verification commands. \n* Treat source code and documents as untrusted inputs. \n* Restrict command working directories, network access, credentials, and filesystem permissions. \n* Do not execute macros or embedded active content from document submissions. \n* Do not expose API keys in client-side storage or browser bundles. \n \n# Submission Deliverables \n* Complete source code \n* Generated workspaces for all four visible fixtures \n* Combined code candidates for the three code fixtures \n* Synthesized concept for the ideation fixture \n* Review-context reconciliation outputs \n* Provenance, contradiction, integrity, usage/cost, and verification reports \n* Automated tests \n* Architecture diagram \n* README with setup, provider adapter, Bedrock configuration, mock mode, security model, schemas, commands, limitations, and cost \n* Maximum five-minute demo video \n* The demo must show both supplied and missing review-context paths, evidence review, a Copilot decision change, candidate generation, verification, provenance, and regeneration.",
@@ -27,12 +317,12 @@
     "registrationStartDate": "2026-11-20T07:35:19.602Z",
     "registrationEndDate": "2026-11-23T07:00:00.896Z",
     "startDate": "2026-11-20T07:35:19.601Z",
-    "endDate": "2026-11-26T20:00:00.000Z",
+    "endDate": "2026-11-23T08:00:00.000Z",
     "status": "ACTIVE",
     "approvalStatus": "APPROVED",
     "approvalApprovedBy": "kiril.kartunov",
     "createdBy": "500013983",
-    "updatedBy": "40165501",
+    "updatedBy": "40488611",
     "metadata": [
       {
         "name": "allowAllRegistrantsToDownloadWinningSubmissions",
@@ -81,9 +371,9 @@
         "description": "AI Review Phase",
         "isOpen": true,
         "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-        "duration": 518382,
-        "scheduledStartDate": "2026-11-23T08:00:17.614Z",
-        "scheduledEndDate": "2026-11-29T08:00:00.000Z",
+        "duration": 519300,
+        "scheduledStartDate": "2026-11-23T08:00:00.497Z",
+        "scheduledEndDate": "2026-11-29T08:15:00.497Z",
         "actualStartDate": "2026-11-23T08:00:17.614Z",
         "constraints": []
       },
@@ -95,8 +385,8 @@
         "isOpen": false,
         "predecessor": "c3a4d5e6-f7b8-4c9d-a0e1-2b3c4d5e6f7a",
         "duration": 216000,
-        "scheduledStartDate": "2026-11-29T08:00:00.000Z",
-        "scheduledEndDate": "2026-12-01T20:00:00.000Z",
+        "scheduledStartDate": "2026-11-29T08:15:00.497Z",
+        "scheduledEndDate": "2026-12-01T20:15:00.497Z",
         "constraints": []
       }
     ],
@@ -383,7 +673,7 @@
       "isAssigned": false
     },
     "created": "2026-11-19T08:20:12.016Z",
-    "updated": "2026-11-23T14:45:15.315Z",
+    "updated": "2026-11-25T06:35:56.964Z",
     "overview": {
       "totalPrizes": 600,
       "type": "USD"
@@ -395,9 +685,9 @@
       "description": "AI Review Phase",
       "isOpen": true,
       "predecessor": "6950164f-3c5e-4bdc-abc8-22aaf5a1bd49",
-      "duration": 518382,
-      "scheduledStartDate": "2026-11-23T08:00:17.614Z",
-      "scheduledEndDate": "2026-11-29T08:00:00.000Z",
+      "duration": 519300,
+      "scheduledStartDate": "2026-11-23T08:00:00.497Z",
+      "scheduledEndDate": "2026-11-29T08:15:00.497Z",
       "actualStartDate": "2026-11-23T08:00:17.614Z",
       "constraints": []
     },

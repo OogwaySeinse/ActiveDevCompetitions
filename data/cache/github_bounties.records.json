@@ -1,15 +1,15 @@
 [
   {
-    "id": "dc963e274f8e16",
-    "title": "[IES-BoilerRoom/pcie-tlp-credit-flow-gate] ($350) perf/fix: Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (pcie-tlp-credit-flow-gate)",
+    "id": "88105e8ddbeff7",
+    "title": "[IES-BoilerRoom/tcp-bbrv3-pacing-verifier] fix(congestion): Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness (segment_bbr_ack_frames)",
     "platform": "Algora / GitHub",
     "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2",
-    "prize": "$350",
-    "prize_usd": 350.0,
+    "url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1",
+    "prize": "$175",
+    "prize_usd": 175.0,
     "prize_currency": "USD",
-    "prize_raw": "350.0",
-    "start_date": "2026-11-23T05:14:51Z",
+    "prize_raw": "175.0",
+    "start_date": "2026-11-16T08:07:37Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
@@ -28,31 +28,199 @@
       "ies-boilerroom",
       "open-source"
     ],
-    "description": "Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $350 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1 Calibrate",
+    "description": "Automated CI Conformance Mirror Notice : Automated IETF draft-ietf-ccwg-bbr-01 Congestion Control regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $175 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shards/s",
     "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 7,
+    "repo_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "62dcb02b076264",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4398",
+    "prize": "$75",
+    "prize_usd": 75.0,
+    "prize_currency": "USD",
+    "prize_raw": "75.0",
+    "start_date": "2026-11-24T23:39:11Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2 漏洞描述 / Description ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier) Automated CI Conformance Mirror Notice : Automated BN254 PLONK / KZG10 Transcript Conformance v1.2 multi-shard quorum issue; manual pull reques",
+    "organizer": "zhangjiayang6835-cyber",
+    "difficulty": "Beginner",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 3,
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "3178391e60f9e0",
+    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4399",
+    "prize": "$175",
+    "prize_usd": 175.0,
+    "prize_currency": "USD",
+    "prize_raw": "175.0",
+    "start_date": "2026-11-24T23:39:12Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "open-source",
+      "real",
+      "zhangjiayang6835-cyber"
+    ],
+    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1 漏洞描述 / Description ci/plonk kzg: Fix transcript chunk boundary check and grand-product coset shift witness - Reward $175 USDC Automated CI Conformance Mirror Notice : Automated BN254 PLONK / KZG10 Transcript Conformance v1.2 regression runner issue; manual pull requests from human eng",
+    "organizer": "zhangjiayang6835-cyber",
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
     "submissions_count": 2,
-    "repo_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate",
+    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
+    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "eb79256a8a2556",
+    "title": "[IES-BoilerRoom/cpython-pep626-line-profiler] fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-pep626-line-profiler]",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2",
+    "prize": "$250",
+    "prize_usd": 250.0,
+    "prize_currency": "USD",
+    "prize_raw": "250.0",
+    "start_date": "2026-11-24T22:11:26Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "Python"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated Python PEP 626 / PEP 657 Code Object Specification multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $250 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler",
     "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
-    "id": "7bd00be14438c4",
-    "title": "[IES-BoilerRoom/pcie-tlp-credit-flow-gate] [225 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (reassemble_tlp_flit_frames)",
+    "id": "dddd592ec0379b",
+    "title": "[IES-BoilerRoom/cpython-pep626-line-profiler] fix(dwarf_trace): Resolve trace frame ceiling off-by-one and PEP 626 instruction-envelope residue ($125 bounty) [collect_trace_event_frames]",
     "platform": "Algora / GitHub",
     "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
-    "prize": "$225",
-    "prize_usd": 225.0,
+    "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1",
+    "prize": "$125",
+    "prize_usd": 125.0,
     "prize_currency": "USD",
-    "prize_raw": "225.0",
-    "start_date": "2026-11-23T05:14:50Z",
+    "prize_raw": "125.0",
+    "start_date": "2026-11-24T22:11:25Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "Python"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated Python PEP 626 / PEP 657 Code Object Specification regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $125 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shar",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Beginner",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": null,
+    "repo_url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "647a344c16bc52",
+    "title": "[IES-BoilerRoom/zk-plonk-transcript-verifier] ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift witness - Reward $175 USDC",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
+    "prize": "$175",
+    "prize_usd": 175.0,
+    "prize_currency": "USD",
+    "prize_raw": "175.0",
+    "start_date": "2026-11-24T22:11:27Z",
     "end_date": null,
     "days_remaining": null,
     "status": "ongoing",
@@ -71,19 +239,105 @@
       "ies-boilerroom",
       "open-source"
     ],
-    "description": "Automated CI Conformance Mirror Notice : Automated PCI Express Base Specification r6.1 §2.6 regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $225 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shards/spec 64",
+    "description": "Automated CI Conformance Mirror Notice : Automated BN254 PLONK / KZG10 Transcript Conformance v1.2 regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $175 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shards/",
     "organizer": "IES-BoilerRoom",
     "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 1,
-    "repo_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate",
+    "submissions_count": null,
+    "repo_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier",
     "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "1cac7a77d30c2d",
+    "title": "[IES-BoilerRoom/zk-plonk-transcript-verifier] ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier)",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2",
+    "prize": "$75",
+    "prize_usd": 75.0,
+    "prize_currency": "USD",
+    "prize_raw": "75.0",
+    "start_date": "2026-11-24T22:11:28Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated BN254 PLONK / KZG10 Transcript Conformance v1.2 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $75 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1 Calib",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Beginner",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 2,
+    "repo_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
+  },
+  {
+    "id": "08789139421285",
+    "title": "[IES-BoilerRoom/protocol-conformance-relay] [175 USDC] Enforce zero-copy Huffman header boundary across split CONTINUATION frames (segment_bbr_ack_frames)",
+    "platform": "Algora / GitHub",
+    "source": "github_bounties",
+    "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
+    "prize": "$175",
+    "prize_usd": 175.0,
+    "prize_currency": "USD",
+    "prize_raw": "175.0",
+    "start_date": "2026-11-06T02:59:48Z",
+    "end_date": null,
+    "days_remaining": null,
+    "status": "ongoing",
+    "challenge_type": "oss_bounty",
+    "category": "Open Source & Core Systems",
+    "ecosystem": "Open Source / GitHub",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "bounty",
+      "github",
+      "help wanted",
+      "ies-boilerroom",
+      "open-source"
+    ],
+    "description": "Automated CI Conformance Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $175 USDC - Primary Batch Suite : https://github.com/IES-BoilerRoom/Furnace/issues/2 - Domain Conformance Suite : https://github.com/IES-BoilerR",
+    "organizer": "IES-BoilerRoom",
+    "difficulty": "Intermediate",
+    "mode": "Online",
+    "participants_count": null,
+    "submissions_count": 11,
+    "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
+    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
+    "first_seen_at": null,
+    "is_new": false,
+    "prize_delta_usd": 0.0,
+    "days_shift": 0,
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "6bda1d72db50a4",
@@ -114,7 +368,7 @@
       "ies-boilerroom",
       "open-source"
     ],
-    "description": "Automated CI Conformance Mirror Notice : Automated PagedAttention Block-Table ABI Specification v2.4 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $300 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1 Ca",
+    "description": "Automated CI Conformance Mirror Notice : Automated PagedAttention Block-Table ABI Specification v2.4 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $300 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1",
     "organizer": "IES-BoilerRoom",
     "difficulty": "Intermediate",
     "mode": "Online",
@@ -126,7 +380,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "c72f7708510c4b",
@@ -169,50 +423,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "abcf204e36e08b",
-    "title": "[IES-BoilerRoom/protocol-conformance-relay] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (segment_bbr_ack_frames)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-    "prize": "$225",
-    "prize_usd": 225.0,
-    "prize_currency": "USD",
-    "prize_raw": "225.0",
-    "start_date": "2026-11-06T02:59:48Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $225 USDC - Primary Batch Suite : https://github.com/IES-BoilerRoom/Furnace/issues/2 - Domain Conformance Suite : https://github.com/IES-BoilerR",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 10,
-    "repo_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "32b1dd41ab5725",
@@ -255,7 +466,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "260d149e507cc0",
@@ -298,7 +509,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "a02745e54c3ebd",
@@ -341,7 +552,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "f4816973eaf757",
@@ -384,91 +595,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "f0bb479fea394b",
-    "title": "[IES-BoilerRoom/ebpf-verifier-reg-bounds] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (ebpf-verifier-reg-bounds)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
-    "prize": "$250",
-    "prize_usd": 250.0,
-    "prize_currency": "USD",
-    "prize_raw": "250.0",
-    "start_date": "2026-11-19T07:06:29Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Cloud, DevOps & Infra",
-    "ecosystem": "Systems & Native",
-    "languages": [
-      "Rust",
-      "C / C++"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated Linux Kernel BPF Verifier Selftest Profile v6.12 multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $250 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1 Cali",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "b3d37bf605f4f4",
-    "title": "[IES-BoilerRoom/ebpf-verifier-reg-bounds] [350 USDC] Fix ALU64 chunk ceiling boundary and tristate tnum scalar bitmask witness (refine_bpf_tnum_frames)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
-    "prize": "$350",
-    "prize_usd": 350.0,
-    "prize_currency": "USD",
-    "prize_raw": "350.0",
-    "start_date": "2026-11-19T07:06:28Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Cloud, DevOps & Infra",
-    "ecosystem": "Systems & Native",
-    "languages": [
-      "Rust",
-      "C / C++"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated Linux Kernel BPF Verifier Selftest Profile v6.12 regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $350 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shards",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Expert",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "8bebf45b52d804",
@@ -499,9 +626,9 @@
       "ies-boilerroom",
       "open-source"
     ],
-    "description": "Automated CI Conformance Mirror Notice : Automated IETF draft-ietf-ccwg-bbr-01 Congestion Control multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $200 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1 Calibr",
+    "description": "Automated CI Conformance Mirror Notice : Automated IETF draft-ietf-ccwg-bbr-01 Congestion Control multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $200 USDC - Companion Quorum Suite : https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1 Calibr",
     "organizer": "IES-BoilerRoom",
-    "difficulty": "Expert",
+    "difficulty": "Intermediate",
     "mode": "Online",
     "participants_count": null,
     "submissions_count": 2,
@@ -511,50 +638,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "88105e8ddbeff7",
-    "title": "[IES-BoilerRoom/tcp-bbrv3-pacing-verifier] fix(congestion): Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness (segment_bbr_ack_frames)",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1",
-    "prize": "$175",
-    "prize_usd": 175.0,
-    "prize_currency": "USD",
-    "prize_raw": "175.0",
-    "start_date": "2026-11-16T08:07:37Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "help wanted",
-      "ies-boilerroom",
-      "open-source"
-    ],
-    "description": "Automated CI Conformance Mirror Notice : Automated IETF draft-ietf-ccwg-bbr-01 Congestion Control regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Settlement Rail : https://algora.io / https://polar.sh / https://opire.dev - Allocation : $175 USDC (released automatically on green CI quorum) - Specification Shards : shards/spec 01.json .. shards/s",
-    "organizer": "IES-BoilerRoom",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 3,
-    "repo_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier",
-    "logo_url": "https://avatars.githubusercontent.com/u/353153045?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "d85954ac4ce6e1",
@@ -597,7 +681,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "d7ea021c5b41dd",
@@ -640,7 +724,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "4618591427abe9",
@@ -683,7 +767,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "44b1ec7317340a",
@@ -724,7 +808,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "6378c0bf7145e5",
@@ -765,7 +849,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "ffb7764ccaee06",
@@ -808,7 +892,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "c9e530f0e3ec70",
@@ -851,7 +935,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "c30a97cf65f216",
@@ -894,7 +978,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "31a9c8aadf2951",
@@ -937,7 +1021,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "43b01b6c61c07a",
@@ -980,7 +1064,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "064a023cd59007",
@@ -1023,7 +1107,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "36a2b148cab435",
@@ -1066,7 +1150,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "a77761b764cc97",
@@ -1109,7 +1193,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "72f29d603325b8",
@@ -1152,7 +1236,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "f5287bbccbcb09",
@@ -1194,93 +1278,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "9c020a64645229",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4221",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-06T03:42:45Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
-    ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/Furnace/issues/2 漏洞描述 / Description 💎 Escrowed $600 USDC 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption Automated CI Regression Mirror Notice : Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - Escrow",
-    "organizer": "zhangjiayang6835-cyber",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 1,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
-  },
-  {
-    "id": "a0f646658a6186",
-    "title": "[zhangjiayang6835-cyber/bounty-plaza] [Bounty] 💎 [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunke",
-    "platform": "Algora / GitHub",
-    "source": "github_bounties",
-    "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4223",
-    "prize": "$600",
-    "prize_usd": 600.0,
-    "prize_currency": "USD",
-    "prize_raw": "600.0",
-    "start_date": "2026-11-06T03:42:46Z",
-    "end_date": null,
-    "days_remaining": null,
-    "status": "ongoing",
-    "challenge_type": "oss_bounty",
-    "category": "Open Source & Core Systems",
-    "ecosystem": "Open Source / GitHub",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "Rust"
-    ],
-    "tags": [
-      "bounty",
-      "github",
-      "open-source",
-      "real",
-      "zhangjiayang6835-cyber"
-    ],
-    "description": "赏金平台 / Platform GitHub 原始链接 / Source URL https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2 漏洞描述 / Description 💎 Bounty $600 USDC PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (reconcile stride dbdc) Automated CI Regression Mirror Notice : Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on t",
-    "organizer": "zhangjiayang6835-cyber",
-    "difficulty": "Intermediate",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": 3,
-    "repo_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza",
-    "logo_url": "https://avatars.githubusercontent.com/u/288065324?v=4",
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "cd289738299e16",
@@ -1314,14 +1312,14 @@
     "difficulty": "Beginner",
     "mode": "Online",
     "participants_count": null,
-    "submissions_count": 2,
+    "submissions_count": 9,
     "repo_url": "https://github.com/madin-ll/bounty-pipeline-e2e-verify",
     "logo_url": "https://avatars.githubusercontent.com/u/360622533?v=4",
     "first_seen_at": null,
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "1f8a86f56bf54a",
@@ -1363,7 +1361,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "be9ef8a633717c",
@@ -1405,7 +1403,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "079f4207601d58",
@@ -1450,7 +1448,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "d060d867dbfe57",
@@ -1495,7 +1493,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "9963a68cb1b90b",
@@ -1540,7 +1538,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "ce7f4dd9d1096d",
@@ -1587,7 +1585,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "0fb6ad788c3ccd",
@@ -1633,7 +1631,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "1c52e565c0ebe0",
@@ -1680,7 +1678,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   },
   {
     "id": "0919b2e26793d0",
@@ -1727,6 +1725,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-24T17:17:48Z"
+    "scraped_at": "2026-11-25T16:58:56Z"
   }
 ]

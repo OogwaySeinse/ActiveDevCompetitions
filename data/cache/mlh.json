@@ -72,15 +72,6 @@
     "badges": ""
   },
   {
-    "title": "QWER Hacks",
-    "url": "https://qwerhacks.com/",
-    "date_str": "JAN 16 - 17",
-    "season_year": "2027",
-    "location": "Los Angeles, CA, US",
-    "mode": "In-Person",
-    "badges": "Diversity"
-  },
-  {
     "title": "nwHacks",
     "url": "https://nwhacks.io/",
     "date_str": "JAN 16 - 17",
@@ -88,6 +79,15 @@
     "location": "Vancouver, British Columbia, CA",
     "mode": "In-Person",
     "badges": ""
+  },
+  {
+    "title": "QWER Hacks",
+    "url": "https://qwerhacks.com/",
+    "date_str": "JAN 16 - 17",
+    "season_year": "2027",
+    "location": "Los Angeles, CA, US",
+    "mode": "In-Person",
+    "badges": "Diversity"
   },
   {
     "title": "HackBI X",
