@@ -18,6 +18,15 @@
     "badges": ""
   },
   {
+    "title": "Workday Internal Hackathon",
+    "url": "https://connect.events.workday.com/aiaf",
+    "date_str": "NOV 30 - DEC 02",
+    "season_year": "2027",
+    "location": "Pleasanton, CA, US",
+    "mode": "In-Person",
+    "badges": ""
+  },
+  {
     "title": "Hack Cats",
     "url": "https://hackkstate.tech/",
     "date_str": "DEC 04 - 06",
@@ -34,6 +43,15 @@
     "location": "Toronto, Ontario, CA",
     "mode": "In-Person",
     "badges": "Hardware"
+  },
+  {
+    "title": "SheHacks  11",
+    "url": "https://shehacks.ca/",
+    "date_str": "JAN 08 - 10",
+    "season_year": "2027",
+    "location": "London, Ontario, CA",
+    "mode": "In-Person",
+    "badges": "Diversity"
   },
   {
     "title": "DeltaHacks",
@@ -112,7 +130,7 @@
     "url": "https://hackville.io/",
     "date_str": "JAN 23 - 24",
     "season_year": "2027",
-    "location": "Missisauga, Ontario, CA",
+    "location": "Oakville, Ontario, CA",
     "mode": "In-Person",
     "badges": "Diversity, Hardware"
   },
@@ -194,24 +212,6 @@
     "date_str": "FEB 13 - 14",
     "season_year": "2027",
     "location": "Toronto, Ontario, CA",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "SF Hacks",
-    "url": "https://sfhacks.io/",
-    "date_str": "FEB 19 - 21",
-    "season_year": "2027",
-    "location": "San Francisco, CA, US",
-    "mode": "In-Person",
-    "badges": ""
-  },
-  {
-    "title": "CUhackit",
-    "url": "https://cuhack.it/",
-    "date_str": "FEB 20 - 21",
-    "season_year": "2027",
-    "location": "Clemson, SC, US",
     "mode": "In-Person",
     "badges": ""
   },
