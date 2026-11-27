@@ -1,65 +1,5 @@
 [
   {
-    "uuid": "931ca9149c46417bb0526ce1eb44b920",
-    "slug": "makerspark",
-    "name": "MakerSpark",
-    "type": "HACKATHON",
-    "starts_at": "2026-12-09T03:30:00+00:00",
-    "ends_at": "2026-12-09T11:30:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 382,
-    "participants_details": [
-      {
-        "uuid": "fe1e73205e57437cba8324cb33b285fc",
-        "username": "AMANV722",
-        "last_name": "Vishwakarma",
-        "first_name": "Aman",
-        "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
-      },
-      {
-        "uuid": "a815d03e8fd845589163d9f541a80d89",
-        "username": "mishra008",
-        "last_name": "Mishra",
-        "first_name": "Shyam",
-        "profile_image": "https://assets.devfolio.co/users/a815d03e8fd845589163d9f541a80d89/avatar-f5cc621f-c0c9-4e45-911f-b91e319a6835.jpeg"
-      },
-      {
-        "uuid": "b62c8a91bbe940329f447d5f55945efc",
-        "username": "Silverwing",
-        "last_name": "M Raj",
-        "first_name": "Abhin",
-        "profile_image": "https://assets.devfolio.co/users/b62c8a91bbe940329f447d5f55945efc/avatar-ebba8db0-af19-4597-a6db-ab293a2b20d9.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "Hardware"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-11-26T18:29:00+00:00",
-      "reg_starts_at": "2026-11-16T18:30:00+00:00",
-      "review": false,
-      "site": null,
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": null,
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "cdf2af90c090403a9db2f0162a99b687",
     "slug": "founders-house-kolkata",
     "name": "Founders' House Kolkata",
@@ -70,7 +10,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 476,
+    "participants_count": 495,
     "participants_details": [
       {
         "uuid": "a0a34c624b244cf49a69b26da038a159",
@@ -130,7 +70,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 36,
+    "participants_count": 46,
     "participants_details": [],
     "themes": [
       {
@@ -158,66 +98,6 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "e800e7f7535945b59b3516a08424db39",
-    "slug": "health-hackathon",
-    "name": "Health Hackathon 3.0",
-    "type": "HACKATHON",
-    "starts_at": "2027-01-28T03:30:00+00:00",
-    "ends_at": "2027-01-29T10:30:00+00:00",
-    "is_online": false,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 180,
-    "participants_details": [
-      {
-        "uuid": "fe1e73205e57437cba8324cb33b285fc",
-        "username": "AMANV722",
-        "last_name": "Vishwakarma",
-        "first_name": "Aman",
-        "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
-      },
-      {
-        "uuid": "86e42fc3f6044dcb9dce5797bd3ce750",
-        "username": "sayanghanty",
-        "last_name": "Ghanty",
-        "first_name": "Sayan",
-        "profile_image": "https://assets.devfolio.co/users/86e42fc3f6044dcb9dce5797bd3ce750/avatar-c3618618-6cb8-4226-bd2d-96090ac2979f.jpeg"
-      },
-      {
-        "uuid": "53a19312ea7949788a2de3e3af6007e1",
-        "username": "Devyan_12",
-        "last_name": "Nitharwal",
-        "first_name": "Devyan",
-        "profile_image": "https://assets.devfolio.co/users/53a19312ea7949788a2de3e3af6007e1/avatar-0f01f115-f0d4-4207-b69b-a5f4c38cb613.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-11-30T18:29:00+00:00",
-      "reg_starts_at": "2026-10-29T18:30:00+00:00",
-      "review": false,
-      "site": null,
-      "twitter": null,
-      "facebook": null,
-      "telegram": null,
-      "discord": null,
-      "medium": null,
-      "instagram": null,
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "2689d878c21e4cf1a61a50f5104587f0",
     "slug": "clash-of-commits",
     "name": "Clash of Commits",
@@ -228,7 +108,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 1189,
+    "participants_count": 1267,
     "participants_details": [
       {
         "uuid": "aa932a990b524a4ca85f9946d3d048c2",
@@ -278,6 +158,66 @@
     "_bucket": "open_hackathons"
   },
   {
+    "uuid": "e800e7f7535945b59b3516a08424db39",
+    "slug": "health-hackathon",
+    "name": "Health Hackathon 3.0",
+    "type": "HACKATHON",
+    "starts_at": "2027-01-28T03:30:00+00:00",
+    "ends_at": "2027-01-29T10:30:00+00:00",
+    "is_online": false,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 196,
+    "participants_details": [
+      {
+        "uuid": "fe1e73205e57437cba8324cb33b285fc",
+        "username": "AMANV722",
+        "last_name": "Vishwakarma",
+        "first_name": "Aman",
+        "profile_image": "https://assets.devfolio.co/users/fe1e73205e57437cba8324cb33b285fc/avatar-538cbfe0-3794-40c5-8201-02554a1d5c9b.jpeg"
+      },
+      {
+        "uuid": "86e42fc3f6044dcb9dce5797bd3ce750",
+        "username": "sayanghanty",
+        "last_name": "Ghanty",
+        "first_name": "Sayan",
+        "profile_image": "https://assets.devfolio.co/users/86e42fc3f6044dcb9dce5797bd3ce750/avatar-c3618618-6cb8-4226-bd2d-96090ac2979f.jpeg"
+      },
+      {
+        "uuid": "53a19312ea7949788a2de3e3af6007e1",
+        "username": "Devyan_12",
+        "last_name": "Nitharwal",
+        "first_name": "Devyan",
+        "profile_image": "https://assets.devfolio.co/users/53a19312ea7949788a2de3e3af6007e1/avatar-0f01f115-f0d4-4207-b69b-a5f4c38cb613.jpeg"
+      }
+    ],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-11-30T18:29:00+00:00",
+      "reg_starts_at": "2026-10-29T18:30:00+00:00",
+      "review": false,
+      "site": null,
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": null,
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
     "uuid": "4d73b335011e473e9b40c05d28d5c8dc",
     "slug": "udaya-2-o",
     "name": "UDAYA 2.O",
@@ -288,7 +228,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 97,
+    "participants_count": 157,
     "participants_details": [],
     "themes": [
       {
@@ -331,7 +271,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 630,
+    "participants_count": 650,
     "participants_details": [
       {
         "uuid": "07ebdcd3533f4b8ebb0a683de4b28571",
@@ -391,7 +331,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 180,
+    "participants_count": 208,
     "participants_details": [
       {
         "uuid": "40fede6d7d3e4dfcbb218e0dc502aa3f",
@@ -451,7 +391,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Bangkok",
-    "participants_count": 93,
+    "participants_count": 104,
     "participants_details": [
       {
         "uuid": "8603d974d392448fae36aa05e2299266",
@@ -511,66 +451,6 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "c84b90d65eff4ae083366fc1cc549e81",
-    "slug": "hackodisha-6a",
-    "name": "hackodisha-6.0",
-    "type": "HACKATHON",
-    "starts_at": "2026-12-11T16:30:00+00:00",
-    "ends_at": "2026-12-13T06:30:00+00:00",
-    "is_online": true,
-    "devfolio_official": null,
-    "rating": 0,
-    "timezone": "Asia/Calcutta",
-    "participants_count": 2091,
-    "participants_details": [
-      {
-        "uuid": "4fdafc49b0fd4f0495517d8c3a935fa0",
-        "username": "PralayCodes",
-        "last_name": "Halder",
-        "first_name": "Pralay",
-        "profile_image": "https://assets.devfolio.co/users/4fdafc49b0fd4f0495517d8c3a935fa0/avatar-7f124e61-45cb-464d-932a-d47d13becb58.jpeg"
-      },
-      {
-        "uuid": "ebf55314158e46629126f73b54b5b0d4",
-        "username": "avicodez00",
-        "last_name": "Nigam",
-        "first_name": "Om",
-        "profile_image": "https://assets.devfolio.co/users/ebf55314158e46629126f73b54b5b0d4/avatar-77878053-db68-4026-a1f7-f226ca2c052c.jpeg"
-      },
-      {
-        "uuid": "4be405b7882c451c9b5a21a56ec5e544",
-        "username": "Sujal_0510",
-        "last_name": "Patel",
-        "first_name": "Sujal",
-        "profile_image": "https://assets.devfolio.co/users/4be405b7882c451c9b5a21a56ec5e544/avatar-082ff923-72d6-49a7-88ee-062501da7891.jpeg"
-      }
-    ],
-    "themes": [
-      {
-        "theme": {
-          "name": "No Restrictions"
-        }
-      }
-    ],
-    "settings": {
-      "reg_ends_at": "2026-12-10T18:29:00+00:00",
-      "reg_starts_at": "2026-09-08T18:30:00+00:00",
-      "review": false,
-      "site": "https://www.hackodisha.dev/",
-      "twitter": "https://x.com/webwiznitr",
-      "facebook": null,
-      "telegram": null,
-      "discord": "https://discord.gg/92QZwpgdC",
-      "medium": null,
-      "instagram": "https://www.instagram.com/webwiz.nitr/",
-      "slack": null,
-      "featured_cover_img": null,
-      "featured_cover_img_v2": null,
-      "external_apply_url": null
-    },
-    "_bucket": "open_hackathons"
-  },
-  {
     "uuid": "50e23a48e3964f43878279a3bf81339d",
     "slug": "haxfinity",
     "name": "haxfinity",
@@ -581,7 +461,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 632,
+    "participants_count": 634,
     "participants_details": [
       {
         "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
@@ -641,6 +521,104 @@
     "_bucket": "open_hackathons"
   },
   {
+    "uuid": "c84b90d65eff4ae083366fc1cc549e81",
+    "slug": "hackodisha-6a",
+    "name": "hackodisha-6.0",
+    "type": "HACKATHON",
+    "starts_at": "2026-12-11T16:30:00+00:00",
+    "ends_at": "2026-12-13T06:30:00+00:00",
+    "is_online": true,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Calcutta",
+    "participants_count": 2109,
+    "participants_details": [
+      {
+        "uuid": "4fdafc49b0fd4f0495517d8c3a935fa0",
+        "username": "PralayCodes",
+        "last_name": "Halder",
+        "first_name": "Pralay",
+        "profile_image": "https://assets.devfolio.co/users/4fdafc49b0fd4f0495517d8c3a935fa0/avatar-7f124e61-45cb-464d-932a-d47d13becb58.jpeg"
+      },
+      {
+        "uuid": "ebf55314158e46629126f73b54b5b0d4",
+        "username": "avicodez00",
+        "last_name": "Nigam",
+        "first_name": "Om",
+        "profile_image": "https://assets.devfolio.co/users/ebf55314158e46629126f73b54b5b0d4/avatar-77878053-db68-4026-a1f7-f226ca2c052c.jpeg"
+      },
+      {
+        "uuid": "4be405b7882c451c9b5a21a56ec5e544",
+        "username": "Sujal_0510",
+        "last_name": "Patel",
+        "first_name": "Sujal",
+        "profile_image": "https://assets.devfolio.co/users/4be405b7882c451c9b5a21a56ec5e544/avatar-082ff923-72d6-49a7-88ee-062501da7891.jpeg"
+      }
+    ],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-12-10T18:29:00+00:00",
+      "reg_starts_at": "2026-09-08T18:30:00+00:00",
+      "review": false,
+      "site": "https://www.hackodisha.dev/",
+      "twitter": "https://x.com/webwiznitr",
+      "facebook": null,
+      "telegram": null,
+      "discord": "https://discord.gg/92QZwpgdC",
+      "medium": null,
+      "instagram": "https://www.instagram.com/webwiz.nitr/",
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
+    "uuid": "819bd7bcedf34639aa2f1ac9444265f8",
+    "slug": "hackfinity27",
+    "name": "Hackfinity27",
+    "type": "HACKATHON",
+    "starts_at": "2026-12-15T19:15:00+00:00",
+    "ends_at": "2026-12-18T19:30:00+00:00",
+    "is_online": true,
+    "devfolio_official": null,
+    "rating": 0,
+    "timezone": "Asia/Kolkata",
+    "participants_count": 2,
+    "participants_details": [],
+    "themes": [
+      {
+        "theme": {
+          "name": "No Restrictions"
+        }
+      }
+    ],
+    "settings": {
+      "reg_ends_at": "2026-12-14T18:30:00+00:00",
+      "reg_starts_at": "2026-11-25T18:30:00+00:00",
+      "review": false,
+      "site": null,
+      "twitter": null,
+      "facebook": null,
+      "telegram": null,
+      "discord": null,
+      "medium": null,
+      "instagram": null,
+      "slack": null,
+      "featured_cover_img": null,
+      "featured_cover_img_v2": null,
+      "external_apply_url": null
+    },
+    "_bucket": "open_hackathons"
+  },
+  {
     "uuid": "409173af22ac40d5aecb47ea06886ab3",
     "slug": "hack-nexus",
     "name": "Hack Nexus 2027",
@@ -651,7 +629,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 175,
+    "participants_count": 180,
     "participants_details": [
       {
         "uuid": "4be405b7882c451c9b5a21a56ec5e544",
@@ -711,7 +689,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Kolkata",
-    "participants_count": 326,
+    "participants_count": 344,
     "participants_details": [
       {
         "uuid": "79eae31a99134bbbb6a48281ec75c957",
@@ -771,7 +749,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 257,
+    "participants_count": 274,
     "participants_details": [
       {
         "uuid": "4be405b7882c451c9b5a21a56ec5e544",
@@ -831,7 +809,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 122,
+    "participants_count": 146,
     "participants_details": [
       {
         "uuid": "86e42fc3f6044dcb9dce5797bd3ce750",
@@ -881,38 +859,38 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "1c7af64a076f43d5a088b7b65ae793a3",
-    "slug": "goa-buildathon",
-    "name": "GOA BUILDATHON 27",
+    "uuid": "c163f2c5e7bb4c7bb7acbdb3c572bfa3",
+    "slug": "hack-with-gdg-s4",
+    "name": "HACK WITH GDG S4",
     "type": "HACKATHON",
-    "starts_at": "2027-01-16T03:30:00+00:00",
-    "ends_at": "2027-01-17T09:00:00+00:00",
+    "starts_at": "2027-01-22T12:30:00+00:00",
+    "ends_at": "2027-01-24T00:30:00+00:00",
     "is_online": false,
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 498,
+    "participants_count": 1023,
     "participants_details": [
       {
-        "uuid": "45ae1758ae1f42368289970a43784770",
-        "username": "v0idsai",
-        "last_name": "Sai",
-        "first_name": "Likhith",
-        "profile_image": "https://assets.devfolio.co/users/45ae1758ae1f42368289970a43784770/avatar-15410c3b-440e-4c9f-bb7c-ac9334682e4c.jpeg"
+        "uuid": "f490e62ce8f8466099135673c5f434ad",
+        "username": "emilshain",
+        "last_name": "Shain",
+        "first_name": "Emil",
+        "profile_image": "https://assets.devfolio.co/users/f490e62ce8f8466099135673c5f434ad/avatar-65d59e3d-5f97-402f-b165-cc1e4192e7c9.jpeg"
       },
       {
-        "uuid": "e8d731277e224867adc406a7a46359d7",
-        "username": "soorajdmg",
-        "last_name": "Murugaraj",
-        "first_name": "Sooraj",
-        "profile_image": "https://assets.devfolio.co/users/e8d731277e224867adc406a7a46359d7/avatar-18cb779a-92d4-457d-b4e3-4757d780e6d3.jpeg"
+        "uuid": "aa932a990b524a4ca85f9946d3d048c2",
+        "username": "Athulvr",
+        "last_name": "vr",
+        "first_name": "Athul",
+        "profile_image": "https://assets.devfolio.co/users/aa932a990b524a4ca85f9946d3d048c2/avatar-c2e72d6f-3a56-4a4b-9690-ca2193406191.jpeg"
       },
       {
-        "uuid": "1fcde0da2f64498f814ad7c31a4aec9d",
-        "username": "chinu70",
-        "last_name": "Sawant",
-        "first_name": "Deven",
-        "profile_image": "https://assets.devfolio.co/users/1fcde0da2f64498f814ad7c31a4aec9d/avatar-01dfa584-d154-4ee0-a7ce-2e94dcd6f6c9.jpeg"
+        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
+        "username": "realksquare",
+        "last_name": "Kumar G",
+        "first_name": "Krishna",
+        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
       }
     ],
     "themes": [
@@ -924,15 +902,15 @@
     ],
     "settings": {
       "reg_ends_at": "2026-12-31T18:29:00+00:00",
-      "reg_starts_at": "2026-10-29T14:00:00+00:00",
+      "reg_starts_at": "2026-08-23T18:30:00+00:00",
       "review": false,
-      "site": "https://www.goabuilds.com",
-      "twitter": null,
+      "site": "https://hack-with-gdg-s4.vercel.app/",
+      "twitter": "https://x.com/gdgksrce",
       "facebook": null,
       "telegram": null,
       "discord": null,
       "medium": null,
-      "instagram": "https://www.instagram.com/goabuildathon27/?hl=en",
+      "instagram": "https://www.instagram.com/gdg_ksrce?igsi=YTBoZ3ZsNngxbXR5",
       "slack": null,
       "featured_cover_img": null,
       "featured_cover_img_v2": null,
@@ -951,7 +929,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 151,
+    "participants_count": 156,
     "participants_details": [
       {
         "uuid": "551755523b92470c847a06eba6ee3e29",
@@ -1011,38 +989,38 @@
     "_bucket": "open_hackathons"
   },
   {
-    "uuid": "c163f2c5e7bb4c7bb7acbdb3c572bfa3",
-    "slug": "hack-with-gdg-s4",
-    "name": "HACK WITH GDG S4",
+    "uuid": "1c7af64a076f43d5a088b7b65ae793a3",
+    "slug": "goa-buildathon",
+    "name": "GOA BUILDATHON 27",
     "type": "HACKATHON",
-    "starts_at": "2027-01-22T12:30:00+00:00",
-    "ends_at": "2027-01-24T00:30:00+00:00",
+    "starts_at": "2027-01-16T03:30:00+00:00",
+    "ends_at": "2027-01-17T09:00:00+00:00",
     "is_online": false,
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 1019,
+    "participants_count": 523,
     "participants_details": [
       {
-        "uuid": "f490e62ce8f8466099135673c5f434ad",
-        "username": "emilshain",
-        "last_name": "Shain",
-        "first_name": "Emil",
-        "profile_image": "https://assets.devfolio.co/users/f490e62ce8f8466099135673c5f434ad/avatar-65d59e3d-5f97-402f-b165-cc1e4192e7c9.jpeg"
+        "uuid": "45ae1758ae1f42368289970a43784770",
+        "username": "v0idsai",
+        "last_name": "Sai",
+        "first_name": "Likhith",
+        "profile_image": "https://assets.devfolio.co/users/45ae1758ae1f42368289970a43784770/avatar-15410c3b-440e-4c9f-bb7c-ac9334682e4c.jpeg"
       },
       {
-        "uuid": "aa932a990b524a4ca85f9946d3d048c2",
-        "username": "Athulvr",
-        "last_name": "vr",
-        "first_name": "Athul",
-        "profile_image": "https://assets.devfolio.co/users/aa932a990b524a4ca85f9946d3d048c2/avatar-c2e72d6f-3a56-4a4b-9690-ca2193406191.jpeg"
+        "uuid": "e8d731277e224867adc406a7a46359d7",
+        "username": "soorajdmg",
+        "last_name": "Murugaraj",
+        "first_name": "Sooraj",
+        "profile_image": "https://assets.devfolio.co/users/e8d731277e224867adc406a7a46359d7/avatar-18cb779a-92d4-457d-b4e3-4757d780e6d3.jpeg"
       },
       {
-        "uuid": "950ccbbdd7834dc3953d9bff3bb31653",
-        "username": "realksquare",
-        "last_name": "Kumar G",
-        "first_name": "Krishna",
-        "profile_image": "https://assets.devfolio.co/users/950ccbbdd7834dc3953d9bff3bb31653/avatar-81ed3d75-8adc-4749-bf8a-8210c55620f6.jpeg"
+        "uuid": "1fcde0da2f64498f814ad7c31a4aec9d",
+        "username": "chinu70",
+        "last_name": "Sawant",
+        "first_name": "Deven",
+        "profile_image": "https://assets.devfolio.co/users/1fcde0da2f64498f814ad7c31a4aec9d/avatar-01dfa584-d154-4ee0-a7ce-2e94dcd6f6c9.jpeg"
       }
     ],
     "themes": [
@@ -1054,15 +1032,15 @@
     ],
     "settings": {
       "reg_ends_at": "2026-12-31T18:29:00+00:00",
-      "reg_starts_at": "2026-08-23T18:30:00+00:00",
+      "reg_starts_at": "2026-10-29T14:00:00+00:00",
       "review": false,
-      "site": "https://hack-with-gdg-s4.vercel.app/",
-      "twitter": "https://x.com/gdgksrce",
+      "site": "https://www.goabuilds.com",
+      "twitter": null,
       "facebook": null,
       "telegram": null,
       "discord": null,
       "medium": null,
-      "instagram": "https://www.instagram.com/gdg_ksrce?igsi=YTBoZ3ZsNngxbXR5",
+      "instagram": "https://www.instagram.com/goabuildathon27/?hl=en",
       "slack": null,
       "featured_cover_img": null,
       "featured_cover_img_v2": null,
@@ -1081,7 +1059,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 113,
+    "participants_count": 126,
     "participants_details": [
       {
         "uuid": "0be03ea1ae84448ba0c52995e41e9ceb",
@@ -1141,7 +1119,7 @@
     "devfolio_official": null,
     "rating": 0,
     "timezone": "Asia/Calcutta",
-    "participants_count": 312,
+    "participants_count": 321,
     "participants_details": [
       {
         "uuid": "7997a3992c034498861f8f12a8d75dc5",
