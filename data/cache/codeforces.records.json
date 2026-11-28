@@ -11,7 +11,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-14T14:35:00Z",
     "end_date": "2026-12-14T16:35:00Z",
-    "days_remaining": 17,
+    "days_remaining": 16,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -40,7 +40,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "a730afd95b9440",
@@ -54,7 +54,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-08T14:35:00Z",
     "end_date": "2026-12-08T17:05:00Z",
-    "days_remaining": 11,
+    "days_remaining": 10,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -83,7 +83,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "532356480d2166",
@@ -97,7 +97,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-08T11:00:00Z",
     "end_date": "2026-12-22T11:00:00Z",
-    "days_remaining": 24,
+    "days_remaining": 23,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -126,7 +126,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "41de2a05ec2019",
@@ -140,7 +140,7 @@
     "prize_raw": "Rated Global Leaderboard",
     "start_date": "2026-12-01T14:30:00Z",
     "end_date": "2026-12-08T14:30:00Z",
-    "days_remaining": 10,
+    "days_remaining": 9,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -169,50 +169,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
-  },
-  {
-    "id": "2481a50fd72dd2",
-    "title": "Codeforces Round 1138 (Div. 3)",
-    "platform": "Codeforces",
-    "source": "codeforces",
-    "url": "https://codeforces.com/contests/2292",
-    "prize": "Rated Global Leaderboard",
-    "prize_usd": 0.0,
-    "prize_currency": "USD",
-    "prize_raw": "Rated Global Leaderboard",
-    "start_date": "2026-11-27T14:35:00Z",
-    "end_date": "2026-11-27T16:50:00Z",
-    "days_remaining": 0,
-    "status": "ending_soon",
-    "challenge_type": "coding_contest",
-    "category": "Algorithms & Competitive Coding",
-    "ecosystem": "Cross-Stack / General",
-    "languages": [
-      "C / C++",
-      "Python",
-      "Java",
-      "Rust"
-    ],
-    "tags": [
-      "algorithms",
-      "codeforces",
-      "competitive-programming",
-      "icpc"
-    ],
-    "description": "Codeforces rated ICPC algorithmic programming round (2.2h window).",
-    "organizer": "Codeforces",
-    "difficulty": "Beginner",
-    "mode": "Online",
-    "participants_count": null,
-    "submissions_count": null,
-    "repo_url": null,
-    "logo_url": null,
-    "first_seen_at": null,
-    "is_new": false,
-    "prize_delta_usd": 0.0,
-    "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "edd7d021827c70",
@@ -226,7 +183,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-12-06T02:30:00Z",
     "end_date": "2026-12-06T04:00:00Z",
-    "days_remaining": 8,
+    "days_remaining": 7,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -255,7 +212,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "d3b7954c4c73e0",
@@ -298,7 +255,7 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   },
   {
     "id": "46ea063e84925a",
@@ -312,7 +269,7 @@
     "prize_raw": "LeetCoins & Global Rating",
     "start_date": "2026-11-29T02:30:00Z",
     "end_date": "2026-11-29T04:00:00Z",
-    "days_remaining": 1,
+    "days_remaining": 0,
     "status": "upcoming",
     "challenge_type": "coding_contest",
     "category": "Algorithms & Competitive Coding",
@@ -341,6 +298,6 @@
     "is_new": false,
     "prize_delta_usd": 0.0,
     "days_shift": 0,
-    "scraped_at": "2026-11-27T16:24:51Z"
+    "scraped_at": "2026-11-28T15:17:35Z"
   }
 ]
